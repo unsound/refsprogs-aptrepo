@@ -1,0 +1,108 @@
+Package: librefs-dev
+Architecture: mips64el
+Version: 2025.12.14-1
+Priority: optional
+Section: libdevel
+Source: refsprogs
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Installed-Size: 382
+Depends: librefs11 (= 2025.12.14-1)
+Filename: ./refsprogs_2025.12.14-dpkg/librefs-dev_2025.12.14-1_mips64el.deb
+Size: 78436
+MD5sum: 9b0f78d2a91ca8cacf7cc9597a0a45cd
+SHA1: 30f8c0b636609b7500bc9181fae8ea4a2f01e3cf
+SHA256: bccf6d92dfd89199dc63a0be5c2c455420e5cff2500b0e0bb24dc410bc95d295
+SHA512: 5db772a9b7e2a4e7fe465873b03002305bbbfa852d76c9a9daf45790f33c6b2bbf44c7c141107e1c35591b7561ab816c4dda42bd6374b848afba266b638ce64c
+Homepage: https://github.com/unsound/refsprogs
+Description: read-only ReFS library (development)
+ librefs provides a read-only interface for interacting with the ReFS filesystem
+ filesystem used by recent versions of Microsoft Windows.
+ .
+ This package contains the development files.
+
+Package: librefs11-dbgsym
+Architecture: mips64el
+Version: 2025.12.14-1
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: refsprogs
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Installed-Size: 281
+Depends: librefs11 (= 2025.12.14-1)
+Filename: ./refsprogs_2025.12.14-dpkg/librefs11-dbgsym_2025.12.14-1_mips64el.deb
+Size: 261972
+MD5sum: 0a3e99eb55e2d1d5215c9c45151657a1
+SHA1: 96954c4bcba77f00f119a18a1a5456846cd33fd3
+SHA256: 1476fd5501e4eddd23d8780a23df7ffd087cac446d507bea26e6f437d1cd462e
+SHA512: 63f361dea0d21455e58243667f23e5b7ecf17bbfdda8c7511d3c562192a29cefe15ba3b162d4d2c12bc3c3aec327b13200a11c8a76f5c493653577ef6d80de21
+Description: debug symbols for librefs11
+Build-Ids: 6700680c8ebffbb1ed024b247b419ccdf534810b
+
+Package: librefs11
+Architecture: mips64el
+Version: 2025.12.14-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: refsprogs
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Installed-Size: 167
+Depends: libc6 (>= 2.4)
+Filename: ./refsprogs_2025.12.14-dpkg/librefs11_2025.12.14-1_mips64el.deb
+Size: 54436
+MD5sum: c507f7e10431d458b3bda5a7993d64a5
+SHA1: 82e6f978a1b16566e102b8f38df658c181c777ce
+SHA256: 737f7866b46d88d3df97c09b9d4f19ef81a246ca1c05590ad1b1fc7182dd9765
+SHA512: d307692fd2f4d194e06bc44c96ebeb95ed83689a609cf5a8e0cf03e221fa23ab3f78eaa55a6a85f6bb44c7d571d56cb636d3e377c7911cd5b4c0290902135128
+Homepage: https://github.com/unsound/refsprogs
+Description: read-only ReFS library
+ librefs provides a read-only interface for interacting with the ReFS filesystem
+ filesystem used by recent versions of Microsoft Windows.
+ .
+ This package contains the actual library.
+
+Package: refsprogs-dbgsym
+Architecture: mips64el
+Version: 2025.12.14-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: refsprogs
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Installed-Size: 287
+Depends: refsprogs (= 2025.12.14-1)
+Filename: ./refsprogs_2025.12.14-dpkg/refsprogs-dbgsym_2025.12.14-1_mips64el.deb
+Size: 137384
+MD5sum: 1548aadb8f84e0b1dde59c0bed9b8762
+SHA1: b482c1d6da907093f3c9875f355e79cde23a2bb4
+SHA256: e8d6a7aaeaf1ec851e2f37acbd39a8a5177f1ec71ced7dc73237a4d0248e8dc4
+SHA512: 89cc3ef9e9a07ff88583f479a10b977cdc1711dd80359850c04b3b4dbdf751d9dad64b21ac4f95d2b58bb865a0fafac3eeb9d3c41166852cee053ebf249cc59d
+Description: debug symbols for refsprogs
+Build-Ids: 1fcacb941aece8646407b1e1033132d25c36ae09 47c90d8768353a1e3d9e3b655b00bb4344a51d67 4aab3ba1adc32dfcf927dec47e9285fca64e70f1 6a77c2ffe5a71d6417ae7be8729fdb627d3a4c55 6d58705e73d9357f6ef921945b2da4ac2232945d bb30dff584bac3371a7f905aa7473699d4db95f4 ff568bdba248544d06bf6442643a6103f1e916b4
+
+Package: refsprogs
+Architecture: mips64el
+Version: 2025.12.14-1
+Priority: optional
+Section: otherosfs
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Installed-Size: 167
+Depends: libc6 (>= 2.4), libfuse3-3 (>= 3.2.3), librefs11 (= 2025.12.14-1), fuse3
+Filename: ./refsprogs_2025.12.14-dpkg/refsprogs_2025.12.14-1_mips64el.deb
+Size: 43964
+MD5sum: 3abe5275f252ff89c616e17847341981
+SHA1: a2d6e1db40549f27650fd9adcfb08f16e8e11b7f
+SHA256: 4f73bd348da0508e203cc8136ee655b34985bc17400ff24827717c62c6e15472
+SHA512: 5ca016270f22a169c9e743a8fe92af6a345982b53f3a8ccaa74ad602af9cc91873147014415ee8ded77e25d8eb8d593914f3afb2572f25746d1d86f03166808a
+Homepage: https://github.com/unsound/refsprogs
+Description: Read-only ReFS FUSE driver and progs,
+ refs-fuse uses FUSE (Filesystem in Userspace) to provide support for the ReFS
+ filesystem used by recent versions of Microsoft Windows.
+ .
+ The other refsprogs include 'refls', 'refcat', useful for listing and
+ retrieving data from ReFS volumes, 'refsimage' for capturing an image of the
+ ReFS filesystem and 'redb' / 'refsinfo' which allows access to the metadata
+ of the filesystem for debugging and development.
+

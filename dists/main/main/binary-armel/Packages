@@ -1,0 +1,108 @@
+Package: librefs-dev
+Architecture: armel
+Version: 2025.12.14-1
+Priority: optional
+Section: libdevel
+Source: refsprogs
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Installed-Size: 283
+Depends: librefs11 (= 2025.12.14-1)
+Filename: ./refsprogs_2025.12.14-dpkg/librefs-dev_2025.12.14-1_armel.deb
+Size: 76028
+MD5sum: 475470f06f28f7215d5196b963ce820e
+SHA1: 9e80e6a1ee880afd76777e4fa429736e39f9f743
+SHA256: dab3c1d855a824496e25d3b5596b5f243bcc6022fdd6166a740595893de3d880
+SHA512: 7efd022b1eaba987d45f76b325a10a2ee8f7b7178a377351dfccb961efa0fd4c333b8f18a7eac5c75cf74311cea762c3673f89d64396ba0151b502ce81bcbe63
+Homepage: https://github.com/unsound/refsprogs
+Description: read-only ReFS library (development)
+ librefs provides a read-only interface for interacting with the ReFS filesystem
+ filesystem used by recent versions of Microsoft Windows.
+ .
+ This package contains the development files.
+
+Package: librefs11-dbgsym
+Architecture: armel
+Version: 2025.12.14-1
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: refsprogs
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Installed-Size: 258
+Depends: librefs11 (= 2025.12.14-1)
+Filename: ./refsprogs_2025.12.14-dpkg/librefs11-dbgsym_2025.12.14-1_armel.deb
+Size: 243324
+MD5sum: 654fbe15714f492d968a845bba8aa047
+SHA1: bc1b674642b0cb6e32f8fcd4966cdb68a9952a5f
+SHA256: ba72739f625e264058eeda3dd2bf28010f5bb220ee5784aebd756b1363af4c61
+SHA512: de8e35d637c76d37d6486a2648b07fad162690f82819edfe1f2e5eb074478fde533388d4649d77e8781d19418f9ccb7a6fdcb9c3a0f7e25e282d54788f0eedbb
+Description: debug symbols for librefs11
+Build-Ids: 0554f51498bf19457dcb6d1309fba1161c204a13
+
+Package: librefs11
+Architecture: armel
+Version: 2025.12.14-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: refsprogs
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Installed-Size: 165
+Depends: libc6 (>= 2.4)
+Filename: ./refsprogs_2025.12.14-dpkg/librefs11_2025.12.14-1_armel.deb
+Size: 58148
+MD5sum: 714800dc0e5aa31951fd1b4660fdede8
+SHA1: 0c59ab69a7976f5aaae00c5e9ba6e7334d1f45a9
+SHA256: 3e2ea651e7cdacf433c180de4fb47cf58af8891aa093a094a26f78137925ffaf
+SHA512: 98d6f19bf8f83e4ce3359b8140baa761072bc9b3cb9b723ecd6e69ae27c84780c3ab0004a9b36f817425692ee5a51e6fc8b2cc23ec570f2f49c2fe2c3c976148
+Homepage: https://github.com/unsound/refsprogs
+Description: read-only ReFS library
+ librefs provides a read-only interface for interacting with the ReFS filesystem
+ filesystem used by recent versions of Microsoft Windows.
+ .
+ This package contains the actual library.
+
+Package: refsprogs-dbgsym
+Architecture: armel
+Version: 2025.12.14-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: refsprogs
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Installed-Size: 175
+Depends: refsprogs (= 2025.12.14-1)
+Filename: ./refsprogs_2025.12.14-dpkg/refsprogs-dbgsym_2025.12.14-1_armel.deb
+Size: 123848
+MD5sum: 9dd12f5e19260b6d3f0287f1dbe599d3
+SHA1: 5eab243519d0ba715222615a6ed56aa0eef5d2a2
+SHA256: 74c52f2c5fdfad957e8adadf7897032ce84aa15326ce0678dc6931cc182cbe52
+SHA512: 444a46268e0697b5215b98fe2bd1d32090e492e1bc8656011d91319b47d5ad22454b03a7350572e6557a44d5ab181b48fd754688e8c617351d71f1246ca0ac55
+Description: debug symbols for refsprogs
+Build-Ids: 00d6c648c7bbb822a94eb0eb52ef2bd881b201c4 35a6d2bea91d7957183b70aab946264af86882e8 9354ebe2c3023bdbe2fc59dc8992e72983d86cad 9d74ad49c1e65fe7cd27721e7ffd073760d3c99a d770fe3731489446c38616f0e3fcc75477aaa421 eb481d7b86194ea229bbc43f116472ff3ce0d6d0 eb7620cd3300c9ed3a6bab5c82cd725f581c9ce3
+
+Package: refsprogs
+Architecture: armel
+Version: 2025.12.14-1
+Priority: optional
+Section: otherosfs
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Installed-Size: 141
+Depends: libc6 (>= 2.4), libfuse3-3 (>= 3.2.3), librefs11 (= 2025.12.14-1), fuse3
+Filename: ./refsprogs_2025.12.14-dpkg/refsprogs_2025.12.14-1_armel.deb
+Size: 43096
+MD5sum: 30403e367e49e2479114a5e435537306
+SHA1: 2589b59bd0a80225e5d0f9ab17208d00019f7c63
+SHA256: e733995c75f61d28fbb701ebac08332646b67528b43af21e34520cde37db14ce
+SHA512: 3e58bbcff4096da7ac883dfce6a7e90e315cc24035e8a680061607888b93f24af7b16be52089f8e5b224a1697a4850ebd59c88e0593d3db34fc2c9285e7fb7fe
+Homepage: https://github.com/unsound/refsprogs
+Description: Read-only ReFS FUSE driver and progs,
+ refs-fuse uses FUSE (Filesystem in Userspace) to provide support for the ReFS
+ filesystem used by recent versions of Microsoft Windows.
+ .
+ The other refsprogs include 'refls', 'refcat', useful for listing and
+ retrieving data from ReFS volumes, 'refsimage' for capturing an image of the
+ ReFS filesystem and 'redb' / 'refsinfo' which allows access to the metadata
+ of the filesystem for debugging and development.
+
