@@ -1,0 +1,43 @@
+Format: 1.8
+Date: Sun, 14 Dec 2025 06:26:10 +0200
+Source: refsprogs
+Binary: librefs-dev librefs11 librefs11-dbgsym refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: armel
+Version: 2025.12.14-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs11  - read-only ReFS library
+ refsprogs  - Read-only ReFS FUSE driver and progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2025.12.14-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 9e80e6a1ee880afd76777e4fa429736e39f9f743 76028 librefs-dev_2025.12.14-1_armel.deb
+ bc1b674642b0cb6e32f8fcd4966cdb68a9952a5f 243324 librefs11-dbgsym_2025.12.14-1_armel.deb
+ 0c59ab69a7976f5aaae00c5e9ba6e7334d1f45a9 58148 librefs11_2025.12.14-1_armel.deb
+ 5eab243519d0ba715222615a6ed56aa0eef5d2a2 123848 refsprogs-dbgsym_2025.12.14-1_armel.deb
+ 1ab3074823354d03d05e35193897948753be7e2e 59732 refsprogs-udeb_2025.12.14-1_armel.udeb
+ f9ebed63dc5c8c9a049d0f3665a68c8d6d09ae33 6113 refsprogs_2025.12.14-1_armel.buildinfo
+ 2589b59bd0a80225e5d0f9ab17208d00019f7c63 43096 refsprogs_2025.12.14-1_armel.deb
+Checksums-Sha256:
+ dab3c1d855a824496e25d3b5596b5f243bcc6022fdd6166a740595893de3d880 76028 librefs-dev_2025.12.14-1_armel.deb
+ ba72739f625e264058eeda3dd2bf28010f5bb220ee5784aebd756b1363af4c61 243324 librefs11-dbgsym_2025.12.14-1_armel.deb
+ 3e2ea651e7cdacf433c180de4fb47cf58af8891aa093a094a26f78137925ffaf 58148 librefs11_2025.12.14-1_armel.deb
+ 74c52f2c5fdfad957e8adadf7897032ce84aa15326ce0678dc6931cc182cbe52 123848 refsprogs-dbgsym_2025.12.14-1_armel.deb
+ c57d99f935ff2f3cfa6a5047badded9e15c0e0aa72ff7d3c98d177dd47e8f056 59732 refsprogs-udeb_2025.12.14-1_armel.udeb
+ 55c3e71fd2ae1c78843cedda8e0853b3f6bebe29a23669c836878b65690c84c0 6113 refsprogs_2025.12.14-1_armel.buildinfo
+ e733995c75f61d28fbb701ebac08332646b67528b43af21e34520cde37db14ce 43096 refsprogs_2025.12.14-1_armel.deb
+Files:
+ 475470f06f28f7215d5196b963ce820e 76028 libdevel optional librefs-dev_2025.12.14-1_armel.deb
+ 654fbe15714f492d968a845bba8aa047 243324 debug optional librefs11-dbgsym_2025.12.14-1_armel.deb
+ 714800dc0e5aa31951fd1b4660fdede8 58148 libs optional librefs11_2025.12.14-1_armel.deb
+ 9dd12f5e19260b6d3f0287f1dbe599d3 123848 debug optional refsprogs-dbgsym_2025.12.14-1_armel.deb
+ 9d1b038687f61c695a0da27677cd8666 59732 debian-installer optional refsprogs-udeb_2025.12.14-1_armel.udeb
+ 6777a72639e329d6c31d42d852b8503c 6113 otherosfs optional refsprogs_2025.12.14-1_armel.buildinfo
+ 30403e367e49e2479114a5e435537306 43096 otherosfs optional refsprogs_2025.12.14-1_armel.deb

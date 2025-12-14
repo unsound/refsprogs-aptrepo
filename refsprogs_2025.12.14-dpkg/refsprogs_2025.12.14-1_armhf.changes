@@ -1,0 +1,43 @@
+Format: 1.8
+Date: Sun, 14 Dec 2025 06:26:10 +0200
+Source: refsprogs
+Binary: librefs-dev librefs11 librefs11-dbgsym refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: armhf
+Version: 2025.12.14-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs11  - read-only ReFS library
+ refsprogs  - Read-only ReFS FUSE driver and progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2025.12.14-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ ba2efd640fca06ec6de2da46e12ba6814bf14b16 74040 librefs-dev_2025.12.14-1_armhf.deb
+ 86ee926f0d4a54bc673103664a6ebb9de01d39ee 248072 librefs11-dbgsym_2025.12.14-1_armhf.deb
+ a3c0e0d26200c9974fb14074d93da642ec97b808 56508 librefs11_2025.12.14-1_armhf.deb
+ 507e05430ffde9a104477902e2f186a1331253da 126232 refsprogs-dbgsym_2025.12.14-1_armhf.deb
+ 73c5385be9eff143433f95020d1a2db0fd91d2d9 58068 refsprogs-udeb_2025.12.14-1_armhf.udeb
+ 7c3bf2b38dbab67cd6364b001d5e7e8ee48ec9d5 6113 refsprogs_2025.12.14-1_armhf.buildinfo
+ 2a3975ec4f81e293ec2cff94b2a0a31c75066b1c 43332 refsprogs_2025.12.14-1_armhf.deb
+Checksums-Sha256:
+ c69a74ee6bd308b0610a6a025652a49bf5bc8ec9af85ab9c648cd4b827551082 74040 librefs-dev_2025.12.14-1_armhf.deb
+ 2cd970a4327bc0a8acb3d5aac73ca9c7e775fdededf5d95344a0e4da0ff93b53 248072 librefs11-dbgsym_2025.12.14-1_armhf.deb
+ 0ed79fd3a4c576a2c9a402eadf5d9e6c297e6d0820f11497298c5c9b8eac5041 56508 librefs11_2025.12.14-1_armhf.deb
+ 643ccc7bb70f92e854e758fde7904fbcd8752fbb9eeb74084eaf86bef40cf5dc 126232 refsprogs-dbgsym_2025.12.14-1_armhf.deb
+ f1355de176cf6739b2affb4bb08f167310f83853cc5b8c899c67d56edc21e79e 58068 refsprogs-udeb_2025.12.14-1_armhf.udeb
+ 6795798cb856d13b8631ee41856ad2f05c8f916d0533db9c3809c3764cd25ecd 6113 refsprogs_2025.12.14-1_armhf.buildinfo
+ 086a9adfc93a6d5b27f9ac7ed0c73eae1e73057f772f0a82b20f564b1b1c7166 43332 refsprogs_2025.12.14-1_armhf.deb
+Files:
+ 88963bc6a742dd86e31e1be0140dc2b4 74040 libdevel optional librefs-dev_2025.12.14-1_armhf.deb
+ aed9bbc2d328030481cb195b9ebab8f9 248072 debug optional librefs11-dbgsym_2025.12.14-1_armhf.deb
+ 3f78ec1e3653b240cec27275c6a31e67 56508 libs optional librefs11_2025.12.14-1_armhf.deb
+ 64a87d21ba0787cf07fa08e6c8e3ef0d 126232 debug optional refsprogs-dbgsym_2025.12.14-1_armhf.deb
+ 1f74bcd34514e62b901aaa3858f6a96a 58068 debian-installer optional refsprogs-udeb_2025.12.14-1_armhf.udeb
+ 7104c48106db1d943e9f01a1ac0adfe4 6113 otherosfs optional refsprogs_2025.12.14-1_armhf.buildinfo
+ 8ec0e80368ff6887ae5ed71a15fcd8d8 43332 otherosfs optional refsprogs_2025.12.14-1_armhf.deb

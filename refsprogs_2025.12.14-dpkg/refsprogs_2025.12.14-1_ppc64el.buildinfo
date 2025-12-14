@@ -1,0 +1,182 @@
+Format: 1.0
+Source: refsprogs
+Binary: refsprogs librefs-dev librefs11 refsprogs-udeb
+Architecture: ppc64el
+Version: 2025.12.14-1
+Checksums-Md5:
+ 5e7924a623ea848051771714e0199286 80752 librefs-dev_2025.12.14-1_ppc64el.deb
+ 3ac4a03a435e1c8b465f1179b123aaf5 256620 librefs11-dbgsym_2025.12.14-1_ppc64el.deb
+ 8b31e78dd321c74b6cdafc9d16e4cb13 62248 librefs11_2025.12.14-1_ppc64el.deb
+ ba9d28279ef253df610ec5035f41e946 133028 refsprogs-dbgsym_2025.12.14-1_ppc64el.deb
+ 9610eef042710bad524c3410c20a076b 66156 refsprogs-udeb_2025.12.14-1_ppc64el.udeb
+ 14a98828d036aa45aa91da4b18610158 50132 refsprogs_2025.12.14-1_ppc64el.deb
+Checksums-Sha1:
+ 530ba99dd505ee5bc49a44c43daccfbdd09bde6c 80752 librefs-dev_2025.12.14-1_ppc64el.deb
+ a3a59f8605336fe39299e996cd886ce6865fe31f 256620 librefs11-dbgsym_2025.12.14-1_ppc64el.deb
+ 5fad109a80de167a0a005d9b9b0289183c5071de 62248 librefs11_2025.12.14-1_ppc64el.deb
+ 1c5c73ae9af07470c068965fdb658df3984bb594 133028 refsprogs-dbgsym_2025.12.14-1_ppc64el.deb
+ 3530446249991c959ac528547b555fa16d6bca0d 66156 refsprogs-udeb_2025.12.14-1_ppc64el.udeb
+ 9ee3b04e8d01aef5b996255c83086e2ab93a4d4c 50132 refsprogs_2025.12.14-1_ppc64el.deb
+Checksums-Sha256:
+ 4f362c16eca93cd5b2117e444afe6cf4220307e5c8aef7c08a07a6903276cf21 80752 librefs-dev_2025.12.14-1_ppc64el.deb
+ ff69935425e13bb7731a0b2749a4f3f7f31e5a666619add55f484ac548821cfa 256620 librefs11-dbgsym_2025.12.14-1_ppc64el.deb
+ 43b003c9674d1bab4856e349b2a5d1fbc6f673ae119063d79d20ff119a19de29 62248 librefs11_2025.12.14-1_ppc64el.deb
+ a399f37526f1dedc6cb4c957be46d9a25c3f8ddeb7925020be8468e66beb3816 133028 refsprogs-dbgsym_2025.12.14-1_ppc64el.deb
+ d9a21b6f21a48284e11c86d2331fd515f0430b850dc17179b865f0ffca0c60db 66156 refsprogs-udeb_2025.12.14-1_ppc64el.udeb
+ fed75e5445941deb2d7a1c401a24a1aaeec97c15ae0bae6b24788624bb85f780 50132 refsprogs_2025.12.14-1_ppc64el.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Sun, 14 Dec 2025 06:42:56 +0000
+Build-Tainted-By:
+ merged-usr-via-symlinks
+Installed-Build-Depends:
+ autoconf (= 2.69-11),
+ automake (= 1:1.16.1-4),
+ autopoint (= 0.19.8.1-9),
+ autotools-dev (= 20180224.1),
+ base-files (= 10.3+deb10u13),
+ base-passwd (= 3.5.46),
+ bash (= 5.0-4),
+ binutils (= 2.31.1-16),
+ binutils-common (= 2.31.1-16),
+ binutils-x86-64-linux-gnu (= 2.31.1-16),
+ bsdmainutils (= 11.1.2+b1),
+ bsdutils (= 1:2.33.1-0.1),
+ build-essential (= 12.6),
+ bzip2 (= 1.0.6-9.2~deb10u1),
+ chrpath (= 0.16-2+b1),
+ coreutils (= 8.30-3),
+ cpp (= 4:8.3.0-1),
+ cpp-8 (= 8.3.0-6),
+ dash (= 0.5.10.2-5),
+ debconf (= 1.5.71+deb10u1),
+ debhelper (= 12.1.1),
+ debianutils (= 4.8.6.1),
+ dh-autoreconf (= 19),
+ dh-strip-nondeterminism (= 1.1.2-1),
+ diffutils (= 1:3.7-3),
+ dpkg (= 1.19.8),
+ dpkg-dev (= 1.19.8),
+ dwz (= 0.12-3),
+ fdisk (= 2.33.1-0.1),
+ file (= 1:5.35-4+deb10u2),
+ findutils (= 4.6.0+git+20190209-2),
+ g++ (= 4:8.3.0-1),
+ g++-8 (= 8.3.0-6),
+ gcc (= 4:8.3.0-1),
+ gcc-8 (= 8.3.0-6),
+ gcc-8-base (= 8.3.0-6),
+ gettext (= 0.19.8.1-9),
+ gettext-base (= 0.19.8.1-9),
+ grep (= 3.3-1),
+ groff-base (= 1.22.4-3+deb10u1),
+ gzip (= 1.9-3+deb10u1),
+ hostname (= 3.21),
+ init-system-helpers (= 1.56+nmu1),
+ intltool-debian (= 0.35.0+20060710.5),
+ libacl1 (= 2.2.53-4),
+ libarchive-zip-perl (= 1.64-1),
+ libasan5 (= 8.3.0-6),
+ libatomic1 (= 8.3.0-6),
+ libattr1 (= 1:2.4.48-4),
+ libaudit-common (= 1:2.8.4-3),
+ libaudit1 (= 1:2.8.4-3),
+ libbinutils (= 2.31.1-16),
+ libblkid1 (= 2.33.1-0.1),
+ libbsd0 (= 0.9.1-2+deb10u1),
+ libbz2-1.0 (= 1.0.6-9.2~deb10u1),
+ libc-bin (= 2.28-10+deb10u1),
+ libc-dev-bin (= 2.28-10+deb10u1),
+ libc6 (= 2.28-10+deb10u1),
+ libc6-dev (= 2.28-10+deb10u1),
+ libcap-ng0 (= 0.7.9-2),
+ libcc1-0 (= 8.3.0-6),
+ libcroco3 (= 0.6.12-3),
+ libdb5.3 (= 5.3.28+dfsg1-0.5),
+ libdebconfclient0 (= 0.249),
+ libdpkg-perl (= 1.19.8),
+ libelf1 (= 0.176-1.1),
+ libfdisk1 (= 2.33.1-0.1),
+ libffi6 (= 3.2.1-9),
+ libfile-stripnondeterminism-perl (= 1.1.2-1),
+ libfuse3-3 (= 3.4.1-1+deb10u1),
+ libfuse3-dev (= 3.4.1-1+deb10u1),
+ libgcc-8-dev (= 8.3.0-6),
+ libgcc1 (= 1:8.3.0-6),
+ libgcrypt20 (= 1.8.4-5+deb10u1),
+ libgdbm-compat4 (= 1.18.1-4),
+ libgdbm6 (= 1.18.1-4),
+ libglib2.0-0 (= 2.58.3-2+deb10u3),
+ libgmp10 (= 2:6.1.2+dfsg-4+deb10u1),
+ libgomp1 (= 8.3.0-6),
+ libgpg-error0 (= 1.35-1),
+ libicu63 (= 63.1-6+deb10u3),
+ libisl19 (= 0.20-2),
+ libitm1 (= 8.3.0-6),
+ liblsan0 (= 8.3.0-6),
+ liblz4-1 (= 1.8.3-1+deb10u1),
+ liblzma5 (= 5.2.4-1+deb10u1),
+ libmagic-mgc (= 1:5.35-4+deb10u2),
+ libmagic1 (= 1:5.35-4+deb10u2),
+ libmount1 (= 2.33.1-0.1),
+ libmpc3 (= 1.1.0-1),
+ libmpfr6 (= 4.0.2-1),
+ libmpx2 (= 8.3.0-6),
+ libncurses6 (= 6.1+20181013-2+deb10u2),
+ libncursesw6 (= 6.1+20181013-2+deb10u2),
+ libpam-modules (= 1.3.1-5),
+ libpam-modules-bin (= 1.3.1-5),
+ libpam-runtime (= 1.3.1-5),
+ libpam0g (= 1.3.1-5),
+ libpcre16-3 (= 2:8.39-12),
+ libpcre3 (= 2:8.39-12),
+ libpcre3-dev (= 2:8.39-12),
+ libpcre32-3 (= 2:8.39-12),
+ libpcrecpp0v5 (= 2:8.39-12),
+ libperl5.28 (= 5.28.1-6+deb10u1),
+ libpipeline1 (= 1.5.1-2),
+ libquadmath0 (= 8.3.0-6),
+ libseccomp2 (= 2.3.3-4),
+ libselinux1 (= 2.8-1+b1),
+ libselinux1-dev (= 2.8-1+b1),
+ libsepol1 (= 2.8-1),
+ libsepol1-dev (= 2.8-1),
+ libsigsegv2 (= 2.12-2),
+ libsmartcols1 (= 2.33.1-0.1),
+ libstdc++-8-dev (= 8.3.0-6),
+ libstdc++6 (= 8.3.0-6),
+ libsystemd0 (= 241-7~deb10u8),
+ libtinfo6 (= 6.1+20181013-2+deb10u2),
+ libtool (= 2.4.6-9),
+ libtsan0 (= 8.3.0-6),
+ libubsan1 (= 8.3.0-6),
+ libuchardet0 (= 0.0.6-3),
+ libudev1 (= 241-7~deb10u8),
+ libunistring2 (= 0.9.10-1),
+ libuuid1 (= 2.33.1-0.1),
+ libxml2 (= 2.9.4+dfsg1-7+deb10u4),
+ linux-libc-dev (= 4.19.249-2),
+ login (= 1:4.5-1.1),
+ m4 (= 1.4.18-2),
+ make (= 4.2.1-1.2),
+ man-db (= 2.8.5-2),
+ mawk (= 1.3.3-17+b3),
+ ncurses-base (= 6.1+20181013-2+deb10u2),
+ ncurses-bin (= 6.1+20181013-2+deb10u2),
+ patch (= 2.7.6-3+deb10u1),
+ perl (= 5.28.1-6+deb10u1),
+ perl-base (= 5.28.1-6+deb10u1),
+ perl-modules-5.28 (= 5.28.1-6+deb10u1),
+ pkg-config (= 0.29-6),
+ po-debconf (= 1.0.21),
+ sed (= 4.7-1),
+ sensible-utils (= 0.0.12),
+ sysvinit-utils (= 2.93-8),
+ tar (= 1.30+dfsg-6),
+ util-linux (= 2.33.1-0.1),
+ xz-utils (= 5.2.4-1+deb10u1),
+ zlib1g (= 1:1.2.11.dfsg-1+deb10u1)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=12"
+ LANG="sv_SE.UTF-8"
+ SOURCE_DATE_EPOCH="1765686370"

@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Sun, 14 Dec 2025 06:26:10 +0200
+Source: refsprogs
+Binary: librefs-dev librefs11 librefs11-dbgsym refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: source amd64
+Version: 2025.12.14-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs11  - read-only ReFS library
+ refsprogs  - Read-only ReFS FUSE driver and progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2025.12.14-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 79dfa99319eba3a12f281ff5b5229256777b299a 1191 refsprogs_2025.12.14-1.dsc
+ 6e79ef3b9ccfcf9653bb0f61d094157c805c3d06 525230 refsprogs_2025.12.14.orig.tar.gz
+ 1c70694eb3ca7ad6922738f6285e3a8e2498638d 4348 refsprogs_2025.12.14-1.debian.tar.xz
+ 1a8dbf809b8c0f7ddfb025658222004c2553e7de 78356 librefs-dev_2025.12.14-1_amd64.deb
+ a3ece6389e686f955a46ea6ca41fd5e22e38d743 257324 librefs11-dbgsym_2025.12.14-1_amd64.deb
+ 8de0ad2e2ae7eefe3ae3cc5d0bbade2add0e2d7c 62756 librefs11_2025.12.14-1_amd64.deb
+ 941e34e6532b4514b1101817cd39134a5537350e 128556 refsprogs-dbgsym_2025.12.14-1_amd64.deb
+ 36ed723f477c7e0f334f985355ffec2071ae1565 65812 refsprogs-udeb_2025.12.14-1_amd64.udeb
+ d9d3d9812d26dc4a91d4e8a080ad53f44c09c7aa 6358 refsprogs_2025.12.14-1_amd64.buildinfo
+ 6abd2e960c4bde1d0c4513c31f286fcd94754fa3 46252 refsprogs_2025.12.14-1_amd64.deb
+Checksums-Sha256:
+ 1db2b2ef1d4306944ef1842d162b5c949a0d26b654cbe26b64b3ffa635e4f989 1191 refsprogs_2025.12.14-1.dsc
+ 257388accc96c99edadfd799be0a73af78455a3e3e1e4590b24712fe404105c5 525230 refsprogs_2025.12.14.orig.tar.gz
+ f024c849db18633fe4855ad8e841faa58c063bc35cedbe3fb18946f4170dbd86 4348 refsprogs_2025.12.14-1.debian.tar.xz
+ 4f680c520915fa646e706823b86612f2732eed80cb788c8a48ed4e284c76132d 78356 librefs-dev_2025.12.14-1_amd64.deb
+ ad79f2ae7625ebf3ee23a7497b75fb6f206daf143553bf1ff08d17a9836c9f1b 257324 librefs11-dbgsym_2025.12.14-1_amd64.deb
+ c77e1c7079fcbddfc4e75df202ab4fb8878c00e4051510c86053e34abb6397ef 62756 librefs11_2025.12.14-1_amd64.deb
+ 63c354a71e6f4e2640427b9203d1e6dee87594cbc1a2475dfe02e7eeac51c318 128556 refsprogs-dbgsym_2025.12.14-1_amd64.deb
+ b9f781dac0cf780ad2ed403cf0e61210e47167aaa4c32a9a111666ba11ea8429 65812 refsprogs-udeb_2025.12.14-1_amd64.udeb
+ 21af20001ff33f9691a99542644a0fbc1cf88d326e7dca6fcc7d70bf0766cdba 6358 refsprogs_2025.12.14-1_amd64.buildinfo
+ 50fba21e5537a2386c46746c7adfb91433a0e81d5a1adc09b6439e71e4b7cbce 46252 refsprogs_2025.12.14-1_amd64.deb
+Files:
+ 4a4b0fb1069cbe83f3044713105fc172 1191 otherosfs optional refsprogs_2025.12.14-1.dsc
+ af98ef19cabae3218e58236718524aba 525230 otherosfs optional refsprogs_2025.12.14.orig.tar.gz
+ 4b7c095e4e24d41c9d9823d6bcabce8c 4348 otherosfs optional refsprogs_2025.12.14-1.debian.tar.xz
+ b43ffa932277323340ae88bd4374a518 78356 libdevel optional librefs-dev_2025.12.14-1_amd64.deb
+ 848721476ba7f5f93803965a970b825f 257324 debug optional librefs11-dbgsym_2025.12.14-1_amd64.deb
+ ed4881c3decbcadd39a2ee0cd1702c96 62756 libs optional librefs11_2025.12.14-1_amd64.deb
+ 18d0753b095a83a69f5d5044aaac7eff 128556 debug optional refsprogs-dbgsym_2025.12.14-1_amd64.deb
+ 9f0198397200e19157ce274328fef1ac 65812 debian-installer optional refsprogs-udeb_2025.12.14-1_amd64.udeb
+ b912da089b8da2b5e8c6e4cb41d870c4 6358 otherosfs optional refsprogs_2025.12.14-1_amd64.buildinfo
+ ce341a825d99766c0cd2f0370d7ba8a3 46252 otherosfs optional refsprogs_2025.12.14-1_amd64.deb

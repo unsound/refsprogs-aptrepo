@@ -1,0 +1,43 @@
+Format: 1.8
+Date: Sun, 14 Dec 2025 06:26:10 +0200
+Source: refsprogs
+Binary: librefs-dev librefs11 librefs11-dbgsym refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: s390x
+Version: 2025.12.14-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs11  - read-only ReFS library
+ refsprogs  - Read-only ReFS FUSE driver and progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2025.12.14-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 98d6b7100ad77abf02e71156929baef8850c66e8 71444 librefs-dev_2025.12.14-1_s390x.deb
+ 53939c24539fa20f12096f8aeea6e32419b5280a 257072 librefs11-dbgsym_2025.12.14-1_s390x.deb
+ 82c49186aa4007f26936e57e3a959907e1fbc0a4 55256 librefs11_2025.12.14-1_s390x.deb
+ d42b8b165b84d39df052572b39554a8e367fc2fe 133164 refsprogs-dbgsym_2025.12.14-1_s390x.deb
+ 0ff8b8fb8ca607ff105543e16e1f747b673e00ed 58060 refsprogs-udeb_2025.12.14-1_s390x.udeb
+ c1501cec5191bad0f90976c012b632da997e3b23 6113 refsprogs_2025.12.14-1_s390x.buildinfo
+ ffcf89539f202efe1ce13b873a148ee917465578 43460 refsprogs_2025.12.14-1_s390x.deb
+Checksums-Sha256:
+ c88659d7d056b00657a64c5918b4b3e58679718a04b1c7ef3618950ee47fe4c7 71444 librefs-dev_2025.12.14-1_s390x.deb
+ c4a232dce3e1a3d07ce1fc2cdc5afeb373ad0e97e40e8c2416b915f08eb84a30 257072 librefs11-dbgsym_2025.12.14-1_s390x.deb
+ 2ba4d5fde5afdf9cae391351e561ccdef0dece918a3d5142cc8a082931904e50 55256 librefs11_2025.12.14-1_s390x.deb
+ 901ede6e1fbe56cb0d7c52620c0f82c63367af35c9dfe69035eb3b94b3d00c70 133164 refsprogs-dbgsym_2025.12.14-1_s390x.deb
+ d6b804770a37db72a1e1e77f8639ad664421b00c9e2820929e473880e64e83c7 58060 refsprogs-udeb_2025.12.14-1_s390x.udeb
+ 5dd8be41faed2a4a326afc1195227f321948782d8459b24669d1ba0bc61b6db5 6113 refsprogs_2025.12.14-1_s390x.buildinfo
+ a0ed9a8e37eee40309ab656f88effcb24353f8cbed96ea7b95fe47fd3f7159e8 43460 refsprogs_2025.12.14-1_s390x.deb
+Files:
+ 62bbe897b268ce99abf4771f6e78b02f 71444 libdevel optional librefs-dev_2025.12.14-1_s390x.deb
+ 84eae8c4819a04c7bc512a743c057f8c 257072 debug optional librefs11-dbgsym_2025.12.14-1_s390x.deb
+ 2a903df6c52ff16559a8769126ecc3fb 55256 libs optional librefs11_2025.12.14-1_s390x.deb
+ b5fd4ee6b9cabce810bae4e519624917 133164 debug optional refsprogs-dbgsym_2025.12.14-1_s390x.deb
+ b50131e0b235dc02bff6e602f4bbfb77 58060 debian-installer optional refsprogs-udeb_2025.12.14-1_s390x.udeb
+ fa36a58e775bea0df44d564e2aca4f45 6113 otherosfs optional refsprogs_2025.12.14-1_s390x.buildinfo
+ 2604567c07079d62d7fbad4bb3668074 43460 otherosfs optional refsprogs_2025.12.14-1_s390x.deb
