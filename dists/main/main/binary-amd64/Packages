@@ -1,18 +1,18 @@
 Package: librefs-dev
 Architecture: amd64
-Version: 2025.12.14-1
+Version: 2025.12.21-1
 Priority: optional
 Section: libdevel
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 318
-Depends: librefs11 (= 2025.12.14-1)
-Filename: ./refsprogs_2025.12.14-dpkg/librefs-dev_2025.12.14-1_amd64.deb
-Size: 78356
-MD5sum: b43ffa932277323340ae88bd4374a518
-SHA1: 1a8dbf809b8c0f7ddfb025658222004c2553e7de
-SHA256: 4f680c520915fa646e706823b86612f2732eed80cb788c8a48ed4e284c76132d
-SHA512: 1dffd312febe6d75690ee14d5a5dc398e7b3fa09d94906fbd97287eafc2a369bd47c2ad3ce7a646a7b1e09c3ac51b25b737a77f0c2755f20779f3bca4de6ad4a
+Installed-Size: 332
+Depends: librefs12 (= 2025.12.21-1)
+Filename: ./refsprogs_2025.12.21-dpkg/librefs-dev_2025.12.21-1_amd64.deb
+Size: 82272
+MD5sum: e6fbe98a58d0dd04c928a7efc2341dcb
+SHA1: 479d0b7979671943d42e5438d3700647b90cc7a2
+SHA256: 6f3c8c5498f61829b3aa83a0d3f4f5857c7c9969f56b3caf4c61e7c22d1cea8e
+SHA512: ce085dd22d99a087077b08386a27e2ba94a742d3efcce16bf7d8cc2039f5207958db5c795ad10771d513acd94a0ba0d744a4b5e60bcd2c6f7b72186f6c4b4c64
 Homepage: https://github.com/unsound/refsprogs
 Description: read-only ReFS library (development)
  librefs provides a read-only interface for interacting with the ReFS filesystem
@@ -20,42 +20,42 @@ Description: read-only ReFS library (development)
  .
  This package contains the development files.
 
-Package: librefs11-dbgsym
+Package: librefs12-dbgsym
 Architecture: amd64
-Version: 2025.12.14-1
+Version: 2025.12.21-1
 Auto-Built-Package: debug-symbols
 Multi-Arch: same
 Priority: optional
 Section: debug
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 272
-Depends: librefs11 (= 2025.12.14-1)
-Filename: ./refsprogs_2025.12.14-dpkg/librefs11-dbgsym_2025.12.14-1_amd64.deb
-Size: 257324
-MD5sum: 848721476ba7f5f93803965a970b825f
-SHA1: a3ece6389e686f955a46ea6ca41fd5e22e38d743
-SHA256: ad79f2ae7625ebf3ee23a7497b75fb6f206daf143553bf1ff08d17a9836c9f1b
-SHA512: 5eb3207163a0f7d7a9792b44aac746f905cf4f261adab19f6ae0a7ef77d48f70c9376a01ed7b17d856f83d2ae40e4653a23533685005a8a8754708183fa28682
-Description: debug symbols for librefs11
-Build-Ids: 1a4af7f38956787545f06b6d863e0630ca07a9c7
+Installed-Size: 289
+Depends: librefs12 (= 2025.12.21-1)
+Filename: ./refsprogs_2025.12.21-dpkg/librefs12-dbgsym_2025.12.21-1_amd64.deb
+Size: 274896
+MD5sum: 15619674bc3ab4c515722f34d77d6700
+SHA1: 8276f5a1dca885cbdff7a24ef03c0323c93dcdf0
+SHA256: 148f0f7cf70578d453dde434f4f9cbf503e21d3dac2a21f009b5e87e6d2b2171
+SHA512: 3a186273f80e5c0bf656aa928145649b285cf30dd1a2202021b7ac7a497bbc6956bb9acb3a25b18d62fa1209eba278f2c89adfc48cfb83bca6112b678360680e
+Description: debug symbols for librefs12
+Build-Ids: a4d2d78b78b1d6bd7158905be40f2d4c29fdfcef
 
-Package: librefs11
+Package: librefs12
 Architecture: amd64
-Version: 2025.12.14-1
+Version: 2025.12.21-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 165
+Installed-Size: 177
 Depends: libc6 (>= 2.14)
-Filename: ./refsprogs_2025.12.14-dpkg/librefs11_2025.12.14-1_amd64.deb
-Size: 62756
-MD5sum: ed4881c3decbcadd39a2ee0cd1702c96
-SHA1: 8de0ad2e2ae7eefe3ae3cc5d0bbade2add0e2d7c
-SHA256: c77e1c7079fcbddfc4e75df202ab4fb8878c00e4051510c86053e34abb6397ef
-SHA512: 83a0602400a4c1f6412a68a8e9452fdc74ed56e49f960fc696bbe36acc1edad0da79be148cb8b8b2e671575b15c5d8efed9f65ad2d6c094dd4fd8eb0c94ee540
+Filename: ./refsprogs_2025.12.21-dpkg/librefs12_2025.12.21-1_amd64.deb
+Size: 66836
+MD5sum: 93bfa4684a352fd382b9138037e33e2b
+SHA1: 5e5e3383cf7dcf4832ad5466030243746679f012
+SHA256: a478a0f5d7b4dc1db1380d1f9e0775b24ae5b7e76be5dde543e979bbc1f4cd2d
+SHA512: 054d21885d76c28437dae20559b48c0db94a35bf8ec9fda2ce837c00b75320b750d1852af0768f94a7eac8295cd111d98395a13bc3a6afae6463a5afdd203aa5
 Homepage: https://github.com/unsound/refsprogs
 Description: read-only ReFS library
  librefs provides a read-only interface for interacting with the ReFS filesystem
@@ -65,37 +65,37 @@ Description: read-only ReFS library
 
 Package: refsprogs-dbgsym
 Architecture: amd64
-Version: 2025.12.14-1
+Version: 2025.12.21-1
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
 Installed-Size: 187
-Depends: refsprogs (= 2025.12.14-1)
-Filename: ./refsprogs_2025.12.14-dpkg/refsprogs-dbgsym_2025.12.14-1_amd64.deb
-Size: 128556
-MD5sum: 18d0753b095a83a69f5d5044aaac7eff
-SHA1: 941e34e6532b4514b1101817cd39134a5537350e
-SHA256: 63c354a71e6f4e2640427b9203d1e6dee87594cbc1a2475dfe02e7eeac51c318
-SHA512: 5cebb1063ddb80d5eeca6bc6ff3a5f04b7206c43817aba84e549b3b54d9da4332d2f21efc1ee588e2d3634596a11d63025e15a6b91a97233fc7a1ba14b2ce6ea
+Depends: refsprogs (= 2025.12.21-1)
+Filename: ./refsprogs_2025.12.21-dpkg/refsprogs-dbgsym_2025.12.21-1_amd64.deb
+Size: 128844
+MD5sum: e939543e055bc5214880601a1cad8c8b
+SHA1: 71928ec84eae6c0fe87ba95480009eae288d02f2
+SHA256: 9a9c689d3dca493cd3e06cb8da792034cc37f37717a6ec7401ecdac1d564f4a3
+SHA512: 3683dd20830565a5f1ebf6e14e907a64363a36ee111cd3aee4d8e7f601299894bcb6901a0919b6e4761fcdac6e8f2bf6d177ad8d23a90c354828ac2b170126e2
 Description: debug symbols for refsprogs
-Build-Ids: 0c0bf4725ef187961953cc6af00518c98cf5f562 23d4e62f7e5bc9bcb87fa739c685f16131cd37ed 6c373836a5b1baade8a6c2e8bdf5752e12941edd ccc5f9d42bd748f6e3899e280f032bfe975c1412 e1070d4426536cebcb86262dec398e800977f9af fe195e4eb95cf67fb9b84b7717093c37de571c0d fe99a3b16b5a8d3947ecf6dae30b2303596edb43
+Build-Ids: 343e9d75e88270117e302bb64a6b53e90a30a78a 501ef5280bb2e5688a5806a3c1e1f2ebfe7feeb3 76f41310f07b369cf5133cd515cf5bd5cf93ba52 79cd262d2c5330100c2e0279f7b5651cf55090f9 aa2eda4aa6fc2ad608d5fbc4b76240a9d802ed9c c05be2fb583d1ccf0a46e7c59bde712f0460456e c09afaf0cd04e44a30af28954469e59e31fe58be
 
 Package: refsprogs
 Architecture: amd64
-Version: 2025.12.14-1
+Version: 2025.12.21-1
 Priority: optional
 Section: otherosfs
 Maintainer: Erik Larsson <catacombae@gmail.com>
 Installed-Size: 184
-Depends: libc6 (>= 2.14), libfuse3-3 (>= 3.2.3), librefs11 (= 2025.12.14-1), fuse3
-Filename: ./refsprogs_2025.12.14-dpkg/refsprogs_2025.12.14-1_amd64.deb
-Size: 46252
-MD5sum: ce341a825d99766c0cd2f0370d7ba8a3
-SHA1: 6abd2e960c4bde1d0c4513c31f286fcd94754fa3
-SHA256: 50fba21e5537a2386c46746c7adfb91433a0e81d5a1adc09b6439e71e4b7cbce
-SHA512: bc4177e1d0e350d542c5e524cfb89fb74e11b89d060dc49d2d50a7af368a2b87b46439a287cf371689b9e40ecc9e249d5738c31e600aeaa3b287bdca882ed48f
+Depends: libc6 (>= 2.14), libfuse3-3 (>= 3.2.3), librefs12 (= 2025.12.21-1), fuse3
+Filename: ./refsprogs_2025.12.21-dpkg/refsprogs_2025.12.21-1_amd64.deb
+Size: 46400
+MD5sum: 01438d374afe8724c088e2f9ca437da8
+SHA1: 45de37e7a4653f3e4b4fe27cbcf4bbd5ebaab984
+SHA256: 6e43fae41795c4a2427f119469a0f71c90825e8d7985a04332c1c3f3c060c2f0
+SHA512: f0c0b3397a63b936c828cf5ee71f9ef12d442766df4007968337110c3aaac1aeb95613949453d2cf5237e4d65e625e8a314aa773104be9043fcbdb31c91cc362
 Homepage: https://github.com/unsound/refsprogs
 Description: Read-only ReFS FUSE driver and progs,
  refs-fuse uses FUSE (Filesystem in Userspace) to provide support for the ReFS

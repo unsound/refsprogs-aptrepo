@@ -1,0 +1,43 @@
+Format: 1.8
+Date: Sun, 21 Dec 2025 10:38:56 +0100
+Source: refsprogs
+Binary: librefs-dev librefs12 librefs12-dbgsym refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: mips64el
+Version: 2025.12.21-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs12  - read-only ReFS library
+ refsprogs  - Read-only ReFS FUSE driver and progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2025.12.21-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 01f296f7817496f7aae61803eaa5a9084d577cb2 82452 librefs-dev_2025.12.21-1_mips64el.deb
+ 2a7c66b817438baf853307428c9fb3b99d8561cd 281356 librefs12-dbgsym_2025.12.21-1_mips64el.deb
+ d3083692ec66e69f1572916d2ad2c02941548269 57472 librefs12_2025.12.21-1_mips64el.deb
+ 6e2bcaf08ead3b89fa49434c88351f8b4a24ec17 137248 refsprogs-dbgsym_2025.12.21-1_mips64el.deb
+ e7d28f72e891c17ae40eda6b07bdfe9c7c4b80ff 60268 refsprogs-udeb_2025.12.21-1_mips64el.udeb
+ 6a649c99428c4df5939fd1829e814cef8af72d9d 6197 refsprogs_2025.12.21-1_mips64el.buildinfo
+ f1a4959692b01f5ac8dc5fb44eb95e75854a8200 44104 refsprogs_2025.12.21-1_mips64el.deb
+Checksums-Sha256:
+ 247f176b105385bf30a798372c4abb30d4c14098c45ed2fdf2e59bfa491d17b9 82452 librefs-dev_2025.12.21-1_mips64el.deb
+ eec3c2242b17a09b072892f4b039f0aafe8dcac87d974796c6c2a07ed0f5ed01 281356 librefs12-dbgsym_2025.12.21-1_mips64el.deb
+ 331195eab3753d67533d57e50805c96e092a176569cc26f33849e9383b5852bb 57472 librefs12_2025.12.21-1_mips64el.deb
+ 6757c7079155cd64ce095044b82b9d8bd1408d426a5cf70a2dfd1b00774da9df 137248 refsprogs-dbgsym_2025.12.21-1_mips64el.deb
+ a0a818be4383191f7a06ec671d2153ab71c3a3f31809ee9b92f26f1c104e4156 60268 refsprogs-udeb_2025.12.21-1_mips64el.udeb
+ 043875b036197a3639e9622ab553bff9ae7ce4dcf30e4a57b3367c397f581ee3 6197 refsprogs_2025.12.21-1_mips64el.buildinfo
+ dff6b551bc85eb54fe3951699f9431d06723d3aced9a6a3b691493327c0ec1c3 44104 refsprogs_2025.12.21-1_mips64el.deb
+Files:
+ 5bfa6265e4ac1e4786595ae5b44d5f63 82452 libdevel optional librefs-dev_2025.12.21-1_mips64el.deb
+ c70ea7a547f9d77eab5baf9f5ffbbc24 281356 debug optional librefs12-dbgsym_2025.12.21-1_mips64el.deb
+ b6ee1aa31f1263b2de3a7a7687c53425 57472 libs optional librefs12_2025.12.21-1_mips64el.deb
+ 9bf5c8768d24f65dba3b84ab6679b413 137248 debug optional refsprogs-dbgsym_2025.12.21-1_mips64el.deb
+ 86e04cccf13a29ceebb0fbaac0df4094 60268 debian-installer optional refsprogs-udeb_2025.12.21-1_mips64el.udeb
+ 9b85d2f964662ea5178e232f3ec7ff9a 6197 otherosfs optional refsprogs_2025.12.21-1_mips64el.buildinfo
+ bc4741bd0b32e8f17000b97375ed9aaa 44104 otherosfs optional refsprogs_2025.12.21-1_mips64el.deb

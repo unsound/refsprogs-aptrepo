@@ -1,18 +1,18 @@
 Package: librefs-dev
 Architecture: mips
-Version: 2025.12.14-1
+Version: 2025.12.21-1
 Priority: optional
 Section: libdevel
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 324
-Depends: librefs11 (= 2025.12.14-1)
-Filename: ./refsprogs_2025.12.14-dpkg/librefs-dev_2025.12.14-1_mips.deb
-Size: 85520
-MD5sum: 5fe24ffb2e2d2f8dcd3d4ccf0dbbaad7
-SHA1: 1feaaecfac055da03f4731f436253ea806b231d2
-SHA256: 4be5d3786cd287e56fef0d9529968fab0ec950bb5fd9c01de1359c6c0ad628c7
-SHA512: cff8378c61f892bf17196a307a9b9277a76ff4adff3a2069eac3e7a5deeaccc3ab1f19e107fbbf278a547e0689fced6cb06e482e523d6cbbe27e413843163b46
+Installed-Size: 339
+Depends: librefs12 (= 2025.12.21-1)
+Filename: ./refsprogs_2025.12.21-dpkg/librefs-dev_2025.12.21-1_mips.deb
+Size: 89560
+MD5sum: d5bc5ad538e4ec9ef1dc2d31dbaef0d3
+SHA1: 25a7a0237e3f30e7c55d520979f67be2f49a5c4f
+SHA256: 58392f5e519c077b90d882107afd9da7ea0fbc47ad0fbb8387d64a11d75e4be6
+SHA512: feaf35436c869a94050213edb2fee431d8ed14ffcff779f12eaa7dffd614811269eb0e0de83e8e6c31fe2868fc7eadee291d9dd74b62c27fea62c16b2131a6f4
 Homepage: https://github.com/unsound/refsprogs
 Description: read-only ReFS library (development)
  librefs provides a read-only interface for interacting with the ReFS filesystem
@@ -20,42 +20,42 @@ Description: read-only ReFS library (development)
  .
  This package contains the development files.
 
-Package: librefs11-dbgsym
+Package: librefs12-dbgsym
 Architecture: mips
-Version: 2025.12.14-1
+Version: 2025.12.21-1
 Auto-Built-Package: debug-symbols
 Multi-Arch: same
 Priority: optional
 Section: debug
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 277
-Depends: librefs11 (= 2025.12.14-1)
-Filename: ./refsprogs_2025.12.14-dpkg/librefs11-dbgsym_2025.12.14-1_mips.deb
-Size: 261104
-MD5sum: 31568010299169e7bdde07db7e9e4562
-SHA1: ef7312ff9532cc7af0d80829fb322b4314b2fb58
-SHA256: 37d967fc22e03e56db521dacc51dbb9ede817b0b920306c2a4ec93ab2613634b
-SHA512: b36992ad544efb4a1aa69b9f23cbe8f4f1f8b4b84fa92214d38b998d1d054b6b06f002bd3ff7be37edd95da2267ffbce59c41141974d41aa788d6ff600635d69
-Description: debug symbols for librefs11
-Build-Ids: 14293cbbaf57c5cec11d0372f3a42e44e658aa42
+Installed-Size: 297
+Depends: librefs12 (= 2025.12.21-1)
+Filename: ./refsprogs_2025.12.21-dpkg/librefs12-dbgsym_2025.12.21-1_mips.deb
+Size: 280976
+MD5sum: 2edce406a2569ecd047e98dbdfb4878c
+SHA1: 903549489fb11e0c2951e34f0b99db7f72484a14
+SHA256: 0ca1ace90813643955fb6a5c19c17cf5d727964b08b13eee1a0264659cb7ba0a
+SHA512: 9fe11d55534cff52a1a6e049c903407527cb8afae3a487241c10654533e9e49db0681ed0d72a362421e97c1d487e727cb6b30deda0d3905111df858ac2b1f154
+Description: debug symbols for librefs12
+Build-Ids: 5887632d6ea9acb09bc03d0ded2c579ce4b91a5d
 
-Package: librefs11
+Package: librefs12
 Architecture: mips
-Version: 2025.12.14-1
+Version: 2025.12.21-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 186
+Installed-Size: 194
 Depends: libc6 (>= 2.4)
-Filename: ./refsprogs_2025.12.14-dpkg/librefs11_2025.12.14-1_mips.deb
-Size: 62712
-MD5sum: 1751c71ffe9dcd6475e7d4c84788dfb0
-SHA1: 877f5b42a3cc5a063d655039f3ec566d1259468e
-SHA256: 07cd1ec4dddc2522cb45cc44e6b4fc85b812485b6188cee86c551d75ee9649f7
-SHA512: 5e6b974b41a0d074d59726f597e19cd6f0e108985daa1dab8239aae446d9266e0d971fab2b6129f66a0651a2f4a14651eac01b644862a23ff452a7d6881b8383
+Filename: ./refsprogs_2025.12.21-dpkg/librefs12_2025.12.21-1_mips.deb
+Size: 66160
+MD5sum: 5c3775cd7af8f76c412b8bf3c62e8226
+SHA1: dea2b46da5c5c55463d67b9101635cfacb04dcb3
+SHA256: d16e84424a99ce346895b07ec73a681f78c51327ec305f3437fcfd84c4b569a4
+SHA512: ff108d314bf750e10a93fe447c11778d72b18dfd8e391311878b7121f77c8b9110b05a4cb0715399fcbee273add1bd7f50cda2cfce788f7480caa316df777489
 Homepage: https://github.com/unsound/refsprogs
 Description: read-only ReFS library
  librefs provides a read-only interface for interacting with the ReFS filesystem
@@ -65,37 +65,37 @@ Description: read-only ReFS library
 
 Package: refsprogs-dbgsym
 Architecture: mips
-Version: 2025.12.14-1
+Version: 2025.12.21-1
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 183
-Depends: refsprogs (= 2025.12.14-1)
-Filename: ./refsprogs_2025.12.14-dpkg/refsprogs-dbgsym_2025.12.14-1_mips.deb
-Size: 130832
-MD5sum: f2d9b7aa0b87f05e44cb6ac7ba60e844
-SHA1: 08a26cbf531b1beaaacef737abfac35f99cad3f5
-SHA256: 224e110e312833981e22b6a433e74c68a54bd471bb8f570283499ad290c25881
-SHA512: 6a8fa91b23c40edbe90a4a02016792c0f63558a6b59296b207c968c736fcc22fe6afb06ebd33d303127912f8fc5651cc105e9410c787b42a6bde4c6b9648def3
+Installed-Size: 182
+Depends: refsprogs (= 2025.12.21-1)
+Filename: ./refsprogs_2025.12.21-dpkg/refsprogs-dbgsym_2025.12.21-1_mips.deb
+Size: 130764
+MD5sum: 77144907ef6bff06603741929b710570
+SHA1: 3946ed7a80a10f2ae6c7a6d5853c15a1fde8a177
+SHA256: 165915139d7789ade928e0980e8bf3c605708807f1e4cff2370a6f07537f9ed8
+SHA512: 635b5315bbe3ec9fc179e71430d501b9a69ab03f4062d43397826995c6a1a44b2dd1b710482ff435419f47320285c049b6f20d62d5594b75839003e8b636c469
 Description: debug symbols for refsprogs
-Build-Ids: 185d93fcb2e53fb50f89741a455fb76472513113 32572229c35474cb3c356238a6f874b87c39f47b 522a648eadc7168723ea041f5882ab9cff62e2f5 64186c8a59eba5285441527e0625b3475f67dd10 8020523119187715a41ff79202ca413cbd163ec6 da8359bb1131bb5560267e7b1f1a88f6be411096 ec27dcdd004a97cd8475158b3e9c89781bc882c5
+Build-Ids: 2179a379fa167e6ef4015556d7c0895824c93e08 289a0be8d7ab6f777895aa0e7af9f4f3658cd5ba 2eb09844b37a485d33956d496e996c2f23b975bd a5cb08fcc2c12bf44338c0312e9842438ffe13ea a658fa4d890829c382ebe30efc3b40c801cbaa79 ca0b030112e2745a87b72f6f649cdd6c12d12c9a ee3cf4a3a07d6160877ac34c863fcd3f680dab86
 
 Package: refsprogs
 Architecture: mips
-Version: 2025.12.14-1
+Version: 2025.12.21-1
 Priority: optional
 Section: otherosfs
 Maintainer: Erik Larsson <catacombae@gmail.com>
 Installed-Size: 158
-Depends: libc6 (>= 2.4), libfuse3-3 (>= 3.2.3), librefs11 (= 2025.12.14-1), fuse3
-Filename: ./refsprogs_2025.12.14-dpkg/refsprogs_2025.12.14-1_mips.deb
-Size: 46032
-MD5sum: fb1271e8a5c9b8ceffb3fb975f234242
-SHA1: b816b1db480c469dd97ca028548b7d0c480f7898
-SHA256: 278d33b873e7ac60d26bb54a12fff47e1f488533657fa23c08c6687ffbb85412
-SHA512: f1dfd529a2cacf072be71f1d3bd7607af8b646448fcc289adb52985d7342f0a286672700622d94e4b9a4379a5aaefbaa150fdfc41b2e6fcca6335dcbe1ad9819
+Depends: libc6 (>= 2.4), libfuse3-3 (>= 3.2.3), librefs12 (= 2025.12.21-1), fuse3
+Filename: ./refsprogs_2025.12.21-dpkg/refsprogs_2025.12.21-1_mips.deb
+Size: 46268
+MD5sum: a603bf84cfc37dc249a65aa7dbb2a7e2
+SHA1: 2805becbc123d94156933d23930de58f349deed4
+SHA256: ff10d9ee3df51f692769d9cbc253c2e43e8f41b877fc1717accb35f9d87531bd
+SHA512: d3be6dd6b94227c0cbe5d1532aa5463f1063802b61e3e165ff2a084c9a293edb2244c82e7f4887244f743da408205c7884cb35677745716648606dd468c7bda6
 Homepage: https://github.com/unsound/refsprogs
 Description: Read-only ReFS FUSE driver and progs,
  refs-fuse uses FUSE (Filesystem in Userspace) to provide support for the ReFS

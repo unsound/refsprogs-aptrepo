@@ -1,18 +1,18 @@
 Package: librefs-dev
 Architecture: s390x
-Version: 2025.12.14-1
+Version: 2025.12.21-1
 Priority: optional
 Section: libdevel
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 324
-Depends: librefs11 (= 2025.12.14-1)
-Filename: ./refsprogs_2025.12.14-dpkg/librefs-dev_2025.12.14-1_s390x.deb
-Size: 71444
-MD5sum: 62bbe897b268ce99abf4771f6e78b02f
-SHA1: 98d6b7100ad77abf02e71156929baef8850c66e8
-SHA256: c88659d7d056b00657a64c5918b4b3e58679718a04b1c7ef3618950ee47fe4c7
-SHA512: b714f2aa65b7ad433bc699af645931010b1d77eed7b68871f3b8e77474341fca7996d1d1eeaba7cc7176a28106b4419a13e72bd3d9a40716268fa1a6cc0c5056
+Installed-Size: 338
+Depends: librefs12 (= 2025.12.21-1)
+Filename: ./refsprogs_2025.12.21-dpkg/librefs-dev_2025.12.21-1_s390x.deb
+Size: 75108
+MD5sum: eda581fd10fc0adee6a565a0dcc09420
+SHA1: bbcfc0e93a194c154336c442f18637b5483ab41a
+SHA256: b2da6ec81b99cf5e811fc99e3f9209cba026d1501876a3276b0ee25fdf6b6596
+SHA512: b870032e8697791023350bcd1ea6a05d1c83c64038f501f0ffddf0daa0a5329e1c506a9be67f890a8865feb81a7ecc8dbd1de8dc6013dfb369b84988ccc098a0
 Homepage: https://github.com/unsound/refsprogs
 Description: read-only ReFS library (development)
  librefs provides a read-only interface for interacting with the ReFS filesystem
@@ -20,42 +20,42 @@ Description: read-only ReFS library (development)
  .
  This package contains the development files.
 
-Package: librefs11-dbgsym
+Package: librefs12-dbgsym
 Architecture: s390x
-Version: 2025.12.14-1
+Version: 2025.12.21-1
 Auto-Built-Package: debug-symbols
 Multi-Arch: same
 Priority: optional
 Section: debug
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 271
-Depends: librefs11 (= 2025.12.14-1)
-Filename: ./refsprogs_2025.12.14-dpkg/librefs11-dbgsym_2025.12.14-1_s390x.deb
-Size: 257072
-MD5sum: 84eae8c4819a04c7bc512a743c057f8c
-SHA1: 53939c24539fa20f12096f8aeea6e32419b5280a
-SHA256: c4a232dce3e1a3d07ce1fc2cdc5afeb373ad0e97e40e8c2416b915f08eb84a30
-SHA512: d19e6727c44d96a9a8efef24a8ab1ca1f327d9fb94092d1553942c4c390df88aba861d00186ad3a720af9287771ab934a1dc1235adb1aba3ef8407ca67a1f750
-Description: debug symbols for librefs11
-Build-Ids: 2ca79d55f66eaa207e61bd42bd09948e9152e63d
+Installed-Size: 289
+Depends: librefs12 (= 2025.12.21-1)
+Filename: ./refsprogs_2025.12.21-dpkg/librefs12-dbgsym_2025.12.21-1_s390x.deb
+Size: 275324
+MD5sum: a04481ce5821c53cf393f48c16f22d03
+SHA1: f9dfddc559c57ad9610e33eb0fea935822e7ffd5
+SHA256: 3c8d765ee3148c4cfa5aae83a2329be2ba337058b88fa348c8e5f533a9c28651
+SHA512: 6e20f15101f30a71f50ab288c494f165b74783d52ea5fc23a767346889dab9c7fccce5f6b7d80b1e227318b21c2fdb32395619eec21ecf7fea9d490001355f73
+Description: debug symbols for librefs12
+Build-Ids: 2db77b2181d92dd4f45fd3b012118cbd3f8261e9
 
-Package: librefs11
+Package: librefs12
 Architecture: s390x
-Version: 2025.12.14-1
+Version: 2025.12.21-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 173
+Installed-Size: 181
 Depends: libc6 (>= 2.4)
-Filename: ./refsprogs_2025.12.14-dpkg/librefs11_2025.12.14-1_s390x.deb
-Size: 55256
-MD5sum: 2a903df6c52ff16559a8769126ecc3fb
-SHA1: 82c49186aa4007f26936e57e3a959907e1fbc0a4
-SHA256: 2ba4d5fde5afdf9cae391351e561ccdef0dece918a3d5142cc8a082931904e50
-SHA512: 91328b5ddf1be7e0d81c638685de05412924856afcb28afcc9dafd2f77010cf0f045a75dabb2cf23039988294b648a950a55fd3a6da680761d288133c2cf5aea
+Filename: ./refsprogs_2025.12.21-dpkg/librefs12_2025.12.21-1_s390x.deb
+Size: 58252
+MD5sum: 7c27e720f87feb49c06d5232ba75fa7e
+SHA1: ccb97a946ea4c6e0c86e6650345e72a6f501d2ae
+SHA256: 43ba945fc8b5a4fe27e904faf0d7c069c9c7baa287e9f1c663a4ce54739a1554
+SHA512: ae327fdc2c6b7536cca0e1a950d8bf9482e429b693d30f105d3b04b5da79bdeefdfc90d349e715572b8b52bd878b3f8796d09b079c73aef02b48c7b22915d3d0
 Homepage: https://github.com/unsound/refsprogs
 Description: read-only ReFS library
  librefs provides a read-only interface for interacting with the ReFS filesystem
@@ -65,37 +65,37 @@ Description: read-only ReFS library
 
 Package: refsprogs-dbgsym
 Architecture: s390x
-Version: 2025.12.14-1
+Version: 2025.12.21-1
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 190
-Depends: refsprogs (= 2025.12.14-1)
-Filename: ./refsprogs_2025.12.14-dpkg/refsprogs-dbgsym_2025.12.14-1_s390x.deb
-Size: 133164
-MD5sum: b5fd4ee6b9cabce810bae4e519624917
-SHA1: d42b8b165b84d39df052572b39554a8e367fc2fe
-SHA256: 901ede6e1fbe56cb0d7c52620c0f82c63367af35c9dfe69035eb3b94b3d00c70
-SHA512: 20672fb15a5b2567317e61fa8fa11a2f587391452f55f1972fa1f990404b2c344d8300fbf9352e1c02b7f20929c7a60d9af097821c8199d4efdd91635e7935a3
+Installed-Size: 191
+Depends: refsprogs (= 2025.12.21-1)
+Filename: ./refsprogs_2025.12.21-dpkg/refsprogs-dbgsym_2025.12.21-1_s390x.deb
+Size: 133104
+MD5sum: c64345d85b33148ccd2ddb4fbdf84e67
+SHA1: e266d99951e92dc98c39eadf7cbaed09db3716dd
+SHA256: da754c2bbad7582d40bacfd69b848e53d929fcf20f86e1e1723fb9f16125b5dc
+SHA512: 4b0ceec11771e65ec03c1dc77b6c1d1c18b8dd5e40a16a33f41cdbea430936402c020c23c88fb08ce4c495cb196ba149354c790f7bd4710236cdd5d81d7a9519
 Description: debug symbols for refsprogs
-Build-Ids: 4a0b6e1ec4eb25264fe95edaabb07a0bcd908ab0 5907b5f4278245e33beff3d364dd91509e1008ca 625e72af0bd9a49e46bc2e87ad9abc869764c195 6a67ecef7872a156cb594284bf5ac2fdd38d0bfb d547c514c60d1b6fc9615074aec56a46dfa1a209 d82a771222508dffa2487fc8e89abe3dd4ac82e6 defb2e52d4610d1d14063d9d8052939658111834
+Build-Ids: 7d952ea1b7fc0cb3db4d6490538be14429bae23c 7ff297864c953348d3c84875dfc580aef2d02364 91e09b65628e4ab2352aa44e202e8236dc42c117 9d73caab2ca61f364aeb9ee85745373b86bec614 a61885caa81b3ab6630c77ab9f280697a48dca4a bad4e157d175db9a7b3dc1219332ae115622e6f0 faae07f3d8e484e341bfccd42d79e0c1bc535bbe
 
 Package: refsprogs
 Architecture: s390x
-Version: 2025.12.14-1
+Version: 2025.12.21-1
 Priority: optional
 Section: otherosfs
 Maintainer: Erik Larsson <catacombae@gmail.com>
 Installed-Size: 158
-Depends: libc6 (>= 2.4), libfuse3-3 (>= 3.2.3), librefs11 (= 2025.12.14-1), fuse3
-Filename: ./refsprogs_2025.12.14-dpkg/refsprogs_2025.12.14-1_s390x.deb
-Size: 43460
-MD5sum: 2604567c07079d62d7fbad4bb3668074
-SHA1: ffcf89539f202efe1ce13b873a148ee917465578
-SHA256: a0ed9a8e37eee40309ab656f88effcb24353f8cbed96ea7b95fe47fd3f7159e8
-SHA512: 2200d30356d2495f053e1b4873cd9af692c42a6f5ef9393651dde305d80a6ffcba246896718509c4f3f5fe240c987bbb6934733c02126f3bfa5036370bca1d7e
+Depends: libc6 (>= 2.4), libfuse3-3 (>= 3.2.3), librefs12 (= 2025.12.21-1), fuse3
+Filename: ./refsprogs_2025.12.21-dpkg/refsprogs_2025.12.21-1_s390x.deb
+Size: 43584
+MD5sum: 8966e93c386062d73f4ca718adf3c340
+SHA1: fa81f5d152ffcdde984618a57042642233a19b43
+SHA256: dbb0a8760802112ad9d13cff6630c0af8fd8450079035f8b361ef034fd404f4a
+SHA512: 3fd8e903ebc8c28bb22d766d160070c13b17b4379cc3eccadd72d32ee27ffefcc3b08e0288434a4b97074218ebecf8f829b365947879e7ed948ddd2d04f693d4
 Homepage: https://github.com/unsound/refsprogs
 Description: Read-only ReFS FUSE driver and progs,
  refs-fuse uses FUSE (Filesystem in Userspace) to provide support for the ReFS

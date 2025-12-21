@@ -1,0 +1,43 @@
+Format: 1.8
+Date: Sun, 21 Dec 2025 10:38:56 +0100
+Source: refsprogs
+Binary: librefs-dev librefs12 librefs12-dbgsym refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: mipsel
+Version: 2025.12.21-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs12  - read-only ReFS library
+ refsprogs  - Read-only ReFS FUSE driver and progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2025.12.21-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 945e2b459905ce0efc3bd161f0674e494e275415 89948 librefs-dev_2025.12.21-1_mipsel.deb
+ 0eb6dd291ed682d31fa430a16e74494747fc0538 282088 librefs12-dbgsym_2025.12.21-1_mipsel.deb
+ d863a889447616b345f93f2cd109f5acbcae0c40 66012 librefs12_2025.12.21-1_mipsel.deb
+ df7cefe45be6080dca419278f57c01611fd9088b 129144 refsprogs-dbgsym_2025.12.21-1_mipsel.deb
+ 6da39a90bf5f1dbea70407b5d7a5e809dc7edfe2 68048 refsprogs-udeb_2025.12.21-1_mipsel.udeb
+ 94d4591b077d66657d67250ba5dc5feaa84d07e4 6159 refsprogs_2025.12.21-1_mipsel.buildinfo
+ ee7259923aa71ecfa36d1f1e41fc6238e07f5315 46564 refsprogs_2025.12.21-1_mipsel.deb
+Checksums-Sha256:
+ 608c5d766d5083b0c7d0bd63cc090bb01e4e459749b19876a9fd01b96d2b5b2b 89948 librefs-dev_2025.12.21-1_mipsel.deb
+ ca1b18cf21dca5974326865a87ebff85cf1f1413410922a18f639554f31ec657 282088 librefs12-dbgsym_2025.12.21-1_mipsel.deb
+ 4452ce987fb52683b651907e7556ca07623d28d1ed0b6ce159ceea6d90dc9c67 66012 librefs12_2025.12.21-1_mipsel.deb
+ 4a7a27a7c9c79cf3ba39f565b00bda5b50f2ee9c2f4f069e50e0867d98146ca5 129144 refsprogs-dbgsym_2025.12.21-1_mipsel.deb
+ db51e11215ba733c0929b18c759a85c7497040b01ed04f9507e91226894722b4 68048 refsprogs-udeb_2025.12.21-1_mipsel.udeb
+ 079bb92a49a62e7d0f33e9cc71fed4efa78f71ce03b1a251c420db147da91f53 6159 refsprogs_2025.12.21-1_mipsel.buildinfo
+ 7b2e2e4385814b624b5a33834a54aa316cdbf482410c0e02f9b208ac5606fdd1 46564 refsprogs_2025.12.21-1_mipsel.deb
+Files:
+ 1035c364e3516462d60de92ae3e285ee 89948 libdevel optional librefs-dev_2025.12.21-1_mipsel.deb
+ 19ff89eae0a1e596098c593ab7f9335f 282088 debug optional librefs12-dbgsym_2025.12.21-1_mipsel.deb
+ e861889f6cfd487a41a941ad6d4e7be4 66012 libs optional librefs12_2025.12.21-1_mipsel.deb
+ da147acdabf24b23977e9eda872a07c1 129144 debug optional refsprogs-dbgsym_2025.12.21-1_mipsel.deb
+ 8b47b66dcf12dacbf38f34998c4c11ff 68048 debian-installer optional refsprogs-udeb_2025.12.21-1_mipsel.udeb
+ fefbd72a921d723383ad3ed772103cce 6159 otherosfs optional refsprogs_2025.12.21-1_mipsel.buildinfo
+ 99a19e182fc0b85e82af32c05c7230ba 46564 otherosfs optional refsprogs_2025.12.21-1_mipsel.deb
