@@ -1,0 +1,43 @@
+Format: 1.8
+Date: Sun, 21 Dec 2025 10:38:56 +0100
+Source: refsprogs
+Binary: librefs-dev librefs12 librefs12-dbgsym refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: i386
+Version: 2025.12.21-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs12  - read-only ReFS library
+ refsprogs  - Read-only ReFS FUSE driver and progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2025.12.21-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 3fedf91b60adf10a1ae50a867dc5154b47c777b5 112692 librefs-dev_2025.12.21-1_i386.deb
+ 9058c12f6e6afd0296b319794e6a04276f6361c2 306540 librefs12-dbgsym_2025.12.21-1_i386.deb
+ cd861d1cf0e12467578806b968096235e45f3f83 95500 librefs12_2025.12.21-1_i386.deb
+ 8b6ff7d7869634574dae89f957e7f9991f750f9b 118604 refsprogs-dbgsym_2025.12.21-1_i386.deb
+ 7b06ea874659c7609848863ce74b23d88bc28a5d 98156 refsprogs-udeb_2025.12.21-1_i386.udeb
+ 35ee09109c8caee52c2924107c9740f40e29824b 6370 refsprogs_2025.12.21-1_i386.buildinfo
+ 93add3f1778545cd5a621ba323007d490a7ecc90 47728 refsprogs_2025.12.21-1_i386.deb
+Checksums-Sha256:
+ d18701adbd1d29d2f2f8938928c52bc08581df505d197d6e8a3a4b73ca7ca64a 112692 librefs-dev_2025.12.21-1_i386.deb
+ 30bbb6e43a0fbb5758b85a98365f2c2526fca519a933e565db178ab896eb85a3 306540 librefs12-dbgsym_2025.12.21-1_i386.deb
+ 62ab416f8bdccc349d5d0223d888ad14e595c90276680a5d963c463d0d1a574c 95500 librefs12_2025.12.21-1_i386.deb
+ 713eb43792c30d3efa5e2a81a4130449ee887e4f3844e30d1c15bd76b30e450a 118604 refsprogs-dbgsym_2025.12.21-1_i386.deb
+ 26380bb174236124e5ce89d66388031b92ac13a49e9eff887843e610b55c5326 98156 refsprogs-udeb_2025.12.21-1_i386.udeb
+ 8700a62493407a8b7032856bee411c9bed01c4b5f5c2d898e727adfa5835265e 6370 refsprogs_2025.12.21-1_i386.buildinfo
+ 487ec07a13ceb54f83408d831301ccd6f03ece7c80f51512e3c5ece380d0dd38 47728 refsprogs_2025.12.21-1_i386.deb
+Files:
+ 5868f74cfed9eed77e09990d6ae9b925 112692 libdevel optional librefs-dev_2025.12.21-1_i386.deb
+ 16e9e0642d91e7185d165bfc6288a971 306540 debug optional librefs12-dbgsym_2025.12.21-1_i386.deb
+ 8189711b93eb2ddf0c0a5ee586fe5705 95500 libs optional librefs12_2025.12.21-1_i386.deb
+ a86dc6442ded7cc71d4b78600988569d 118604 debug optional refsprogs-dbgsym_2025.12.21-1_i386.deb
+ 38f461ad275807080aad28ec5a0e5406 98156 debian-installer optional refsprogs-udeb_2025.12.21-1_i386.udeb
+ 187a77ac7d5b6b153a01a13e0f21ac18 6370 otherosfs optional refsprogs_2025.12.21-1_i386.buildinfo
+ b2fc9510cc460ca07aabc2f96bc95003 47728 otherosfs optional refsprogs_2025.12.21-1_i386.deb

@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-distname="main"
+distname="buster"
 
 gpg2 --version 2>/dev/null >/dev/null
 if [ $? -eq 0 ]; then
@@ -12,7 +12,7 @@ fi
 packages_db=""
 for i in amd64 arm64 armel armhf i386 mips64el mips mipsel ppc64el s390x; do
     packages_db="$packages_db packages-$i.db"
-    mkdir -p dists/main/main/binary-$i
+    mkdir -p dists/${distname}/main/binary-$i
 done
 
 rm -rfv dists.old $packages_db && \

@@ -1,0 +1,43 @@
+Format: 1.8
+Date: Sun, 21 Dec 2025 10:38:56 +0100
+Source: refsprogs
+Binary: librefs-dev librefs12 librefs12-dbgsym refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: riscv64
+Version: 2025.12.21-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs12  - read-only ReFS library
+ refsprogs  - Read-only ReFS FUSE driver and progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2025.12.21-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 4285ff21d3636536ead6c36926760993a46e1eae 224316 librefs-dev_2025.12.21-1_riscv64.deb
+ ccbbbeafd772e4151e08a5ca6271199e5ff8e61d 276880 librefs12-dbgsym_2025.12.21-1_riscv64.deb
+ e83bb645fc1e4b7debf784417ce7faa0f313f731 78632 librefs12_2025.12.21-1_riscv64.deb
+ c87aa71da4324d6d78da331a47f0cf629a70a44c 125980 refsprogs-dbgsym_2025.12.21-1_riscv64.deb
+ 29a7e02fc81380a9730b191412c76c6341573944 81816 refsprogs-udeb_2025.12.21-1_riscv64.udeb
+ 6f3bbedaed8f49bb1c5ae7f366f097d98417a91d 6427 refsprogs_2025.12.21-1_riscv64.buildinfo
+ a51d1e479c2c0f5e57c7e2f4a3ec59f4c0d04126 46128 refsprogs_2025.12.21-1_riscv64.deb
+Checksums-Sha256:
+ 266cebfe397d246e2955aebb998a3e4d004be3ccaf6cddb45eb05acf3540e44a 224316 librefs-dev_2025.12.21-1_riscv64.deb
+ 7f73f946dffa64e42b4d058bdfc4aa9717c470749153ee09873cffc3adc4d19d 276880 librefs12-dbgsym_2025.12.21-1_riscv64.deb
+ 1d1c0462e92eb9c63b6c92eff81dd33f513aeed681223acb6458d6dae2c5cc7f 78632 librefs12_2025.12.21-1_riscv64.deb
+ 7a077380a1e7e560102cdf223bcbccc838653ecaa78a7268a5642ce5f7775203 125980 refsprogs-dbgsym_2025.12.21-1_riscv64.deb
+ b90f4051f1bbdcad76841fe014e10a352a33f5a959d4398474eb54b176515c2b 81816 refsprogs-udeb_2025.12.21-1_riscv64.udeb
+ 2bad932fdf6225092eaa8cf64b2ef7db3f85520219b71253b0965f9814668bc6 6427 refsprogs_2025.12.21-1_riscv64.buildinfo
+ 6483aaa7322f24add572656acbb0ec236b4eacf82dfafcf7a87ee4e158d87f4f 46128 refsprogs_2025.12.21-1_riscv64.deb
+Files:
+ ba3e59f4932d5ab2211f564a1d73ff80 224316 libdevel optional librefs-dev_2025.12.21-1_riscv64.deb
+ 73e610b164903b310310f2ecbf3a899b 276880 debug optional librefs12-dbgsym_2025.12.21-1_riscv64.deb
+ 24340ce7c5795634329d7ba7b111da75 78632 libs optional librefs12_2025.12.21-1_riscv64.deb
+ b68c27e998fde64f2a590fd41a25c913 125980 debug optional refsprogs-dbgsym_2025.12.21-1_riscv64.deb
+ a68db6fdcb09e2242b5204dbe5a53892 81816 debian-installer optional refsprogs-udeb_2025.12.21-1_riscv64.udeb
+ 343341d9e6b51bcd59e3ac8317cad437 6427 otherosfs optional refsprogs_2025.12.21-1_riscv64.buildinfo
+ c3341d9376958e5037138660cccd2228 46128 otherosfs optional refsprogs_2025.12.21-1_riscv64.deb

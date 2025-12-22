@@ -1,0 +1,43 @@
+Format: 1.8
+Date: Sun, 21 Dec 2025 10:38:56 +0100
+Source: refsprogs
+Binary: librefs-dev librefs12 librefs12-dbgsym refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: arm64
+Version: 2025.12.21-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs12  - read-only ReFS library
+ refsprogs  - Read-only ReFS FUSE driver and progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2025.12.21-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 66d0ccc273475102d7281a12c7ee380ea58459f4 86148 librefs-dev_2025.12.21-1_arm64.deb
+ bd816ef31c62e649dfdbc01a0af2fffec9e002b4 307632 librefs12-dbgsym_2025.12.21-1_arm64.deb
+ 3c72c409b33a843ab4f9fa37955b0ff2d32d88a7 67072 librefs12_2025.12.21-1_arm64.deb
+ 5657ab51643bc07694769c8dcc6764e5c8a75f82 132512 refsprogs-dbgsym_2025.12.21-1_arm64.deb
+ 25e9d7f1321414b51d1f34c9a868ef6bd37edb7a 70076 refsprogs-udeb_2025.12.21-1_arm64.udeb
+ c3225d9b30695e9a4c6b1412e2c20ca928fe41cb 6386 refsprogs_2025.12.21-1_arm64.buildinfo
+ e15432d7f23a6ae24d71a125baa4d44afbf64013 44616 refsprogs_2025.12.21-1_arm64.deb
+Checksums-Sha256:
+ 6b7ffac8264b7e629849ca1967396b787ea16caf7a56187144b15bd09cc65c89 86148 librefs-dev_2025.12.21-1_arm64.deb
+ 6061b346c6ce2b1cd952906d86b0f9a68615041687a949577a11503739956203 307632 librefs12-dbgsym_2025.12.21-1_arm64.deb
+ a5b39ddb5c6f0e523983811234608ef9d99785c584af558695978f65984db4a3 67072 librefs12_2025.12.21-1_arm64.deb
+ 8be6f0700359a55a401971d9f93f483ac330ebe6ff876d267ba7946b4862c6c5 132512 refsprogs-dbgsym_2025.12.21-1_arm64.deb
+ 6656b18aa32eb7f8518f22448daa28173a4261921a9478c8f37d0ef87ac3471e 70076 refsprogs-udeb_2025.12.21-1_arm64.udeb
+ 8fe3af44356d6af7b05b065a8f756ac10ccf2ffb6fa261cf7333c443cf56d19d 6386 refsprogs_2025.12.21-1_arm64.buildinfo
+ 8ee3d855e3f4b998513bf04f9b5d0ed275d04cb1845d656b4144e82966dd1c7e 44616 refsprogs_2025.12.21-1_arm64.deb
+Files:
+ 665316258dfd5c2b8de11d66af2311d0 86148 libdevel optional librefs-dev_2025.12.21-1_arm64.deb
+ 8db4e6d37871ce616671ec3f169942af 307632 debug optional librefs12-dbgsym_2025.12.21-1_arm64.deb
+ 0b06159c6af8d2ac05540e8864430bfa 67072 libs optional librefs12_2025.12.21-1_arm64.deb
+ 70e0c7e28946afecde318f669d3a0147 132512 debug optional refsprogs-dbgsym_2025.12.21-1_arm64.deb
+ 4d016feafde3c3900312cb9f4aba0f50 70076 debian-installer optional refsprogs-udeb_2025.12.21-1_arm64.udeb
+ 2172aa222a066ebc58fe820b5eae0b47 6386 otherosfs optional refsprogs_2025.12.21-1_arm64.buildinfo
+ 602cf4586c9f986d17b5c35a344f017f 44616 otherosfs optional refsprogs_2025.12.21-1_arm64.deb
