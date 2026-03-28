@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Sat, 28 Mar 2026 05:59:43 +0100
+Source: refsprogs
+Binary: librefs-dev librefs13 librefs13-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: arm64 all
+Version: 2026.3.22-2
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs13  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.3.22-2) main; urgency=medium
+ .
+   * Fix broken refs-dkms package install hook.
+Checksums-Sha1:
+ bb42d4587009056907acf1270288cd16753c669e 90124 librefs-dev_2026.3.22-2_arm64.deb
+ 6efa3910942ae4000bccde1416d72581c42f5e2a 323760 librefs13-dbgsym_2026.3.22-2_arm64.deb
+ d6e520f91580029f0712f237e044bb756bb1fc41 70740 librefs13_2026.3.22-2_arm64.deb
+ bc1d4803f1ac7faa287165971234a9fe42990ac6 106860 refs-dkms_2026.3.22-2_all.deb
+ 2236901051784d17072778457b96d6a836c9b464 23088 refs-fuse-dbgsym_2026.3.22-2_arm64.deb
+ a4a6f688574a8119358ac716f9573738136e379d 2472 refs-fuse-default_2026.3.22-2_arm64.deb
+ 6950969249f23a4fa8bd63295d1d7cfbeb45b755 10292 refs-fuse_2026.3.22-2_arm64.deb
+ cb81953210f3af0c4b348b5139bed914cbfad3fc 111748 refsprogs-dbgsym_2026.3.22-2_arm64.deb
+ eb51896e8a2e24c83b3602c7870560759b790837 73988 refsprogs-udeb_2026.3.22-2_arm64.udeb
+ 5d01e9aa82c53811b898cc17e75adb4e4f7c29be 7519 refsprogs_2026.3.22-2_arm64.buildinfo
+ df95b59e2c40069e77df07ddf201d6400e1834ca 30908 refsprogs_2026.3.22-2_arm64.deb
+Checksums-Sha256:
+ 8b476258294d89351e0e44b93648ec719e25b5896bfeb087f86ee5494ce9d700 90124 librefs-dev_2026.3.22-2_arm64.deb
+ f84b18cb92eeb109d2726d255e6d2814a595ca075093a19752e239017a2fb9bc 323760 librefs13-dbgsym_2026.3.22-2_arm64.deb
+ e97db1c3c7d2a695fc3c3861978b3864fecc924af607bd14163dd219309ee6a3 70740 librefs13_2026.3.22-2_arm64.deb
+ 5972b4394bf5589e4e2a9e1a9acf4b13095d1cef80c0ca1f1aae18223ce3dda7 106860 refs-dkms_2026.3.22-2_all.deb
+ 70c9dc1c1ce56ab51a2b9416536ac4c67c5c0d860fe15cf58409a039490c2dfe 23088 refs-fuse-dbgsym_2026.3.22-2_arm64.deb
+ 54e17b4cf2f137927da07d06b98b1cf173fc36b3aba1393d4e982505bc634f79 2472 refs-fuse-default_2026.3.22-2_arm64.deb
+ ad7b6ecdc665e62bfc5ee7f601506fb290b0f5e2bba154c35cf9c5c11aeb3216 10292 refs-fuse_2026.3.22-2_arm64.deb
+ 9640969ce54db05a4161deea0853731fef335a455d655b677df35e876e5a27b6 111748 refsprogs-dbgsym_2026.3.22-2_arm64.deb
+ ca40136cd098fe20aa95df2147df1165ddabc4fd1a9cd07ca23ad005eb01912d 73988 refsprogs-udeb_2026.3.22-2_arm64.udeb
+ 18afe4309d6ec49f151b8db1d8ad155f02b4f56ff2df8a84eff6396256ce47b1 7519 refsprogs_2026.3.22-2_arm64.buildinfo
+ f5c261a06a8aed131e90fab29b605931683adc8a6eade9b5129e252a4a31bb18 30908 refsprogs_2026.3.22-2_arm64.deb
+Files:
+ 354e5360bfe3d4a42c5dbda344560ee6 90124 libdevel optional librefs-dev_2026.3.22-2_arm64.deb
+ 50e2422feebb67d29e0a52d5957540ba 323760 debug optional librefs13-dbgsym_2026.3.22-2_arm64.deb
+ 1d0c240248a6b19b5967b489859dabf7 70740 libs optional librefs13_2026.3.22-2_arm64.deb
+ 4a8e95e5d88f44e940bd2bf8fba55fb6 106860 otherosfs optional refs-dkms_2026.3.22-2_all.deb
+ d2b242dc6773fbfc920735052142ec8e 23088 debug optional refs-fuse-dbgsym_2026.3.22-2_arm64.deb
+ 4d2e3a63b26827d4ac2cc2fd8cf12fd7 2472 otherosfs optional refs-fuse-default_2026.3.22-2_arm64.deb
+ c6b8be1dc8712193f3f57ccd813119f1 10292 otherosfs optional refs-fuse_2026.3.22-2_arm64.deb
+ 6fc39683e16572f880749c58629d8ea1 111748 debug optional refsprogs-dbgsym_2026.3.22-2_arm64.deb
+ df0c63a9696253182b57e85e671aa9ce 73988 debian-installer optional refsprogs-udeb_2026.3.22-2_arm64.udeb
+ 0e95fcefd3a1776d80ff5c4766e464de 7519 otherosfs optional refsprogs_2026.3.22-2_arm64.buildinfo
+ b9dcf15d82aeb253bf72dc358c0df3b6 30908 otherosfs optional refsprogs_2026.3.22-2_arm64.deb

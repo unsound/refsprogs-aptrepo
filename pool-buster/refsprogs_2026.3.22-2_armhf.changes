@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Sat, 28 Mar 2026 05:59:43 +0100
+Source: refsprogs
+Binary: librefs-dev librefs13 librefs13-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: armhf all
+Version: 2026.3.22-2
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs13  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.3.22-2) main; urgency=medium
+ .
+   * Fix broken refs-dkms package install hook.
+Checksums-Sha1:
+ 783251f93d577d9b33ad0a87f3cb6bcc37dca9f1 81788 librefs-dev_2026.3.22-2_armhf.deb
+ 767e9dd8d2cfb4060c3e982e174349b6f4d3ac1e 282736 librefs13-dbgsym_2026.3.22-2_armhf.deb
+ 9066f7f289d86b3cf5b9b14f1016e39562fb6927 63068 librefs13_2026.3.22-2_armhf.deb
+ 2d60ef31471d032772b1296e26e856d272ea8ebe 106948 refs-dkms_2026.3.22-2_all.deb
+ fc46794c13401bfcadbe5e0460834c6117d603c1 17536 refs-fuse-dbgsym_2026.3.22-2_armhf.deb
+ efb6b0dd32b90c89045e975097fbec4b9c048df6 2472 refs-fuse-default_2026.3.22-2_armhf.deb
+ 154b3fad75da229b5572ff08254c6253ac1d51e4 8456 refs-fuse_2026.3.22-2_armhf.deb
+ 7f142bed595f4c3537fdf5534078886528c40718 110916 refsprogs-dbgsym_2026.3.22-2_armhf.deb
+ 4bf1ce30563068b8f61da1f2e46fccceaede287a 64492 refsprogs-udeb_2026.3.22-2_armhf.udeb
+ 02213c91cd5d8c0a9fc699b6625792409b9f4d2e 7340 refsprogs_2026.3.22-2_armhf.buildinfo
+ 31e1444ad3e5d4fda289b749fd3c1144263759ad 31448 refsprogs_2026.3.22-2_armhf.deb
+Checksums-Sha256:
+ 250fa89523505c47269c001edfffdeed981fe7c022b904c011af04f312db0450 81788 librefs-dev_2026.3.22-2_armhf.deb
+ cf148bc50dedb666c208158e949c04589f7dcb17300427fa644f0c71eba8bb08 282736 librefs13-dbgsym_2026.3.22-2_armhf.deb
+ cbd0a08cf6de906982e934e4ac41226d0a173e7620f659fc9b1a27b81bc96c18 63068 librefs13_2026.3.22-2_armhf.deb
+ a44eb56723b900d11eaaa23f61f336846eff4603bbb8b533bc9ed1ab288c7e8e 106948 refs-dkms_2026.3.22-2_all.deb
+ d7a29beabc45d78b060f19ab0fd9f3483a2a9a66d519af3ebbc5016eda52f082 17536 refs-fuse-dbgsym_2026.3.22-2_armhf.deb
+ 4084046b0f1a0a249a666f3caec2818c37a07dd54698c272faa2a635a1ebbf1f 2472 refs-fuse-default_2026.3.22-2_armhf.deb
+ 5eb7a385c1d6b2b6f301dbf3bf0696362910215d55f5eff0f303197d8b4954fd 8456 refs-fuse_2026.3.22-2_armhf.deb
+ 85665c57b8c838d9f55144cce2f6b969b9298e46cbf6c6073047500ec0e50c96 110916 refsprogs-dbgsym_2026.3.22-2_armhf.deb
+ 396ea65c81ba8496562e04e5aacc9e6fffe26fc3e98ac77fccfe0b65f882f05d 64492 refsprogs-udeb_2026.3.22-2_armhf.udeb
+ c2510278e22abf2d41f6961b4cfde3ed140f18e881d0c4c710db3e843d4a2bfd 7340 refsprogs_2026.3.22-2_armhf.buildinfo
+ ca1f51ae55caafdc024630688e5e3240397393e8a3d39d33ee11261a4ea62efa 31448 refsprogs_2026.3.22-2_armhf.deb
+Files:
+ 9380b47a5bac9b5643b3f5eabe3e78a4 81788 libdevel optional librefs-dev_2026.3.22-2_armhf.deb
+ 2c4f94e0b7df777b9fc2ed41073c196b 282736 debug optional librefs13-dbgsym_2026.3.22-2_armhf.deb
+ d30e740bf67c854a9f253615975b4363 63068 libs optional librefs13_2026.3.22-2_armhf.deb
+ 13bea0f20d1bcd73d395d24bda81af20 106948 otherosfs optional refs-dkms_2026.3.22-2_all.deb
+ 3353b46ffb5f88f641afbbdf0aad4971 17536 debug optional refs-fuse-dbgsym_2026.3.22-2_armhf.deb
+ 396845c300cbe8cddc440b10b11bbbd9 2472 otherosfs optional refs-fuse-default_2026.3.22-2_armhf.deb
+ 29df65e736097087432c581c2dcc30ef 8456 otherosfs optional refs-fuse_2026.3.22-2_armhf.deb
+ e0b2b1b6f24ba596e79be7d7dc9854e0 110916 debug optional refsprogs-dbgsym_2026.3.22-2_armhf.deb
+ b316e78ec54bb79ded8e35800004b33c 64492 debian-installer optional refsprogs-udeb_2026.3.22-2_armhf.udeb
+ 2c1e0dbde3e00b94694bf90fca13873f 7340 otherosfs optional refsprogs_2026.3.22-2_armhf.buildinfo
+ a98e0af02134d652e5feacbcf544a902 31448 otherosfs optional refsprogs_2026.3.22-2_armhf.deb

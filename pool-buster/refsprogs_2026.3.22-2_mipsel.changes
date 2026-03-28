@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Sat, 28 Mar 2026 05:59:43 +0100
+Source: refsprogs
+Binary: librefs-dev librefs13 librefs13-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: mipsel all
+Version: 2026.3.22-2
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs13  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.3.22-2) main; urgency=medium
+ .
+   * Fix broken refs-dkms package install hook.
+Checksums-Sha1:
+ 280bd5ce0ef7dadba4668dcbbf46448cebaea38d 94460 librefs-dev_2026.3.22-2_mipsel.deb
+ 4c22d6e15714feac2d45de06b994d8d9c9b6c2a4 298896 librefs13-dbgsym_2026.3.22-2_mipsel.deb
+ 49e896591f7dcf5190b3f6a5b8f42d23a435e924 69784 librefs13_2026.3.22-2_mipsel.deb
+ 2d60ef31471d032772b1296e26e856d272ea8ebe 106948 refs-dkms_2026.3.22-2_all.deb
+ 7968abb0e77cdfd12595c5809c0736be1ed2ef59 17748 refs-fuse-dbgsym_2026.3.22-2_mipsel.deb
+ 179cad683a92d50c4cc11a9da0d9c7d9312ee965 2468 refs-fuse-default_2026.3.22-2_mipsel.deb
+ b999fa342cd7df25b825572e439992a65e9cd1e6 9420 refs-fuse_2026.3.22-2_mipsel.deb
+ ec8dfebec7301fe0a34b6a7a8ebf1f6f97764459 113516 refsprogs-dbgsym_2026.3.22-2_mipsel.deb
+ e327482765f680ebba8f7dec7dd5a8434fe9afd8 71764 refsprogs-udeb_2026.3.22-2_mipsel.udeb
+ 2f0f5655ad25229478c6dc6f65be27eec2c9d127 7368 refsprogs_2026.3.22-2_mipsel.buildinfo
+ ec5d5400d6ada7b7fa7cb853c78071da13a012bb 33916 refsprogs_2026.3.22-2_mipsel.deb
+Checksums-Sha256:
+ 48b4f384124dbddeafcb2127a6e8031c0cf46d6ccf3357ac342259b85b842fae 94460 librefs-dev_2026.3.22-2_mipsel.deb
+ 3b408179996576fa1f4b3f503168228e835772dfeaf6ec66874c51162ac4b1f1 298896 librefs13-dbgsym_2026.3.22-2_mipsel.deb
+ 5ecb6a4ea9aafe1f144115336d66a9d5481947fec2058425e5582e913cf2ce7a 69784 librefs13_2026.3.22-2_mipsel.deb
+ a44eb56723b900d11eaaa23f61f336846eff4603bbb8b533bc9ed1ab288c7e8e 106948 refs-dkms_2026.3.22-2_all.deb
+ b92e70558d14e0ed9cdd0f46badafe23685b64aeef803d17c8beb9de66dd40b8 17748 refs-fuse-dbgsym_2026.3.22-2_mipsel.deb
+ dc477cc4b5ba78bc646c181e4457ac3044625d9484c76b439ab246d0a75408dd 2468 refs-fuse-default_2026.3.22-2_mipsel.deb
+ 86048375c22787c841407ba877af1fead83f28e223c30daa62cd21e368b1a7bd 9420 refs-fuse_2026.3.22-2_mipsel.deb
+ 241acb75b6cb0eaba1c03444cac8b4b11746330ebe65f4af5c8725c509fdaa33 113516 refsprogs-dbgsym_2026.3.22-2_mipsel.deb
+ e6d43c8a6310fc59886d3d2e92671b9e968a880ca8bc8b9fd2f0c356aa80c912 71764 refsprogs-udeb_2026.3.22-2_mipsel.udeb
+ 262e376cd6a4e6edae696ceb5ffb1ab094af05de314da2f80a73377612487719 7368 refsprogs_2026.3.22-2_mipsel.buildinfo
+ 8c098b602833f5ff71d428b1b1df47ad463ac48774913380fdd9924b2ce97764 33916 refsprogs_2026.3.22-2_mipsel.deb
+Files:
+ ef2b5167551323c7336eca890115f45f 94460 libdevel optional librefs-dev_2026.3.22-2_mipsel.deb
+ bbc03bedd1eab9071feebbcbf950b31c 298896 debug optional librefs13-dbgsym_2026.3.22-2_mipsel.deb
+ 85026a9ae22a6309203348842c5925af 69784 libs optional librefs13_2026.3.22-2_mipsel.deb
+ 13bea0f20d1bcd73d395d24bda81af20 106948 otherosfs optional refs-dkms_2026.3.22-2_all.deb
+ 15423a6373c537a75f1d791487de1380 17748 debug optional refs-fuse-dbgsym_2026.3.22-2_mipsel.deb
+ 60ac26aae3acd6e37adeee82adf8a043 2468 otherosfs optional refs-fuse-default_2026.3.22-2_mipsel.deb
+ 49d02de7181fff83434c7bc50f3408ce 9420 otherosfs optional refs-fuse_2026.3.22-2_mipsel.deb
+ 1e08080cc7c872bb4232e8879799f47a 113516 debug optional refsprogs-dbgsym_2026.3.22-2_mipsel.deb
+ 437d9cdb6a088f2c057ca5aa182e689b 71764 debian-installer optional refsprogs-udeb_2026.3.22-2_mipsel.udeb
+ 68b6330e6400384d522da05b615fa361 7368 otherosfs optional refsprogs_2026.3.22-2_mipsel.buildinfo
+ dfbb3b7d917fe98a03ec6fd25e0fcfad 33916 otherosfs optional refsprogs_2026.3.22-2_mipsel.deb
