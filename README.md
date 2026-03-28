@@ -13,4 +13,8 @@ Then add the repository to your `sources.list`. The URL will differ depending on
 - If you are on Ubuntu 25.10, Debian 13 or higher use the `trixie` distribution:  
   `sudo sh -c 'echo "deb [signed-by=/usr/share/keyrings/catacombae.gpg] https://raw.githubusercontent.com/unsound/refsprogs-aptrepo/refs/heads/main trixie main" >> /etc/apt/sources.list'`
 
-After completing the above steps you can install `refsprogs` through `apt`: `sudo apt install refsprogs`
+After completing the above steps you can install `refsprogs` through `apt`:
+- To install only the progs: `sudo apt install refsprogs`
+- To install the ReFS FUSE driver: `sudo apt install refs-fuse`
+  - For the FUSE driver to be the default handler for the `refs` type: `sudo apt install refs-fuse-default`
+- To install the experimental ReFS Linux kernel driver: `sudo apt install refs-dkms`
