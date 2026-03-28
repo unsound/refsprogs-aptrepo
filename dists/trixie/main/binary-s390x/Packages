@@ -1,18 +1,18 @@
 Package: librefs-dev
 Architecture: s390x
-Version: 2025.12.21-1
+Version: 2026.3.22-2
 Priority: optional
 Section: libdevel
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 371
-Depends: librefs12 (= 2025.12.21-1)
-Filename: pool-trixie/librefs-dev_2025.12.21-1_s390x.deb
-Size: 92364
-MD5sum: f2ff3a54d346a7c948ef0724c524c7a4
-SHA1: 6ef6010df4b73fca5734a11a8444bd63b51f1fe7
-SHA256: 1dab7e244ff6127b68105ed524153980dfc7cd1c247a01cc74249c6350435172
-SHA512: d0781ae4d86dbaf4bd67e0a51a5ef15a017a9c7778d62f5067c629264ddd5a149191a1e929c34ebb1d3aeb41d6d40ffe9232864dd1069236fe3d2c163127110c
+Installed-Size: 387
+Depends: librefs13 (= 2026.3.22-2)
+Filename: pool-trixie/librefs-dev_2026.3.22-2_s390x.deb
+Size: 97424
+MD5sum: 246eabd09e119d3a6e21de1c321543f6
+SHA1: 7f749b436dde00ed2d4ecfc4f7f24329a85160f2
+SHA256: e13960be0680af887fca63fc9d5876e49174b6f14445b5937eae924fc3be97fe
+SHA512: 1a9c8baab886a67319026bd52bc6aed2ac44655e4f76df9cbecc3fe0bd925fd441009c4d6e4ba69caaa7ebae85fbc963a80bf4a932a804b28f30684b47e91f48
 Homepage: https://github.com/unsound/refsprogs
 Description: read-only ReFS library (development)
  librefs provides a read-only interface for interacting with the ReFS filesystem
@@ -20,42 +20,42 @@ Description: read-only ReFS library (development)
  .
  This package contains the development files.
 
-Package: librefs12-dbgsym
+Package: librefs13-dbgsym
 Architecture: s390x
-Version: 2025.12.21-1
+Version: 2026.3.22-2
 Auto-Built-Package: debug-symbols
 Multi-Arch: same
 Priority: optional
 Section: debug
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 302
-Depends: librefs12 (= 2025.12.21-1)
-Filename: pool-trixie/librefs12-dbgsym_2025.12.21-1_s390x.deb
-Size: 289268
-MD5sum: 47dd45c84237d5f89a6a44a8a08cd6a8
-SHA1: 7a27f5e18fc2a8ca1702f766aba791fc760b0ad6
-SHA256: d02b867783029b757b5493852665e3f7ddf394a6ba7390862fcfef3eab794ea4
-SHA512: caf2fa0df34e086afc7b8a8980b1a9c1e61050b7d16eab05f767cfb09a197cd1de9265696ebd47fb0a74230ff2cf3b315d71770997b9c4e7625989a814c5fe03
-Description: debug symbols for librefs12
-Build-Ids: 7100af6589e14d1c3b806ae50aaa9adf88a3260c
+Installed-Size: 317
+Depends: librefs13 (= 2026.3.22-2)
+Filename: pool-trixie/librefs13-dbgsym_2026.3.22-2_s390x.deb
+Size: 304692
+MD5sum: 67fefbd94411a5957d6ad1a45bc101ca
+SHA1: d48110d1e950b334ed748124529dca810c2167c7
+SHA256: 324c44a3cc7535d88022a7a4d9cf3678d35efd87d2ab775a7b44ab0772647ea2
+SHA512: f95cf011010c99b7757997094f1baf02da0426c0d2120e74e31ce2801c180c56cc812d9c8de3f083385cab1f94d71914ed694dabf468f45f1c58d48fa7df4304
+Description: debug symbols for librefs13
+Build-Ids: 31d8a6d61fe2f6e9d332d79ed9ed7ac7174e7fe3
 
-Package: librefs12
+Package: librefs13
 Architecture: s390x
-Version: 2025.12.21-1
+Version: 2026.3.22-2
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 201
+Installed-Size: 213
 Depends: libc6 (>= 2.34)
-Filename: pool-trixie/librefs12_2025.12.21-1_s390x.deb
-Size: 74608
-MD5sum: aa57cebafa7e4a1149986b980d0fd9e9
-SHA1: aa99378e21ae7738640790a8df9c25518a319ca8
-SHA256: 599f626c414324129d456a7dd7b3080bf8a5855ceab4b50d30a09fcadc15f38b
-SHA512: 48b91a234cbaf20819c9d35e5e01c7bee547fc0528510c65d02a7807ce441e1c97f16ee2a2280669daae66fed6a8dd407dfd4444031f304e2d169b2cebfef81e
+Filename: pool-trixie/librefs13_2026.3.22-2_s390x.deb
+Size: 79788
+MD5sum: cc55fd7de26d9fee45d26f3447d91579
+SHA1: 18830c809914e41031d842df7f5bcb6bae49a3a5
+SHA256: bb883f7a6b532c65253534b6d3c6f4de5b99489681e21fc48fb49f6f75698929
+SHA512: a913e547b21b32bcd44a8f6719a9ca55d21f4ab83467980d140c897ad74b3abb15ee3a29b90a1349d5ec704230dad847e0b44bf4c56e6fc3600608bfd742c7cf
 Homepage: https://github.com/unsound/refsprogs
 Description: read-only ReFS library
  librefs provides a read-only interface for interacting with the ReFS filesystem
@@ -63,46 +63,125 @@ Description: read-only ReFS library
  .
  This package contains the actual library.
 
-Package: refsprogs-dbgsym
+Package: refs-dkms
+Architecture: all
+Version: 2026.3.22-2
+Priority: optional
+Section: otherosfs
+Source: refsprogs
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Installed-Size: 839
+Provides: refs-modules
+Depends: dkms (>> 2.1.1.2-5), file, libc6-dev | libc-dev
+Recommends: refsprogs (>= 2026.3.22-2)
+Filename: pool-trixie/refs-dkms_2026.3.22-2_all.deb
+Size: 106860
+MD5sum: 4a8e95e5d88f44e940bd2bf8fba55fb6
+SHA1: bc1d4803f1ac7faa287165971234a9fe42990ac6
+SHA256: 5972b4394bf5589e4e2a9e1a9acf4b13095d1cef80c0ca1f1aae18223ce3dda7
+SHA512: 61d6a688c1ad8d7d9fb7b367dffe6bcc8aef7a895fbcb9bdb24a71ee3d6be35236502c7be6b5d778ec5aa89390d5a9446b5bbd8135fc0f4b8391703bca2ffa5f
+Homepage: https://github.com/unsound/refsprogs
+Description: ReFS filesystem kernel modules for Linux
+ refs-dkms uses DKMS to dynamically build a Linux kernel module to provide
+ native read-only support for the ReFS filesystem used by recent versions of
+ Microsoft Windows.
+
+Package: refs-fuse-dbgsym
 Architecture: s390x
-Version: 2025.12.21-1
+Version: 2026.3.22-2
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 266
-Depends: refsprogs (= 2025.12.21-1)
-Filename: pool-trixie/refsprogs-dbgsym_2025.12.21-1_s390x.deb
-Size: 130116
-MD5sum: 649aeae30b8bdf69ada5e31df5f823db
-SHA1: e828832cf911baa3b84bb06ec1feea908f063147
-SHA256: 10225c23e752fd5383619b90c98f784396f33de04a3d6d6f9d2178e97808292d
-SHA512: da333e1a62904c657c9706616a02d4d31c743a51fe6c3f14c36a9f94dd55e5ea47b27d5782c36d0dbc00cd5a58f84641d11f8bf4598f795984ed23946bc3e418
+Installed-Size: 51
+Depends: refs-fuse (= 2026.3.22-2)
+Filename: pool-trixie/refs-fuse-dbgsym_2026.3.22-2_s390x.deb
+Size: 22884
+MD5sum: f6ca5a3fe7d057822ff9a99625a66fed
+SHA1: dc3fcbd1a808d6469747c69b1b9896a4e6389bf8
+SHA256: 8fa83b484d77bc41c145384e4cf1aaafcf27c17289d3411a827603dadd9c7ae6
+SHA512: 92dc1fa76ccedafa23513fd2066ff7dec4791ad2cb1e8b800f821d855410fab89aa9aab77d35ea7e87e9b0ff4f1ad8beaf792d50a73594e48d876d90dd10647e
+Description: debug symbols for refs-fuse
+Build-Ids: 47232ba6f3feda4ad5ca004cf95fc79131ba1143
+
+Package: refs-fuse-default
+Architecture: s390x
+Version: 2026.3.22-2
+Priority: optional
+Section: otherosfs
+Source: refsprogs
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Installed-Size: 15
+Depends: refs-fuse (= 2026.3.22-2)
+Filename: pool-trixie/refs-fuse-default_2026.3.22-2_s390x.deb
+Size: 2472
+MD5sum: 162753459a6cfc1a1ce3198eed21f601
+SHA1: b2edc22c7987dbe312c0fc6b28421233f7348731
+SHA256: fe27c2be03697d6c356fec9145c926e5d20a8c935318d88b83553223a6ef536e
+SHA512: 595cfcff3dab1b59574277474a0003444c05d619d5d38ea8df24f6dd74947f2e5454fb58e0a7b7b486a96d103de659fa54658a2c0e933eca14b68b6566ce5039
+Homepage: https://github.com/unsound/refsprogs
+Description: Read-only ReFS FUSE driver (default handler for refs volumes),
+ This package installs symlinks to make refs-fuse the default handler for refs
+ volumes.
+
+Package: refs-fuse
+Architecture: s390x
+Version: 2026.3.22-2
+Priority: optional
+Section: otherosfs
+Source: refsprogs
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Installed-Size: 48
+Depends: libc6 (>= 2.34), libfuse3-4 (>= 3.17.2), librefs13 (= 2026.3.22-2), fuse3
+Filename: pool-trixie/refs-fuse_2026.3.22-2_s390x.deb
+Size: 10104
+MD5sum: ff4f2825f92e5382f2982538dc01cd8d
+SHA1: 9d2254c9b09628a02f3ee0f6b732f1e1722e2ec1
+SHA256: 70e038119af7727801b5a76be0d7a90e5e84c27b413fecf19ac21dc1af3d9ba1
+SHA512: a8001bd482cbbbc8bb4bf9ab140a7531b9c55ffd70e9064748df0fe0b971e27009045d85f005b7c69982f48fccb50ea0c35796acb8d25c767d1de0d7232bd407
+Homepage: https://github.com/unsound/refsprogs
+Description: Read-only ReFS FUSE driver,
+ refs-fuse uses FUSE (Filesystem in Userspace) to provide support for the ReFS
+ filesystem used by recent versions of Microsoft Windows.
+
+Package: refsprogs-dbgsym
+Architecture: s390x
+Version: 2026.3.22-2
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: refsprogs
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Installed-Size: 224
+Depends: refsprogs (= 2026.3.22-2)
+Filename: pool-trixie/refsprogs-dbgsym_2026.3.22-2_s390x.deb
+Size: 109268
+MD5sum: af79aae9191e277d40f4b0b60bcd56f1
+SHA1: b3bfd1e0554f001e83973a04a4c4d1e193cc2f2a
+SHA256: 0e9f64dd4b025cbc89a99f6e31640b28ece3a0cff39feef3f6a1b35367a52e7e
+SHA512: 182dda64756ee546fc95da77cea73cdc26fb56eabb63aa27be11eb3e9ccad68d3c1697b0370b68fbb821f997e5cba5348045adf6b19a0cb4ef5c7d9e217c35cb
 Description: debug symbols for refsprogs
-Build-Ids: 17d2bb402677ba1a0d0a426a2a0f1b693cb3f6a4 185cda14f144ff6162fc01e3ea135475fbff3559 464588f4ad4eefb24e9a4ba07b36133f1e2f7ab5 4933a8c4e2698d532d1f9ec8a8c62420f2142187 68de589a3d88c19e9c4340805dd2dd3c73fdb928 98f3643d42ab23fecfe5eaf62e0865c6b3520d08 f4f0f6d6c07f462f1723fdda9a30e9b919a0ba2a
+Build-Ids: 00d5b9d50a47be85f39616f5c577c6ab06eee32a 43937f108e8cd8b37d5ad1433b625b34a52a36c6 5c66772b9c0601b2dff421266ab2bf132421534e a19b218ecc6f4f16ef5f20661bd547a5bd9d1083 ba0e55e703bc7e1c37a80b9cb25cd2e34cbce63b fa09c1764369c8a313f74e453defc4a8a2df9d9d
 
 Package: refsprogs
 Architecture: s390x
-Version: 2025.12.21-1
+Version: 2026.3.22-2
 Priority: optional
 Section: otherosfs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 164
-Depends: libc6 (>= 2.34), libfuse3-4 (>= 3.17.2), librefs12 (= 2025.12.21-1), fuse3
-Filename: pool-trixie/refsprogs_2025.12.21-1_s390x.deb
-Size: 45036
-MD5sum: b505e969853be8f3de21aff3d737db3e
-SHA1: b705a78215a401994ef0ee5f8fa8f73490ad58ea
-SHA256: 81c93ce5e586d50c3883b7dc93014f4f87029015a65df16789607cd068f6762f
-SHA512: df970f3301b30838c9fa567ff476c1eabcdf4279d88f8dba58cde568c012b68baf34339329247747c768f42fbc79a78434e4250502541efc7449d2545aae4332
+Installed-Size: 125
+Depends: libc6 (>= 2.34), librefs13 (= 2026.3.22-2)
+Filename: pool-trixie/refsprogs_2026.3.22-2_s390x.deb
+Size: 31580
+MD5sum: a08b17341ad3ef8de0aeb2b4a41dd004
+SHA1: ef010de0e6695e7982d903ce3666fcce57471d84
+SHA256: 5c2bdf9c74d1f11989ea3cb9b5f43c9e0d7743ed1ce0bf4aa1245789bc083b35
+SHA512: 6e4fe3f6914132287d1d4451fa5e77b614a5ca3dd423464614fda41b112fe77648d230f2db32330c18d49905f91c49f648b78fe19d73e9771b8ea5ae85e0acd8
 Homepage: https://github.com/unsound/refsprogs
-Description: Read-only ReFS FUSE driver and progs,
- refs-fuse uses FUSE (Filesystem in Userspace) to provide support for the ReFS
- filesystem used by recent versions of Microsoft Windows.
- .
- The other refsprogs include 'refls', 'refcat', useful for listing and
- retrieving data from ReFS volumes, 'refsimage' for capturing an image of the
- ReFS filesystem and 'redb' / 'refsinfo' which allows access to the metadata
- of the filesystem for debugging and development.
+Description: Read-only ReFS progs,
+ refsprogs includes 'refls', 'refcat', useful for listing and retrieving data
+ from ReFS volumes, 'refsimage' for capturing an image of the ReFS filesystem
+ and 'redb' / 'refsinfo' which allows access to the metadata of the filesystem
+ for debugging and development.
 
