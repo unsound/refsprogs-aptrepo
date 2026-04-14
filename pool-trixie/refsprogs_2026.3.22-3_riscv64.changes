@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Mon, 13 Apr 2026 18:53:09 +0300
+Source: refsprogs
+Binary: librefs-dev librefs13 librefs13-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: riscv64 all
+Version: 2026.3.22-3
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs13  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.3.22-3) main; urgency=medium
+ .
+   * Fix broken build for Linux 7.0.
+Checksums-Sha1:
+ dd672aef95923181ea718c11302c2746f8e43792 235676 librefs-dev_2026.3.22-3_riscv64.deb
+ f22ef216ee2f8479d2186b26a1529ab5ef6984be 292548 librefs13-dbgsym_2026.3.22-3_riscv64.deb
+ 6aa46fad012808bd15748993a08f51d5ab424bb6 82676 librefs13_2026.3.22-3_riscv64.deb
+ 6f17fc56c66a2c310b184a6e24a92085e3bb3f9e 107080 refs-dkms_2026.3.22-3_all.deb
+ f859f458280ed25d3aba54ffcf3f45ef0782b842 22396 refs-fuse-dbgsym_2026.3.22-3_riscv64.deb
+ 4eaa5fc0403dccc8d7211314347886064c3cdd25 2536 refs-fuse-default_2026.3.22-3_riscv64.deb
+ 05ef328579466b216629274b445df9bf9dcb1a3f 10460 refs-fuse_2026.3.22-3_riscv64.deb
+ 26b528ab8bc6855a6c72a4ed095cfb8d89011b9e 106004 refsprogs-dbgsym_2026.3.22-3_riscv64.deb
+ bf41a360cd73ef2a5a41780f47901b663572144c 85708 refsprogs-udeb_2026.3.22-3_riscv64.udeb
+ 55cef3a1929d6209c1973791182f4547036c76c3 7578 refsprogs_2026.3.22-3_riscv64.buildinfo
+ 74753d4fcec390364274262b1b0322b4c1ad1951 32388 refsprogs_2026.3.22-3_riscv64.deb
+Checksums-Sha256:
+ b27e2a8cf75147b35e1eda61ae083e0b16c3902dd12eebf3438a21f201a8036c 235676 librefs-dev_2026.3.22-3_riscv64.deb
+ b8bcc7ca5c1ce4708ca7b8d703575026f5be927900ce8c310f4ab7ade0d9a5fd 292548 librefs13-dbgsym_2026.3.22-3_riscv64.deb
+ 4bc04d312de5b44ecd632bd4e3e44d3afb1f771ef100151ba3b6304197625bc9 82676 librefs13_2026.3.22-3_riscv64.deb
+ 0e3657e169bbe108fcc97339de24d66a41a6bcf1f08f6b303f56d29c3601b1c3 107080 refs-dkms_2026.3.22-3_all.deb
+ 9803fad14ac6097f238c4e939cc04425d6c3d66a6d1ad4c65a0270edf05c4196 22396 refs-fuse-dbgsym_2026.3.22-3_riscv64.deb
+ 6103b46cad5e1a876fb9a386699f1b89031537bbcbd9a09555582179c16b8041 2536 refs-fuse-default_2026.3.22-3_riscv64.deb
+ e05b9307ad67689259f9eaaaeb28f334b205490a8f2e8ea3399e85b96e8ffdd0 10460 refs-fuse_2026.3.22-3_riscv64.deb
+ b7451bc44b0a117440a002a1920ef5d1dc98fb0943a9ad9f390fb4510271cdbb 106004 refsprogs-dbgsym_2026.3.22-3_riscv64.deb
+ 7b5474f0eab36805f397b4c7f13f0fa68e82c3558436d57942d7673fd4cfc836 85708 refsprogs-udeb_2026.3.22-3_riscv64.udeb
+ 1645f9f3d702b743951a559cfe9af8c28625446ec30465a07d17799a20fdc462 7578 refsprogs_2026.3.22-3_riscv64.buildinfo
+ 58a75a28fb95b9598e8a95980715fa3cb250721d4bfbbe2fe8dade8df9d2577e 32388 refsprogs_2026.3.22-3_riscv64.deb
+Files:
+ bf82b4f70e97e55a17d13b6b3344e7a3 235676 libdevel optional librefs-dev_2026.3.22-3_riscv64.deb
+ 99b7ec36d67e9f4d0b6fa011d8370445 292548 debug optional librefs13-dbgsym_2026.3.22-3_riscv64.deb
+ 30b9df6537e7bb7b1d54a724a01edfc3 82676 libs optional librefs13_2026.3.22-3_riscv64.deb
+ 070fb46fc4b5a4c86d9a00d09e2de6fe 107080 otherosfs optional refs-dkms_2026.3.22-3_all.deb
+ 10a5557b2ef51ed03e5c7ba93af3bbde 22396 debug optional refs-fuse-dbgsym_2026.3.22-3_riscv64.deb
+ 216af58c1feea0d62926fb7de96cca52 2536 otherosfs optional refs-fuse-default_2026.3.22-3_riscv64.deb
+ 4218077daa5a537691fb5df758b0bcd5 10460 otherosfs optional refs-fuse_2026.3.22-3_riscv64.deb
+ efdec63c71dd61bfa21cae6958ad39c3 106004 debug optional refsprogs-dbgsym_2026.3.22-3_riscv64.deb
+ 803d7eb427ba62884cbd7ac947de319c 85708 debian-installer optional refsprogs-udeb_2026.3.22-3_riscv64.udeb
+ 4b2dbe7093283872d6b35629a89e4d5c 7578 otherosfs optional refsprogs_2026.3.22-3_riscv64.buildinfo
+ 8c4cd3dd2e6a6b177fff574ff2b8c734 32388 otherosfs optional refsprogs_2026.3.22-3_riscv64.deb

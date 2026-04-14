@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Mon, 13 Apr 2026 18:53:09 +0300
+Source: refsprogs
+Binary: librefs-dev librefs13 librefs13-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: armhf all
+Version: 2026.3.22-3
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs13  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.3.22-3) main; urgency=medium
+ .
+   * Fix broken build for Linux 7.0.
+Checksums-Sha1:
+ 93aaa1db84ec4efe5f5f6fb2244a402d347e90cf 90500 librefs-dev_2026.3.22-3_armhf.deb
+ fea4d1bcdb3fa244e9b9d338e772b7d497002333 317392 librefs13-dbgsym_2026.3.22-3_armhf.deb
+ 169a9575a952ab5117e23f8d83f63b224580e679 71528 librefs13_2026.3.22-3_armhf.deb
+ 6f17fc56c66a2c310b184a6e24a92085e3bb3f9e 107080 refs-dkms_2026.3.22-3_all.deb
+ eef6d2113939534ed48f1f5899b824e510df6769 23220 refs-fuse-dbgsym_2026.3.22-3_armhf.deb
+ f152c9b443e26f0c9d5cba2f26f8bd4fdfee8504 2536 refs-fuse-default_2026.3.22-3_armhf.deb
+ 045ec1e4e17dbb11b2517e7af3d5bc36996d6f7d 9700 refs-fuse_2026.3.22-3_armhf.deb
+ 67badf55350d5aba0d892736de91425970259a4a 111796 refsprogs-dbgsym_2026.3.22-3_armhf.deb
+ d5258ce9ff9853a14f47412e721d3d1b269944c2 73884 refsprogs-udeb_2026.3.22-3_armhf.udeb
+ 13c1651c0d08838cba678449c4dbb3c78b274153 7516 refsprogs_2026.3.22-3_armhf.buildinfo
+ 864734e0b3b148cc58d1acacea2eb15a4ae3228a 32108 refsprogs_2026.3.22-3_armhf.deb
+Checksums-Sha256:
+ aefeb739edfdc42ec66b879b79c8d169f17e0e97632113452aa932999b27336e 90500 librefs-dev_2026.3.22-3_armhf.deb
+ 0706dc94a4361dd553a687de7a4fbfe6f42a4a7068d4e6d35b982f603b58543f 317392 librefs13-dbgsym_2026.3.22-3_armhf.deb
+ 451fc2402f8517ab978aed514780f09bdbb6594456d2a744edd2a4a657487221 71528 librefs13_2026.3.22-3_armhf.deb
+ 0e3657e169bbe108fcc97339de24d66a41a6bcf1f08f6b303f56d29c3601b1c3 107080 refs-dkms_2026.3.22-3_all.deb
+ 812814ad013c5cacd719d8f7578f20c548269801c3aa4ac677d82ce1235304de 23220 refs-fuse-dbgsym_2026.3.22-3_armhf.deb
+ 41fa0255c442cebe2b6c3ccbfe8235404d4210b43e804877e38c8059068ff9a5 2536 refs-fuse-default_2026.3.22-3_armhf.deb
+ bf8e927b2bd7421211e7fd228db39063a2b8b0f77684fa27eed008945409708b 9700 refs-fuse_2026.3.22-3_armhf.deb
+ 99ee9ec09201a2e4c6a0e5fe84cfe9f35e62a4ab92f794b7779ecec61cfec6f9 111796 refsprogs-dbgsym_2026.3.22-3_armhf.deb
+ 24f172face66a2c9204d02957e8e36b42c2ba08fbd4d5b4e3d873134350f2537 73884 refsprogs-udeb_2026.3.22-3_armhf.udeb
+ 54307d9a8a3ecbe6f7aeda41ca5ab307798a75da5a08acaacfc533452a75de36 7516 refsprogs_2026.3.22-3_armhf.buildinfo
+ d9ebc679092b2d81d0309b454fc170fff1698806f9b69be98c2a941655c8dc4c 32108 refsprogs_2026.3.22-3_armhf.deb
+Files:
+ f0767673b1c98c840fefac700cda0795 90500 libdevel optional librefs-dev_2026.3.22-3_armhf.deb
+ fd66f915b916bf0a42b8cff2814a5723 317392 debug optional librefs13-dbgsym_2026.3.22-3_armhf.deb
+ 2e327b8c1f45e6ab6f084cfcebfc2dff 71528 libs optional librefs13_2026.3.22-3_armhf.deb
+ 070fb46fc4b5a4c86d9a00d09e2de6fe 107080 otherosfs optional refs-dkms_2026.3.22-3_all.deb
+ 776b82f92fccd160e0e072d2cbc0167d 23220 debug optional refs-fuse-dbgsym_2026.3.22-3_armhf.deb
+ 85dfdc03f920ba5415bf948ac8b5c215 2536 otherosfs optional refs-fuse-default_2026.3.22-3_armhf.deb
+ b2a36423b5fccbfcfab91342e6b2efc7 9700 otherosfs optional refs-fuse_2026.3.22-3_armhf.deb
+ 22fd8a5715ef86b7ea817f476f3b6488 111796 debug optional refsprogs-dbgsym_2026.3.22-3_armhf.deb
+ 6b61d24332f9d309277dac07844f0097 73884 debian-installer optional refsprogs-udeb_2026.3.22-3_armhf.udeb
+ 5b0f2d622bd6b938e01eb5786a03e32b 7516 otherosfs optional refsprogs_2026.3.22-3_armhf.buildinfo
+ 92be60b901ef914b8a08b443954215d6 32108 otherosfs optional refsprogs_2026.3.22-3_armhf.deb

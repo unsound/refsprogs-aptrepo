@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Mon, 13 Apr 2026 18:53:09 +0300
+Source: refsprogs
+Binary: librefs-dev librefs13 librefs13-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: loong64 all
+Version: 2026.3.22-3
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs13  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.3.22-3) main; urgency=medium
+ .
+   * Fix broken build for Linux 7.0.
+Checksums-Sha1:
+ 8a561faf827f8549e5dca67a1e872563092178d6 259608 librefs-dev_2026.3.22-3_loong64.deb
+ b076bbca9a41509272567411ae36c5fca71d5eed 338436 librefs13-dbgsym_2026.3.22-3_loong64.deb
+ b904671ca84bc81e8c5f2038265af81f356bd3d0 84100 librefs13_2026.3.22-3_loong64.deb
+ c37c388e5b9768f681f1131adc990290a8460be6 107088 refs-dkms_2026.3.22-3_all.deb
+ 677b43c59a7eb338baac03c631a7097ee3a1ae2a 23676 refs-fuse-dbgsym_2026.3.22-3_loong64.deb
+ 83191d5a81114d335c2c2b7a4c75e1161a93cde5 2540 refs-fuse-default_2026.3.22-3_loong64.deb
+ b22eb1dc249cf143014e6a716d9a6219ff8d71c2 10840 refs-fuse_2026.3.22-3_loong64.deb
+ 6628692267e5e810fef0c9cc841237935b8bc5fd 111948 refsprogs-dbgsym_2026.3.22-3_loong64.deb
+ 016b0fd5bdb278d0c37a46db9b479da4d8a5906d 87112 refsprogs-udeb_2026.3.22-3_loong64.udeb
+ 1bef6b56b71354479cca37c00ec49f8a4ca76d20 7558 refsprogs_2026.3.22-3_loong64.buildinfo
+ f0275191932c14a4d7fa4b0c5ca78041e4b12300 31664 refsprogs_2026.3.22-3_loong64.deb
+Checksums-Sha256:
+ b9a2d56a1bc809ca29c520620c7d66703c4bce7322cf0ea15d3ede17bd0ce4a3 259608 librefs-dev_2026.3.22-3_loong64.deb
+ 3d39a4464c0d66f9112b02c5a77f33d12b12ae3043a436bb98b40977f15ab16f 338436 librefs13-dbgsym_2026.3.22-3_loong64.deb
+ 3e09491afe99578dbe4799e0735b81e8608aebc0d8a4106952c3d6dee2e42c2d 84100 librefs13_2026.3.22-3_loong64.deb
+ eb6626176ae22364bbea15006b18fb59a66a008a1d642558b015533f4ab383be 107088 refs-dkms_2026.3.22-3_all.deb
+ 1ef244d3003750f21833481c137ae2a76153b4275cda71a3f7fac59f877d3f62 23676 refs-fuse-dbgsym_2026.3.22-3_loong64.deb
+ 6d4f87a98de4aa115033284313899cf93448244f8645203d23d2493eed257ae0 2540 refs-fuse-default_2026.3.22-3_loong64.deb
+ 8148341180596744a6e8f8dcec7ee896f8b0a55cf85a03bbe41b0c528d722527 10840 refs-fuse_2026.3.22-3_loong64.deb
+ b22eb6b8d29339401178793c02ffe74513d1b16ec2d578b2b7cf4c981098c06d 111948 refsprogs-dbgsym_2026.3.22-3_loong64.deb
+ b0130c12d2f90505e134d91cdacec5b9bf38380e19ec4731ef9ddf2ef94982d3 87112 refsprogs-udeb_2026.3.22-3_loong64.udeb
+ 1ef3956319f1e9fa4b124aae3b6898550b0cd91b1ad00d9e6237e3625c6e0671 7558 refsprogs_2026.3.22-3_loong64.buildinfo
+ da7c7c401a74e39af227b897b57aab855a70caebbc2a91dc224e7ccd5d8b2c63 31664 refsprogs_2026.3.22-3_loong64.deb
+Files:
+ faf76a72a161be1808851235b1aca62c 259608 libdevel optional librefs-dev_2026.3.22-3_loong64.deb
+ 84ec7d3b5c4478217291bd6fc0deb1b9 338436 debug optional librefs13-dbgsym_2026.3.22-3_loong64.deb
+ c903235247577da79d180be849ea74a8 84100 libs optional librefs13_2026.3.22-3_loong64.deb
+ fc7e427d9f272a87266e20114cbfd5a1 107088 otherosfs optional refs-dkms_2026.3.22-3_all.deb
+ 69f1354a23d0df508a02a81215f74002 23676 debug optional refs-fuse-dbgsym_2026.3.22-3_loong64.deb
+ 1b2e3ced0d23bacd900a3e6ceaf5ad73 2540 otherosfs optional refs-fuse-default_2026.3.22-3_loong64.deb
+ 0cba892758aadf8684d90768d4b38b97 10840 otherosfs optional refs-fuse_2026.3.22-3_loong64.deb
+ 0c0a3631035c2b8cb596c0681d494fe8 111948 debug optional refsprogs-dbgsym_2026.3.22-3_loong64.deb
+ bbb21badb960c636c1bc23593e2b3b62 87112 debian-installer optional refsprogs-udeb_2026.3.22-3_loong64.udeb
+ c65896219a35d38564bbb5c418abaac2 7558 otherosfs optional refsprogs_2026.3.22-3_loong64.buildinfo
+ 939a4ec3f671b01cc4afcb4d853c8cc5 31664 otherosfs optional refsprogs_2026.3.22-3_loong64.deb

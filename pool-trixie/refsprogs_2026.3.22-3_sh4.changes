@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Mon, 13 Apr 2026 18:53:09 +0300
+Source: refsprogs
+Binary: librefs-dev librefs13 librefs13-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: sh4 all
+Version: 2026.3.22-3
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs13  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.3.22-3) main; urgency=medium
+ .
+   * Fix broken build for Linux 7.0.
+Checksums-Sha1:
+ 518d1d162928b7ce680827de390064a9de51df86 126208 librefs-dev_2026.3.22-3_sh4.deb
+ 819743a9a11d9029aa5af9e334efa331da179887 290988 librefs13-dbgsym_2026.3.22-3_sh4.deb
+ d28e3ffe5c02477dc4fbf049485b963fd00a0e2b 110836 librefs13_2026.3.22-3_sh4.deb
+ c37c388e5b9768f681f1131adc990290a8460be6 107088 refs-dkms_2026.3.22-3_all.deb
+ e0f6616a388bfafbf7bdbd353794af77967becde 21692 refs-fuse-dbgsym_2026.3.22-3_sh4.deb
+ 0939f40ef2351c9379fb190420f05ed0df5303eb 2536 refs-fuse-default_2026.3.22-3_sh4.deb
+ f3d9bb9435c19805b4eebf87c37852d87cedc260 11040 refs-fuse_2026.3.22-3_sh4.deb
+ a460ec501e0ac2b4a8a579fbf5bdebfc484c4696 105800 refsprogs-dbgsym_2026.3.22-3_sh4.deb
+ d533faa1361a094ae59603f1aa6530585245430d 114288 refsprogs-udeb_2026.3.22-3_sh4.udeb
+ 4d4b38138196fb76a1721ea05d9e9af0c873f247 7452 refsprogs_2026.3.22-3_sh4.buildinfo
+ 5953ddec4609e4f0ad7e72162c46177e529630d0 40556 refsprogs_2026.3.22-3_sh4.deb
+Checksums-Sha256:
+ bdddc611565305c260eab4ffe62b9686bf2fa58ff778851c7e0e033708bf4ece 126208 librefs-dev_2026.3.22-3_sh4.deb
+ f38d2225929bac200aab16e5825d86cd632992160119bfdf7c0b644351b2f305 290988 librefs13-dbgsym_2026.3.22-3_sh4.deb
+ eba4570a3c488dadf0aae554f95e4c7f715bdd129c30eb40cac6afe00a499f73 110836 librefs13_2026.3.22-3_sh4.deb
+ eb6626176ae22364bbea15006b18fb59a66a008a1d642558b015533f4ab383be 107088 refs-dkms_2026.3.22-3_all.deb
+ b9cf6e1a4a2d011c09ea5dc5fc60a98baa25cab021d74de3afc6acc8215f3dcb 21692 refs-fuse-dbgsym_2026.3.22-3_sh4.deb
+ 0b0a9aacdebcdc8ba87c00b85d9dc1f076951579dd35a2402b2b76d2d7794273 2536 refs-fuse-default_2026.3.22-3_sh4.deb
+ 17d47df72ed3dfe6fcf605b3dae488c7ae6ada456ac1e95c6dc36c048b13d122 11040 refs-fuse_2026.3.22-3_sh4.deb
+ be36255d617a4fadfd6f93d504ce479d20866b4f2c0337de9d55433d9491b9ab 105800 refsprogs-dbgsym_2026.3.22-3_sh4.deb
+ 6eab328456d37a3186df22b10c8b7ee78eaa4317d6ac4453683134912d511c9e 114288 refsprogs-udeb_2026.3.22-3_sh4.udeb
+ c06279a262597e6aa4de615cef6cfdf9de8f3a90a2d5d525c102ee6af57f8804 7452 refsprogs_2026.3.22-3_sh4.buildinfo
+ d80e31ee31d976fb1ab5028277cf6a4eb5f6d2079d2c270b772d45c1d2009208 40556 refsprogs_2026.3.22-3_sh4.deb
+Files:
+ f798dfc34798fb0553aaf446c3145759 126208 libdevel optional librefs-dev_2026.3.22-3_sh4.deb
+ 303b1e1dd6a6f34a77eebe613311b132 290988 debug optional librefs13-dbgsym_2026.3.22-3_sh4.deb
+ 99010a7112b8b1be21e1e82d754e4f92 110836 libs optional librefs13_2026.3.22-3_sh4.deb
+ fc7e427d9f272a87266e20114cbfd5a1 107088 otherosfs optional refs-dkms_2026.3.22-3_all.deb
+ 86db0449e4891e74314bec8eb2aa5a9e 21692 debug optional refs-fuse-dbgsym_2026.3.22-3_sh4.deb
+ f26219b6d9838b272acb501d75f15728 2536 otherosfs optional refs-fuse-default_2026.3.22-3_sh4.deb
+ 63df140f86013f798d0580fc832e39bf 11040 otherosfs optional refs-fuse_2026.3.22-3_sh4.deb
+ 7c71850bcf62a76bc571c0981d1cb6ff 105800 debug optional refsprogs-dbgsym_2026.3.22-3_sh4.deb
+ b67dcacdbda97041d38db7287009f67f 114288 debian-installer optional refsprogs-udeb_2026.3.22-3_sh4.udeb
+ aefcbabb64b32a14ccd6616a1a915c67 7452 otherosfs optional refsprogs_2026.3.22-3_sh4.buildinfo
+ b218820eb0ebff2c0d9e7f9d48f7d106 40556 otherosfs optional refsprogs_2026.3.22-3_sh4.deb

@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Mon, 13 Apr 2026 18:53:09 +0300
+Source: refsprogs
+Binary: librefs-dev librefs13 librefs13-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: ppc64el all
+Version: 2026.3.22-3
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs13  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.3.22-3) main; urgency=medium
+ .
+   * Fix broken build for Linux 7.0.
+Checksums-Sha1:
+ 50a7fc8b53175a7c663ff3b74d1a06dde0e6c494 103896 librefs-dev_2026.3.22-3_ppc64el.deb
+ deeee4eb2f1dbcd4594126752bfa06caa3f9ee9e 342348 librefs13-dbgsym_2026.3.22-3_ppc64el.deb
+ ced1f89e51aaca3ad54cd7888ae58f67f412c200 83980 librefs13_2026.3.22-3_ppc64el.deb
+ 6f17fc56c66a2c310b184a6e24a92085e3bb3f9e 107080 refs-dkms_2026.3.22-3_all.deb
+ be7df40e18fd8ae5e980e737897d7f613830acf9 23596 refs-fuse-dbgsym_2026.3.22-3_ppc64el.deb
+ 93953ccfc240fd60553d1d0aecfd03f565e01d53 2540 refs-fuse-default_2026.3.22-3_ppc64el.deb
+ 7bb5f924014918bf2da83c620115a599eb1f64da 11036 refs-fuse_2026.3.22-3_ppc64el.deb
+ 1c35f6a4c1e110fd898dee6ffa0d70235793a002 112836 refsprogs-dbgsym_2026.3.22-3_ppc64el.deb
+ b88b29affabbe95b1c8a40e6532c3a667612f1fb 87384 refsprogs-udeb_2026.3.22-3_ppc64el.udeb
+ 91cd766e99893ea9845b48893daace65c9b790ff 7578 refsprogs_2026.3.22-3_ppc64el.buildinfo
+ 798d4ec81dbb0ec6ec857020c3c692108c8ab8e9 34412 refsprogs_2026.3.22-3_ppc64el.deb
+Checksums-Sha256:
+ 3e90c5d521e5d13451084f8a139123f18432ad96ce5e07a6032f2d86ceb13655 103896 librefs-dev_2026.3.22-3_ppc64el.deb
+ e05d0f1f1dbc26141a507b18fb20fa485c792147d62e5b05ae6968c1bf57a1d7 342348 librefs13-dbgsym_2026.3.22-3_ppc64el.deb
+ 26112dd37bd93382a27112c9ed903acb68bb1545ea723603a24bf4d08a6ce016 83980 librefs13_2026.3.22-3_ppc64el.deb
+ 0e3657e169bbe108fcc97339de24d66a41a6bcf1f08f6b303f56d29c3601b1c3 107080 refs-dkms_2026.3.22-3_all.deb
+ d4445af25d869ef168c951b5909ec447d7770e4ee61ef56061411a54f62360ee 23596 refs-fuse-dbgsym_2026.3.22-3_ppc64el.deb
+ 54d5ffccd1f13393e4838cb677a84d9a5411c4fa61fe0b14323a1c60e3ba4e0e 2540 refs-fuse-default_2026.3.22-3_ppc64el.deb
+ 812fe4e22376e709dcfda02e7d4330a824f0d9715e0278efcac8bf24e76a3937 11036 refs-fuse_2026.3.22-3_ppc64el.deb
+ ce4025ccd5a55f569e7773f9686af6ca70eaea69b74a0af0030f395fcfc5c96c 112836 refsprogs-dbgsym_2026.3.22-3_ppc64el.deb
+ 5c80177158cff8175d72ae408207f79ce7deb5c08e465969de8d300ed12e740c 87384 refsprogs-udeb_2026.3.22-3_ppc64el.udeb
+ 5329b2f16cb287936c04979fcfdea14962790a0b236713837a7e42b212562c05 7578 refsprogs_2026.3.22-3_ppc64el.buildinfo
+ 56a2731efa45ead1665760d8e1c7a73c3fb147271728410ad1749c6bbf74fc32 34412 refsprogs_2026.3.22-3_ppc64el.deb
+Files:
+ 3db8fe0c1df415eb5c7ac00ecee42316 103896 libdevel optional librefs-dev_2026.3.22-3_ppc64el.deb
+ 61208429b2456e05bd89b0edf1d47e1f 342348 debug optional librefs13-dbgsym_2026.3.22-3_ppc64el.deb
+ 0122f9fa4978bb23a32ac1dae8006c0c 83980 libs optional librefs13_2026.3.22-3_ppc64el.deb
+ 070fb46fc4b5a4c86d9a00d09e2de6fe 107080 otherosfs optional refs-dkms_2026.3.22-3_all.deb
+ 45a2de41436b669dc425c7b1e2cfae5d 23596 debug optional refs-fuse-dbgsym_2026.3.22-3_ppc64el.deb
+ 22252c85ad9738f4ad4bf81fc6c49fc2 2540 otherosfs optional refs-fuse-default_2026.3.22-3_ppc64el.deb
+ 69bea5414687f5a546b1b4e1e13d4bcc 11036 otherosfs optional refs-fuse_2026.3.22-3_ppc64el.deb
+ bff32d486c96fb094143871aad02446a 112836 debug optional refsprogs-dbgsym_2026.3.22-3_ppc64el.deb
+ 06046707a057d62ee450ce251e0ca770 87384 debian-installer optional refsprogs-udeb_2026.3.22-3_ppc64el.udeb
+ 66f3986f60076ad052fce93f7dfdd227 7578 otherosfs optional refsprogs_2026.3.22-3_ppc64el.buildinfo
+ f1b1889959bce7b7da4f3371b035897a 34412 otherosfs optional refsprogs_2026.3.22-3_ppc64el.deb

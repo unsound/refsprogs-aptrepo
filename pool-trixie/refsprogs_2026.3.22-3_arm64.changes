@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Mon, 13 Apr 2026 18:53:09 +0300
+Source: refsprogs
+Binary: librefs-dev librefs13 librefs13-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: arm64 all
+Version: 2026.3.22-3
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs13  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.3.22-3) main; urgency=medium
+ .
+   * Fix broken build for Linux 7.0.
+Checksums-Sha1:
+ 545b63f9c92570b52049ed1763c10e278fa6f5c2 90180 librefs-dev_2026.3.22-3_arm64.deb
+ fbb2753adbf9896f37e8704a3bf6bfc6806ba9a0 323756 librefs13-dbgsym_2026.3.22-3_arm64.deb
+ 857dc2e175025902713b04ca6d56dc13011447f9 70848 librefs13_2026.3.22-3_arm64.deb
+ 6f17fc56c66a2c310b184a6e24a92085e3bb3f9e 107080 refs-dkms_2026.3.22-3_all.deb
+ 7bd807c4acfbe702e7457010b0dec66b66b28a2a 23084 refs-fuse-dbgsym_2026.3.22-3_arm64.deb
+ 74426df82c30318bbf13ad82c6f28be787c7b75a 2536 refs-fuse-default_2026.3.22-3_arm64.deb
+ ff5b2f4b0b239be7b3e6bc3aaf8bfb94dc797f3c 10364 refs-fuse_2026.3.22-3_arm64.deb
+ 97d43737e819faa5dcfa7b27cf0d8bdc915ecadd 111748 refsprogs-dbgsym_2026.3.22-3_arm64.deb
+ ba60c94822c44e8e532d1953439dca9101d94916 73972 refsprogs-udeb_2026.3.22-3_arm64.udeb
+ 74bf413df6926f9225a0281b598c7680974039f8 7519 refsprogs_2026.3.22-3_arm64.buildinfo
+ eb549dbcbde13ae5ab7fb673cec051081fcf6477 31004 refsprogs_2026.3.22-3_arm64.deb
+Checksums-Sha256:
+ fce9502abd331bb5f319f1f6a7ecb06ebc6fa269e9c193f0c96633df967f8d29 90180 librefs-dev_2026.3.22-3_arm64.deb
+ ee8a82dd773dc1f5267430c0443bdf8fc0edcd2d58484ed0e0e94ba84a7b7084 323756 librefs13-dbgsym_2026.3.22-3_arm64.deb
+ ec9f4d13808c03469d81c170202fa9b7f520a1de82d3bc47cf5ee653814b063c 70848 librefs13_2026.3.22-3_arm64.deb
+ 0e3657e169bbe108fcc97339de24d66a41a6bcf1f08f6b303f56d29c3601b1c3 107080 refs-dkms_2026.3.22-3_all.deb
+ 4ef5bae37aa0aac682366b882e77b5b8dfadea83440b1383be7c0a1ca859467f 23084 refs-fuse-dbgsym_2026.3.22-3_arm64.deb
+ cf0a5ac0ae56093203ab0989511b482b0812b5baff81928edf4614404cdb0d72 2536 refs-fuse-default_2026.3.22-3_arm64.deb
+ 56ccfce781c8b3458bd9ba20c1a86f89e6c3f7a421de29e66be396b5a5d712b4 10364 refs-fuse_2026.3.22-3_arm64.deb
+ 4bdb5e158938c43a7f2451dc608e70d2e66598089a3b41011a0140dbc75adc19 111748 refsprogs-dbgsym_2026.3.22-3_arm64.deb
+ d9f1193ae92279132f589156d3400e95b942a42541739aed40eba304f5e4fe85 73972 refsprogs-udeb_2026.3.22-3_arm64.udeb
+ 969930ee6708c43945af130bfa0c07bccc36207647c9b82c1c85966aa58ed451 7519 refsprogs_2026.3.22-3_arm64.buildinfo
+ 37b6c77b5a3a44ed1a158d568ded0bf5cb911d9397b69d7525e483b522f0b558 31004 refsprogs_2026.3.22-3_arm64.deb
+Files:
+ 0fbaeb5860659e8e16faabf8b385e9f6 90180 libdevel optional librefs-dev_2026.3.22-3_arm64.deb
+ 4fcef44403230dddef11621f0975ee07 323756 debug optional librefs13-dbgsym_2026.3.22-3_arm64.deb
+ 8e1a671c8efed475ef0e575e47a28384 70848 libs optional librefs13_2026.3.22-3_arm64.deb
+ 070fb46fc4b5a4c86d9a00d09e2de6fe 107080 otherosfs optional refs-dkms_2026.3.22-3_all.deb
+ f45c458fcc3c9c9d09f442a0dab57312 23084 debug optional refs-fuse-dbgsym_2026.3.22-3_arm64.deb
+ f8db28acbeecba1217facd685dbfdeae 2536 otherosfs optional refs-fuse-default_2026.3.22-3_arm64.deb
+ 55fccd946b484464f96a898e619b732d 10364 otherosfs optional refs-fuse_2026.3.22-3_arm64.deb
+ a94ead5581a2168a2a1dbba587d921ef 111748 debug optional refsprogs-dbgsym_2026.3.22-3_arm64.deb
+ 1bbe7fb4eeae50fb18b0f04e6faffdf0 73972 debian-installer optional refsprogs-udeb_2026.3.22-3_arm64.udeb
+ 3c79cf5a57efb340fd0b04912b5072e1 7519 otherosfs optional refsprogs_2026.3.22-3_arm64.buildinfo
+ 439eeffc920360543220b1a8b29a48c9 31004 otherosfs optional refsprogs_2026.3.22-3_arm64.deb

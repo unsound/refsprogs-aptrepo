@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Mon, 13 Apr 2026 18:53:09 +0300
+Source: refsprogs
+Binary: librefs-dev librefs13 librefs13-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: m68k all
+Version: 2026.3.22-3
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs13  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.3.22-3) main; urgency=medium
+ .
+   * Fix broken build for Linux 7.0.
+Checksums-Sha1:
+ 46d7331dd06674119f049afbdaa7fdb848f41182 90680 librefs-dev_2026.3.22-3_m68k.deb
+ 194476580a7cb0776e16797570d25ea6ee935a19 286080 librefs13-dbgsym_2026.3.22-3_m68k.deb
+ 8d958ed93d511485d9a313ddbbd9d188797f661f 74652 librefs13_2026.3.22-3_m68k.deb
+ c37c388e5b9768f681f1131adc990290a8460be6 107088 refs-dkms_2026.3.22-3_all.deb
+ bb6457ce447ec0c33b8ebd8ae67e3368bb96095a 21444 refs-fuse-dbgsym_2026.3.22-3_m68k.deb
+ 1fd3cf0184aed9565e5e6e72269b45f032506608 2536 refs-fuse-default_2026.3.22-3_m68k.deb
+ fe38b435d3f88528da5167382e11500576e68812 9812 refs-fuse_2026.3.22-3_m68k.deb
+ 3b75390003a0858e98aae13a3fc960c2a8416ab4 106644 refsprogs-dbgsym_2026.3.22-3_m68k.deb
+ 54e67e1bdc6da623b42581491711a03a1e81326f 77096 refsprogs-udeb_2026.3.22-3_m68k.udeb
+ b2de640c841d914c751f842b0beb397b1b926aec 7468 refsprogs_2026.3.22-3_m68k.buildinfo
+ c6e4c9f46e43e6426836ca1a9c6aa3c084d8294e 31692 refsprogs_2026.3.22-3_m68k.deb
+Checksums-Sha256:
+ fe159b3135af085bd52aadd11409131dafdd647c6348abbe829654c4d479c5b4 90680 librefs-dev_2026.3.22-3_m68k.deb
+ b5bb45728cecd1d6b2d9ea7419f879cad8b46f5c53355f1abb747f4ca7d1dd0b 286080 librefs13-dbgsym_2026.3.22-3_m68k.deb
+ a255266aa68e22ccaf2760d2cabaa9555b7ac477e779dd662bc006d9193bee76 74652 librefs13_2026.3.22-3_m68k.deb
+ eb6626176ae22364bbea15006b18fb59a66a008a1d642558b015533f4ab383be 107088 refs-dkms_2026.3.22-3_all.deb
+ b938b85cef3e736463fe49de1b3d3c74388927145d47bbc53149b713d8d47766 21444 refs-fuse-dbgsym_2026.3.22-3_m68k.deb
+ 30046223b94662c4d3c08411ed124fec7eef2e0951e6c5fd766ce8d59abcbe06 2536 refs-fuse-default_2026.3.22-3_m68k.deb
+ b9497b278b3052bd52cbf5d450bbf067bccef73a329931f434cb290921f8a207 9812 refs-fuse_2026.3.22-3_m68k.deb
+ 557caa45b92a7eb7c30ae514d5e77d995e00494aac757784e0b067b3b21e8bdb 106644 refsprogs-dbgsym_2026.3.22-3_m68k.deb
+ af0253384d8502c50808757c88f9942074e15c1b0157adecb019b9057f2cdb71 77096 refsprogs-udeb_2026.3.22-3_m68k.udeb
+ 4bb3331d0828027644fde27ac62b9a82ee4bac77131a844eadf1aba1eb95672b 7468 refsprogs_2026.3.22-3_m68k.buildinfo
+ 3c9a881f455cc127f0351eb6aa8fa87101133db17b4d042d91baee414b60da95 31692 refsprogs_2026.3.22-3_m68k.deb
+Files:
+ b1a6c7a3715d96ca240bb3bd18457309 90680 libdevel optional librefs-dev_2026.3.22-3_m68k.deb
+ 889f2a2117422ba006fdd59ca0792582 286080 debug optional librefs13-dbgsym_2026.3.22-3_m68k.deb
+ d7415834017051e447c9b960392f954f 74652 libs optional librefs13_2026.3.22-3_m68k.deb
+ fc7e427d9f272a87266e20114cbfd5a1 107088 otherosfs optional refs-dkms_2026.3.22-3_all.deb
+ f1aa40c2f75bdd40bebed45de1c5625f 21444 debug optional refs-fuse-dbgsym_2026.3.22-3_m68k.deb
+ d8fa84da9a7d7dbc4ab887bcfaccba33 2536 otherosfs optional refs-fuse-default_2026.3.22-3_m68k.deb
+ 51c894b12276d4d7a5385ce9241a037e 9812 otherosfs optional refs-fuse_2026.3.22-3_m68k.deb
+ 1b92d046b99cdfdd33d8e56aba1508a6 106644 debug optional refsprogs-dbgsym_2026.3.22-3_m68k.deb
+ 2d3d8822ad47d8b1384ba58837a0102a 77096 debian-installer optional refsprogs-udeb_2026.3.22-3_m68k.udeb
+ 901357cfaf515b3954c341848b756653 7468 otherosfs optional refsprogs_2026.3.22-3_m68k.buildinfo
+ 1d061ed7aefb1e74782705a425e77bcc 31692 otherosfs optional refsprogs_2026.3.22-3_m68k.deb

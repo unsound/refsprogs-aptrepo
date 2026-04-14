@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Mon, 13 Apr 2026 18:53:09 +0300
+Source: refsprogs
+Binary: librefs-dev librefs13 librefs13-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: alpha all
+Version: 2026.3.22-3
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs13  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.3.22-3) main; urgency=medium
+ .
+   * Fix broken build for Linux 7.0.
+Checksums-Sha1:
+ f748afc0e800bf6d27dc0fc6277aa76e38f32c42 105348 librefs-dev_2026.3.22-3_alpha.deb
+ fdb67fcc8141c691ea528718f5f9681234f66b10 324916 librefs13-dbgsym_2026.3.22-3_alpha.deb
+ fd68fbd47ba2701ac111cc42a21dadbeb2c4328e 79180 librefs13_2026.3.22-3_alpha.deb
+ 048f1f91f21e505a5d9a621333fdac2940d0858f 107112 refs-dkms_2026.3.22-3_all.deb
+ 6a613c4829a167601abdfc636816c0b9c7694534 22664 refs-fuse-dbgsym_2026.3.22-3_alpha.deb
+ 419e308fae33d842f1447f10759ed6d1dcf9d072 2536 refs-fuse-default_2026.3.22-3_alpha.deb
+ c6525cd3067acfc56d1d89097f7e4de4b33f527f 10192 refs-fuse_2026.3.22-3_alpha.deb
+ 84641bfb2237da55349801597e80ea46ad5b9b46 109444 refsprogs-dbgsym_2026.3.22-3_alpha.deb
+ ef089583187b6a4828c5bcdd10aa7a6947455a3a 81928 refsprogs-udeb_2026.3.22-3_alpha.udeb
+ 2bc37c782cb03c5b3eb0c0e2aee50156b001c603 7140 refsprogs_2026.3.22-3_alpha.buildinfo
+ 974a769007d47297b1028357e4b091afd033f33e 32476 refsprogs_2026.3.22-3_alpha.deb
+Checksums-Sha256:
+ 75b2b98e6ba9cb5be6c0dc40ef4456d7e0ab245ba8beea4ddeebc85356d25248 105348 librefs-dev_2026.3.22-3_alpha.deb
+ d40ae85b05d7f67a0cd1649f0670520c6186f11b3fc6e46f66f8f6dd6428479c 324916 librefs13-dbgsym_2026.3.22-3_alpha.deb
+ 6aa3f177d896a6850e5ee70442df716d08e595fa0551b1c88f1ef954017e4314 79180 librefs13_2026.3.22-3_alpha.deb
+ 33c3f07f462ec0924d45c710b6f3a83672936fde3ed6b1c01942f70aecd581f3 107112 refs-dkms_2026.3.22-3_all.deb
+ db54b1ac60a73c7a9e142eb6685df8cae8ef9e99e07d300a7d0fd4ec48319f8c 22664 refs-fuse-dbgsym_2026.3.22-3_alpha.deb
+ d0272b39b538b1246360c9dfac57edfe43d10a0c88dac831dced9f220ef94d4e 2536 refs-fuse-default_2026.3.22-3_alpha.deb
+ 121e9d0daf8148b08c5a13c0033771bf80296a1c53d626cb2d9d4f403147c91c 10192 refs-fuse_2026.3.22-3_alpha.deb
+ ead64d1213682b395ac68f2ea6bfcec5944b97790f149e8f2dc7d1c094967e29 109444 refsprogs-dbgsym_2026.3.22-3_alpha.deb
+ a4d0da26657e9601b87525538910ed0d76b57048b15dd16f462f584ebf7cc7ae 81928 refsprogs-udeb_2026.3.22-3_alpha.udeb
+ 796fbc9df2409d24e7ad85c552aca32f293327d07de4c68ee0132d463f01d613 7140 refsprogs_2026.3.22-3_alpha.buildinfo
+ 0c1a5ae0a326b1f4805c2fa4b13cd76c4d6a253df140a17fdf8dd8dfd17832d6 32476 refsprogs_2026.3.22-3_alpha.deb
+Files:
+ 878ba0f22f86c448cf77477e6259a313 105348 libdevel optional librefs-dev_2026.3.22-3_alpha.deb
+ 348a16f9627d95e3451f004cf1a64fd1 324916 debug optional librefs13-dbgsym_2026.3.22-3_alpha.deb
+ 00311e4fc90a3e2bad55b3f2104378f7 79180 libs optional librefs13_2026.3.22-3_alpha.deb
+ d0e52493e1105ae293b6323cd0530d00 107112 otherosfs optional refs-dkms_2026.3.22-3_all.deb
+ 75ebb9906a25a1cf66fe5e6fdfdf7db0 22664 debug optional refs-fuse-dbgsym_2026.3.22-3_alpha.deb
+ 73bc1092d76a3dbc37ee2bb61a6aa27c 2536 otherosfs optional refs-fuse-default_2026.3.22-3_alpha.deb
+ f23c4da5047b2beed05b380c1a9f975e 10192 otherosfs optional refs-fuse_2026.3.22-3_alpha.deb
+ 8a0105df109701f157bda5bb04d4561b 109444 debug optional refsprogs-dbgsym_2026.3.22-3_alpha.deb
+ 3a288c47661b4c3b15df2006e5d593cc 81928 debian-installer optional refsprogs-udeb_2026.3.22-3_alpha.udeb
+ 7ca0b7fc39e3b3bfd41c7e4fe8bb0fd3 7140 otherosfs optional refsprogs_2026.3.22-3_alpha.buildinfo
+ d4866741b48d7abac13fcf391f579100 32476 otherosfs optional refsprogs_2026.3.22-3_alpha.deb

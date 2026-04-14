@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Mon, 13 Apr 2026 18:53:09 +0300
+Source: refsprogs
+Binary: librefs-dev librefs13 librefs13-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: sparc64 all
+Version: 2026.3.22-3
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs13  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.3.22-3) main; urgency=medium
+ .
+   * Fix broken build for Linux 7.0.
+Checksums-Sha1:
+ cd14ec25058bad616bbb28efe5bf69cb7fb45c1d 98832 librefs-dev_2026.3.22-3_sparc64.deb
+ 6aee8693e9d10388a13743c1982d2db967d48b74 315492 librefs13-dbgsym_2026.3.22-3_sparc64.deb
+ 48e44bd3ee0c51f7cc1c8e2a2f7259f1b7e76817 78368 librefs13_2026.3.22-3_sparc64.deb
+ c37c388e5b9768f681f1131adc990290a8460be6 107088 refs-dkms_2026.3.22-3_all.deb
+ 63f284d27c9de2f0e161faf427c38a03327a3253 22176 refs-fuse-dbgsym_2026.3.22-3_sparc64.deb
+ ef1526c6932615bffd52cad5b9957e0fb3c9cee5 2540 refs-fuse-default_2026.3.22-3_sparc64.deb
+ 1e9038b1f09cb22b9519a2bbf9a01638da08a97c 9540 refs-fuse_2026.3.22-3_sparc64.deb
+ 9d869555812cc1611aa18e3c783ce99791f7dd3d 108824 refsprogs-dbgsym_2026.3.22-3_sparc64.deb
+ dae4daf6d7155fdfd98f01a5c593a62babd8687b 80528 refsprogs-udeb_2026.3.22-3_sparc64.udeb
+ 585d882cb649dafe2222b8d8025e323abe049ab0 7552 refsprogs_2026.3.22-3_sparc64.buildinfo
+ 5a4dc40991765bad6e3c2bf54df7ef211e3ed95d 30452 refsprogs_2026.3.22-3_sparc64.deb
+Checksums-Sha256:
+ bf5c35106f3c3fb565431d61bcef6e5f7cd49a54f24f4014a6ad16d75839c6de 98832 librefs-dev_2026.3.22-3_sparc64.deb
+ 679143fb3cb0ce1762f3dc046d837997825048dff36e0cd9190bfb8f5a70f59d 315492 librefs13-dbgsym_2026.3.22-3_sparc64.deb
+ 40bd8862527819a5accb5e7f62eb89b199bb14e4c18b5a482b7db872bcd9d751 78368 librefs13_2026.3.22-3_sparc64.deb
+ eb6626176ae22364bbea15006b18fb59a66a008a1d642558b015533f4ab383be 107088 refs-dkms_2026.3.22-3_all.deb
+ 58931e0afd1e93f64c673e1a464cf91fdf423db86238bb71ff73a8c75c44f782 22176 refs-fuse-dbgsym_2026.3.22-3_sparc64.deb
+ 13c13da112bbfe03f08b83685231e991824c622fc44240e3ebb5d6e3083a589c 2540 refs-fuse-default_2026.3.22-3_sparc64.deb
+ df6df98cd7e6a1829867d6c2293e958e0c17a327d03f5dc59612494aa2d3b35d 9540 refs-fuse_2026.3.22-3_sparc64.deb
+ 4cf5f836367a8cea0e62fc42429656b7264b910d1734b3a80332de650cfc1f66 108824 refsprogs-dbgsym_2026.3.22-3_sparc64.deb
+ 380e38bcf601680758c95d1a49fb5badf8450d77a9e8609b73ed3f5b3ec32ef7 80528 refsprogs-udeb_2026.3.22-3_sparc64.udeb
+ 6121c52fdda01e7aa6175dfb2d20793192d4a00abe16bca3ffdefd88578d67a3 7552 refsprogs_2026.3.22-3_sparc64.buildinfo
+ 2e77d12c613d8b330e3a31d882bfdff43d728abf05ce1177e7b85b9d9a4434f7 30452 refsprogs_2026.3.22-3_sparc64.deb
+Files:
+ fb332417943cddf2d375d04154c0c3c8 98832 libdevel optional librefs-dev_2026.3.22-3_sparc64.deb
+ 6ef8628ec622d7e5eae9e8005904bdfc 315492 debug optional librefs13-dbgsym_2026.3.22-3_sparc64.deb
+ d13c9a9a5642a549691b240709c56b01 78368 libs optional librefs13_2026.3.22-3_sparc64.deb
+ fc7e427d9f272a87266e20114cbfd5a1 107088 otherosfs optional refs-dkms_2026.3.22-3_all.deb
+ aabd161106608fd1a8eacf15b5e2ed0b 22176 debug optional refs-fuse-dbgsym_2026.3.22-3_sparc64.deb
+ 2c8bb1c690871a8dc19b86bf32af3128 2540 otherosfs optional refs-fuse-default_2026.3.22-3_sparc64.deb
+ e0b6c3baee86522fcf3930faf7ca4383 9540 otherosfs optional refs-fuse_2026.3.22-3_sparc64.deb
+ 45c9c4a6f795c8fc5cbe75a0386308b2 108824 debug optional refsprogs-dbgsym_2026.3.22-3_sparc64.deb
+ 96e435db5d2229bcd276ca8754faac86 80528 debian-installer optional refsprogs-udeb_2026.3.22-3_sparc64.udeb
+ 86e74362bf50f4335b639ed2fb329ed8 7552 otherosfs optional refsprogs_2026.3.22-3_sparc64.buildinfo
+ 39de6defc80456397c34f7a82b1ecb11 30452 otherosfs optional refsprogs_2026.3.22-3_sparc64.deb

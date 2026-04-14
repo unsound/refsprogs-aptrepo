@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Mon, 13 Apr 2026 18:53:09 +0300
+Source: refsprogs
+Binary: librefs-dev librefs13 librefs13-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: hppa all
+Version: 2026.3.22-3
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs13  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.3.22-3) main; urgency=medium
+ .
+   * Fix broken build for Linux 7.0.
+Checksums-Sha1:
+ 502c87db03a26736014bb644d16970ae92103b02 112156 librefs-dev_2026.3.22-3_hppa.deb
+ 141a51fc875a6120aebae4b1b04866c9f219bb92 296272 librefs13-dbgsym_2026.3.22-3_hppa.deb
+ 2d153d67148cefde5d10bbbeb93014b2bec2cc5e 96752 librefs13_2026.3.22-3_hppa.deb
+ c37c388e5b9768f681f1131adc990290a8460be6 107088 refs-dkms_2026.3.22-3_all.deb
+ 5b6de08a125a41457ae15159e5afa851f372b17c 22004 refs-fuse-dbgsym_2026.3.22-3_hppa.deb
+ 7c8ff32657169d248cc1495184474ca5a2bb7094 2536 refs-fuse-default_2026.3.22-3_hppa.deb
+ 292fffb9cbd33c5718ee5b353122d64e36c3c5d3 10196 refs-fuse_2026.3.22-3_hppa.deb
+ d7d168678c43b763bc302e2b3bb34110748ef978 104796 refsprogs-dbgsym_2026.3.22-3_hppa.deb
+ 242e40de4a4467b66f9fc90c52dad8e6d0bcd657 99332 refsprogs-udeb_2026.3.22-3_hppa.udeb
+ 6517190fcb97d38cb796447fc3892b89ed9b3024 7474 refsprogs_2026.3.22-3_hppa.buildinfo
+ edcc52ada93bd9ab31ee1653371fd1cf0aeeb15c 36784 refsprogs_2026.3.22-3_hppa.deb
+Checksums-Sha256:
+ 7a1eb97d73efc72ffbd2958de630319079ee481f5a3d31ea05a6076a642ba079 112156 librefs-dev_2026.3.22-3_hppa.deb
+ bff0d9e5ab4833ad8b96d40a11d4387a521da76a70ff47c53abebedbf7a83180 296272 librefs13-dbgsym_2026.3.22-3_hppa.deb
+ 4e1fba424b8bc8153f8cc72a193d49861e5ae74dcfc7dd00bde0782cbc5fbffc 96752 librefs13_2026.3.22-3_hppa.deb
+ eb6626176ae22364bbea15006b18fb59a66a008a1d642558b015533f4ab383be 107088 refs-dkms_2026.3.22-3_all.deb
+ afdfdec21438642c7d7f2e482ea445a4aea0e47884e95583bf9cee3063ef3c01 22004 refs-fuse-dbgsym_2026.3.22-3_hppa.deb
+ a7227f9ac7d7009a2a3476357cdb277350382986cd5a5cce64fef6a474a79414 2536 refs-fuse-default_2026.3.22-3_hppa.deb
+ 22dc2c586cfb92eac53ae2fab6762981b1f0871c483e96f5438f59ca0dad590d 10196 refs-fuse_2026.3.22-3_hppa.deb
+ 7e97a1e3197b20c8890f9f5c16912b3885e48acff783ce58ad7cf203859e1af3 104796 refsprogs-dbgsym_2026.3.22-3_hppa.deb
+ 9e849f4d75b4756fdfddd8d90c62d9f4b0eead07540661b9685e10d4c2677b53 99332 refsprogs-udeb_2026.3.22-3_hppa.udeb
+ 5c5f1d2f6615c4404cbfdf9bd30754aa556b8f734bd2aac520cbf45669dfffb9 7474 refsprogs_2026.3.22-3_hppa.buildinfo
+ 9b9226abcd38aabdd2f5256309cabd787528fa05345800bc2e4b08280069718d 36784 refsprogs_2026.3.22-3_hppa.deb
+Files:
+ 8718e6aa55bb9b59380d448cd081aae8 112156 libdevel optional librefs-dev_2026.3.22-3_hppa.deb
+ 17ee1398434b33cb25909f875e5ed607 296272 debug optional librefs13-dbgsym_2026.3.22-3_hppa.deb
+ 8b7c729812ac3458948aee42daaa0029 96752 libs optional librefs13_2026.3.22-3_hppa.deb
+ fc7e427d9f272a87266e20114cbfd5a1 107088 otherosfs optional refs-dkms_2026.3.22-3_all.deb
+ f3d7603de337c14a95b4e101f54e9139 22004 debug optional refs-fuse-dbgsym_2026.3.22-3_hppa.deb
+ 649138af89d11298402b66945224724a 2536 otherosfs optional refs-fuse-default_2026.3.22-3_hppa.deb
+ 8158e9443a5a6d869654fc058eebed9a 10196 otherosfs optional refs-fuse_2026.3.22-3_hppa.deb
+ 3cdb338983bf4aa3ae4d29631b748a23 104796 debug optional refsprogs-dbgsym_2026.3.22-3_hppa.deb
+ f3ad7ad862f14c3bedad4af00974f1b9 99332 debian-installer optional refsprogs-udeb_2026.3.22-3_hppa.udeb
+ 66fab3ab01d644bd26a985efda242135 7474 otherosfs optional refsprogs_2026.3.22-3_hppa.buildinfo
+ 40f21bf062cd56228f47cc3fd23e59e6 36784 otherosfs optional refsprogs_2026.3.22-3_hppa.deb

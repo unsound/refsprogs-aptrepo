@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Mon, 13 Apr 2026 18:53:09 +0300
+Source: refsprogs
+Binary: librefs-dev librefs13 librefs13-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: s390x all
+Version: 2026.3.22-3
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs13  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.3.22-3) main; urgency=medium
+ .
+   * Fix broken build for Linux 7.0.
+Checksums-Sha1:
+ d1804080d05f9af1310e0bed868ee404eaa399c7 97780 librefs-dev_2026.3.22-3_s390x.deb
+ ff044a895eafbb3a91e5ba2e7994667fce19d7e1 304692 librefs13-dbgsym_2026.3.22-3_s390x.deb
+ ff3590bb2231f94221dfa0625152ea059c32c937 79868 librefs13_2026.3.22-3_s390x.deb
+ 6f17fc56c66a2c310b184a6e24a92085e3bb3f9e 107080 refs-dkms_2026.3.22-3_all.deb
+ 7ae0dadd914015b19a2f889de05048dbe54105f9 22880 refs-fuse-dbgsym_2026.3.22-3_s390x.deb
+ 33296d62fa8a8efbea190c4a7e3dfd303f32fbe2 2536 refs-fuse-default_2026.3.22-3_s390x.deb
+ b47edc051863ac18d60884ce6c42b4b6b1c01963 10196 refs-fuse_2026.3.22-3_s390x.deb
+ 7cf6f2e79d65cd812a81d5c9fb99e7b10ad01bdc 109248 refsprogs-dbgsym_2026.3.22-3_s390x.deb
+ 503ee57b89a56a689117185d1d51bf42cafe7bf9 82548 refsprogs-udeb_2026.3.22-3_s390x.udeb
+ 41b3a3e32e0cb13615ae4e3a1c9956ee3dd5a6e3 7519 refsprogs_2026.3.22-3_s390x.buildinfo
+ 768c36c03843f8932f3727b595df0651001f7b8f 31668 refsprogs_2026.3.22-3_s390x.deb
+Checksums-Sha256:
+ ea84300ab4b39b7b9a760e2a66bad3738250eb3120fffb517d2676c4cdf8c321 97780 librefs-dev_2026.3.22-3_s390x.deb
+ 4f50deded808f165c3e1023ea4d635c0890faf30655821c50445d5cba68185cb 304692 librefs13-dbgsym_2026.3.22-3_s390x.deb
+ 480dd7d9bf4d996c7dfe817a0d0df5e4aa5fb586a48f466a286f1436badbe1c9 79868 librefs13_2026.3.22-3_s390x.deb
+ 0e3657e169bbe108fcc97339de24d66a41a6bcf1f08f6b303f56d29c3601b1c3 107080 refs-dkms_2026.3.22-3_all.deb
+ 73d985887e7b7ee75df983d0c8ee21180520f8d419cb3c52fdd73864aa996601 22880 refs-fuse-dbgsym_2026.3.22-3_s390x.deb
+ 8919b8bc84df39e45d0d46b390da5ed84b05dd1fa79a5fff041d2ca892ab0167 2536 refs-fuse-default_2026.3.22-3_s390x.deb
+ 2008020e5d55d5a022d90a1aef9ddf999c09d28501aa7aae6289bd052fd697df 10196 refs-fuse_2026.3.22-3_s390x.deb
+ 08ec467aac198b72b2e5516ade0b6028c1fc86c801c9d75d0df9d691b5b3df89 109248 refsprogs-dbgsym_2026.3.22-3_s390x.deb
+ 24b9e1faa7cf048d20dcf660c22e099549908e0050c5b82536cb5116ef4ec86a 82548 refsprogs-udeb_2026.3.22-3_s390x.udeb
+ 6b017185d072fae0ca54275f798b98ab6e596a47407e750d4ab16abb8f5cf1a2 7519 refsprogs_2026.3.22-3_s390x.buildinfo
+ 77bcf5fe5e7bb6c1cadafe15f37d4b6fbb8d287021facad944f440e0fec6019b 31668 refsprogs_2026.3.22-3_s390x.deb
+Files:
+ 7d62e0254165c4fd00652a54488574b8 97780 libdevel optional librefs-dev_2026.3.22-3_s390x.deb
+ 74a4c10d0b2bd3629c97d8bd06f7ca34 304692 debug optional librefs13-dbgsym_2026.3.22-3_s390x.deb
+ b2445b51207a74f65140dd8552f031db 79868 libs optional librefs13_2026.3.22-3_s390x.deb
+ 070fb46fc4b5a4c86d9a00d09e2de6fe 107080 otherosfs optional refs-dkms_2026.3.22-3_all.deb
+ 9be6cc93974094629c0ee8c57340387a 22880 debug optional refs-fuse-dbgsym_2026.3.22-3_s390x.deb
+ b02c90112ad289304d9568b9bb14ba10 2536 otherosfs optional refs-fuse-default_2026.3.22-3_s390x.deb
+ ff2faf98b7e7954fc09d0fc94cda2ff5 10196 otherosfs optional refs-fuse_2026.3.22-3_s390x.deb
+ b5978c8c5f25a637fbb7ab63b7924107 109248 debug optional refsprogs-dbgsym_2026.3.22-3_s390x.deb
+ 1703c93594d03e18eabae8becddb8bd1 82548 debian-installer optional refsprogs-udeb_2026.3.22-3_s390x.udeb
+ 34f38f1f06abfb2ef78e1045706c37c0 7519 otherosfs optional refsprogs_2026.3.22-3_s390x.buildinfo
+ 343801354c117a192f3438aab739f9da 31668 otherosfs optional refsprogs_2026.3.22-3_s390x.deb

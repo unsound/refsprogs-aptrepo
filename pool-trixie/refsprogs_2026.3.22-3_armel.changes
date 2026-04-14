@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Mon, 13 Apr 2026 18:53:09 +0300
+Source: refsprogs
+Binary: librefs-dev librefs13 librefs13-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: armel all
+Version: 2026.3.22-3
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs13  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.3.22-3) main; urgency=medium
+ .
+   * Fix broken build for Linux 7.0.
+Checksums-Sha1:
+ 6a1ac9e77e12440ee2801138201f02692d10d51d 94340 librefs-dev_2026.3.22-3_armel.deb
+ a8ca8fb7cfbc5152f4fa2aae9f899b43c7b506f3 319816 librefs13-dbgsym_2026.3.22-3_armel.deb
+ 296b497e4bccf8b6b6025e38b3fba11b89962160 75224 librefs13_2026.3.22-3_armel.deb
+ 6f17fc56c66a2c310b184a6e24a92085e3bb3f9e 107080 refs-dkms_2026.3.22-3_all.deb
+ 3c6aec2ed49d4995e1b97a7630c4e55b0d2f8293 22992 refs-fuse-dbgsym_2026.3.22-3_armel.deb
+ 3046f03eae8fa62dc465c88db428ed4f08c9dae7 2536 refs-fuse-default_2026.3.22-3_armel.deb
+ c4389021ecd41f9c90aa40f03a1831ba9dcd8123 9812 refs-fuse_2026.3.22-3_armel.deb
+ 6fe08a89fbddea1665e8d0bbe5bb79ce8db85db7 110256 refsprogs-dbgsym_2026.3.22-3_armel.deb
+ 198695c6c6d4be499829c07ff0c11a272cd3d527 77732 refsprogs-udeb_2026.3.22-3_armel.udeb
+ 3b4964b4b82d3be68c8dacf0e509623f20381060 7516 refsprogs_2026.3.22-3_armel.buildinfo
+ ecf4cdce8132bc1062601e025562fe44d22e138f 32076 refsprogs_2026.3.22-3_armel.deb
+Checksums-Sha256:
+ 819471035d54b6423d63ae5392334c9d46a70fce7fcd7c35a7db6710a0175dcf 94340 librefs-dev_2026.3.22-3_armel.deb
+ f1b7a105b6fa4ac5d538626741e64474d7a732d514ec062d5dfef7dcb82b3641 319816 librefs13-dbgsym_2026.3.22-3_armel.deb
+ 672563693038db4114b7f052b5d01134a91cebebf03ad52f325b9f5c0433c318 75224 librefs13_2026.3.22-3_armel.deb
+ 0e3657e169bbe108fcc97339de24d66a41a6bcf1f08f6b303f56d29c3601b1c3 107080 refs-dkms_2026.3.22-3_all.deb
+ a7acbebf23a698be223e2b127a990412751d098703f708e0e8c4442559e45666 22992 refs-fuse-dbgsym_2026.3.22-3_armel.deb
+ ba4449baa3361fb28f03e24ab019b1229dc00ac9f9ba15de8273be679e0a3d5a 2536 refs-fuse-default_2026.3.22-3_armel.deb
+ 214bd6ea4cc7ad2b40be1da95267752867ba4ccc6da873dba82751f143dda079 9812 refs-fuse_2026.3.22-3_armel.deb
+ 3b8d88400f7848f36d81bbbb86da53ea3c6a621e295eadb8842b2a039dcce118 110256 refsprogs-dbgsym_2026.3.22-3_armel.deb
+ 7c78bda0c17cf3496d46a0377b48ff6146b4549cd4fafa0157eb7914ea33f2f7 77732 refsprogs-udeb_2026.3.22-3_armel.udeb
+ 1e8cb802529e3eeb73e3734544df86227b4c4a317bba32fb0d8572bd559a832b 7516 refsprogs_2026.3.22-3_armel.buildinfo
+ ada1021392efa11346268348b7b127105117568d6a6d270e59f4fa9b4679f253 32076 refsprogs_2026.3.22-3_armel.deb
+Files:
+ 9fac738d516e1d828b957fea1097ee07 94340 libdevel optional librefs-dev_2026.3.22-3_armel.deb
+ c33253c26d975bd20bc40e7a54f538a6 319816 debug optional librefs13-dbgsym_2026.3.22-3_armel.deb
+ 83a91e3cfbbb5341c40a3925204550ca 75224 libs optional librefs13_2026.3.22-3_armel.deb
+ 070fb46fc4b5a4c86d9a00d09e2de6fe 107080 otherosfs optional refs-dkms_2026.3.22-3_all.deb
+ fe360efe43c8c1a07611d34e57da07c8 22992 debug optional refs-fuse-dbgsym_2026.3.22-3_armel.deb
+ e2ea3673181074bc4694df11df5790df 2536 otherosfs optional refs-fuse-default_2026.3.22-3_armel.deb
+ bea3d98c2c8d9651fa3810e7b2e4de00 9812 otherosfs optional refs-fuse_2026.3.22-3_armel.deb
+ 1dfd48338cfd77e06d04a83f7a9918e4 110256 debug optional refsprogs-dbgsym_2026.3.22-3_armel.deb
+ 51110688c8e1b98515a8802a7ed6b7ae 77732 debian-installer optional refsprogs-udeb_2026.3.22-3_armel.udeb
+ 5b58361fa7d08b00845df76d4c631adc 7516 otherosfs optional refsprogs_2026.3.22-3_armel.buildinfo
+ 7627333a016a6cfbb2f80dc794e1a9d0 32076 otherosfs optional refsprogs_2026.3.22-3_armel.deb

@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Mon, 13 Apr 2026 18:53:09 +0300
+Source: refsprogs
+Binary: librefs-dev librefs13 librefs13-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: i386 all
+Version: 2026.3.22-3
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs13  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.3.22-3) main; urgency=medium
+ .
+   * Fix broken build for Linux 7.0.
+Checksums-Sha1:
+ c2b805cac1fbc48523e6b6b5afe5f70b3ae728b8 119448 librefs-dev_2026.3.22-3_i386.deb
+ e1c10665f5f48c81ce625e8c0a4cab16388f40ed 325060 librefs13-dbgsym_2026.3.22-3_i386.deb
+ 33ae62306acf3481d69f1dde0f1232c41051e94b 101876 librefs13_2026.3.22-3_i386.deb
+ 6f17fc56c66a2c310b184a6e24a92085e3bb3f9e 107080 refs-dkms_2026.3.22-3_all.deb
+ daa49b84958f6379f8b894b5596668a485638a88 16764 refs-fuse-dbgsym_2026.3.22-3_i386.deb
+ 051fecc1c9db0500ea77559293cc1d5ab1e6670f 2536 refs-fuse-default_2026.3.22-3_i386.deb
+ 569317410d86ba87d628038fa06e5cdaafd5b36b 10080 refs-fuse_2026.3.22-3_i386.deb
+ c3bf2d1d6fb968d31c1db9f58e14986e1e363ea8 104124 refsprogs-dbgsym_2026.3.22-3_i386.deb
+ abdd702518c4537dea5d778fd374f5a11f267c7d 104396 refsprogs-udeb_2026.3.22-3_i386.udeb
+ c161794c592cccb71ecde8342753e7e0a0d47fa8 7500 refsprogs_2026.3.22-3_i386.buildinfo
+ 5cf0995558d7838ae66d2941b649e34e2238a18d 34628 refsprogs_2026.3.22-3_i386.deb
+Checksums-Sha256:
+ f054cc2aa06241c47a04cb414546668097d6a8916b965733a94d5e18ec12f250 119448 librefs-dev_2026.3.22-3_i386.deb
+ 044f86087b51039c9a27ce1f341ea7ac7d07838d4cfc073f3396c5e3b1e21152 325060 librefs13-dbgsym_2026.3.22-3_i386.deb
+ 8d36bc9176ffa71bf59b59483e919b384ef576c6b75b80f7857492660f218cf2 101876 librefs13_2026.3.22-3_i386.deb
+ 0e3657e169bbe108fcc97339de24d66a41a6bcf1f08f6b303f56d29c3601b1c3 107080 refs-dkms_2026.3.22-3_all.deb
+ 1c7c8224416eed58c8ef568b87bbc75b3eeef93933b5b61793e5b5619621f73f 16764 refs-fuse-dbgsym_2026.3.22-3_i386.deb
+ ca699027df825932da58257af09e5435d7d28cb11903bf449329c59eaa21c5be 2536 refs-fuse-default_2026.3.22-3_i386.deb
+ 8a6833c20b17fe5cb8fc71d56eed3492fe8132b5a49395201e9cfef6f0e595f2 10080 refs-fuse_2026.3.22-3_i386.deb
+ 7ee8ec4966254838ef89beaa49aa3d1496e75253ecdb84f601c96e956683d4cb 104124 refsprogs-dbgsym_2026.3.22-3_i386.deb
+ 0742fbef2c049b4765e27639d1927c424b6b72f00755f07c23af24d09c9fcb16 104396 refsprogs-udeb_2026.3.22-3_i386.udeb
+ a6d854539f9d0f2fd603ff839e617895fca60a3d1741766032c176389f0b7c52 7500 refsprogs_2026.3.22-3_i386.buildinfo
+ 43fd319659ac1205008696ed92d2fd9f961e292b4a0796762e83b382427c0f87 34628 refsprogs_2026.3.22-3_i386.deb
+Files:
+ 410cf1839e5fdc14a93b594a2c22f984 119448 libdevel optional librefs-dev_2026.3.22-3_i386.deb
+ 25f9a8c5ac76b24a33723fca9cf685a6 325060 debug optional librefs13-dbgsym_2026.3.22-3_i386.deb
+ 2276dd189ee1d324d605abb7df6cd64c 101876 libs optional librefs13_2026.3.22-3_i386.deb
+ 070fb46fc4b5a4c86d9a00d09e2de6fe 107080 otherosfs optional refs-dkms_2026.3.22-3_all.deb
+ 1aa012d7a11176652333cc016e1d6238 16764 debug optional refs-fuse-dbgsym_2026.3.22-3_i386.deb
+ 887c92fffce7fe79d9e4026cfbb3e57b 2536 otherosfs optional refs-fuse-default_2026.3.22-3_i386.deb
+ e247116c082bd796ab02bbc265e2f507 10080 otherosfs optional refs-fuse_2026.3.22-3_i386.deb
+ 73f3bdf5fdb1d1da1fb216165162da24 104124 debug optional refsprogs-dbgsym_2026.3.22-3_i386.deb
+ e71a808a3e119bb7bd9650e724db128f 104396 debian-installer optional refsprogs-udeb_2026.3.22-3_i386.udeb
+ 66636522272c4d2516df25e80d70fdc0 7500 otherosfs optional refsprogs_2026.3.22-3_i386.buildinfo
+ e19fd6909477d57d4109a855cbff55be 34628 otherosfs optional refsprogs_2026.3.22-3_i386.deb
