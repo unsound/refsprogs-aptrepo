@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Thu, 18 Jun 2026 10:04:33 +0200
+Source: refsprogs
+Binary: librefs-dev librefs14 librefs14-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: loong64 all
+Version: 2026.6.18-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs14  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.6.18-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ c4c3ae3a606b9580c6cea6415d598a4c1a3d76df 265520 librefs-dev_2026.6.18-1_loong64.deb
+ fa382c4e4eb419b7c064134417205ebadaface7f 340636 librefs14-dbgsym_2026.6.18-1_loong64.deb
+ 3c3653920a86f42dac9272f6bcb825898d671258 84296 librefs14_2026.6.18-1_loong64.deb
+ 4c7988d02752b5bafba37991e26c7fb781d0647b 107608 refs-dkms_2026.6.18-1_all.deb
+ eb69b52e88c6db12ab47ad46ba80091929b0db78 23676 refs-fuse-dbgsym_2026.6.18-1_loong64.deb
+ 7bc170809a1880ebadfc19a1bd29608282599edf 2580 refs-fuse-default_2026.6.18-1_loong64.deb
+ 7899f7a77c91e51c416552a9923c68de926d31e7 10888 refs-fuse_2026.6.18-1_loong64.deb
+ 70d6e654980cc8248c16b2519621beca1fc0712b 112188 refsprogs-dbgsym_2026.6.18-1_loong64.deb
+ c4b1c2ded5d5c0bb933f48eb6a0a25a41b78d3fe 87304 refsprogs-udeb_2026.6.18-1_loong64.udeb
+ ec8aed554c39b570643a68edf23586552ad050b9 7558 refsprogs_2026.6.18-1_loong64.buildinfo
+ b437a28cd4dfe7c6eacf828ea0edc587d8e85d6a 31712 refsprogs_2026.6.18-1_loong64.deb
+Checksums-Sha256:
+ 9ebd336d62068cbfb2fa0e6da56d4b5af89fae6749edb1101efe7723b655914b 265520 librefs-dev_2026.6.18-1_loong64.deb
+ cc0ccc4afe6c0fc8c3dc0261c7f732923b28fb621d815887cac37899bd2d3b5e 340636 librefs14-dbgsym_2026.6.18-1_loong64.deb
+ b6a0a3197d60f0d7ddcde8adef78ed420c685d633ed1f4a9142f1dd3604b7901 84296 librefs14_2026.6.18-1_loong64.deb
+ 6181299bc6aa9acb6b2bd1f0b3ab07319a70846e651b9b15e39fcc0415a2f2f1 107608 refs-dkms_2026.6.18-1_all.deb
+ 3c33d75cb92e40b71e3bed53003f096acc17c26f484073c34811a88252f47290 23676 refs-fuse-dbgsym_2026.6.18-1_loong64.deb
+ e6bbe1ebd45874128cf4d83b63bf04464ee96e51a26d3531683fc1bb807d7da6 2580 refs-fuse-default_2026.6.18-1_loong64.deb
+ eb97752f6f7fe3f70a1844b350c86d8aa71ba57c4242603fbaba8ac91925a194 10888 refs-fuse_2026.6.18-1_loong64.deb
+ e29fb51bae354e8bec05f580890530898c99f0d88830f3dd8354673a9c90ba68 112188 refsprogs-dbgsym_2026.6.18-1_loong64.deb
+ fdcdc00783b940f80efe0f261b73dffa8893733814f1e186100bb185cc93723e 87304 refsprogs-udeb_2026.6.18-1_loong64.udeb
+ e779f72daf475dcbe51cb7e8eededac2716d1f5699129d0050080892037bf039 7558 refsprogs_2026.6.18-1_loong64.buildinfo
+ b109d659366a20926792cf88d957cdad4b9a4bd3016a376768dba0bf4e48aa79 31712 refsprogs_2026.6.18-1_loong64.deb
+Files:
+ 23c87c5b56620164b67758e0878bcb7f 265520 libdevel optional librefs-dev_2026.6.18-1_loong64.deb
+ b68cbaea567b365f2123bd2f5063cd5e 340636 debug optional librefs14-dbgsym_2026.6.18-1_loong64.deb
+ 4a128a67a26df210ba463e72393fb025 84296 libs optional librefs14_2026.6.18-1_loong64.deb
+ c42a9138a2ccfecd3d4a58881e8d567a 107608 otherosfs optional refs-dkms_2026.6.18-1_all.deb
+ 52e0f5da8f11f928bb355cbda7c92125 23676 debug optional refs-fuse-dbgsym_2026.6.18-1_loong64.deb
+ f4d302fdd9825805f12a8f81e8766e1d 2580 otherosfs optional refs-fuse-default_2026.6.18-1_loong64.deb
+ 3c5f409d4f0f4e4085affd2be96cf596 10888 otherosfs optional refs-fuse_2026.6.18-1_loong64.deb
+ d976c82b6fc7ee80b7ba8d938d2158a1 112188 debug optional refsprogs-dbgsym_2026.6.18-1_loong64.deb
+ 27f8dbfe4ba2d1a8e4c826b1a6bff326 87304 debian-installer optional refsprogs-udeb_2026.6.18-1_loong64.udeb
+ 902b9549d5d0c25fa735185c65ebbd40 7558 otherosfs optional refsprogs_2026.6.18-1_loong64.buildinfo
+ 0135a1a876e190654584fe0fb1ae2124 31712 otherosfs optional refsprogs_2026.6.18-1_loong64.deb

@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Thu, 18 Jun 2026 10:04:33 +0200
+Source: refsprogs
+Binary: librefs-dev librefs14 librefs14-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: armhf all
+Version: 2026.6.18-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs14  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.6.18-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ c49bd060d33543ba02b9d6c8f79b18b17c4f297c 90992 librefs-dev_2026.6.18-1_armhf.deb
+ 464b2ca59282dd16381597d24b204884ffa4d98f 319752 librefs14-dbgsym_2026.6.18-1_armhf.deb
+ c02e254328e4e0210d08ed636e4303b47cc961a3 71832 librefs14_2026.6.18-1_armhf.deb
+ b972fefee535eb6f6a5bc957799ccebe9d502d71 107616 refs-dkms_2026.6.18-1_all.deb
+ 9f2dbea869dab9350a9a0f7dc19d2a91a74ed10e 23216 refs-fuse-dbgsym_2026.6.18-1_armhf.deb
+ 725d267cd8e22902e980419b889a5caed97d0d27 2584 refs-fuse-default_2026.6.18-1_armhf.deb
+ c76612fd6c785f49feed574cb36fd8e3451aed1e 9740 refs-fuse_2026.6.18-1_armhf.deb
+ 02ba3f31f36c92e35de465309d713437da8539d9 112012 refsprogs-dbgsym_2026.6.18-1_armhf.deb
+ 3ee09b9a50abc32299a7af95a090445ac551e0e1 74100 refsprogs-udeb_2026.6.18-1_armhf.udeb
+ 4ac7fa7d512694acf70a02902c6e44e68ad5e514 7548 refsprogs_2026.6.18-1_armhf.buildinfo
+ 4a437354d5d6456f2cd91a7f088466a110e5206a 32168 refsprogs_2026.6.18-1_armhf.deb
+Checksums-Sha256:
+ a26df37d66add8d96b5d03226f27efc46edfa696b4adaa3c5b146ee6c899ef9a 90992 librefs-dev_2026.6.18-1_armhf.deb
+ fbfc3f7636d2143efc9536e04f90316af655639f937567229a11111e67892e1e 319752 librefs14-dbgsym_2026.6.18-1_armhf.deb
+ 2f0943cfb2e498632eafc152bbc28b3b0174651e363f6dd1f64119b617e61e14 71832 librefs14_2026.6.18-1_armhf.deb
+ 93316972b7f4aeeda0166a4c6ae9fa0df02baae24a71c5cbd6b6d0506f213192 107616 refs-dkms_2026.6.18-1_all.deb
+ 2d76e915c4fff105107d57b30a01b316e47110aa8426c74c9cb4371b9b776958 23216 refs-fuse-dbgsym_2026.6.18-1_armhf.deb
+ b6c36e303b9f4feef468371f42de8bfeba8bebb756b6318592f324834f2d294d 2584 refs-fuse-default_2026.6.18-1_armhf.deb
+ 6f21da753f5332a26266c5744d4bdab5147f99b747fa81afe80632c66f3d2d20 9740 refs-fuse_2026.6.18-1_armhf.deb
+ eec9bfaa640c57eb10e68fba9fed146320a00056e7388a0cf345e9c19385f1ab 112012 refsprogs-dbgsym_2026.6.18-1_armhf.deb
+ 2401188f1cd7627e805644f50709f2d869d883dba62f1769064407e30ea9a751 74100 refsprogs-udeb_2026.6.18-1_armhf.udeb
+ d1c993027e90b61a87b6bd41a32c741afd3f798a11a59bab8a72795fe1738c5a 7548 refsprogs_2026.6.18-1_armhf.buildinfo
+ 6b3dfb67d4c2ab0a4271eb489016d0d094c4e0e832f1fb7e0efcf7590d2819c7 32168 refsprogs_2026.6.18-1_armhf.deb
+Files:
+ 1e89abb74ed4d776e01d3c9e53fc976b 90992 libdevel optional librefs-dev_2026.6.18-1_armhf.deb
+ 9e659b869d50e23c1d6c884d9ffb82f2 319752 debug optional librefs14-dbgsym_2026.6.18-1_armhf.deb
+ 0e7c117089074f376adc846e3cfd18ea 71832 libs optional librefs14_2026.6.18-1_armhf.deb
+ aa831eb917f70ee5f4bb41f495fff948 107616 otherosfs optional refs-dkms_2026.6.18-1_all.deb
+ 21616dbe498b169d440015e1a2634970 23216 debug optional refs-fuse-dbgsym_2026.6.18-1_armhf.deb
+ dead7c35b1acde93d32969b542c9d409 2584 otherosfs optional refs-fuse-default_2026.6.18-1_armhf.deb
+ 0299b7d6c5046c9bb7a695e5cecd4df3 9740 otherosfs optional refs-fuse_2026.6.18-1_armhf.deb
+ 7fccc4f71974df8ed0d5285a174a040e 112012 debug optional refsprogs-dbgsym_2026.6.18-1_armhf.deb
+ 84b567b1cc8d6fac691d88001f5917a8 74100 debian-installer optional refsprogs-udeb_2026.6.18-1_armhf.udeb
+ 16cc804a0caeb1058e9d50cfb44bcc5c 7548 otherosfs optional refsprogs_2026.6.18-1_armhf.buildinfo
+ f9c59af595e0079ef11e762cac6e0509 32168 otherosfs optional refsprogs_2026.6.18-1_armhf.deb

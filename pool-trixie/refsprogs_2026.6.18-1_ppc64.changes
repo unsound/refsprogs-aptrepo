@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Thu, 18 Jun 2026 10:04:33 +0200
+Source: refsprogs
+Binary: librefs-dev librefs14 librefs14-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: ppc64 all
+Version: 2026.6.18-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs14  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.6.18-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 9527e71bd393ee958618178df78be54ef408972f 104012 librefs-dev_2026.6.18-1_ppc64.deb
+ 38988f82663987d1e99ea0ab413c4c1f7267a8ac 332532 librefs14-dbgsym_2026.6.18-1_ppc64.deb
+ 46954f0148b2baa7b223287bff61b70a8d834506 85068 librefs14_2026.6.18-1_ppc64.deb
+ 4c7988d02752b5bafba37991e26c7fb781d0647b 107608 refs-dkms_2026.6.18-1_all.deb
+ 7c85f2581d3d7c9adca4a2590da29502262fcefc 23492 refs-fuse-dbgsym_2026.6.18-1_ppc64.deb
+ b375a1aab755aedb89bb67ff69c2c632e1b5141e 2580 refs-fuse-default_2026.6.18-1_ppc64.deb
+ 622a15bc9edb37403d50bb99be65a9176d806a21 11104 refs-fuse_2026.6.18-1_ppc64.deb
+ c0627d409a8dc37dbc0cfbabf9f7ba8fc939b0c7 112060 refsprogs-dbgsym_2026.6.18-1_ppc64.deb
+ 5c7094c5be31f15280a4b547303ce8e585fcd759 88288 refsprogs-udeb_2026.6.18-1_ppc64.udeb
+ 1ee256bf62c61c107ee175b1891230e225cc4ddc 7502 refsprogs_2026.6.18-1_ppc64.buildinfo
+ 18c03dff308e839245b6cfbc1a240971ff9b4d9d 33916 refsprogs_2026.6.18-1_ppc64.deb
+Checksums-Sha256:
+ 21c9335250e86621954c440283eef751b03072757b6a440a467a9d044750016c 104012 librefs-dev_2026.6.18-1_ppc64.deb
+ 387bb5d49d46b429287f62531e0f94e1bdaded0c2b57d46f8ae857dc6ebfa181 332532 librefs14-dbgsym_2026.6.18-1_ppc64.deb
+ 9da98688aaccb2ba28d5f38331ea7ec3a38392725d3dfa835f6cdf33ea86e48d 85068 librefs14_2026.6.18-1_ppc64.deb
+ 6181299bc6aa9acb6b2bd1f0b3ab07319a70846e651b9b15e39fcc0415a2f2f1 107608 refs-dkms_2026.6.18-1_all.deb
+ 1b8d10cd3a94bb6530e2c23b3c767648d1eda2a97464f74920cb692be49ca12b 23492 refs-fuse-dbgsym_2026.6.18-1_ppc64.deb
+ 767b4df7074b704b823bc32fb84ab062961c33be70e928fbd615a6432858f2dc 2580 refs-fuse-default_2026.6.18-1_ppc64.deb
+ 93902318ba147ef658143832b30d86604e24bc0e79264ff74b79ab50ba127ca0 11104 refs-fuse_2026.6.18-1_ppc64.deb
+ 7842b8688010eab01a66c6b7df601b25db36f41d20e554959c1315a08d0d49ab 112060 refsprogs-dbgsym_2026.6.18-1_ppc64.deb
+ f333cb104d2979705d378b2720aa6cded71b099186ffef0e47cbd417ed5dd32d 88288 refsprogs-udeb_2026.6.18-1_ppc64.udeb
+ 512e36305158a7b2e35ae080fec5ff0060b0030a22eb551b86e1809037c3d169 7502 refsprogs_2026.6.18-1_ppc64.buildinfo
+ f41f158266935c4912c9a49e3325eeaf1ebb4213400f8b4958669fe7a58af4fd 33916 refsprogs_2026.6.18-1_ppc64.deb
+Files:
+ 2a05970d410c300deaccb2210430cdbd 104012 libdevel optional librefs-dev_2026.6.18-1_ppc64.deb
+ 818f7c8aef7604ac56738c45e9b2a42e 332532 debug optional librefs14-dbgsym_2026.6.18-1_ppc64.deb
+ da023f039a129a88614a667b4589cf1a 85068 libs optional librefs14_2026.6.18-1_ppc64.deb
+ c42a9138a2ccfecd3d4a58881e8d567a 107608 otherosfs optional refs-dkms_2026.6.18-1_all.deb
+ 4a46117fc7e15ca9d4c852e3b3879d82 23492 debug optional refs-fuse-dbgsym_2026.6.18-1_ppc64.deb
+ 6b1f48e9b1e5e69076059a350b7ac36a 2580 otherosfs optional refs-fuse-default_2026.6.18-1_ppc64.deb
+ db168d0163b23155648882840a3a69f1 11104 otherosfs optional refs-fuse_2026.6.18-1_ppc64.deb
+ a32fbe9910563074c3ce595743d62f0b 112060 debug optional refsprogs-dbgsym_2026.6.18-1_ppc64.deb
+ 9e738273044f94c7dd12eae608dc5af5 88288 debian-installer optional refsprogs-udeb_2026.6.18-1_ppc64.udeb
+ 938dba9d68a2c164cc5eec577767c67e 7502 otherosfs optional refsprogs_2026.6.18-1_ppc64.buildinfo
+ 4af9779f416582369bcf8a2d69241cf3 33916 otherosfs optional refsprogs_2026.6.18-1_ppc64.deb

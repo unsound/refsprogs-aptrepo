@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Thu, 18 Jun 2026 10:04:33 +0200
+Source: refsprogs
+Binary: librefs-dev librefs14 librefs14-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: sparc64 all
+Version: 2026.6.18-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs14  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.6.18-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 66b05fc3a44dbd8ec7b072a2a0eb2380b24c3aa0 99764 librefs-dev_2026.6.18-1_sparc64.deb
+ 690f4b179f7dbd80d75eab09dd3064c614e41043 318560 librefs14-dbgsym_2026.6.18-1_sparc64.deb
+ f7cfc8c3c1af7205cee6009ae1ca964e96b1197a 78664 librefs14_2026.6.18-1_sparc64.deb
+ 4c7988d02752b5bafba37991e26c7fb781d0647b 107608 refs-dkms_2026.6.18-1_all.deb
+ 209607fba920f56157a776767caf723ef7885687 22160 refs-fuse-dbgsym_2026.6.18-1_sparc64.deb
+ bbbe98eec7b59b5a67290b46d098d34b920fc053 2580 refs-fuse-default_2026.6.18-1_sparc64.deb
+ e8160e1ea86bb5ac976e98bce91aa9e0a74dd307 9580 refs-fuse_2026.6.18-1_sparc64.deb
+ 8e6a56917337918fc69b3723bdc00dca4e0d79db 109244 refsprogs-dbgsym_2026.6.18-1_sparc64.deb
+ 3e4e09e2b66fa019b8ccdc2e3f875b1e78f1184d 80796 refsprogs-udeb_2026.6.18-1_sparc64.udeb
+ 7c8fab1b0e08f25ce75c4850d6a329cbd7d1dc9d 7552 refsprogs_2026.6.18-1_sparc64.buildinfo
+ 37a36317c214fe931a8fb4a65be46a85370f6a84 30488 refsprogs_2026.6.18-1_sparc64.deb
+Checksums-Sha256:
+ 6c6898040dbafea795a9dee94a1247a36d5a86c38ea10383d525dc1ac4b6d9c5 99764 librefs-dev_2026.6.18-1_sparc64.deb
+ 377fb10239e9dda9b0a2912be06c302e1dfe546efdac234b8c1bbf2ec6f041d7 318560 librefs14-dbgsym_2026.6.18-1_sparc64.deb
+ 4b6d405b28ab99fcb5f0836d6917d4aa37cae81ae08f87bbc4c7d28da9d84c25 78664 librefs14_2026.6.18-1_sparc64.deb
+ 6181299bc6aa9acb6b2bd1f0b3ab07319a70846e651b9b15e39fcc0415a2f2f1 107608 refs-dkms_2026.6.18-1_all.deb
+ 213124501b5cead54bd3c380f2510a18fd6824b595893fea5a12d0d31fe1d47b 22160 refs-fuse-dbgsym_2026.6.18-1_sparc64.deb
+ fd57cc50d82f9ed977bc8a9866d897d27c7d8d73de71c80923472f8b29941351 2580 refs-fuse-default_2026.6.18-1_sparc64.deb
+ 360898145fdc6f4b9edeccc5eb086f650a9abc1b0271b70e4488ca9fca649219 9580 refs-fuse_2026.6.18-1_sparc64.deb
+ 9a4275322e87b56f513bf163398c521f2aa2042201e6790f64e2c785877a17f2 109244 refsprogs-dbgsym_2026.6.18-1_sparc64.deb
+ 93761b1b4294860ee2df06ddfe07d7c69b8c6c5df968e9c66a066df6b8f07e2a 80796 refsprogs-udeb_2026.6.18-1_sparc64.udeb
+ 309a007911adc54f33f80d47d7b737176b86b18b5f6c402ef8d80a0c17b78b41 7552 refsprogs_2026.6.18-1_sparc64.buildinfo
+ 6c00aac37177cfbab993f9a6db94cad8cce9dc7c78cfa27b3665fea5a7123e48 30488 refsprogs_2026.6.18-1_sparc64.deb
+Files:
+ 957da3c87474a262e3e80839a31dd28f 99764 libdevel optional librefs-dev_2026.6.18-1_sparc64.deb
+ 298ee869c0f7e1ddd3d6ee8d8bb40950 318560 debug optional librefs14-dbgsym_2026.6.18-1_sparc64.deb
+ aadd7a26898b3db4957bd4411056f414 78664 libs optional librefs14_2026.6.18-1_sparc64.deb
+ c42a9138a2ccfecd3d4a58881e8d567a 107608 otherosfs optional refs-dkms_2026.6.18-1_all.deb
+ de50e459cbd7c30b9f0815694ab5ab49 22160 debug optional refs-fuse-dbgsym_2026.6.18-1_sparc64.deb
+ fe7a820a1f4f3de509c41bb1cd33da61 2580 otherosfs optional refs-fuse-default_2026.6.18-1_sparc64.deb
+ 9de69259559e22eb74df7292fb8ec3db 9580 otherosfs optional refs-fuse_2026.6.18-1_sparc64.deb
+ cdc582e8bc8c07e8853045d12da639e5 109244 debug optional refsprogs-dbgsym_2026.6.18-1_sparc64.deb
+ 64258678da077e4512916864f4a8626f 80796 debian-installer optional refsprogs-udeb_2026.6.18-1_sparc64.udeb
+ 96eb0e8d9248e1cccf6504aecf38563a 7552 otherosfs optional refsprogs_2026.6.18-1_sparc64.buildinfo
+ 4aef1bfdc4f5f49ad0e3fa8f9fa8cfb6 30488 otherosfs optional refsprogs_2026.6.18-1_sparc64.deb

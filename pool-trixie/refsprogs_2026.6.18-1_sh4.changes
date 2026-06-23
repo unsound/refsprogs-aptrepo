@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Thu, 18 Jun 2026 10:04:33 +0200
+Source: refsprogs
+Binary: librefs-dev librefs14 librefs14-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: sh4 all
+Version: 2026.6.18-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs14  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.6.18-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ d747d3675512a0d200fab19fddfbd6dd1b091e79 126080 librefs-dev_2026.6.18-1_sh4.deb
+ 66beaaf097c5a7638fe3770e0917c2a6b425e05b 292440 librefs14-dbgsym_2026.6.18-1_sh4.deb
+ a17521211c9c9be0e5ca0a2425d3ad0ae101dc6c 110952 librefs14_2026.6.18-1_sh4.deb
+ 4c7988d02752b5bafba37991e26c7fb781d0647b 107608 refs-dkms_2026.6.18-1_all.deb
+ 9cb602a16a55db6399b024b839b908492f00121e 21708 refs-fuse-dbgsym_2026.6.18-1_sh4.deb
+ fbb95d8b0fe8ab984b3f780c06935ab50eac992e 2580 refs-fuse-default_2026.6.18-1_sh4.deb
+ 807c078b0cbb79fbbf5c261b974030e28d2aaf5e 11080 refs-fuse_2026.6.18-1_sh4.deb
+ 4b514afb22aa1dc182aba8a218ccc821ff3bcde2 105916 refsprogs-dbgsym_2026.6.18-1_sh4.deb
+ f65a7d953221056f736505cedec1caa6e518e0fc 114348 refsprogs-udeb_2026.6.18-1_sh4.udeb
+ cd26a0a5109566f3d6d847d376e2e90374a6584d 7452 refsprogs_2026.6.18-1_sh4.buildinfo
+ 996425a00e8d53b3a70fdeb3c5ee8c1b7c69c407 40616 refsprogs_2026.6.18-1_sh4.deb
+Checksums-Sha256:
+ 728809dd8bf53b798e450b94161421258ee13ab98ce396f45d9a04c7558ceede 126080 librefs-dev_2026.6.18-1_sh4.deb
+ 50bd1b4b617602493df211de8fd6ad088740a2f3aaeb7539ad6264c40d63b81f 292440 librefs14-dbgsym_2026.6.18-1_sh4.deb
+ 469350717ffd7acb05733dae437fc8a370cf0c6bf2ac533188678b3050acec85 110952 librefs14_2026.6.18-1_sh4.deb
+ 6181299bc6aa9acb6b2bd1f0b3ab07319a70846e651b9b15e39fcc0415a2f2f1 107608 refs-dkms_2026.6.18-1_all.deb
+ a85e45fe10fbd353a39dcaecfe4bf130316111b0d59f276d6846eb0efa7c99f3 21708 refs-fuse-dbgsym_2026.6.18-1_sh4.deb
+ e3c73401be7bdb23e5715ae7b9d36121a8ce61363983e5671d873c9f88667c2b 2580 refs-fuse-default_2026.6.18-1_sh4.deb
+ d577d0919fa2467a5178ecae03ea5615fe70c6024e261d21bae5916bd899a31c 11080 refs-fuse_2026.6.18-1_sh4.deb
+ 6f48d56373239565db28366d5b61075853c3be79004a536462ae11f51f123d0a 105916 refsprogs-dbgsym_2026.6.18-1_sh4.deb
+ d75d23d30a659228d64fccef457804d0388241e3a5208858fb8d2664ce266680 114348 refsprogs-udeb_2026.6.18-1_sh4.udeb
+ 1278402510b3649dabb5c5a0d57e911460c6a44821630a64b4529ea4a60250eb 7452 refsprogs_2026.6.18-1_sh4.buildinfo
+ 02cbe777990eabc11c97f131e8220f380fdf4c119d89cc10be396f1d833a84c7 40616 refsprogs_2026.6.18-1_sh4.deb
+Files:
+ 7e9b99cc663dd60bf6f69385c36bb83c 126080 libdevel optional librefs-dev_2026.6.18-1_sh4.deb
+ 455c794a897d8efebbc69f9bd40fe76e 292440 debug optional librefs14-dbgsym_2026.6.18-1_sh4.deb
+ 58a7c9a199170605258f317dbae6adf1 110952 libs optional librefs14_2026.6.18-1_sh4.deb
+ c42a9138a2ccfecd3d4a58881e8d567a 107608 otherosfs optional refs-dkms_2026.6.18-1_all.deb
+ d9508fd3aba57f1548d6a17b6badc879 21708 debug optional refs-fuse-dbgsym_2026.6.18-1_sh4.deb
+ bdd5b27da31c9c69fab84697d8fe5f57 2580 otherosfs optional refs-fuse-default_2026.6.18-1_sh4.deb
+ b33a53b9e82b70f92b92164dced98fe9 11080 otherosfs optional refs-fuse_2026.6.18-1_sh4.deb
+ b2147b524d877d7ec6ece39abdd4be7f 105916 debug optional refsprogs-dbgsym_2026.6.18-1_sh4.deb
+ 490cff00113eda145a242abd03dfb758 114348 debian-installer optional refsprogs-udeb_2026.6.18-1_sh4.udeb
+ 17870adf0136abee7a3c2369219b3b32 7452 otherosfs optional refsprogs_2026.6.18-1_sh4.buildinfo
+ 086c5418eac8be9f36b3d526c5807ca3 40616 otherosfs optional refsprogs_2026.6.18-1_sh4.deb

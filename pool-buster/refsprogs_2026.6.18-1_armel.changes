@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Thu, 18 Jun 2026 10:04:33 +0200
+Source: refsprogs
+Binary: librefs-dev librefs14 librefs14-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: armel all
+Version: 2026.6.18-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs14  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.6.18-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 29367546f0d856cdec58b4689e3ceea1003b7c14 84936 librefs-dev_2026.6.18-1_armel.deb
+ 1ca2e240a530f5440cf7eab7d53b890b848ecbfb 280424 librefs14-dbgsym_2026.6.18-1_armel.deb
+ 51fd5db18f0740aaaf45fb83278600720357f598 65764 librefs14_2026.6.18-1_armel.deb
+ 1ce6e4b06ca0b5b5389d047a85af03489b1d2d43 107672 refs-dkms_2026.6.18-1_all.deb
+ 7a96e277880e63c406a15d108783c38826ec1a2e 17240 refs-fuse-dbgsym_2026.6.18-1_armel.deb
+ 0a39d34c81f5d02c39b9e1f43b2f575eab01d7c9 2584 refs-fuse-default_2026.6.18-1_armel.deb
+ 70e0740c6e0bed2e3cb4e2f74bdbd56536141386 8712 refs-fuse_2026.6.18-1_armel.deb
+ fdd0a8e21a690b6ede8abff2fd607466e8934778 109208 refsprogs-dbgsym_2026.6.18-1_armel.deb
+ c6d3917b77b6ab8d0a093fa68c7ff8ae4e2872a1 67016 refsprogs-udeb_2026.6.18-1_armel.udeb
+ f66ee438843de8945d60ec5401359c33281eec68 7340 refsprogs_2026.6.18-1_armel.buildinfo
+ 88d0bbf2d3361c9959cda027211b5cecad4caace 31240 refsprogs_2026.6.18-1_armel.deb
+Checksums-Sha256:
+ 664b03b8c277a9ee9540d9348cfe08029ce2d31a5d86fef9502e0d6432f673d4 84936 librefs-dev_2026.6.18-1_armel.deb
+ 6f9cffb037092d3b830ca33667b52d762dd8430bd5d6724eb87da5d33d3c4447 280424 librefs14-dbgsym_2026.6.18-1_armel.deb
+ 155bc51d219af1f875eade07eddbc870bd87eb21b497e03a95020f1489769c8a 65764 librefs14_2026.6.18-1_armel.deb
+ 0be121e875ab187c7a0877e10f261b9dd04dcfcbcdb2a7f985526e3d428c8d50 107672 refs-dkms_2026.6.18-1_all.deb
+ 0c76d8266f93cc3a300bb72584f8b9d1b1582f5ec7297a8b2fdb08aee711daea 17240 refs-fuse-dbgsym_2026.6.18-1_armel.deb
+ 7041ea5f5c5386cee8e9c1ad01fa9e42af50cc3e645ff52927af158b7ffb87c7 2584 refs-fuse-default_2026.6.18-1_armel.deb
+ 147de9d0552a08f28f73247f7eed81bd49711966e71cb489328472d04038e836 8712 refs-fuse_2026.6.18-1_armel.deb
+ 83c7866358078c378e362a0880091f6ade148633f7489f818b923f230161b061 109208 refsprogs-dbgsym_2026.6.18-1_armel.deb
+ e81abe11672827aaf13ae2c4a36f0fcdec7c7b40c5ec48f458ec65756061c75d 67016 refsprogs-udeb_2026.6.18-1_armel.udeb
+ fa7a870c05aeef440acfb2baa2512cc25e69c47dbce322c8d9016bfff5689b62 7340 refsprogs_2026.6.18-1_armel.buildinfo
+ 19842b549c3e47d4754e18dfac30b4c46c7d1fa5f825f58eead6ae104db37ed6 31240 refsprogs_2026.6.18-1_armel.deb
+Files:
+ b7a3bdd644e9bc357b047ad20bb27af4 84936 libdevel optional librefs-dev_2026.6.18-1_armel.deb
+ 3ff8f37e37214b70b856e7705d20838a 280424 debug optional librefs14-dbgsym_2026.6.18-1_armel.deb
+ 0fdf9fdeff00446578ac06be2b2e3b4c 65764 libs optional librefs14_2026.6.18-1_armel.deb
+ ee65798ca16549b2a168efe93c36682c 107672 otherosfs optional refs-dkms_2026.6.18-1_all.deb
+ 9ca7e18041f3caf55de876712f1abc48 17240 debug optional refs-fuse-dbgsym_2026.6.18-1_armel.deb
+ 19c8a8fc2662e5142035bdbf6031e500 2584 otherosfs optional refs-fuse-default_2026.6.18-1_armel.deb
+ f0f6b2afda1674923b3da69e78ec22e2 8712 otherosfs optional refs-fuse_2026.6.18-1_armel.deb
+ 27e65ee8dc922476a4805b98324f16f7 109208 debug optional refsprogs-dbgsym_2026.6.18-1_armel.deb
+ 61809c8291525126af0c4ff832250e0e 67016 debian-installer optional refsprogs-udeb_2026.6.18-1_armel.udeb
+ 9228a7c1c0999d8a5e3cee18d02589cb 7340 otherosfs optional refsprogs_2026.6.18-1_armel.buildinfo
+ 7854fd6e320b2508c8f0ae215c526da4 31240 otherosfs optional refsprogs_2026.6.18-1_armel.deb

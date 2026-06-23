@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Thu, 18 Jun 2026 10:04:33 +0200
+Source: refsprogs
+Binary: librefs-dev librefs14 librefs14-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: alpha all
+Version: 2026.6.18-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs14  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.6.18-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 4ae46b5fbf987e4adc053e7a1ae8efda62113f9d 105984 librefs-dev_2026.6.18-1_alpha.deb
+ 18aec1e33b77c9ebef0814faee5745812763bf16 328156 librefs14-dbgsym_2026.6.18-1_alpha.deb
+ 533726453b8fdcfd6438d16d158edf0f8cc430c5 79728 librefs14_2026.6.18-1_alpha.deb
+ 3ef5cd7f272af68a38c01f033794bf8d1c65231e 107584 refs-dkms_2026.6.18-1_all.deb
+ b91bd717bead49474dbed906a96e5aa475e81688 22660 refs-fuse-dbgsym_2026.6.18-1_alpha.deb
+ 2fa74459645e89ea5f2b46e41d8aee48adcbea45 2584 refs-fuse-default_2026.6.18-1_alpha.deb
+ e5d41dc23cd61b654626e8a57dc8b7f665d1ae4a 10244 refs-fuse_2026.6.18-1_alpha.deb
+ 9a4620db8a0a074474d2bc12c0f7721feaafb84b 109596 refsprogs-dbgsym_2026.6.18-1_alpha.deb
+ cd6cca7dccfbac423cc4acdf3b1a5b469b9104b3 82320 refsprogs-udeb_2026.6.18-1_alpha.udeb
+ f1ff7e919187b0ea8b689942617807857154436b 7140 refsprogs_2026.6.18-1_alpha.buildinfo
+ 90e3d27c08136e8d59e0f24e41b3ac43286d815d 32552 refsprogs_2026.6.18-1_alpha.deb
+Checksums-Sha256:
+ 8ea74eec466df810748c5130b34d077d251769c044863222ba488fcd70168977 105984 librefs-dev_2026.6.18-1_alpha.deb
+ a5924cbe01699bded2a72f235b52f1e280f0e4760d875f11db06d90c59102608 328156 librefs14-dbgsym_2026.6.18-1_alpha.deb
+ 692ea44023e64ba8ed100957296a4f9150c6fcbffe3304291240d7710a412d8e 79728 librefs14_2026.6.18-1_alpha.deb
+ e9dc6ab078413b09b97bf0073382458173ab86dde94ebe46b27adc1b49a6dde6 107584 refs-dkms_2026.6.18-1_all.deb
+ 92a4d3412ba903d525431b9e93f9229fb3c0db412f57f306af3bd822add988e0 22660 refs-fuse-dbgsym_2026.6.18-1_alpha.deb
+ 45fee8243060eadb788205b43f602a4e16c543d79b36151e1e6335e2e85f5d07 2584 refs-fuse-default_2026.6.18-1_alpha.deb
+ 208c9a96027301d1546338fef759620b0e82cc8184c19e11de4b3ee9d0462f11 10244 refs-fuse_2026.6.18-1_alpha.deb
+ 6694ea9853b0a7bbe92c8d24c5e925c0662d00d3999d7c6f112b58519be416ad 109596 refsprogs-dbgsym_2026.6.18-1_alpha.deb
+ ee21321dfa3945b6b2262412fe12af354cf97418b95f4ead29dc5fbacbfdd9a8 82320 refsprogs-udeb_2026.6.18-1_alpha.udeb
+ 87a2800806d07b241328b5abf25a8125541e22d5617b3ce168c85366ab4f0f53 7140 refsprogs_2026.6.18-1_alpha.buildinfo
+ 76dd21186d70547c6f028fc125cf11a81554fe4851f1556fbe80f6cd335e3125 32552 refsprogs_2026.6.18-1_alpha.deb
+Files:
+ a0c78a809184af73df933e155eb6424c 105984 libdevel optional librefs-dev_2026.6.18-1_alpha.deb
+ 32c5886f1204264936cf62b1cf94da18 328156 debug optional librefs14-dbgsym_2026.6.18-1_alpha.deb
+ 528aaac11227831571864ea1fccd0223 79728 libs optional librefs14_2026.6.18-1_alpha.deb
+ 57accda0b76fd01121f15c5a6a9940fd 107584 otherosfs optional refs-dkms_2026.6.18-1_all.deb
+ a88a548110029d09f9a3538c0c3b60ed 22660 debug optional refs-fuse-dbgsym_2026.6.18-1_alpha.deb
+ 04a413dbad5a5ab8cfa5ba1a1e31243c 2584 otherosfs optional refs-fuse-default_2026.6.18-1_alpha.deb
+ 79be123b8f832a66b0b42ae98d0efb9f 10244 otherosfs optional refs-fuse_2026.6.18-1_alpha.deb
+ 53dc7a8acc23dfac1fc65509c73c5439 109596 debug optional refsprogs-dbgsym_2026.6.18-1_alpha.deb
+ f59d8dcb36e2ea56c6e6b2c4f81baf3d 82320 debian-installer optional refsprogs-udeb_2026.6.18-1_alpha.udeb
+ 48a4242802e55a113735d3f9fbe2165a 7140 otherosfs optional refsprogs_2026.6.18-1_alpha.buildinfo
+ 3e470b402c6709d23cfde27f0ec85549 32552 otherosfs optional refsprogs_2026.6.18-1_alpha.deb

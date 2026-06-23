@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Thu, 18 Jun 2026 10:04:33 +0200
+Source: refsprogs
+Binary: librefs-dev librefs14 librefs14-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: mipsel all
+Version: 2026.6.18-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs14  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.6.18-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 7a8487e8230534bd90c1df9eec76b95e6d8ae8c9 95452 librefs-dev_2026.6.18-1_mipsel.deb
+ 353ce5d5592e6d0ae11adc0322900b3701fa7330 303000 librefs14-dbgsym_2026.6.18-1_mipsel.deb
+ 3b0d97ac5138fccb8c4b84029822179b83a2904e 70536 librefs14_2026.6.18-1_mipsel.deb
+ 1ce6e4b06ca0b5b5389d047a85af03489b1d2d43 107672 refs-dkms_2026.6.18-1_all.deb
+ 3e52a6010b27f064224076d9da5db2e1a81a77c1 17752 refs-fuse-dbgsym_2026.6.18-1_mipsel.deb
+ 1214d3ad28481c3fc3aa15dbda660277b942c57d 2584 refs-fuse-default_2026.6.18-1_mipsel.deb
+ a86b2267fe2138a3b449465bd625cbca8621aa8f 9540 refs-fuse_2026.6.18-1_mipsel.deb
+ 4d2eeecdbb184a052907be0e1527a0379e63deb7 113868 refsprogs-dbgsym_2026.6.18-1_mipsel.deb
+ 094eb2ebf692803676877be8571e2201ade5faa5 72396 refsprogs-udeb_2026.6.18-1_mipsel.udeb
+ 28173d613974999f8168f01f765c74bb3099624a 7368 refsprogs_2026.6.18-1_mipsel.buildinfo
+ 660e03b9401d1f46386396f80eeb2a76053bdf31 34024 refsprogs_2026.6.18-1_mipsel.deb
+Checksums-Sha256:
+ aecd3b5f8b6dacc60bbb161434515f13507bf9ce6fd25aea4e38a697afb83ebc 95452 librefs-dev_2026.6.18-1_mipsel.deb
+ dc7c5801c932a65123f783696851906f55667c07c099d4ae68e93e320116f00f 303000 librefs14-dbgsym_2026.6.18-1_mipsel.deb
+ 7ca5b3570248e032bcc69578181da7669a56bf4f14865f5360a980be30ba9929 70536 librefs14_2026.6.18-1_mipsel.deb
+ 0be121e875ab187c7a0877e10f261b9dd04dcfcbcdb2a7f985526e3d428c8d50 107672 refs-dkms_2026.6.18-1_all.deb
+ e571549bbf301169ff7ba56cf5e7749ed0efde1cc02b6abc068082bdb5c30bcb 17752 refs-fuse-dbgsym_2026.6.18-1_mipsel.deb
+ 6b89bbe9b62856c73bc284aa971f14e9936a50636c3f0cae6f5954a13c6cc9a1 2584 refs-fuse-default_2026.6.18-1_mipsel.deb
+ 76a955c24ed704ea9f7c20043b7e7338a50e0197c03e00cc3b47c3626d16a874 9540 refs-fuse_2026.6.18-1_mipsel.deb
+ 30da829b50970a353d7b5b9f5cbd15db4174a0277b65036283fb4e405dbd91d5 113868 refsprogs-dbgsym_2026.6.18-1_mipsel.deb
+ 441d27ae06d40e5801252870718a4e0e7fda707e96d660cf8b9105af774609ca 72396 refsprogs-udeb_2026.6.18-1_mipsel.udeb
+ 757ace8681afdde8fe9f33f8fe055f36f8b36a33cb8a9e5b07438fbe6767eb03 7368 refsprogs_2026.6.18-1_mipsel.buildinfo
+ beaf448d28f497d3cb79fd67e08047af3c73b5b5e987f4f4e6beccc0a459525d 34024 refsprogs_2026.6.18-1_mipsel.deb
+Files:
+ 0411b80d8b49ca4e4121890a9f66b2d8 95452 libdevel optional librefs-dev_2026.6.18-1_mipsel.deb
+ 2a6926c039a1e614d7c6a1752e8df62b 303000 debug optional librefs14-dbgsym_2026.6.18-1_mipsel.deb
+ 7643a26be1936152a48245f6cab16614 70536 libs optional librefs14_2026.6.18-1_mipsel.deb
+ ee65798ca16549b2a168efe93c36682c 107672 otherosfs optional refs-dkms_2026.6.18-1_all.deb
+ 0c63dca012e59826eab93bc9e91d4cb5 17752 debug optional refs-fuse-dbgsym_2026.6.18-1_mipsel.deb
+ e7c41d5ffb4244f10fbab17dfbf86862 2584 otherosfs optional refs-fuse-default_2026.6.18-1_mipsel.deb
+ 41f38c1280fa2a9d5244cbd61a318377 9540 otherosfs optional refs-fuse_2026.6.18-1_mipsel.deb
+ c694e9bb8bbf9bbd2c903b394748cf54 113868 debug optional refsprogs-dbgsym_2026.6.18-1_mipsel.deb
+ 65bf5160d05e978afd488cc3018578ca 72396 debian-installer optional refsprogs-udeb_2026.6.18-1_mipsel.udeb
+ bf48c660ec529bb378817c6d41cf7332 7368 otherosfs optional refsprogs_2026.6.18-1_mipsel.buildinfo
+ 7e28f89a7f8612ec4ed26f50295ad3b1 34024 otherosfs optional refsprogs_2026.6.18-1_mipsel.deb

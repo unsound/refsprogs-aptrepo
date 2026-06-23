@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Thu, 18 Jun 2026 10:04:33 +0200
+Source: refsprogs
+Binary: librefs-dev librefs14 librefs14-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: mips64el all
+Version: 2026.6.18-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs14  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.6.18-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 7fc8e4f7341aeb7c502b80b32a6f37f74061cc36 87456 librefs-dev_2026.6.18-1_mips64el.deb
+ 82526e73904f3b54465bb3d1898a37143b93c3ab 300296 librefs14-dbgsym_2026.6.18-1_mips64el.deb
+ 2960aec65cc380930192849612fdb4dd8f501b50 61444 librefs14_2026.6.18-1_mips64el.deb
+ 1ce6e4b06ca0b5b5389d047a85af03489b1d2d43 107672 refs-dkms_2026.6.18-1_all.deb
+ 4e1895babea27749a9e7d32819315b5b1e2b9f4e 24084 refs-fuse-dbgsym_2026.6.18-1_mips64el.deb
+ b619ec1bcf4943109536e5e296d50ce8ac95b02d 2588 refs-fuse-default_2026.6.18-1_mips64el.deb
+ 64016596e632a3bb040ce69d2919f8fcbea56571 10396 refs-fuse_2026.6.18-1_mips64el.deb
+ c4a26947c47812663e032d38188359f9e9ac82f7 115592 refsprogs-dbgsym_2026.6.18-1_mips64el.deb
+ 1e0abe82bf300d498c10368dae12b5a9f0f8ecdf 64044 refsprogs-udeb_2026.6.18-1_mips64el.udeb
+ f56a54716f1207cd9752cbd528622f63c273d80c 7427 refsprogs_2026.6.18-1_mips64el.buildinfo
+ 044a9e22d3ce285e10e9ca49883dac8a0084e69b 30756 refsprogs_2026.6.18-1_mips64el.deb
+Checksums-Sha256:
+ eb482e234cf54a6b45b1cdfe6c051dc9332ca22ed7dfc515cffa9df0fa02b93d 87456 librefs-dev_2026.6.18-1_mips64el.deb
+ f1a749db4c8efb47eb5b2d8071f4b40e01c4d3320d2e05d31155ba2b9d4690ce 300296 librefs14-dbgsym_2026.6.18-1_mips64el.deb
+ 0bc3aa82d744a0ccd49b2991f1d0aec343559f03e888cb366cf1c9f1d7f3469b 61444 librefs14_2026.6.18-1_mips64el.deb
+ 0be121e875ab187c7a0877e10f261b9dd04dcfcbcdb2a7f985526e3d428c8d50 107672 refs-dkms_2026.6.18-1_all.deb
+ f7f6cc61311ea919dd07cc43a6306c5f6d3e203bb00a4e5e6703f2ea12a3bd95 24084 refs-fuse-dbgsym_2026.6.18-1_mips64el.deb
+ 9f129d16b04edc56c18ceddcbfde6aba3efc3f64d164b394d2a077994d0d079e 2588 refs-fuse-default_2026.6.18-1_mips64el.deb
+ f6043b3a2879ee2eb2c511195c775dd9f42b54f64ceeddb65111ae8bc67fa94a 10396 refs-fuse_2026.6.18-1_mips64el.deb
+ 95dcbd7dd39e56a2a364a87039e54bf32e0e633ecb9a3a0660b45e2207461209 115592 refsprogs-dbgsym_2026.6.18-1_mips64el.deb
+ f6424fb0c34c87f44648a75dc24f7ed59e3c0dda140822d7997d62c02b51676c 64044 refsprogs-udeb_2026.6.18-1_mips64el.udeb
+ 0c89c9d9bc4dc9bb6378a90363e61ad97da01bac34dc7fbaeff69452a8e40ab1 7427 refsprogs_2026.6.18-1_mips64el.buildinfo
+ a2aad50c2007492b61646d5feb387df3dba913f1b2f8ef8893a67ae10136f7e5 30756 refsprogs_2026.6.18-1_mips64el.deb
+Files:
+ 05a5400e926b056855937168830d6da6 87456 libdevel optional librefs-dev_2026.6.18-1_mips64el.deb
+ b6c849b51a0d492f8e7285bb783c7ad3 300296 debug optional librefs14-dbgsym_2026.6.18-1_mips64el.deb
+ 561215eca70d75cba82911b66809d1dd 61444 libs optional librefs14_2026.6.18-1_mips64el.deb
+ ee65798ca16549b2a168efe93c36682c 107672 otherosfs optional refs-dkms_2026.6.18-1_all.deb
+ 445a6d9245c8e73a967604426549745e 24084 debug optional refs-fuse-dbgsym_2026.6.18-1_mips64el.deb
+ 39bd61754ee43cdf0e3ee1db31df446c 2588 otherosfs optional refs-fuse-default_2026.6.18-1_mips64el.deb
+ 0cc708214802524bbad72a20ea186078 10396 otherosfs optional refs-fuse_2026.6.18-1_mips64el.deb
+ 5b38b2abfb6a66bd1c02af4d54c3f91e 115592 debug optional refsprogs-dbgsym_2026.6.18-1_mips64el.deb
+ e210a0f90100f1c783e71de058cde178 64044 debian-installer optional refsprogs-udeb_2026.6.18-1_mips64el.udeb
+ b701843552e6b63d6cd372453eba91dd 7427 otherosfs optional refsprogs_2026.6.18-1_mips64el.buildinfo
+ 8090a2adb12f05a7fbc71a72ba507af4 30756 otherosfs optional refsprogs_2026.6.18-1_mips64el.deb
