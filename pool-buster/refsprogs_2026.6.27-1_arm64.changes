@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Sat, 04 Jul 2026 14:52:24 +0200
+Source: refsprogs
+Binary: librefs-dev librefs15 librefs15-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: arm64 all
+Version: 2026.6.27-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs15  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.6.27-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ abd7edd839e9d576e65f3e32dacc57113ba82d08 82464 librefs-dev_2026.6.27-1_arm64.deb
+ 1a0182261d9759bc18e78a5acb85483356871542 292388 librefs15-dbgsym_2026.6.27-1_arm64.deb
+ ff04d1d80a61987b9feb33857ca8e66a0ff9bd9b 62972 librefs15_2026.6.27-1_arm64.deb
+ 11eb83b6f55cbe1debb2e5f5018fffc21299eb97 108372 refs-dkms_2026.6.27-1_all.deb
+ f6bc43f856d161eb43261e05ce3917dad060be80 19940 refs-fuse-dbgsym_2026.6.27-1_arm64.deb
+ ff9b5241e022e29ab3a14ddf7559066d0cebe2dc 2604 refs-fuse-default_2026.6.27-1_arm64.deb
+ dd8d48085fefe855feb561aa988e7efede4bbe08 9684 refs-fuse_2026.6.27-1_arm64.deb
+ 4aed1f6f09ed1f73a4c6737da9790c2ea3aceb0e 111424 refsprogs-dbgsym_2026.6.27-1_arm64.deb
+ ddec630d54081075d2ef2bb7afc71e0dc023e423 65008 refsprogs-udeb_2026.6.27-1_arm64.udeb
+ 8210fcc71ea7fa11afe56d30fce426faa4199afe 7340 refsprogs_2026.6.27-1_arm64.buildinfo
+ aa4a938bd754cbc53e1e9226616c19ef48a86c66 31292 refsprogs_2026.6.27-1_arm64.deb
+Checksums-Sha256:
+ 4bbfefe4ee94d71975475b080643c005a88f2eb1ebb88de1041618423749e240 82464 librefs-dev_2026.6.27-1_arm64.deb
+ 27aa6f0b33622f184f85206282a73947429ca1ec418656548d1644b74fdf6331 292388 librefs15-dbgsym_2026.6.27-1_arm64.deb
+ d7ee5791f7513fd1ab3328b39a0d11f909c9840f5435dd75787943ce8e1f6e9f 62972 librefs15_2026.6.27-1_arm64.deb
+ 659da38c6ccf460384b250ec1be1ffd920a33b2d9afb2773c8d8fca054cbf2cb 108372 refs-dkms_2026.6.27-1_all.deb
+ f51103d950b9071bc0b14ee56355cc498080faac6ae2c0fe56cd6ca5915f9edd 19940 refs-fuse-dbgsym_2026.6.27-1_arm64.deb
+ c2d76f8facffb0c8586d2135a9af1bf0bed4b3c2ffc3246387f88ac604107fbc 2604 refs-fuse-default_2026.6.27-1_arm64.deb
+ 8cf03e14df70e1c903f5305ce74a7ede2089f51083dd50705173d9361e0339df 9684 refs-fuse_2026.6.27-1_arm64.deb
+ 6dbac4ff344a92da7ff49599eae944afc4ac3770cf37fa87ae782c246bc343a2 111424 refsprogs-dbgsym_2026.6.27-1_arm64.deb
+ bba76b6d4f0d53b0d5e77ea10fc6a565e30d8a8d63fd096a6882b5ab49d4a179 65008 refsprogs-udeb_2026.6.27-1_arm64.udeb
+ 38efe941b614871c203652df39392b457a4cd53383a94bbe898212357b0a996b 7340 refsprogs_2026.6.27-1_arm64.buildinfo
+ e47df1bf1db5e2cea146d881c74a96319ba571a6b61141cf9c9e3c0970bef691 31292 refsprogs_2026.6.27-1_arm64.deb
+Files:
+ 8cbf1ee15e67b8cdeabce0e8c7e6ecb8 82464 libdevel optional librefs-dev_2026.6.27-1_arm64.deb
+ 83aad68322dd7722c6b00cdb9ec9e4c5 292388 debug optional librefs15-dbgsym_2026.6.27-1_arm64.deb
+ effda61d1f1a8901aff38a3c9ebcce29 62972 libs optional librefs15_2026.6.27-1_arm64.deb
+ adcbc8d134eb9a6219b80a47f838ba7c 108372 otherosfs optional refs-dkms_2026.6.27-1_all.deb
+ 2ca237e3873f6946630a6b164b6e07bf 19940 debug optional refs-fuse-dbgsym_2026.6.27-1_arm64.deb
+ 70c5d567bc7987aadf6b420fd7b8af2c 2604 otherosfs optional refs-fuse-default_2026.6.27-1_arm64.deb
+ 228863cfd9a6d296e3eb093ef78603a3 9684 otherosfs optional refs-fuse_2026.6.27-1_arm64.deb
+ 2d11baf2ade54a9cf30ca5eec5abc75e 111424 debug optional refsprogs-dbgsym_2026.6.27-1_arm64.deb
+ d617993956f39e7746b7cfb9d6a1cc83 65008 debian-installer optional refsprogs-udeb_2026.6.27-1_arm64.udeb
+ 768e0e261e3e0edb5f18c30e47bc07c1 7340 otherosfs optional refsprogs_2026.6.27-1_arm64.buildinfo
+ 1da44a00256fd982b2dc4ec904c733f6 31292 otherosfs optional refsprogs_2026.6.27-1_arm64.deb

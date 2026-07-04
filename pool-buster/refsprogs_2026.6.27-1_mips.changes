@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Sat, 04 Jul 2026 14:52:24 +0200
+Source: refsprogs
+Binary: librefs-dev librefs15 librefs15-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: mips all
+Version: 2026.6.27-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs15  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.6.27-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ b94c81c0c5c973a0ddc83e3cdf94e1f729d65efc 95776 librefs-dev_2026.6.27-1_mips.deb
+ 74f8b3c551e0f859f3f4e1fcde4945b320bb4395 304160 librefs15-dbgsym_2026.6.27-1_mips.deb
+ 891f4a61863089c31519aee633f99e6f4c5ca4b0 71180 librefs15_2026.6.27-1_mips.deb
+ 11eb83b6f55cbe1debb2e5f5018fffc21299eb97 108372 refs-dkms_2026.6.27-1_all.deb
+ 5fdb4e0e71d415d50bddf0768e88f88c7d101369 17760 refs-fuse-dbgsym_2026.6.27-1_mips.deb
+ 711371f2c3c42994f8d0286aa9ffd24afb7a6c40 2604 refs-fuse-default_2026.6.27-1_mips.deb
+ 17575f23dff0730c507491613a3a81b877af6e04 9484 refs-fuse_2026.6.27-1_mips.deb
+ 728886d8044b1d608175812b72effddce7ea9566 115492 refsprogs-dbgsym_2026.6.27-1_mips.deb
+ 3cfec2a9b0e7fa999ff15db2b332897240c8f2ac 72892 refsprogs-udeb_2026.6.27-1_mips.udeb
+ 7b2711e82d4fd626d113e13628daebb2ac8c3f22 7312 refsprogs_2026.6.27-1_mips.buildinfo
+ 16006cd36db703e66c6b931134e817ab53e96931 33856 refsprogs_2026.6.27-1_mips.deb
+Checksums-Sha256:
+ 3c537dea11bff79bca7e9e8476600e40d21adf8a2b0a907cca79355c93e9ae8e 95776 librefs-dev_2026.6.27-1_mips.deb
+ 0706d1a59263c1b0d43b0b3dae5ba8124537d3baf4e8a8064a1145fbb5f448a4 304160 librefs15-dbgsym_2026.6.27-1_mips.deb
+ de834a35608710a20880d27acd1215d3a78db73a0738470eb94e2a520e924b70 71180 librefs15_2026.6.27-1_mips.deb
+ 659da38c6ccf460384b250ec1be1ffd920a33b2d9afb2773c8d8fca054cbf2cb 108372 refs-dkms_2026.6.27-1_all.deb
+ 4b0930f80e34b6ebc7f1775b0a3fd85c42fd25bbc34b43367240cdce1636a2f5 17760 refs-fuse-dbgsym_2026.6.27-1_mips.deb
+ 7e5757eba1778ea8a47f1ede8a6860e016921d8f50b2b14b6b0f79cafd566550 2604 refs-fuse-default_2026.6.27-1_mips.deb
+ 7d7803507bcb66f346728578d7d2d14f751c56f72a90be77ac057c191c3fc5a6 9484 refs-fuse_2026.6.27-1_mips.deb
+ 51d00bf50609f8e9b58725dce4d4d722f02b81ff9b4c8afda72fc3d647f3470e 115492 refsprogs-dbgsym_2026.6.27-1_mips.deb
+ a46de7cd04012ba0483114128d9fca2b2d9a4e815af0d04d65bd22f13fac1cbd 72892 refsprogs-udeb_2026.6.27-1_mips.udeb
+ bcfc9b4d06d905f4799ce4f88b94e5c3af9c572296bac25b0d3795f4ad8b44ca 7312 refsprogs_2026.6.27-1_mips.buildinfo
+ 259150140c1dc3b7c42398edafd8f2a1afe5d719fdf38cac9f27be21389d6470 33856 refsprogs_2026.6.27-1_mips.deb
+Files:
+ 5698d3df7720c1d0ba8c54383b18b559 95776 libdevel optional librefs-dev_2026.6.27-1_mips.deb
+ 8dedacef6ef3996dc74291e2ee6dfa6c 304160 debug optional librefs15-dbgsym_2026.6.27-1_mips.deb
+ 8bd6c01f8b2b686d97ed49c063e8c513 71180 libs optional librefs15_2026.6.27-1_mips.deb
+ adcbc8d134eb9a6219b80a47f838ba7c 108372 otherosfs optional refs-dkms_2026.6.27-1_all.deb
+ ac86d004dfef02d282c3956cf5f5bd31 17760 debug optional refs-fuse-dbgsym_2026.6.27-1_mips.deb
+ 7e062cbbf6c85059b1d888e1a666eb98 2604 otherosfs optional refs-fuse-default_2026.6.27-1_mips.deb
+ 36e28f3b3f7b8cf22c9bd28614eb96a3 9484 otherosfs optional refs-fuse_2026.6.27-1_mips.deb
+ 572748b0590deb98d28cdd19f0694eab 115492 debug optional refsprogs-dbgsym_2026.6.27-1_mips.deb
+ 3fd3742f03c585c5766c0e4d54679bfb 72892 debian-installer optional refsprogs-udeb_2026.6.27-1_mips.udeb
+ 239b5be0482da4df54ae791c877bbba4 7312 otherosfs optional refsprogs_2026.6.27-1_mips.buildinfo
+ 9d1ac1a1245985307b11263050e40e45 33856 otherosfs optional refsprogs_2026.6.27-1_mips.deb

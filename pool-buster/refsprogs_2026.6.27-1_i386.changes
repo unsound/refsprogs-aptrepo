@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Sat, 04 Jul 2026 14:52:24 +0200
+Source: refsprogs
+Binary: librefs-dev librefs15 librefs15-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: i386 all
+Version: 2026.6.27-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs15  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.6.27-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ c9b84b9352adb35e5007fd0255a02464cb020fad 96304 librefs-dev_2026.6.27-1_i386.deb
+ 811d97b80b5cd12ffbf5de23813ffd390423f88a 270536 librefs15-dbgsym_2026.6.27-1_i386.deb
+ 4d8c5db76c8c01a95afc56230a7db775b1fc2567 79392 librefs15_2026.6.27-1_i386.deb
+ 11eb83b6f55cbe1debb2e5f5018fffc21299eb97 108372 refs-dkms_2026.6.27-1_all.deb
+ 3214fe49d40a2abee49946205e553d810c3f1ffc 16184 refs-fuse-dbgsym_2026.6.27-1_i386.deb
+ 21ebe8001c850e4f74c35169ba3368af11f29bc2 2604 refs-fuse-default_2026.6.27-1_i386.deb
+ 406c42fad1205141c69fb3ab1fa95c5fb5629fc4 10176 refs-fuse_2026.6.27-1_i386.deb
+ 3851b8a021734fccdec09f7db7c7b92bed1fa934 105348 refsprogs-dbgsym_2026.6.27-1_i386.deb
+ afa661dac4667aa9063cf2b7c9956227b83f3990 81788 refsprogs-udeb_2026.6.27-1_i386.udeb
+ f03da431a4b121db3a0a7857e26740d8b36a1914 7315 refsprogs_2026.6.27-1_i386.buildinfo
+ dd399e03edacbd73ae71ba91abc44248dc088753 35704 refsprogs_2026.6.27-1_i386.deb
+Checksums-Sha256:
+ 4b74ebffff2184124ee3bfa98abed74e4a7322b61580842029e90f1c2b632c0c 96304 librefs-dev_2026.6.27-1_i386.deb
+ 0e61d4683db61412579969cbd0df0d7f361bb4a48c693b03e2f32c1cc389e9c0 270536 librefs15-dbgsym_2026.6.27-1_i386.deb
+ 2282efa823a7f43ed21d75c4265d94482f48b27a869bc4e7dee1493457ae8ae8 79392 librefs15_2026.6.27-1_i386.deb
+ 659da38c6ccf460384b250ec1be1ffd920a33b2d9afb2773c8d8fca054cbf2cb 108372 refs-dkms_2026.6.27-1_all.deb
+ 1ff6e4151a7c36eb8e6104d2e2b84ffa2ef33d038b6721cd182bc133882b4f9e 16184 refs-fuse-dbgsym_2026.6.27-1_i386.deb
+ 9a77464dfc74669c10dcd6e5b440dedc6c916e82053ee9222cb340e84a67ec5e 2604 refs-fuse-default_2026.6.27-1_i386.deb
+ 562c3d6eda0ce42f69ed7bfa8993988179a72e91777633e300daceafcb984043 10176 refs-fuse_2026.6.27-1_i386.deb
+ 63beb840ebb7eebf48858f8d95ef48373cb97fcda378de9764904c4d21539bc5 105348 refsprogs-dbgsym_2026.6.27-1_i386.deb
+ d94366fb1fcbae0373898d9df308470240cb7dd30922917c7fd6653544436cac 81788 refsprogs-udeb_2026.6.27-1_i386.udeb
+ 47dd2774950e2fc95bb081ad84d112b4ca468801e0d46f636e5c29a53dcdbdca 7315 refsprogs_2026.6.27-1_i386.buildinfo
+ f5f9ff4ed2814cb621211233116cf958302720878ace77c27e151f0a78ac1835 35704 refsprogs_2026.6.27-1_i386.deb
+Files:
+ ace0a7cc3d4bb3c15ec0f63e58fa6884 96304 libdevel optional librefs-dev_2026.6.27-1_i386.deb
+ d0571ee253f87475a5a36e4ba4898831 270536 debug optional librefs15-dbgsym_2026.6.27-1_i386.deb
+ 48fd2d770627766dc6fe2fc95c434ba4 79392 libs optional librefs15_2026.6.27-1_i386.deb
+ adcbc8d134eb9a6219b80a47f838ba7c 108372 otherosfs optional refs-dkms_2026.6.27-1_all.deb
+ f06747f43f0541dd22685742dad002da 16184 debug optional refs-fuse-dbgsym_2026.6.27-1_i386.deb
+ b9bed396ace3fa359e0c47fa17b61f80 2604 otherosfs optional refs-fuse-default_2026.6.27-1_i386.deb
+ 6140cf24b53d6ba56487ec47343fabc9 10176 otherosfs optional refs-fuse_2026.6.27-1_i386.deb
+ 75690857516a5f058bf943f138097d19 105348 debug optional refsprogs-dbgsym_2026.6.27-1_i386.deb
+ 0b96da36dd167ce2713b479a189eea37 81788 debian-installer optional refsprogs-udeb_2026.6.27-1_i386.udeb
+ b723627f01584cb435e01eed1b9edfa5 7315 otherosfs optional refsprogs_2026.6.27-1_i386.buildinfo
+ a4acd5559aac33aaf36ed081a0d6150d 35704 otherosfs optional refsprogs_2026.6.27-1_i386.deb

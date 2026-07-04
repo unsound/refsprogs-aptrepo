@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Sat, 04 Jul 2026 14:52:24 +0200
+Source: refsprogs
+Binary: librefs-dev librefs15 librefs15-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: s390x all
+Version: 2026.6.27-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs15  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.6.27-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 4989f50f1b671cd3646f82504a45890e28d84f54 80260 librefs-dev_2026.6.27-1_s390x.deb
+ 4aa77e72d0c2b1315af53b06b35eafedb9b8a0be 297216 librefs15-dbgsym_2026.6.27-1_s390x.deb
+ 91dcb59f0b8079f7dc98c5e9e4067c6f33a37f13 62896 librefs15_2026.6.27-1_s390x.deb
+ 11eb83b6f55cbe1debb2e5f5018fffc21299eb97 108372 refs-dkms_2026.6.27-1_all.deb
+ 380c65fa51276fb4434a48dc1c52a4d145035119 19716 refs-fuse-dbgsym_2026.6.27-1_s390x.deb
+ bf3f60c3163b6a96083f50c7833aa95be0bcd18b 2608 refs-fuse-default_2026.6.27-1_s390x.deb
+ 76e4017a9b816986636f7fcc8d3c7902fbd3fcf6 9624 refs-fuse_2026.6.27-1_s390x.deb
+ 93751ac68f1417fa01d9fbf169ee47c87d75890f 112740 refsprogs-dbgsym_2026.6.27-1_s390x.deb
+ 9f1dfccb5f126270e41be52c50f3b1402d4b25f7 64884 refsprogs-udeb_2026.6.27-1_s390x.udeb
+ fa9c0ed5f6d7465ec717f9ddad8a402b569cd73d 7340 refsprogs_2026.6.27-1_s390x.buildinfo
+ 627303b596710fa6fd0f4382996fe0e17a3c7eb7 30376 refsprogs_2026.6.27-1_s390x.deb
+Checksums-Sha256:
+ b1542592ffac74e7aeae4342d6c6a74dd96fbbb75b69079ec5a3b6fb2680778e 80260 librefs-dev_2026.6.27-1_s390x.deb
+ 827493f6513d15c9c342fc4ff31e22c3b85808422eb85b860b287344acaf7aec 297216 librefs15-dbgsym_2026.6.27-1_s390x.deb
+ 85186bdc4a601e653f18cc3423fc1c2eb5f7b485526a1eced3a8e9dcc6bea96b 62896 librefs15_2026.6.27-1_s390x.deb
+ 659da38c6ccf460384b250ec1be1ffd920a33b2d9afb2773c8d8fca054cbf2cb 108372 refs-dkms_2026.6.27-1_all.deb
+ 1b88807b535b814098a8c106eb29c07f3901ea4528d6aa829e53a8add6c2794d 19716 refs-fuse-dbgsym_2026.6.27-1_s390x.deb
+ 553395fb412dd21243c45dc17eacd7d4aac2c2ac5a0b3a09933c8427f2544e7f 2608 refs-fuse-default_2026.6.27-1_s390x.deb
+ 73e976ba70ed712456d884689d97858477fd3fa6efa265b7c137521e3f0b97af 9624 refs-fuse_2026.6.27-1_s390x.deb
+ 06671e37d1ce5747df903494de55f3802970fe46f8bf5560a43714f0c878533f 112740 refsprogs-dbgsym_2026.6.27-1_s390x.deb
+ 3fcad58b6c20b2716a0dc3f00e2a76c8d61fdf190804ad6b9266ea1a18cf152b 64884 refsprogs-udeb_2026.6.27-1_s390x.udeb
+ 7877a406f79495560ed974c07fee06a32160399cf5ec39279279b4c322f9035e 7340 refsprogs_2026.6.27-1_s390x.buildinfo
+ a93651ed864e91df57ccc9f620a8aa30af4721e656aef0e7983bbcae9ade19f6 30376 refsprogs_2026.6.27-1_s390x.deb
+Files:
+ a28eec0704479cd4ebe4787e25de6423 80260 libdevel optional librefs-dev_2026.6.27-1_s390x.deb
+ 56a994d1abb1d0da51d770d08b60fabe 297216 debug optional librefs15-dbgsym_2026.6.27-1_s390x.deb
+ 4c66d58869160dbf26d0bf1ad675d94b 62896 libs optional librefs15_2026.6.27-1_s390x.deb
+ adcbc8d134eb9a6219b80a47f838ba7c 108372 otherosfs optional refs-dkms_2026.6.27-1_all.deb
+ a8dc7828eade94bbbc2686d667a96c0e 19716 debug optional refs-fuse-dbgsym_2026.6.27-1_s390x.deb
+ 96bc6b6168f6e20e6bd8152bdfb890e1 2608 otherosfs optional refs-fuse-default_2026.6.27-1_s390x.deb
+ 890c78ce3857a07d4b512d0f8649f5c2 9624 otherosfs optional refs-fuse_2026.6.27-1_s390x.deb
+ 35a70a310058ac643b3975bfefcc76ac 112740 debug optional refsprogs-dbgsym_2026.6.27-1_s390x.deb
+ 50772b0aad56e659078939370d0e58d8 64884 debian-installer optional refsprogs-udeb_2026.6.27-1_s390x.udeb
+ b4467c58cd8a53028e5e7a4d7f22340c 7340 otherosfs optional refsprogs_2026.6.27-1_s390x.buildinfo
+ 038dec4c9dfb8f3dea1218521c355a4f 30376 otherosfs optional refsprogs_2026.6.27-1_s390x.deb
