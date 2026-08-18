@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Tue, 18 Aug 2026 20:54:34 +0300
+Source: refsprogs
+Binary: librefs-dev librefs16 librefs16-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: arm64 all
+Version: 2026.8.18-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs16  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.8.18-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 613a4bc2c47881a25a085c33bbcbbf48dcf9b9f4 94280 librefs-dev_2026.8.18-1_arm64.deb
+ b5b262426953c46f4f1b467b56c4a65716d6e672 329584 librefs16-dbgsym_2026.8.18-1_arm64.deb
+ d1e7fac563b10c58022877b503812baad752195d 72532 librefs16_2026.8.18-1_arm64.deb
+ 530513d26f31f60d2b7c213cdeafeebf7bd82dfc 111364 refs-dkms_2026.8.18-1_all.deb
+ 82b5355c7e45c346fd545c465b29e1ecf91a0f56 23804 refs-fuse-dbgsym_2026.8.18-1_arm64.deb
+ 206882b338fd3e453f035ffd7465e229563af6d7 2624 refs-fuse-default_2026.8.18-1_arm64.deb
+ 8506a7c2be55a341d0127510b8f96237cd624e31 10712 refs-fuse_2026.8.18-1_arm64.deb
+ 452c8f1a57408648fa63135579347dafeb2ad3a4 112712 refsprogs-dbgsym_2026.8.18-1_arm64.deb
+ dda84ee6c60948c73ad9fbf6565aa3e3cc4ece83 75420 refsprogs-udeb_2026.8.18-1_arm64.udeb
+ 02f9360ed887e9d7956ce67581afa3a97a008285 7551 refsprogs_2026.8.18-1_arm64.buildinfo
+ 454908781fb64c33e72a1426f20e5231f86b9b35 31188 refsprogs_2026.8.18-1_arm64.deb
+Checksums-Sha256:
+ f28dcbff4352c33592806a74142d83e93e00fd2e446dfc81bc168979d82782a0 94280 librefs-dev_2026.8.18-1_arm64.deb
+ 76193100953b268012347e7b342cfce74b8f40c97dd25bdc2718445265fd50ca 329584 librefs16-dbgsym_2026.8.18-1_arm64.deb
+ aea8b49f16db4cdc4ab620d5c251e70ca5ca76ba1cdd90c29b3d0e036196aa36 72532 librefs16_2026.8.18-1_arm64.deb
+ 56e39773f4f34da194c09d38f5ba6f277c29ff9147fff4c01b170b02d1330e80 111364 refs-dkms_2026.8.18-1_all.deb
+ cb3e856892fe642b2105a23f3f5b3a3ab5f3556b17f0ea61b36bb240220ec6ea 23804 refs-fuse-dbgsym_2026.8.18-1_arm64.deb
+ ab8126d510d9ee2343f2180ed394afd83bdca08606c41e6475bb08d6d312f1bc 2624 refs-fuse-default_2026.8.18-1_arm64.deb
+ 702b61483410e92806cace97fba1cb013505a32db0f717c41913009d50401624 10712 refs-fuse_2026.8.18-1_arm64.deb
+ 7eeaa2af2583ae692689623d8993d4f156be80a72e58a82ba513b9e21a8f8759 112712 refsprogs-dbgsym_2026.8.18-1_arm64.deb
+ 6e7cb3ccdaeabf973ed59448c4c84a2f2d2d4c396551b5fdbcd364ecf6661c11 75420 refsprogs-udeb_2026.8.18-1_arm64.udeb
+ 0cd38a05e18c0fbc610ef86bebab97dc1766b609e3cd954b2c29f331e9938d97 7551 refsprogs_2026.8.18-1_arm64.buildinfo
+ e04dda272b714cd9c85a7d6bc5becd55e59d17959ec0023cf7b7e1b0476a7414 31188 refsprogs_2026.8.18-1_arm64.deb
+Files:
+ 80b5f0a4007457e919b2fc354c86d224 94280 libdevel optional librefs-dev_2026.8.18-1_arm64.deb
+ 101052bca58d8cbb327ec5be66fd2b85 329584 debug optional librefs16-dbgsym_2026.8.18-1_arm64.deb
+ c0b06aca7f5cf16310f3501fccbb11dc 72532 libs optional librefs16_2026.8.18-1_arm64.deb
+ 3cd62870d960245168fbae587d699ccf 111364 otherosfs optional refs-dkms_2026.8.18-1_all.deb
+ 16776245b050092dbd3d763fbb02fd6f 23804 debug optional refs-fuse-dbgsym_2026.8.18-1_arm64.deb
+ ebed640e7e15c569c9ea5041b3d2c5ba 2624 otherosfs optional refs-fuse-default_2026.8.18-1_arm64.deb
+ e2cd5f8effe6cde66bb516339a9880fe 10712 otherosfs optional refs-fuse_2026.8.18-1_arm64.deb
+ 276617d49e521268e53b070e761c5c5d 112712 debug optional refsprogs-dbgsym_2026.8.18-1_arm64.deb
+ 1077bf4d0363da816e393aabeac8bba4 75420 debian-installer optional refsprogs-udeb_2026.8.18-1_arm64.udeb
+ 189698b1a39129d903562173909a2377 7551 otherosfs optional refsprogs_2026.8.18-1_arm64.buildinfo
+ e0069a2939c48cd553f6186e1b324aec 31188 otherosfs optional refsprogs_2026.8.18-1_arm64.deb

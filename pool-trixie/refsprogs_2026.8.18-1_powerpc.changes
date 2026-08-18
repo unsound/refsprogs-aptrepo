@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Tue, 18 Aug 2026 20:54:34 +0300
+Source: refsprogs
+Binary: librefs-dev librefs16 librefs16-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: powerpc all
+Version: 2026.8.18-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs16  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.8.18-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ a421cd722e1f1b20b12e7c92ec9e3129df8ee17e 102436 librefs-dev_2026.8.18-1_powerpc.deb
+ 38a090fd2f9e8c09e16434b77ba56eff6d0b2e47 328988 librefs16-dbgsym_2026.8.18-1_powerpc.deb
+ 5817f205928e0a1f4d4fa7d1456210506108d7d8 86776 librefs16_2026.8.18-1_powerpc.deb
+ 56dbe536c59711886eb5d1a0df14abd520d7f15f 111348 refs-dkms_2026.8.18-1_all.deb
+ 9dcacbb0ee116d4158256d7da25772d80e59a868 23836 refs-fuse-dbgsym_2026.8.18-1_powerpc.deb
+ dd8abf087c96e964070cb3da89df0f07c05dd533 2624 refs-fuse-default_2026.8.18-1_powerpc.deb
+ 59832bda846eb4b972915be2a7722de5788b7f12 11232 refs-fuse_2026.8.18-1_powerpc.deb
+ e0e6f99a27c70d31ab678a691bcc4b36dea7d2c0 114084 refsprogs-dbgsym_2026.8.18-1_powerpc.deb
+ 52de8d3521ee835be683bc9a342263a4313ed315 90068 refsprogs-udeb_2026.8.18-1_powerpc.udeb
+ e8422fc664c2dd62ad06dbaefbb9183c5ab1ad82 7558 refsprogs_2026.8.18-1_powerpc.buildinfo
+ d45782b3d0d41cbab2de7660f6f4a15c6866e3d4 36948 refsprogs_2026.8.18-1_powerpc.deb
+Checksums-Sha256:
+ e8a67ce8174ad25a2ee7a0675c76d0f667f408434ecba53911328f1d432a2f0d 102436 librefs-dev_2026.8.18-1_powerpc.deb
+ 014f8db0de91d5d4fd2cd1580c2c9db4f2d16aa06685c05d4a75c15b61d29bdf 328988 librefs16-dbgsym_2026.8.18-1_powerpc.deb
+ f8de9bbd55324fb428c28096e54db3d5a341a3736e7b6bd5b3ec1553e474d339 86776 librefs16_2026.8.18-1_powerpc.deb
+ 1787c6dda2a5efe15c5fad6e37fbf69fd93a11b9d9ba8d150535e0d0d4c45713 111348 refs-dkms_2026.8.18-1_all.deb
+ 27d699d87fd9dc8dd746a18f9f22be627bf9c6aa50569e80e5ef0083285858b5 23836 refs-fuse-dbgsym_2026.8.18-1_powerpc.deb
+ f8c3f9c3dff930869467d7a1b6bef5d3696cd351dc5a3a294b61073a8a49a50d 2624 refs-fuse-default_2026.8.18-1_powerpc.deb
+ 8af8aae81c20bb803412811e574b134a5dfb094030386a8864b65bb0d01f769f 11232 refs-fuse_2026.8.18-1_powerpc.deb
+ c03c300e70efaf55229a58b22e29a8a5fee646ba72534398c16bd3bbacc01670 114084 refsprogs-dbgsym_2026.8.18-1_powerpc.deb
+ e0751c3298b1a563fa2aeae0fb313c16a1dec6b1c2971147c577761734961ebe 90068 refsprogs-udeb_2026.8.18-1_powerpc.udeb
+ 50310231638711be9a316d141dcc3fd3453366505939df6731dd0da8dae72a5f 7558 refsprogs_2026.8.18-1_powerpc.buildinfo
+ 3cc205ca4d123eb14d2f5d22b8dc3878dd51e843ff7e7eb93282a8af67e549ea 36948 refsprogs_2026.8.18-1_powerpc.deb
+Files:
+ db0c61297f2b14c4414ed2591ba41321 102436 libdevel optional librefs-dev_2026.8.18-1_powerpc.deb
+ b5f61e32e971d18267164be0521bfdf0 328988 debug optional librefs16-dbgsym_2026.8.18-1_powerpc.deb
+ 14e269b58dc5179f5fb907174ec6c19c 86776 libs optional librefs16_2026.8.18-1_powerpc.deb
+ abb3f3d61dee1458ce34bdda1f7c3a3d 111348 otherosfs optional refs-dkms_2026.8.18-1_all.deb
+ 630d827fbc8ad7aec8001d8f8489c3fa 23836 debug optional refs-fuse-dbgsym_2026.8.18-1_powerpc.deb
+ e612af994793aea3197046bc47f33a81 2624 otherosfs optional refs-fuse-default_2026.8.18-1_powerpc.deb
+ 65e0cfdba234a9ae560485632e4e4407 11232 otherosfs optional refs-fuse_2026.8.18-1_powerpc.deb
+ 30e4e05c83782a44639fbfc6ce9a659a 114084 debug optional refsprogs-dbgsym_2026.8.18-1_powerpc.deb
+ ed6f963e7dd8e1509c42e6ca97328523 90068 debian-installer optional refsprogs-udeb_2026.8.18-1_powerpc.udeb
+ 24aeea29bbe6ee0efef6772d8d5ca7c6 7558 otherosfs optional refsprogs_2026.8.18-1_powerpc.buildinfo
+ 9a6f9c84db38b92eabb9132bd9762033 36948 otherosfs optional refsprogs_2026.8.18-1_powerpc.deb

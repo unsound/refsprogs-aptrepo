@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Tue, 18 Aug 2026 20:54:34 +0300
+Source: refsprogs
+Binary: librefs-dev librefs16 librefs16-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: riscv64 all
+Version: 2026.8.18-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs16  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.8.18-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 240410875161358d063c2f69b1c0782a6fd0a009 246700 librefs-dev_2026.8.18-1_riscv64.deb
+ f47575971f285d4833ae014f0e995071920a2a42 299804 librefs16-dbgsym_2026.8.18-1_riscv64.deb
+ 24483625115bf0862af24de38443bc6c135b1fd6 85592 librefs16_2026.8.18-1_riscv64.deb
+ 530513d26f31f60d2b7c213cdeafeebf7bd82dfc 111364 refs-dkms_2026.8.18-1_all.deb
+ 282c5dffa90ef626e85bd07d886b78b121e8198b 23036 refs-fuse-dbgsym_2026.8.18-1_riscv64.deb
+ c71f5b7e7a059157b3f0c6fc8741458e60a2eef6 2624 refs-fuse-default_2026.8.18-1_riscv64.deb
+ effdbf1859e07445d37f75de802fa2adda7622ab 10864 refs-fuse_2026.8.18-1_riscv64.deb
+ c38c21beec2f206e5f16940041a23f4f14079eb2 107516 refsprogs-dbgsym_2026.8.18-1_riscv64.deb
+ 6c0bc02fa7c6d7ee3301b4ed0ba457add6b574be 88788 refsprogs-udeb_2026.8.18-1_riscv64.udeb
+ dc06b1d897cbee86a9ff291216e00db1de7d9012 7610 refsprogs_2026.8.18-1_riscv64.buildinfo
+ ab1bc3f15792641762d6e3f285043565d4aded08 32724 refsprogs_2026.8.18-1_riscv64.deb
+Checksums-Sha256:
+ 8ce867775be4cda3775a71c4f260f7773303b8fb71bf55972475b4f78f755a5a 246700 librefs-dev_2026.8.18-1_riscv64.deb
+ 582a22cfa0f6b51d01570381380f1d1151f2d397159bcf2cf111f1cf779da54b 299804 librefs16-dbgsym_2026.8.18-1_riscv64.deb
+ 364f51db6213290e00f9a38f00465b682e938d194d882c505aed96f5497f857d 85592 librefs16_2026.8.18-1_riscv64.deb
+ 56e39773f4f34da194c09d38f5ba6f277c29ff9147fff4c01b170b02d1330e80 111364 refs-dkms_2026.8.18-1_all.deb
+ 93ba89c8037376cdc23ef016f157357646d55ac38b1bda616d6e30ae1f3a1734 23036 refs-fuse-dbgsym_2026.8.18-1_riscv64.deb
+ 13010721cd947e4f6aa8536bd69feecd29c40993d3db298c932c09441c1b133d 2624 refs-fuse-default_2026.8.18-1_riscv64.deb
+ 60ca135f9b050a6a2a2ec250d99cc86efea3d790ff23d795146f913116f6cc47 10864 refs-fuse_2026.8.18-1_riscv64.deb
+ dc0e1643c550db287c1bb9927f6f9888b462c4aaa6e49a0aa5d3ebd6e83bab25 107516 refsprogs-dbgsym_2026.8.18-1_riscv64.deb
+ 87555d33be630b4fd811a9b0d97f43279e74bd1d2f89780c2b4f73d507445fba 88788 refsprogs-udeb_2026.8.18-1_riscv64.udeb
+ 5f4e6a945ae2fcfe8da8ac739cd9b18dba37868d4b92e417aa4c6a2dd64fc5c8 7610 refsprogs_2026.8.18-1_riscv64.buildinfo
+ 7a758d10b2ccf36211226e6b39d19e5df971eb1ed0150b8b3e2e19211a104fe6 32724 refsprogs_2026.8.18-1_riscv64.deb
+Files:
+ f5e69c1b8c31116f92220afdec622083 246700 libdevel optional librefs-dev_2026.8.18-1_riscv64.deb
+ cf5fcde125b86b0f7e0e67fd092ce443 299804 debug optional librefs16-dbgsym_2026.8.18-1_riscv64.deb
+ 13c08038d3b16abe1ef2946f5b5ad216 85592 libs optional librefs16_2026.8.18-1_riscv64.deb
+ 3cd62870d960245168fbae587d699ccf 111364 otherosfs optional refs-dkms_2026.8.18-1_all.deb
+ 9bab0919be184dc9c233ffc4e4f0f0ab 23036 debug optional refs-fuse-dbgsym_2026.8.18-1_riscv64.deb
+ f951cc80c6a9528286d8b4829b697982 2624 otherosfs optional refs-fuse-default_2026.8.18-1_riscv64.deb
+ c3c4fa2b422908ebd233c77e5e118c83 10864 otherosfs optional refs-fuse_2026.8.18-1_riscv64.deb
+ d85fc05a7ba99a5b646cb6a6d0272490 107516 debug optional refsprogs-dbgsym_2026.8.18-1_riscv64.deb
+ 831f4196a8a31e452500ff49f53c8154 88788 debian-installer optional refsprogs-udeb_2026.8.18-1_riscv64.udeb
+ 397ebe14dcd989f4557797bcb7b3c30f 7610 otherosfs optional refsprogs_2026.8.18-1_riscv64.buildinfo
+ 7f4bdbabacabd44b6269e0efda60458f 32724 otherosfs optional refsprogs_2026.8.18-1_riscv64.deb
