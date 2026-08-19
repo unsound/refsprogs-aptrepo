@@ -2,7 +2,7 @@
 
 distname="trixie"
 configuration="${distname}_ports"
-archs="amd64 arm64 armel armhf i386 ppc64el riscv64 s390x alpha hppa loong64 m68k powerpc ppc64 sh4 sparc64 x32";
+archs="amd64 arm64 armel armhf hurd-amd64 hurd-i386 i386 ppc64el riscv64 s390x alpha hppa loong64 m68k powerpc ppc64 sh4 sparc64 x32";
 #archs="amd64 arm64 armel armhf i386 ppc64el riscv64 s390x hppa loong64 m68k powerpc ppc64 sh4 sparc64 x32";
 
 gpg2 --version 2>/dev/null >/dev/null
