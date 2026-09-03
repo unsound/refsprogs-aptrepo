@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Wed, 02 Sep 2026 21:09:34 +0300
+Source: refsprogs
+Binary: librefs-dev librefs17 librefs17-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: hurd-i386 all
+Version: 2026.9.2-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs17  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.9.2-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 1727b242250e4bba14cedc734b6f7958fc9ca4aa 125400 librefs-dev_2026.9.2-1_hurd-i386.deb
+ b013a92442bd153406b8a5f40765d091c411a055 360480 librefs17-dbgsym_2026.9.2-1_hurd-i386.deb
+ 9f1420088a79459e9c7af9c9adfec47ebfd658b6 105184 librefs17_2026.9.2-1_hurd-i386.deb
+ 92834106866048a28daffd10839a320c98f07e43 117204 refs-dkms_2026.9.2-1_all.deb
+ 4e31c95767e978986f1a49ac4f8873eff0080f25 15428 refs-fuse-dbgsym_2026.9.2-1_hurd-i386.deb
+ 64387692eeefa9a41858b6909c8649b687f9e4f6 2652 refs-fuse-default_2026.9.2-1_hurd-i386.deb
+ 20e8e92f8572943bc7ab81a16b85c3099f8688af 10112 refs-fuse_2026.9.2-1_hurd-i386.deb
+ 117a61a2656da5d33e6d163e2333aa59beebf6f1 108548 refsprogs-dbgsym_2026.9.2-1_hurd-i386.deb
+ a8165ff1b7558a141ef755a8fd925376b656e8af 107420 refsprogs-udeb_2026.9.2-1_hurd-i386.udeb
+ 96e1a6a8691ccf73a325faf2e04e967760d7e792 7787 refsprogs_2026.9.2-1_hurd-i386.buildinfo
+ c35b4428631f36cc6f40987ffc53ef7a8f34716a 35280 refsprogs_2026.9.2-1_hurd-i386.deb
+Checksums-Sha256:
+ 6e8f2a8430d1fd66a2d0e3f070ab7a8f5401d35870c13105291be4fd581e2e52 125400 librefs-dev_2026.9.2-1_hurd-i386.deb
+ adbcc0e818c3f5c12a7449d868226d9b4caf68195f27ae559dda14815e262921 360480 librefs17-dbgsym_2026.9.2-1_hurd-i386.deb
+ 3b5dc882811711f87eb0d649f07c433aafa41a284bf983d10ad1bbe4cdcb9cf9 105184 librefs17_2026.9.2-1_hurd-i386.deb
+ 90a4625ed9faf46aad552cfc29c1d292d9b8be64f45033dd83de9a8325623ce6 117204 refs-dkms_2026.9.2-1_all.deb
+ c1d16476fff316ee16d00a283859733b9eef5be2ee82dd0eb04ac5232791a69b 15428 refs-fuse-dbgsym_2026.9.2-1_hurd-i386.deb
+ 075f54fde371d4b0c894c472d9bb8edaf390d03d74ec33e9ca4d1f92328abfb2 2652 refs-fuse-default_2026.9.2-1_hurd-i386.deb
+ f8acfb62b2f8830fbb88e77dfa9365193a10b94e342a5957cabacd2d4f544940 10112 refs-fuse_2026.9.2-1_hurd-i386.deb
+ 97f02e13dc365f13aa06da4db52d3a37a5dedce83d4f0beb52995a7f63fd3ba0 108548 refsprogs-dbgsym_2026.9.2-1_hurd-i386.deb
+ b360ff745ffed22f33046f5ef76c600e4cffa00e9895d13bec11e39dbef7173c 107420 refsprogs-udeb_2026.9.2-1_hurd-i386.udeb
+ 16444ea0eb9800180b791963db38097e73d5ef550b95735c64e377f2ac6bf261 7787 refsprogs_2026.9.2-1_hurd-i386.buildinfo
+ eaf64f6976b735758435c802942269fd5117d18efff7605ac4b26cf83f0dc8cf 35280 refsprogs_2026.9.2-1_hurd-i386.deb
+Files:
+ 586d5b989ca279bf3c756e3b5085725a 125400 libdevel optional librefs-dev_2026.9.2-1_hurd-i386.deb
+ eaf72ab831e7663149aba12fb3b81338 360480 debug optional librefs17-dbgsym_2026.9.2-1_hurd-i386.deb
+ 5308e0fb1505699ab2bbc527fbfc31e4 105184 libs optional librefs17_2026.9.2-1_hurd-i386.deb
+ addcfa3d30b86eacc54b070070e4f2fa 117204 otherosfs optional refs-dkms_2026.9.2-1_all.deb
+ 0b8b4002d498debc3e4489ac5146f748 15428 debug optional refs-fuse-dbgsym_2026.9.2-1_hurd-i386.deb
+ a36c01f980536e5ebe8d99c56716eb3a 2652 otherosfs optional refs-fuse-default_2026.9.2-1_hurd-i386.deb
+ 6e2b786d260e3255df9c086816c9bac1 10112 otherosfs optional refs-fuse_2026.9.2-1_hurd-i386.deb
+ aa26ab13153a26ca7022f15f2d6dd455 108548 debug optional refsprogs-dbgsym_2026.9.2-1_hurd-i386.deb
+ d90f7ab55a4aedd200cb836325d8e80f 107420 debian-installer optional refsprogs-udeb_2026.9.2-1_hurd-i386.udeb
+ 6ab224f0548697fb1f3272bb7abc072b 7787 otherosfs optional refsprogs_2026.9.2-1_hurd-i386.buildinfo
+ 58c4bda35d8262797b2577ff6f4a6195 35280 otherosfs optional refsprogs_2026.9.2-1_hurd-i386.deb

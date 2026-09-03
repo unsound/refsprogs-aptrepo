@@ -1,18 +1,18 @@
 Package: librefs-dev
 Architecture: m68k
-Version: 2026.8.18-1
+Version: 2026.9.2-1
 Priority: optional
 Section: libdevel
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 361
-Depends: librefs16 (= 2026.8.18-1)
-Filename: pool-trixie/librefs-dev_2026.8.18-1_m68k.deb
-Size: 93892
-MD5sum: 9f6008d5042d49f30478b2f61cfaeb4d
-SHA1: 73e77b3a9199f75978a0949e2a8fae8f60fcde1a
-SHA256: f56b92225559ded1c31c04302a93f9de5de713da1ce0e937685a9fd9cc7f471b
-SHA512: 2bfdd1d99c78e03b95ff150e04648da37f11593a92f0c81194f57ebbb13683059990bbc0c434d4f7120e7781f9f58f4babf529d382d5010b0dcbe03ceb386431
+Installed-Size: 372
+Depends: librefs17 (= 2026.9.2-1)
+Filename: pool-trixie/librefs-dev_2026.9.2-1_m68k.deb
+Size: 97700
+MD5sum: 6f002bf11ab361b5ac69fd926115beb4
+SHA1: 2f11602d4485e480f29b974ea3487aa026438a41
+SHA256: 82d0fe4a93960484fb5522d7d0dd7e1c2ab243bdd34b2049bb2c888e034e2cfe
+SHA512: 37f5e19ec74f55504e74d83c9d73af91130c283aa491d63ef79081f65d85f77b5d5e3be09d6fc649419fe6db32c85a007f17039a25abf31befffa744e792e8a5
 Homepage: https://github.com/unsound/refsprogs
 Description: read-only ReFS library (development)
  librefs provides a read-only interface for interacting with the ReFS filesystem
@@ -20,42 +20,42 @@ Description: read-only ReFS library (development)
  .
  This package contains the development files.
 
-Package: librefs16-dbgsym
+Package: librefs17-dbgsym
 Architecture: m68k
-Version: 2026.8.18-1
+Version: 2026.9.2-1
 Auto-Built-Package: debug-symbols
 Multi-Arch: same
 Priority: optional
 Section: debug
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 304
-Depends: librefs16 (= 2026.8.18-1)
-Filename: pool-trixie/librefs16-dbgsym_2026.8.18-1_m68k.deb
-Size: 292752
-MD5sum: 741997102f8c82ea22070b221520d189
-SHA1: 922ea16250cb455ce12a16516d3be52d3e2fb45b
-SHA256: 823d4a30450b14aa2f8b6c2ac2087b65fba457b7a61bc54978cf499a075b6420
-SHA512: 23c7b44a4cc13842b0065dd89c712c4058f273513d01e956ed7ae1ab034c559911b75f1210d1d739f068d32c527b8aed84960870498d7a0362b164b043c43c7d
-Description: debug symbols for librefs16
-Build-Ids: 601a2c0b98f6a6edcbf2d64d311eb8d427c49bf4
+Installed-Size: 312
+Depends: librefs17 (= 2026.9.2-1)
+Filename: pool-trixie/librefs17-dbgsym_2026.9.2-1_m68k.deb
+Size: 300804
+MD5sum: a82abb6a72014c0aebeb175f7d85cb57
+SHA1: 273eee94cf86bbfe29437b56437ef173dcbec4e5
+SHA256: 6443b9c2ae7519f83331406e182894ee64aa56f32e1265b290a436135310f947
+SHA512: 048931bff8d3cff289a4ccd262f9224a57f3df605d74855591ffddff91648b855d1933224d2aa1450097e6edfe71dcd784f15e2d05e015201edd6e74357292c8
+Description: debug symbols for librefs17
+Build-Ids: 93c62612f6acc632776a74a42d3e5a61a727ec99
 
-Package: librefs16
+Package: librefs17
 Architecture: m68k
-Version: 2026.8.18-1
+Version: 2026.9.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 217
+Installed-Size: 225
 Depends: libc6 (>= 2.34)
-Filename: pool-trixie/librefs16_2026.8.18-1_m68k.deb
-Size: 76096
-MD5sum: 10c4688d285eaeeafb4e980d620538aa
-SHA1: 0abb0bdc31d04e5e8fd9170a6058b43dcb32c733
-SHA256: 52aee60bb157616c56fe80bb3ea8a63feab52a536281bbf852029418e8bd9c91
-SHA512: b33cd11e120eb49c1f470447b0fe5d7e863b7600a6f1f63b810f024e4c963959ff51a35091c1e58ee1d7976e6ceb6b74e646884e9cb6336c0eb21344ac6eea7c
+Filename: pool-trixie/librefs17_2026.9.2-1_m68k.deb
+Size: 78700
+MD5sum: f99c8b862cdf327288723144c1d14839
+SHA1: 0d48ee963ad25dba7cb49a25f00e0e2bbacaef04
+SHA256: 1964f899bd9892e3ba4fe7ee9786beabcbd476f013aae1234b8f0e4680693b21
+SHA512: 2f366cf4063d1f3d9095e7a60c2d4c343ca5a5725ab2b18f0cd7647c82a5d338cd0bd1e5e57df8f20e6902d7564ba8df828b4b4673047aeb586021ddb9370290
 Homepage: https://github.com/unsound/refsprogs
 Description: read-only ReFS library
  librefs provides a read-only interface for interacting with the ReFS filesystem
@@ -65,21 +65,21 @@ Description: read-only ReFS library
 
 Package: refs-dkms
 Architecture: all
-Version: 2026.8.18-1
+Version: 2026.9.2-1
 Priority: optional
 Section: otherosfs
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 875
+Installed-Size: 964
 Provides: refs-modules
 Depends: dkms (>> 2.1.1.2-5), file, libc6-dev | libc-dev
-Recommends: refsprogs (>= 2026.8.18-1)
-Filename: pool-trixie/refs-dkms_2026.8.18-1_all.deb
-Size: 111348
-MD5sum: abb3f3d61dee1458ce34bdda1f7c3a3d
-SHA1: 56dbe536c59711886eb5d1a0df14abd520d7f15f
-SHA256: 1787c6dda2a5efe15c5fad6e37fbf69fd93a11b9d9ba8d150535e0d0d4c45713
-SHA512: 8561fac071a2fc7a5b52e3569fa79db86660c17ab4c26b3cbc5bd54ce1a152903e2e61bb9355667e5c0ff023a44fdf1c154c90e34388edc946100724e8a4265d
+Recommends: refsprogs (>= 2026.9.2-1)
+Filename: pool-trixie/refs-dkms_2026.9.2-1_all.deb
+Size: 117196
+MD5sum: cc12627faaeacb1c96c78ee5f9a015d7
+SHA1: 3ae802ecae7414a6588e1b5d2d649367d0ce6544
+SHA256: 78202a3d645580e356985c4d9ca0fd2e68bdf0ed96210b214e33d2a9aa608784
+SHA512: 7a2e5a3d593d573940d517e8bc35f9f879d65ac7cbc76f59180894a9ce1766b3acec21e855571e8cb2f95ed8af247b6eee4f044229b970734d543c0cd44a7815
 Homepage: https://github.com/unsound/refsprogs
 Description: ReFS filesystem kernel modules for Linux
  refs-dkms uses DKMS to dynamically build a Linux kernel module to provide
@@ -88,38 +88,38 @@ Description: ReFS filesystem kernel modules for Linux
 
 Package: refs-fuse-dbgsym
 Architecture: m68k
-Version: 2026.8.18-1
+Version: 2026.9.2-1
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 46
-Depends: refs-fuse (= 2026.8.18-1)
-Filename: pool-trixie/refs-fuse-dbgsym_2026.8.18-1_m68k.deb
-Size: 22032
-MD5sum: e2bd5dd45b0643291b2d8489147d9038
-SHA1: 4c03196519855a68362e70fee278052787f0b415
-SHA256: 526ba2db56b4c77701908a4476acbab70019d8614ecc6af06df6632549093e95
-SHA512: 9da252440a6283d07f30d3bd59316ab509b253d58c137ef21017b4bea1469a4bbc6ed9a5a020a4f5633eda661956bb90a396c1a143b358dec52925ad292b82de
+Installed-Size: 56
+Depends: refs-fuse (= 2026.9.2-1)
+Filename: pool-trixie/refs-fuse-dbgsym_2026.9.2-1_m68k.deb
+Size: 28320
+MD5sum: 00505e0deb4aaea8b51f2066e4cc012d
+SHA1: 5141433b17e35306f418c1f5a9da57acb23ab277
+SHA256: 691db750e4837b83b4713250cbb58e13ddb056603ef8020195fe3d3dd83144cd
+SHA512: def7bae3e3e9452aafc5cfdca2364a499d2bf5c2450c1d37d88329f090253d2618265a7da2da2d4cb75c501d83547c059a6917a407eb255cc238dce97c12caf9
 Description: debug symbols for refs-fuse
-Build-Ids: 9706716fe43eb08bfa0c7cedb23347159597df41
+Build-Ids: 41e6435594f95d58e671634774a3dedf85815efe
 
 Package: refs-fuse-default
 Architecture: m68k
-Version: 2026.8.18-1
+Version: 2026.9.2-1
 Priority: optional
 Section: otherosfs
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
 Installed-Size: 15
-Depends: refs-fuse (= 2026.8.18-1)
-Filename: pool-trixie/refs-fuse-default_2026.8.18-1_m68k.deb
-Size: 2624
-MD5sum: e44dcd56963165328e529c88c80ce88d
-SHA1: 9ee98648f307f95e4be515ffd04a3ac060cc6d3c
-SHA256: 832ed21aaf90328f72c1846dd66968128c5ed37fd46162a4b38e28119a1d21c2
-SHA512: a86f336440453481aeabf76b8f31b14239c4cd12e6c037cb225678a1509f2a603c7f80a4c53e4b22939b1b26d11ac04b0fd997679110568829dbf46360a8057b
+Depends: refs-fuse (= 2026.9.2-1)
+Filename: pool-trixie/refs-fuse-default_2026.9.2-1_m68k.deb
+Size: 2652
+MD5sum: e658306c436ce125316c23d2e8142765
+SHA1: 162f98dfc74a9441ac8f0945802fe09b9645e4ce
+SHA256: 0839942e2d5e60edaa4a7a0c380bb017ed170407f847ad14c4b73776e44f316a
+SHA512: 140980f37c681c5d21374c967ea25c39975ed08b905cd1e1fd5b16ff3ec40bb3fd059ac2146d29ec033f94deaa9f91e157fb9c3006efef644d7938b94c38e18c
 Homepage: https://github.com/unsound/refsprogs
 Description: Read-only ReFS FUSE driver (default handler for refs volumes),
  This package installs symlinks to make refs-fuse the default handler for refs
@@ -127,19 +127,19 @@ Description: Read-only ReFS FUSE driver (default handler for refs volumes),
 
 Package: refs-fuse
 Architecture: m68k
-Version: 2026.8.18-1
+Version: 2026.9.2-1
 Priority: optional
 Section: otherosfs
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
 Installed-Size: 47
-Depends: libc6 (>= 2.34), libfuse3-4 (>= 3.17.2), librefs16 (= 2026.8.18-1), fuse3
-Filename: pool-trixie/refs-fuse_2026.8.18-1_m68k.deb
-Size: 10096
-MD5sum: 827e69d8de79b9b500e03d64967181cc
-SHA1: b3f2e30b130fb40770bd74de73adefb429ff6a26
-SHA256: f81cad82a34641976ebee36f5821e021db17ce68d4fb566a3fb443a124afd6da
-SHA512: 598125e1e50ad9ac792289545103c3373f37b4935884def09a9261a9ae436249b0e37188be5edbffe96ec725b3dc8c41969ce33634cb4edcf7e717248a3e3f0c
+Depends: libc6 (>= 2.34), libfuse3-4 (>= 3.17.2), librefs17 (= 2026.9.2-1), fuse3
+Filename: pool-trixie/refs-fuse_2026.9.2-1_m68k.deb
+Size: 11244
+MD5sum: fa4f4abf86b5b1b163c9c8ac501f225a
+SHA1: eefbfd85a88c39c8bec92ac573ee061ea0bd16a5
+SHA256: 5f1abc6e574c95508ce9f88c7041f7c75998166d4531c713d4c03e93f5b1dbcb
+SHA512: 53aba2f28c28ca014938a69533f3a67f3c9c6f91aed29eb9777f9520459245c165fdc597a3d1b19e41ab71feb7055d43df90bc30b26b6cbee0191b76845ae720
 Homepage: https://github.com/unsound/refsprogs
 Description: Read-only ReFS FUSE driver,
  refs-fuse uses FUSE (Filesystem in Userspace) to provide support for the ReFS
@@ -147,37 +147,37 @@ Description: Read-only ReFS FUSE driver,
 
 Package: refsprogs-dbgsym
 Architecture: m68k
-Version: 2026.8.18-1
+Version: 2026.9.2-1
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 212
-Depends: refsprogs (= 2026.8.18-1)
-Filename: pool-trixie/refsprogs-dbgsym_2026.8.18-1_m68k.deb
-Size: 108452
-MD5sum: cdedda959225e8c3f0092459bbc848f8
-SHA1: df0e614dc63cee224478f1164a98809e535916a4
-SHA256: 86f4ecc500ce5f9a76e1c9c3665e6dda165ee794197afe9beb2a7c6c0dc162ee
-SHA512: 156d87c13e96b02200afe57eaece2bc551efdc948a78892bed61d07c18b6f7b6bba91c7cfb5005e036fe8ea71fa9e0c69ae719df2676560fb76eba36dca4db7f
+Installed-Size: 215
+Depends: refsprogs (= 2026.9.2-1)
+Filename: pool-trixie/refsprogs-dbgsym_2026.9.2-1_m68k.deb
+Size: 110120
+MD5sum: eb008c6453154aa294a6788a1572c69f
+SHA1: 837617c06253a09a65cb7ce8a723b81d57e97b9f
+SHA256: 987d7e6ff19ec93660329e0431320406e2c11625d8a47285af17387110863f72
+SHA512: ade6d70480e0268c026869335c42d625b9411c6492e1da0083cd84373b4d8db50818f282e0a53cdf61234ad733e80907bbf280288bc6129b74c1d2695bce165f
 Description: debug symbols for refsprogs
-Build-Ids: 0102361312719a2993c149465ce82fd2130bd271 20eb1391fed851e4d3462f48a4b50b84159a3340 386de69b57c4d43ee17c795dee5179f90fdba8ad 4f469bc9f8b3c30752d5595f4c024350219d0274 927bfd9b122f68eb8b78cef774e3d45cabb2248a a52d177f5f6b55f26e680dbae24793ea1e571743
+Build-Ids: 37f6642e3f108c4e02b57fee70f5cb8d81a77f76 69b4ef93e194ede5fbdcea521bc105f14c82f4ad 70794caffa5e0a4a981858410cd9bb66f276104e 9e746dc90e72dc9c2fc83ec7dba06ee3120b69e8 b728419fe3c71cf14a20f6520de240560536009f de87ffedea5164f7af676cb828bed5bf7427eb36
 
 Package: refsprogs
 Architecture: m68k
-Version: 2026.8.18-1
+Version: 2026.9.2-1
 Priority: optional
 Section: otherosfs
 Maintainer: Erik Larsson <catacombae@gmail.com>
 Installed-Size: 135
-Depends: libc6 (>= 2.34), librefs16 (= 2026.8.18-1)
-Filename: pool-trixie/refsprogs_2026.8.18-1_m68k.deb
-Size: 31924
-MD5sum: 91943c0821e395f094b1fca955cbe692
-SHA1: a3873ebbadd5ae0d3138ad9364f7d6cf3f75b930
-SHA256: c7611e8fec7fa2a173518cd00e671d30ee9384f02070455e3b79c34a7e7e573c
-SHA512: cd3fcb644224d8b02c99f8803cddb503744f7ac4c6d4cafa380c06ae3bc3ded3c3dea9acc7adbe52adefc13fccb5639229d3a1f24ef6293092d168fa0ef9ca3b
+Depends: libc6 (>= 2.34), librefs17 (= 2026.9.2-1)
+Filename: pool-trixie/refsprogs_2026.9.2-1_m68k.deb
+Size: 32312
+MD5sum: d3ec31cc2f1f0893b3f89e0399d671bb
+SHA1: 3fe400b59d6da75999af016df598d2a3e0e2be43
+SHA256: de2bde5424f652327b0dc626c2977bcecc84a1e52ac1a003244c0bae425f8dae
+SHA512: d4dd897af8ff7b574c360a945d969322c0938ddcae56559bda809389eabc14a2fce73eeefb4751d7ac8192a5a8e2bd6d8c0419638678b207a4d61a192e0d188e
 Homepage: https://github.com/unsound/refsprogs
 Description: Read-only ReFS progs,
  refsprogs includes 'refls', 'refcat', useful for listing and retrieving data

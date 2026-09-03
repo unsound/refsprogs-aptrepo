@@ -1,18 +1,18 @@
 Package: librefs-dev
 Architecture: arm64
-Version: 2026.8.18-1
+Version: 2026.9.2-1
 Priority: optional
 Section: libdevel
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 364
-Depends: librefs16 (= 2026.8.18-1)
-Filename: pool-buster/librefs-dev_2026.8.18-1_arm64.deb
-Size: 85836
-MD5sum: 858aa038eda77be6f8f941e6387b2bb9
-SHA1: cfdd96a32e35f1543bb56df7ad70d23428328441
-SHA256: cceab15f7237ca31978043c4dcf2dd77a38c4d984fce998868a205aa1af3f277
-SHA512: 0dba5dda2f98bce764f3e81e79ebc121813df5e0eff9ddb317d6d2a9b5dbbf671890dba0c758e95638cc1018bde3dadd567fdf263fcd245c043fc4f5c9876583
+Installed-Size: 373
+Depends: librefs17 (= 2026.9.2-1)
+Filename: pool-buster/librefs-dev_2026.9.2-1_arm64.deb
+Size: 88720
+MD5sum: 6924fe45fec89fda40983178acec06bc
+SHA1: 56b7174bc2af75fa9890bdf7def2fdbef2586585
+SHA256: da0ab3af96fcd652d93b029e22798c371a0fa2d564e817aa2170d28be7b0781a
+SHA512: 8d73246f64a39a1e5e781820b5157ab66e203c26fcd70757fc1429e33e2d8a4a2c3480560583195dbfa0300d821e090c786d4929753898ac1b0a62b79eb6c2f3
 Homepage: https://github.com/unsound/refsprogs
 Description: read-only ReFS library (development)
  librefs provides a read-only interface for interacting with the ReFS filesystem
@@ -20,42 +20,42 @@ Description: read-only ReFS library (development)
  .
  This package contains the development files.
 
-Package: librefs16-dbgsym
+Package: librefs17-dbgsym
 Architecture: arm64
-Version: 2026.8.18-1
+Version: 2026.9.2-1
 Auto-Built-Package: debug-symbols
 Multi-Arch: same
 Priority: optional
 Section: debug
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 309
-Depends: librefs16 (= 2026.8.18-1)
-Filename: pool-buster/librefs16-dbgsym_2026.8.18-1_arm64.deb
-Size: 293488
-MD5sum: 52024d906d6bb1ce85ddd47d99664b14
-SHA1: e887563f61826e6321da69728bceaf62e3e4a88f
-SHA256: 7f4e04e26305c0d112d4bc1e1382c29850a6b04d5eacf0464829620a93ca38f9
-SHA512: 91512870bc4911c19c9fc528d24a3212162c4944075763cd1a3d15e03847b1218e37e4c1f77c53b28f91c8e7d03c6f6ce666f9d94041fe9b15236cbe06cbf778
-Description: debug symbols for librefs16
-Build-Ids: 48fc6eb5867d1a58c72695a45b8ebea739a8eb0e
+Installed-Size: 317
+Depends: librefs17 (= 2026.9.2-1)
+Filename: pool-buster/librefs17-dbgsym_2026.9.2-1_arm64.deb
+Size: 301600
+MD5sum: bda3d58f0111f618834cb44d2cdbf180
+SHA1: 31fb9f96c76f3fa4e92dd375a7b0fb8f42cb3c37
+SHA256: 03868f56da151c0f1a542304d31c27dba00b4c907aae58e6daa29c281ef0baf9
+SHA512: 79909c7ac007743a10fea39d176531d5592311a6a957683cdd989c0562d1420385e157d236b6d809e60e64641e1c4749ae1bd419fc775c1a23f33c5d92981928
+Description: debug symbols for librefs17
+Build-Ids: 5e831980909593533e406a2500b9b841bfb57a39
 
-Package: librefs16
+Package: librefs17
 Architecture: arm64
-Version: 2026.8.18-1
+Version: 2026.9.2-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 165
+Installed-Size: 169
 Depends: libc6 (>= 2.17)
-Filename: pool-buster/librefs16_2026.8.18-1_arm64.deb
-Size: 64436
-MD5sum: 36ffcbb3d832db1b0ce66cc61e163ecb
-SHA1: 4b015dadcea7eda783f39d446f167a0015e3af1e
-SHA256: 97c0ac405156091dc1f47b53262800035ae32a0765e34db6e26f0d7bd105fdad
-SHA512: 70ff03f59eba7d77c5a8805ff6fae63b96cb5d4f781922e994ce93844d634f50a7641da32fb17e55431f0e0734fca3d432a4dd6104d05e6f52890113ec73db13
+Filename: pool-buster/librefs17_2026.9.2-1_arm64.deb
+Size: 65924
+MD5sum: fbd58129d18a544ac57c6fa4d6762271
+SHA1: 6a3958d19eaa833ed1c4a2794aa8b62153c843d4
+SHA256: e3f65f030935512d49db663a2c900a1abd000d8bfbe4d98f01dd639d992b5a9f
+SHA512: 0cabd8a124886c776531b0dbbe8f9c11a1778494f5e278fd3dd73e971e9e19e830cc6d0c88fb7b6e89f3ac94573a55423a03d2a95eba40fb42e7567d05659c73
 Homepage: https://github.com/unsound/refsprogs
 Description: read-only ReFS library
  librefs provides a read-only interface for interacting with the ReFS filesystem
@@ -65,21 +65,21 @@ Description: read-only ReFS library
 
 Package: refs-dkms
 Architecture: all
-Version: 2026.8.18-1
+Version: 2026.9.2-1
 Priority: optional
 Section: otherosfs
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 875
+Installed-Size: 964
 Provides: refs-modules
 Depends: dkms (>> 2.1.1.2-5), file, libc6-dev | libc-dev
-Recommends: refsprogs (>= 2026.8.18-1)
-Filename: pool-buster/refs-dkms_2026.8.18-1_all.deb
-Size: 111416
-MD5sum: dac8a47b4cf851642eb3091d47f3388b
-SHA1: 1006047ae2f52b2a93269ed56df8524adb2f9d9f
-SHA256: 38f51c2b04681fa434ca83648ff418c713e1a8b94f86e686002a9201d8164f2d
-SHA512: da2075c77fc28aaffea75f39e1cc5b0ad7d2d3fc363701452cf6c33d0a82bb41c8a669ab6ac3468261cb4af629594860dd45bd5da6b76f26ca35dfc4b0d44fc6
+Recommends: refsprogs (>= 2026.9.2-1)
+Filename: pool-buster/refs-dkms_2026.9.2-1_all.deb
+Size: 117264
+MD5sum: d166e674665e2c251b23712178648c33
+SHA1: 74b4477cfa60025840f2bf9717e30f98f991e1c2
+SHA256: 69588a791fdabf508e9c653d2413b69c650b1ec3fa29991e454ba976c639de30
+SHA512: eb1ed0f00020b113ec2b6ce74971780d3c8b41a7f26fb9842f4a1313e8b616a006365ddbe13a55a374505b633814256cbcf0e77d0a1bd44e2fe2d4cc5c229069
 Homepage: https://github.com/unsound/refsprogs
 Description: ReFS filesystem kernel modules for Linux
  refs-dkms uses DKMS to dynamically build a Linux kernel module to provide
@@ -88,38 +88,38 @@ Description: ReFS filesystem kernel modules for Linux
 
 Package: refs-fuse-dbgsym
 Architecture: arm64
-Version: 2026.8.18-1
+Version: 2026.9.2-1
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 39
-Depends: refs-fuse (= 2026.8.18-1)
-Filename: pool-buster/refs-fuse-dbgsym_2026.8.18-1_arm64.deb
-Size: 23240
-MD5sum: 268b910bba0cad60b3c154706a7a70a5
-SHA1: 6f050c286eddf23a81d02bd0f4ae9ffde083cfd4
-SHA256: 411552b2b12121da9dbb9a5662d660897f964ed51c8b89c158d50e8f9571e351
-SHA512: 1ec1dbfabe16dcbabb92919195c8e8829454adb5700a63f57e6aaceef13bec97a3af435560e42d2416342f2a6ebca31134fab0bdb2dc48d848245d44becb1a0d
+Installed-Size: 47
+Depends: refs-fuse (= 2026.9.2-1)
+Filename: pool-buster/refs-fuse-dbgsym_2026.9.2-1_arm64.deb
+Size: 30268
+MD5sum: 049ec8019587d7339c19c04dbf8fd385
+SHA1: 76a2d11a15acf311e8fddeee164f44639a9f32d0
+SHA256: ee778bb89fe4de842d500b2e0a4df23b27ba62c0659acee9119555a054780925
+SHA512: a23ea6a94d2aec2d7b08320913f0e9fce2b37ab6a60b70e6210ed45604908ba63304b929c45a6abd6839f28f9b4acacf9232a74633d4808c3cbb3db1e61b1e15
 Description: debug symbols for refs-fuse
-Build-Ids: 10611609de5194b24efaee9365b45035ae3f1ed4
+Build-Ids: 6d772e2553d32d5cd2e1b336b1687adf1ac82eb3
 
 Package: refs-fuse-default
 Architecture: arm64
-Version: 2026.8.18-1
+Version: 2026.9.2-1
 Priority: optional
 Section: otherosfs
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
 Installed-Size: 15
-Depends: refs-fuse (= 2026.8.18-1)
-Filename: pool-buster/refs-fuse-default_2026.8.18-1_arm64.deb
-Size: 2628
-MD5sum: 8ba5b69ced064e9e599a846371231e05
-SHA1: 02e8baaeada75d5b51484e893aee85ee3bee7b59
-SHA256: f61cbd420b8b73dd1f86761c8baf529b946a0af7259d72092edbdc0738141448
-SHA512: c04f8f4257c659495f5763b8e2006a2185af324c3d985ddca5c519f5f71116e5d97a1644ce2e8986e3a29482d2b516fe1f12a94e689d2e2da0aa0660f13be5e0
+Depends: refs-fuse (= 2026.9.2-1)
+Filename: pool-buster/refs-fuse-default_2026.9.2-1_arm64.deb
+Size: 2660
+MD5sum: b4ba1fcde248a9f5c8390c73ee4593a8
+SHA1: 25bf9226ce2bedf1b7f5a6101ca9101f01d4a7c3
+SHA256: 5e4bc8b2dfd38339ccc3dd88c47fc9fbcd1c1bfad626a9f99a5c1429b9108dd3
+SHA512: 74b145315046a77b2ceada5b328de3bc5cd59c47aefeb5d4114ccf5d39fad3c1cbb43686aae3dbe01a7b5802b9334afeb3300dba4f476920a09cc7b95d0c5a7c
 Homepage: https://github.com/unsound/refsprogs
 Description: Read-only ReFS FUSE driver (default handler for refs volumes),
  This package installs symlinks to make refs-fuse the default handler for refs
@@ -127,19 +127,19 @@ Description: Read-only ReFS FUSE driver (default handler for refs volumes),
 
 Package: refs-fuse
 Architecture: arm64
-Version: 2026.8.18-1
+Version: 2026.9.2-1
 Priority: optional
 Section: otherosfs
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 48
-Depends: libc6 (>= 2.17), libfuse3-3 (>= 3.2.3), librefs16 (= 2026.8.18-1), fuse3
-Filename: pool-buster/refs-fuse_2026.8.18-1_arm64.deb
-Size: 10620
-MD5sum: 9eb9935a93c1e8541199f92b09555057
-SHA1: 7a7a48caf31fb0ebfccd6df345d133374a5b8202
-SHA256: e2657306a695d52dfd7b9bd74e634e60d091bd127ca9ec6d8279ce3497c536a7
-SHA512: 72ca625815f5b72ed7c98363169331ca99e161c82bbbcac8890e9c0c8dfaeb5536208bff2049bbdedfff0f2645baeefbbe1584f0e259b8d75ca6cbca8c20224c
+Installed-Size: 52
+Depends: libc6 (>= 2.17), libfuse3-3 (>= 3.2.3), librefs17 (= 2026.9.2-1), fuse3
+Filename: pool-buster/refs-fuse_2026.9.2-1_arm64.deb
+Size: 11872
+MD5sum: 529881653f4225c9b6121d94121ed728
+SHA1: db49401cddeb4e87103b812ed708240b42388aa0
+SHA256: d0e50e087887cbd0aa861ec1493935664126ecd3fbf6a2f465878d1ce9ee9eac
+SHA512: 6541da3cd6ec5c5c72287f966ebdf8cc4603d155d9abe7205f70f3d7f819a479a33d4f62d018ee94ca54912b569eb45557a1e4bf3b2fc2568ebc8ae0f92a42d4
 Homepage: https://github.com/unsound/refsprogs
 Description: Read-only ReFS FUSE driver,
  refs-fuse uses FUSE (Filesystem in Userspace) to provide support for the ReFS
@@ -147,37 +147,37 @@ Description: Read-only ReFS FUSE driver,
 
 Package: refsprogs-dbgsym
 Architecture: arm64
-Version: 2026.8.18-1
+Version: 2026.9.2-1
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 167
-Depends: refsprogs (= 2026.8.18-1)
-Filename: pool-buster/refsprogs-dbgsym_2026.8.18-1_arm64.deb
-Size: 112504
-MD5sum: 23ab7c1dda5fc80cb1764506000ad0aa
-SHA1: a8a14408b1ebcfabbdce2d9f716f581d23f999ba
-SHA256: 7f96b5c389d0c3f4a334a85bf222907a95005232d4df2279b07d8f36e96d1180
-SHA512: 8e62f6bd691dea17434f650d7d9a8c2ccf18be2aa24894c81e479e2960aed1b0827aa857232d71d4fd7e4015aff09d234f3a1e4be7fde56e51d58e36ba93c533
+Installed-Size: 170
+Depends: refsprogs (= 2026.9.2-1)
+Filename: pool-buster/refsprogs-dbgsym_2026.9.2-1_arm64.deb
+Size: 114172
+MD5sum: 5dbfb65420b902ec469e8b663c942828
+SHA1: 955e6ddda2c53fe4bb80fa0c62c0837457a7aded
+SHA256: 4857bf935b4c173a89563ee712364a0a8a44535e323b3debcad089485417212f
+SHA512: 6eaf651f31dc24435e3546dfa2e38c7a7873fae2f524d97391465749e6458c3f4bb7656cecac78cdb14da4e0782b24ba4589f97acda057bf7e1ddd2bf2e104cb
 Description: debug symbols for refsprogs
-Build-Ids: 0954fa95596b3268d1d82d21525350e38fc31a38 23c01d8aab4fa2f0acc4de2518d77af8934c569b 46d258899ba75534f41c9128fb5aa3c33d1ac703 7a9a228c0aac0559a443a80efa2a0e399416c759 c435b7ce0b01aacbf112a84e3757d21bde7f04c8 eae6294ea4448d7e5b99133eba0d74b8a6139cfb
+Build-Ids: 84e2d4d3bdc39446626980e2f02004060b693a97 9fe3d13f91e3d973b19efcc5de279e7217a97e02 ac0a77bbb67e28fa2a1784591afa9db2b689a5da d4b6eef083b11604222b71bcdba4ea8cae3a8841 e59c1f78c395ae6e1ba8ad0d6c888be3ba81b74f ef562301a7b76104581f0e5e7ed8e6472d6db07b
 
 Package: refsprogs
 Architecture: arm64
-Version: 2026.8.18-1
+Version: 2026.9.2-1
 Priority: optional
 Section: otherosfs
 Maintainer: Erik Larsson <catacombae@gmail.com>
 Installed-Size: 119
-Depends: libc6 (>= 2.17), librefs16 (= 2026.8.18-1)
-Filename: pool-buster/refsprogs_2026.8.18-1_arm64.deb
-Size: 31516
-MD5sum: bb57efee453b403b4dee3a951bb8d5b8
-SHA1: fa634d240ce1ee103059617bd124ec3b0fca631b
-SHA256: 267ae2cebc9d68d0e3f83a13049ef6d094db99e007cd3152d8ae142040708588
-SHA512: 049ddd3d13b819f107d744901825df252a2aa5013f49b283b7069d85c95e706f85e7b323b49f67fdde6dbb2995268ceba42f5c2ef49e73c5dd4f320638a57a0c
+Depends: libc6 (>= 2.17), librefs17 (= 2026.9.2-1)
+Filename: pool-buster/refsprogs_2026.9.2-1_arm64.deb
+Size: 31920
+MD5sum: 3a2c51d389718e47a1be7e307f845422
+SHA1: 57e231cb6b8f864fe1ff054bafe0c3c761467890
+SHA256: 7b31264d021e2a026cb353d0dddeb64d653d5fa75dd5ef9a139163f8c1d1b1ae
+SHA512: 8b32f8fa194fbae7bd9bb5b3d0ac912248718014d0c42ae91630dc5e992561033a29832929d2658453ee7e4e4b7b1b82bdd0e4722b34b3451e72fb38fd307fb0
 Homepage: https://github.com/unsound/refsprogs
 Description: Read-only ReFS progs,
  refsprogs includes 'refls', 'refcat', useful for listing and retrieving data

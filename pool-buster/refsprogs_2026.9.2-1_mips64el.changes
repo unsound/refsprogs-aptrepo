@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Wed, 02 Sep 2026 21:09:34 +0300
+Source: refsprogs
+Binary: librefs-dev librefs17 librefs17-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: mips64el all
+Version: 2026.9.2-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs17  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.9.2-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ c093f212f795172e0350f1b20f4158ba53aa065c 93564 librefs-dev_2026.9.2-1_mips64el.deb
+ b329920e303209a03b9747315a1bd0c88c415c42 310484 librefs17-dbgsym_2026.9.2-1_mips64el.deb
+ 887c940a1efe78895468a39e6f8d49d404214c53 64200 librefs17_2026.9.2-1_mips64el.deb
+ 74b4477cfa60025840f2bf9717e30f98f991e1c2 117264 refs-dkms_2026.9.2-1_all.deb
+ dccc67a2291024e35b80ce80afe98c21c5c88788 31768 refs-fuse-dbgsym_2026.9.2-1_mips64el.deb
+ fc37034058568ea7588e6483b54d5487a82f1438 2660 refs-fuse-default_2026.9.2-1_mips64el.deb
+ a5bda7f2345962843b8c632377c3217e8bcc4eba 11812 refs-fuse_2026.9.2-1_mips64el.deb
+ 479387fe22ec9b4c48c4d9de287769bc8605dea8 118600 refsprogs-dbgsym_2026.9.2-1_mips64el.deb
+ 7a53152059d794513af86141c264992ef3e298ee 67732 refsprogs-udeb_2026.9.2-1_mips64el.udeb
+ 8fe0a132a85dbc74a4b717459542c1cbc9263aee 7396 refsprogs_2026.9.2-1_mips64el.buildinfo
+ 205aec83f071a773b062be7d9995383faefe6fde 31396 refsprogs_2026.9.2-1_mips64el.deb
+Checksums-Sha256:
+ 1c01c595433990547d4002fa4a6c6bb493d7c000e3b33c7a17ffe4fa7fa3906f 93564 librefs-dev_2026.9.2-1_mips64el.deb
+ 766f378bc962f2ae8dbfcfe50e04317729ea43892c676591faf0435b3dc34647 310484 librefs17-dbgsym_2026.9.2-1_mips64el.deb
+ 89a518138ca7849af470329fac31d937dd5baa8bed416054a774e4e94f1c7012 64200 librefs17_2026.9.2-1_mips64el.deb
+ 69588a791fdabf508e9c653d2413b69c650b1ec3fa29991e454ba976c639de30 117264 refs-dkms_2026.9.2-1_all.deb
+ 321ec7f639d1e3d34af492598b018ce141d273228ece2c7e1599f19735db99dc 31768 refs-fuse-dbgsym_2026.9.2-1_mips64el.deb
+ 95fa1edc1a8fcf766f2a2943b92f9c3b9837b9ba33dfb57e024af0fa0909f305 2660 refs-fuse-default_2026.9.2-1_mips64el.deb
+ 0c15c7b5c68b24dbc810325e4171979019af25e6b182a2b07dde323213805116 11812 refs-fuse_2026.9.2-1_mips64el.deb
+ bf351fc8cd3d6b54b0d28252ea3d68541cdcd9cffd128d2547861ded50d24b94 118600 refsprogs-dbgsym_2026.9.2-1_mips64el.deb
+ 7bd3effbddc36138664a11f1f6c4941ff1fc83b0380ef75986187372ce985336 67732 refsprogs-udeb_2026.9.2-1_mips64el.udeb
+ 3bebe39d23e80c1a2b73c3325eda08e618737c9f14dbbdfbc8adcc015f574305 7396 refsprogs_2026.9.2-1_mips64el.buildinfo
+ 5c04c8e5ca83a3e2d54f0495f98e5d648189cefb04937194391520fb602a6e64 31396 refsprogs_2026.9.2-1_mips64el.deb
+Files:
+ 06015c5314e22958127a20fc4d59b72a 93564 libdevel optional librefs-dev_2026.9.2-1_mips64el.deb
+ 8e94c836e061e74edad5b99711081b6c 310484 debug optional librefs17-dbgsym_2026.9.2-1_mips64el.deb
+ 39c8a7040c12e91326524a3d17e3484e 64200 libs optional librefs17_2026.9.2-1_mips64el.deb
+ d166e674665e2c251b23712178648c33 117264 otherosfs optional refs-dkms_2026.9.2-1_all.deb
+ b874c0c0a8f4017cec494b7bdfafbb2f 31768 debug optional refs-fuse-dbgsym_2026.9.2-1_mips64el.deb
+ c6fd24122d11e8973cb18f41e98c4b4c 2660 otherosfs optional refs-fuse-default_2026.9.2-1_mips64el.deb
+ 6558399885e9c36db7aea8974f87e641 11812 otherosfs optional refs-fuse_2026.9.2-1_mips64el.deb
+ 110171b5a34377f877dbd8391a69e3e4 118600 debug optional refsprogs-dbgsym_2026.9.2-1_mips64el.deb
+ e7ea748eaf0e696d39c989e8f1e02779 67732 debian-installer optional refsprogs-udeb_2026.9.2-1_mips64el.udeb
+ ea118a6d3196af61192487fe01470631 7396 otherosfs optional refsprogs_2026.9.2-1_mips64el.buildinfo
+ 0ef676d67cb03342cdffb3ca131c6827 31396 otherosfs optional refsprogs_2026.9.2-1_mips64el.deb

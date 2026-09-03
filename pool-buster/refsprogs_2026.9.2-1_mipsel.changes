@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Wed, 02 Sep 2026 21:09:34 +0300
+Source: refsprogs
+Binary: librefs-dev librefs17 librefs17-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: mipsel all
+Version: 2026.9.2-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs17  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.9.2-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ dac6123a433be5953d6a6b05af8d1b5a7f4628ad 101944 librefs-dev_2026.9.2-1_mipsel.deb
+ d1ac83c8807453ba75847a30f5666c5cb07ccb41 313080 librefs17-dbgsym_2026.9.2-1_mipsel.deb
+ 0cee2762c86aae8c39552b4389eae127ecb98db6 73436 librefs17_2026.9.2-1_mipsel.deb
+ 74b4477cfa60025840f2bf9717e30f98f991e1c2 117264 refs-dkms_2026.9.2-1_all.deb
+ 0f02142a7a8f57708e55d5f668492b495f1ee749 30452 refs-fuse-dbgsym_2026.9.2-1_mipsel.deb
+ 88ca8409a63ce4c3d879106ff98bd0d20c156b65 2660 refs-fuse-default_2026.9.2-1_mipsel.deb
+ 6840ed463a61732c005ef8e415cd0d93b806f67c 12156 refs-fuse_2026.9.2-1_mipsel.deb
+ 6a9973f6687ca85e4f6b8e232d2462ee6f406586 116720 refsprogs-dbgsym_2026.9.2-1_mipsel.deb
+ c7aa2d87eb9edf618b837048aaacaf222a89d321 77468 refsprogs-udeb_2026.9.2-1_mipsel.udeb
+ 3d293ac8f0ab916b7da8ef374829da2822924477 7343 refsprogs_2026.9.2-1_mipsel.buildinfo
+ 3d1a3acf7e255568c480d2f4e486ac444da0b92a 34692 refsprogs_2026.9.2-1_mipsel.deb
+Checksums-Sha256:
+ b7e745cdacc32ec5825040db61ae8cdc30e2ab3da8ad45e67917716600329f05 101944 librefs-dev_2026.9.2-1_mipsel.deb
+ 04b6cacf367bb25e4e914e5d5a3fe723aaf34ab03fcbe242885caed52941e563 313080 librefs17-dbgsym_2026.9.2-1_mipsel.deb
+ f98f1e93f5a97515592a3bf1ece4c1d595c55dc28ca95576b25c92f2d8ef8c20 73436 librefs17_2026.9.2-1_mipsel.deb
+ 69588a791fdabf508e9c653d2413b69c650b1ec3fa29991e454ba976c639de30 117264 refs-dkms_2026.9.2-1_all.deb
+ 7d02c749c606e11131a257a0714bc10b7bf5e725c52ae2fb1598bed33bdb33f7 30452 refs-fuse-dbgsym_2026.9.2-1_mipsel.deb
+ f25fab385e4cefb87c5c3515ab724e828ad85fc5ee07db399dd30377b6a997be 2660 refs-fuse-default_2026.9.2-1_mipsel.deb
+ 4e82327caee9588de0fd08b268cf43dd03b4f49c2efc156bed5f955f6f15e23f 12156 refs-fuse_2026.9.2-1_mipsel.deb
+ 894301f64db533441d1a7a119382d9a255a9812e9fb9717b3a7cd3a10b1c9370 116720 refsprogs-dbgsym_2026.9.2-1_mipsel.deb
+ bbf9ad0c5ec6236ac15b5e4055237ba10acea2c83db818825acb5100ea3b36fb 77468 refsprogs-udeb_2026.9.2-1_mipsel.udeb
+ 98ef207eda530f5e06f9515f8ce7c9b599b92a24d6a3462462c6f049f9bcaf0f 7343 refsprogs_2026.9.2-1_mipsel.buildinfo
+ e1309d5e16fe9c33689e433a3af8411acc49b6ecd69eda8bcaba5d5b6cd57703 34692 refsprogs_2026.9.2-1_mipsel.deb
+Files:
+ 78cd759bc163f5f380dd6f65fab05862 101944 libdevel optional librefs-dev_2026.9.2-1_mipsel.deb
+ 537d9929b380fd99e7c2e2563e802db4 313080 debug optional librefs17-dbgsym_2026.9.2-1_mipsel.deb
+ 53401dc9f5700a40d7ea3ac33de40f71 73436 libs optional librefs17_2026.9.2-1_mipsel.deb
+ d166e674665e2c251b23712178648c33 117264 otherosfs optional refs-dkms_2026.9.2-1_all.deb
+ 74411baa6d2c93435ccfa957643a3770 30452 debug optional refs-fuse-dbgsym_2026.9.2-1_mipsel.deb
+ 57a3218e804ec14c0f8e56ff423cbe17 2660 otherosfs optional refs-fuse-default_2026.9.2-1_mipsel.deb
+ cf9db274cd73ec9640d89efb96263b62 12156 otherosfs optional refs-fuse_2026.9.2-1_mipsel.deb
+ 3a05e8412ca1fe90ca463322fe9d5d7d 116720 debug optional refsprogs-dbgsym_2026.9.2-1_mipsel.deb
+ 49c229e5a80dab96559bb86b7e214a7d 77468 debian-installer optional refsprogs-udeb_2026.9.2-1_mipsel.udeb
+ aedeb8441c74b6697d88d748c932423b 7343 otherosfs optional refsprogs_2026.9.2-1_mipsel.buildinfo
+ ae9622dbebad1dbaedb7403d4f713458 34692 otherosfs optional refsprogs_2026.9.2-1_mipsel.deb

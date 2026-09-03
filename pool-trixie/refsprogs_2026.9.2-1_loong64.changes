@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Wed, 02 Sep 2026 21:09:34 +0300
+Source: refsprogs
+Binary: librefs-dev librefs17 librefs17-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: loong64 all
+Version: 2026.9.2-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs17  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.9.2-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ fc0703d72187924f8a441e04c0ae695c21c1cc8d 277520 librefs-dev_2026.9.2-1_loong64.deb
+ f38044ce78a2914321ebf1ad90c727a370c679e9 353548 librefs17-dbgsym_2026.9.2-1_loong64.deb
+ 41f04dca66470f90b9cb0e63b62eed3305f8fc73 88992 librefs17_2026.9.2-1_loong64.deb
+ 3ae802ecae7414a6588e1b5d2d649367d0ce6544 117196 refs-dkms_2026.9.2-1_all.deb
+ 7601b827d3db7621d7c21ef4c3e5cc2a4f62f235 30744 refs-fuse-dbgsym_2026.9.2-1_loong64.deb
+ fa3e813216526803c911e72d8581a79cac5bfe67 2660 refs-fuse-default_2026.9.2-1_loong64.deb
+ 2f397b9c16c4da0abcdd3ecc19fa8ed32030049b 12560 refs-fuse_2026.9.2-1_loong64.deb
+ b399fa78d7f93fb4e9a707d3af9659cfb38979d8 115108 refsprogs-dbgsym_2026.9.2-1_loong64.deb
+ 8aa7ceac857c9613820f1d013b1b31140dcb65a5 93468 refsprogs-udeb_2026.9.2-1_loong64.udeb
+ ab34bc58a26192f90144c5b0d887bf621a392026 7527 refsprogs_2026.9.2-1_loong64.buildinfo
+ 53db27e9d55ef12e3d35f75dffd52a0d0389a259 32424 refsprogs_2026.9.2-1_loong64.deb
+Checksums-Sha256:
+ b6fdf1a72d5c9429312de4eb486092c79731dbd88deb5bfc7f1a0b6eda1e6597 277520 librefs-dev_2026.9.2-1_loong64.deb
+ c4540b21a8d7ecdf47dd69f0629f24f74c7d59e85fed44194caa8d8a7af872ec 353548 librefs17-dbgsym_2026.9.2-1_loong64.deb
+ 087692de57056ad590c9bde5f9ceec6b0e045c976c9e439df906c4be31fda377 88992 librefs17_2026.9.2-1_loong64.deb
+ 78202a3d645580e356985c4d9ca0fd2e68bdf0ed96210b214e33d2a9aa608784 117196 refs-dkms_2026.9.2-1_all.deb
+ 10adf4507df5297ac59e685484aad03a7df4431c78f48348d406fba39524a5bd 30744 refs-fuse-dbgsym_2026.9.2-1_loong64.deb
+ d04465adff406deb5f5f80e17c8d79cc8e83222da569e636e0047cefbc02ef00 2660 refs-fuse-default_2026.9.2-1_loong64.deb
+ a4ea04270d59f3849b9ddde92ed45ef23e60a3548f97bd51c6ae2c9c385c15ac 12560 refs-fuse_2026.9.2-1_loong64.deb
+ 7a8a145bfd2115bf2e8a3111ba674f17818f92339909203b2f2bc3b5db8396de 115108 refsprogs-dbgsym_2026.9.2-1_loong64.deb
+ 710d2b3c2eae8c39e52e4c746ec6ef3590b656a6f9e1ea947784f44f5d2d309f 93468 refsprogs-udeb_2026.9.2-1_loong64.udeb
+ 6a6d71193f3d6985b98e66a00d5f2cff382e4c6c93020496e7c86cb9a601d2b4 7527 refsprogs_2026.9.2-1_loong64.buildinfo
+ aa78b94bc6032dd921358c7e40f246aec30491681d92446769995f6aa77d06d5 32424 refsprogs_2026.9.2-1_loong64.deb
+Files:
+ f0e835ddcd58004c349a4f2a3a500017 277520 libdevel optional librefs-dev_2026.9.2-1_loong64.deb
+ 38a0ded6f7d06cea70688882c2d05a46 353548 debug optional librefs17-dbgsym_2026.9.2-1_loong64.deb
+ 0ac5f8da56af9998981f14225dfd6b4d 88992 libs optional librefs17_2026.9.2-1_loong64.deb
+ cc12627faaeacb1c96c78ee5f9a015d7 117196 otherosfs optional refs-dkms_2026.9.2-1_all.deb
+ 01f8fbc7d8de0b7afbc8d3c5832e3802 30744 debug optional refs-fuse-dbgsym_2026.9.2-1_loong64.deb
+ ad31de4c8f7059013e54ae08ba47d2b9 2660 otherosfs optional refs-fuse-default_2026.9.2-1_loong64.deb
+ ead22c4eea56c60001e0332b9232e413 12560 otherosfs optional refs-fuse_2026.9.2-1_loong64.deb
+ 6e42bafa90fd07491d696eef745ccbe7 115108 debug optional refsprogs-dbgsym_2026.9.2-1_loong64.deb
+ c2b619c6825c7cce6f2996962ed49b1f 93468 debian-installer optional refsprogs-udeb_2026.9.2-1_loong64.udeb
+ 3477c1cf49b4caa54ce6090ac4bd0c98 7527 otherosfs optional refsprogs_2026.9.2-1_loong64.buildinfo
+ 906684e4bcef0e46847a37859456a734 32424 otherosfs optional refsprogs_2026.9.2-1_loong64.deb

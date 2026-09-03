@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Wed, 02 Sep 2026 21:09:34 +0300
+Source: refsprogs
+Binary: librefs-dev librefs17 librefs17-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: alpha all
+Version: 2026.9.2-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs17  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.9.2-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 07b39c3ef297ff633531d364131b9b1035d11942 113260 librefs-dev_2026.9.2-1_alpha.deb
+ 41830ff2fecc0bd2ac34e01bf3ce03cba3a01e63 339436 librefs17-dbgsym_2026.9.2-1_alpha.deb
+ d326f0786e1b49e3bb917cea6503d34831176df8 84080 librefs17_2026.9.2-1_alpha.deb
+ c9bdc18c5be7746dc81383e1745c2e38bd2a39d0 117200 refs-dkms_2026.9.2-1_all.deb
+ ce2edf59aa82f34377d8d5e5e79c0d32e3e15b16 29716 refs-fuse-dbgsym_2026.9.2-1_alpha.deb
+ 0a452ae273f9bae34532452fc8472c8c36ed98ee 2656 refs-fuse-default_2026.9.2-1_alpha.deb
+ 4aa2304950881965a3162b7a5d675313b651f610 11720 refs-fuse_2026.9.2-1_alpha.deb
+ 2f7018076926a1a30c5c246f050d2881789c058d 112852 refsprogs-dbgsym_2026.9.2-1_alpha.deb
+ 7a3022eec4abe3c05dbd23d1bedc2a8466e44ecc 87804 refsprogs-udeb_2026.9.2-1_alpha.udeb
+ ce362f81b1329f6c4c5ba888470a71c1edd27f29 7109 refsprogs_2026.9.2-1_alpha.buildinfo
+ 0d467bf593b00759512d22a3319826da77b9a3a4 33392 refsprogs_2026.9.2-1_alpha.deb
+Checksums-Sha256:
+ abfb0c1167391d598dceb8e8508ffe76cb82aef50dfe7336abb8417cb86cecd8 113260 librefs-dev_2026.9.2-1_alpha.deb
+ 1ca09fbbaad9307aba7f0a886752d395fa98685b7e3317a9ccc73a30f99de05c 339436 librefs17-dbgsym_2026.9.2-1_alpha.deb
+ 0cc5d7d787fb9f1cf65bfa767ec743d6cdeae59296835e4e67191421e4f43330 84080 librefs17_2026.9.2-1_alpha.deb
+ 42c0ee07d26add4afddbdae604decbb1bd2c674263913885f87ab1809816d856 117200 refs-dkms_2026.9.2-1_all.deb
+ 3e8c36091bb44d9aaf2a15ded0eb7aafe8e61a8d70fe4b9808cfa92f091e312c 29716 refs-fuse-dbgsym_2026.9.2-1_alpha.deb
+ dda27f0e0caf5460fdf4cbaa480919d3d94da80cca49b4569e636939e9266a56 2656 refs-fuse-default_2026.9.2-1_alpha.deb
+ 3a52600898709804e96a95a0e54ba401a041fef4d49ea3587b869a62f3c84568 11720 refs-fuse_2026.9.2-1_alpha.deb
+ f20a0a100bfe546fd828106e23ee47601dca6f85267b5a3ad583db3b5a768983 112852 refsprogs-dbgsym_2026.9.2-1_alpha.deb
+ e371079245b0cf1a897e2c85e9ea1c20d42aba73aa2bdb6403fa269161b69fa6 87804 refsprogs-udeb_2026.9.2-1_alpha.udeb
+ 7d697c3137c49711f2a36c6c05bce12121623c313412b72ebe9c9effe0f7ff43 7109 refsprogs_2026.9.2-1_alpha.buildinfo
+ 6b16b981f1990ed31e427beca00d33d06c17b365f9d5d0929defb8dd1cf231ff 33392 refsprogs_2026.9.2-1_alpha.deb
+Files:
+ 9ca3b96ea836f7fe88aeec4e9d932d83 113260 libdevel optional librefs-dev_2026.9.2-1_alpha.deb
+ db78bc454edbfe2ce4ed3f6bc34da0a7 339436 debug optional librefs17-dbgsym_2026.9.2-1_alpha.deb
+ 9993488ce4fab8de9817f31b6d354ec7 84080 libs optional librefs17_2026.9.2-1_alpha.deb
+ bed485531d25ea644c549e02f0718d69 117200 otherosfs optional refs-dkms_2026.9.2-1_all.deb
+ 39142c2ac6e40d0fe0d2b873812f222f 29716 debug optional refs-fuse-dbgsym_2026.9.2-1_alpha.deb
+ 7b121cbe352b22c4773f97f67930e2c5 2656 otherosfs optional refs-fuse-default_2026.9.2-1_alpha.deb
+ 36b19dcaebc9c8a9323ac2a8e559b958 11720 otherosfs optional refs-fuse_2026.9.2-1_alpha.deb
+ 1ee3f64d2f33833e60ed8fb2dadf9668 112852 debug optional refsprogs-dbgsym_2026.9.2-1_alpha.deb
+ f545fe63089b92f634bc8fcd49b54d83 87804 debian-installer optional refsprogs-udeb_2026.9.2-1_alpha.udeb
+ 3c77811749a06eb03aa57e3b4f395065 7109 otherosfs optional refsprogs_2026.9.2-1_alpha.buildinfo
+ 158eda257e0825ad67699d05ad891cc1 33392 otherosfs optional refsprogs_2026.9.2-1_alpha.deb

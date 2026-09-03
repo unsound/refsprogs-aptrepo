@@ -1,0 +1,67 @@
+Format: 1.8
+Date: Wed, 02 Sep 2026 21:09:34 +0300
+Source: refsprogs
+Binary: librefs-dev librefs17 librefs17-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: source amd64 all
+Version: 2026.9.2-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs17  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.9.2-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ dca911406bbdbda629bf8c65faad7d078146b9c8 1535 refsprogs_2026.9.2-1.dsc
+ 1d429e3702eadf6c910182497894895e32d19a13 728021 refsprogs_2026.9.2.orig.tar.gz
+ b5ea2c22b2e9b16d2a5fcab6adf756344a3aa873 5924 refsprogs_2026.9.2-1.debian.tar.xz
+ 201aaece7fce2cb03e7678e9cdf2cc8bab66840f 112736 librefs-dev_2026.9.2-1_amd64.deb
+ 264a4ffbd6d63ab24ba6cf304a78a139e536f7aa 360872 librefs17-dbgsym_2026.9.2-1_amd64.deb
+ 9c3fc2da0cb836e950db7e4f1394fc7738f5cbeb 93380 librefs17_2026.9.2-1_amd64.deb
+ 09f0d94a3e0d777e8667cfce2e558057a316ea03 117212 refs-dkms_2026.9.2-1_all.deb
+ 2fac80057dadade6e31ca0e12b7c0ff8eed30f6a 30308 refs-fuse-dbgsym_2026.9.2-1_amd64.deb
+ 198158709c7a4205f32c25e71a46304208a726a7 2656 refs-fuse-default_2026.9.2-1_amd64.deb
+ f3355b6e5c1f14c58c64b60d231c2e749b244bf7 12200 refs-fuse_2026.9.2-1_amd64.deb
+ d3e70c700686236948fab2295df6eedf810312e0 109356 refsprogs-dbgsym_2026.9.2-1_amd64.deb
+ b1260aca617c844051a7dc842b71df17d3daf378 97480 refsprogs-udeb_2026.9.2-1_amd64.udeb
+ 181b721f01d568faa2cdce7ca07f35c91cfa5ec8 7710 refsprogs_2026.9.2-1_amd64.buildinfo
+ d815f5cc69d14463284966bbbe415f1e17c0b2ab 34072 refsprogs_2026.9.2-1_amd64.deb
+Checksums-Sha256:
+ 074e6108f30708d77ca7e97182960d8a605f566ea594375a3d4167d3df5055c2 1535 refsprogs_2026.9.2-1.dsc
+ 49b31e7f79174f879a646e573480d236675502d5c3062f7a488a7a75db020a62 728021 refsprogs_2026.9.2.orig.tar.gz
+ 37667e6185c8970fcda58ad00759f19fea24db59715ce65b567cf2b4520b484f 5924 refsprogs_2026.9.2-1.debian.tar.xz
+ 0b2e1939cedfb8749be4ed3f64d7885e231046f146484b251c3ba42c67a36e7f 112736 librefs-dev_2026.9.2-1_amd64.deb
+ e11d0bc36f385028804375d2c4936da5c38edda7d9c650c545cc99b141a5e8df 360872 librefs17-dbgsym_2026.9.2-1_amd64.deb
+ 7e3ea4eaa22e58da135a96ad1ba3b10cda7a937feb0f485dd560409aff239d5d 93380 librefs17_2026.9.2-1_amd64.deb
+ be20fb30619adfb4582f0ba6a1dfc2c684115409b8a212a59bb5cef046df392f 117212 refs-dkms_2026.9.2-1_all.deb
+ 70554f80a5ce2261b4f5cb3949639c605e68513867454116701154c74fb30e7c 30308 refs-fuse-dbgsym_2026.9.2-1_amd64.deb
+ 9092c343f609e095930beb48f4d69eca2a9f589991e89cdd0668c20c1fe4a436 2656 refs-fuse-default_2026.9.2-1_amd64.deb
+ 70159ef2da0de19de875a5101460b9acb9257fa96207d31a411f9f2ae72c3464 12200 refs-fuse_2026.9.2-1_amd64.deb
+ 9d3fc3c686f28b72df43dfa1a0d17e9f9fb07bf04eabaf9f775528a9db678326 109356 refsprogs-dbgsym_2026.9.2-1_amd64.deb
+ b491a009c6d53306291d571c129711c4a141663feedda7a80df1bfd4d83c78c2 97480 refsprogs-udeb_2026.9.2-1_amd64.udeb
+ 9120a689f59b3732a2c1b262c09e0dd9b1dd8ba0b284c10485db876a2c2f15ee 7710 refsprogs_2026.9.2-1_amd64.buildinfo
+ 8cfd86dfd95c6a04f777528d38e3dc85d05724127c7188803bdfabb2ebbba27f 34072 refsprogs_2026.9.2-1_amd64.deb
+Files:
+ 2e118007df604dbab49ecfe324d163ba 1535 otherosfs optional refsprogs_2026.9.2-1.dsc
+ 151553a2c8f122b4b45fde7cdbdbfe12 728021 otherosfs optional refsprogs_2026.9.2.orig.tar.gz
+ afaa69efbf8219e3d112508a72a2b989 5924 otherosfs optional refsprogs_2026.9.2-1.debian.tar.xz
+ f5ab34b09a354e01ccbd157223ae1f25 112736 libdevel optional librefs-dev_2026.9.2-1_amd64.deb
+ 019dde6870d78718fef209cac44f0c80 360872 debug optional librefs17-dbgsym_2026.9.2-1_amd64.deb
+ 90a6107cbdbb8ddd10c6b205254b203f 93380 libs optional librefs17_2026.9.2-1_amd64.deb
+ b91284641550007e013c23cb2b06aba4 117212 otherosfs optional refs-dkms_2026.9.2-1_all.deb
+ f4e1e0defbe01a2d5ceda4755103a0aa 30308 debug optional refs-fuse-dbgsym_2026.9.2-1_amd64.deb
+ a13acd491faa91ad172681c2fb84325f 2656 otherosfs optional refs-fuse-default_2026.9.2-1_amd64.deb
+ ed5be844c62c551363d101f2a160724b 12200 otherosfs optional refs-fuse_2026.9.2-1_amd64.deb
+ 794c87be88aec400019dc6d1c41ebb4f 109356 debug optional refsprogs-dbgsym_2026.9.2-1_amd64.deb
+ 44630a012032ef3143985df743b540f8 97480 debian-installer optional refsprogs-udeb_2026.9.2-1_amd64.udeb
+ 55edda4b9bba4b7301196ed246a33208 7710 otherosfs optional refsprogs_2026.9.2-1_amd64.buildinfo
+ 8e6eb9b33e14070c2075ee598e303a9f 34072 otherosfs optional refsprogs_2026.9.2-1_amd64.deb

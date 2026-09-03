@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Wed, 02 Sep 2026 21:09:34 +0300
+Source: refsprogs
+Binary: librefs-dev librefs17 librefs17-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: s390x all
+Version: 2026.9.2-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs17  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.9.2-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ fae46de7e8f4b0a6f5127e1872a97e4e3fc44365 104416 librefs-dev_2026.9.2-1_s390x.deb
+ 256a0bda636602655dd61f874321d6fbaf647103 319164 librefs17-dbgsym_2026.9.2-1_s390x.deb
+ 022ae38457d0effdf769dd1b1145c3485570b9be 83908 librefs17_2026.9.2-1_s390x.deb
+ 09f0d94a3e0d777e8667cfce2e558057a316ea03 117212 refs-dkms_2026.9.2-1_all.deb
+ a9fce9373ebe0dbdf25a1afbd950c78dae80edf4 30044 refs-fuse-dbgsym_2026.9.2-1_s390x.deb
+ c670a21b575d5554cdde9c3e46170a9daec70714 2656 refs-fuse-default_2026.9.2-1_s390x.deb
+ c8c1b1ae8be3c486ca8603f539503a9305e1c362 11824 refs-fuse_2026.9.2-1_s390x.deb
+ e3169a8be1cd28c04cf22795c821e350bf6a80a5 112804 refsprogs-dbgsym_2026.9.2-1_s390x.deb
+ a02b63e2712220fdc47d3db6a527e9206a2785cb 87748 refsprogs-udeb_2026.9.2-1_s390x.udeb
+ 1eafea795fca09b62b1767c830990761efa91af8 7523 refsprogs_2026.9.2-1_s390x.buildinfo
+ 5561beb6682a4f44569ef2cc5a0ab07fe38e0001 32548 refsprogs_2026.9.2-1_s390x.deb
+Checksums-Sha256:
+ 2695a0115282a2bfbb57f7612dc09dc6909007cb5a5877b57a6754fa59c275e5 104416 librefs-dev_2026.9.2-1_s390x.deb
+ 6adb097d7ef38897f45033621f9a7852932629e886a462f18f676e9415c7873b 319164 librefs17-dbgsym_2026.9.2-1_s390x.deb
+ 69371f08523992a114153d03ad929241457d537e1c7ec5706cd94134fd89940c 83908 librefs17_2026.9.2-1_s390x.deb
+ be20fb30619adfb4582f0ba6a1dfc2c684115409b8a212a59bb5cef046df392f 117212 refs-dkms_2026.9.2-1_all.deb
+ b4916ee4255e995361fa00eb553fb2b29bcc45b0585c5e888d743b8dbe6ab614 30044 refs-fuse-dbgsym_2026.9.2-1_s390x.deb
+ 34783ce33fc56483b20e1f082ed0f3116204224ec5e74a85cd962a5221304e2c 2656 refs-fuse-default_2026.9.2-1_s390x.deb
+ 7fe9e024a5a5b88775eba9a1bf30184cdb3b4c699f40e0136edbd22d903f0d4b 11824 refs-fuse_2026.9.2-1_s390x.deb
+ 24ea290b1a786f50b4b41a06ebbdfe16023eaaf6c6a4bb9833983429ef9eab42 112804 refsprogs-dbgsym_2026.9.2-1_s390x.deb
+ f3fb7b9c4819ab34213e3cc0401eea3fe8059b374f455f0e7877251feba187bf 87748 refsprogs-udeb_2026.9.2-1_s390x.udeb
+ 54d5ceb2974d3489e2b1f3289616003847321c1bcba000334dc162e5df1d663e 7523 refsprogs_2026.9.2-1_s390x.buildinfo
+ e0785d4e2a23eefb4f6f1123950b49977c676858b467fc9cd7272eeaac865acb 32548 refsprogs_2026.9.2-1_s390x.deb
+Files:
+ d167c7d14aec995143c0fc1e622cfe8b 104416 libdevel optional librefs-dev_2026.9.2-1_s390x.deb
+ eaf2c93139a6224de2bec1510e642266 319164 debug optional librefs17-dbgsym_2026.9.2-1_s390x.deb
+ 6b2dff4bea25156767822b893611a55b 83908 libs optional librefs17_2026.9.2-1_s390x.deb
+ b91284641550007e013c23cb2b06aba4 117212 otherosfs optional refs-dkms_2026.9.2-1_all.deb
+ cbfde2dadf1940dd66d51d52f3267869 30044 debug optional refs-fuse-dbgsym_2026.9.2-1_s390x.deb
+ 0e269f5c7ce0971fbddc6862ba37e00a 2656 otherosfs optional refs-fuse-default_2026.9.2-1_s390x.deb
+ 0ddd2c4b6f565869c8fb49e5ad0f15d9 11824 otherosfs optional refs-fuse_2026.9.2-1_s390x.deb
+ 1a0c891edc45783253fced2b42459d42 112804 debug optional refsprogs-dbgsym_2026.9.2-1_s390x.deb
+ c63fdfdde49e017244913394613313e7 87748 debian-installer optional refsprogs-udeb_2026.9.2-1_s390x.udeb
+ 989cf5246d1ca5665a0ad1b70f3409dc 7523 otherosfs optional refsprogs_2026.9.2-1_s390x.buildinfo
+ 068e562d4752ac0d5d6e4b9111863ff7 32548 otherosfs optional refsprogs_2026.9.2-1_s390x.deb
