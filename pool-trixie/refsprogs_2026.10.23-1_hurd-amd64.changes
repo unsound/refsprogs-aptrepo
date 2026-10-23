@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Fri, 23 Oct 2026 05:59:52 +0300
+Source: refsprogs
+Binary: librefs-dev librefs18 librefs18-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: hurd-amd64 all
+Version: 2026.10.23-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs18  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.10.23-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ aa9ebcb0f04cb9f27a4342b1ff65f2712ee7a5af 113376 librefs-dev_2026.10.23-1_hurd-amd64.deb
+ 1f00de83df4fff3137bb9b31ff96e2ffe068b21d 365364 librefs18-dbgsym_2026.10.23-1_hurd-amd64.deb
+ f41809d557330040b5a3aa91dc687dae03a0774d 92932 librefs18_2026.10.23-1_hurd-amd64.deb
+ 8d33afec6fdad7d8a8e1cea678a5018928fcd18a 121500 refs-dkms_2026.10.23-1_all.deb
+ de0609e31728bb0cb89976ffbacf4a1f6f3b1e56 23768 refs-fuse-dbgsym_2026.10.23-1_hurd-amd64.deb
+ 7574211c9e4ba49ab88b16cf4b97965b6571b3de 2676 refs-fuse-default_2026.10.23-1_hurd-amd64.deb
+ beefd4269e0ec4aa3ee7ebedd28b952f4edf5683 13272 refs-fuse_2026.10.23-1_hurd-amd64.deb
+ a6348e40909722c8bb2cc221a777303a7ff824e9 121512 refsprogs-dbgsym_2026.10.23-1_hurd-amd64.deb
+ 69f84b4529acb662c327750753ce05856cec85a6 96796 refsprogs-udeb_2026.10.23-1_hurd-amd64.udeb
+ d7f0fb30443360af7b37da1844db55cc1913931e 7978 refsprogs_2026.10.23-1_hurd-amd64.buildinfo
+ e20edd192bd91ebedc77e9e8c2c73145a3b49f1f 34648 refsprogs_2026.10.23-1_hurd-amd64.deb
+Checksums-Sha256:
+ cd1b98e5933ca17f54947b05400487084ca13aeab856d21279cc6f5e955a2715 113376 librefs-dev_2026.10.23-1_hurd-amd64.deb
+ 237fdb32018aa537a6a1ca6bcfea04117a416d644a2cb42ba2f08963c0534af7 365364 librefs18-dbgsym_2026.10.23-1_hurd-amd64.deb
+ 852bace5e6ebf531366a344df5383bee22cd013264e546d49633d17076367c15 92932 librefs18_2026.10.23-1_hurd-amd64.deb
+ dc8c06748e64a10224fc650a379983a77a256318d82353608abdd7e1c0283bca 121500 refs-dkms_2026.10.23-1_all.deb
+ 34ea68954c09c07493ccc3c83b4dc426e3d4a6d787d8cfc6b7e6ac7f92ddfc08 23768 refs-fuse-dbgsym_2026.10.23-1_hurd-amd64.deb
+ 6f078757af8a53f646e8b24730320b9fc3f680cbc1cb6b7a5ebf6b55a92f279b 2676 refs-fuse-default_2026.10.23-1_hurd-amd64.deb
+ 9c5c78213216cb0ad44dafdc92cfa45f0fe095f7c6fababa1dddb4722a417110 13272 refs-fuse_2026.10.23-1_hurd-amd64.deb
+ 8d7b0941ae48359a1cc4bab59126effec339cefd7e6388d4065536fbe95f3162 121512 refsprogs-dbgsym_2026.10.23-1_hurd-amd64.deb
+ 6a3381f313d2fb52c7d0f672e0f8332c0e441a3c66c4cb755b43419a450bc669 96796 refsprogs-udeb_2026.10.23-1_hurd-amd64.udeb
+ 76c5bc32dd764bff2eece19b4fa472201a00026f4fa86134425cfd7c1198e785 7978 refsprogs_2026.10.23-1_hurd-amd64.buildinfo
+ 30fa067aa0498920bc1ad29628b0432258e1fae76f22e93a2fcf933061cff5e6 34648 refsprogs_2026.10.23-1_hurd-amd64.deb
+Files:
+ e764abbaeca157d474df975ac5ae2361 113376 libdevel optional librefs-dev_2026.10.23-1_hurd-amd64.deb
+ f845da79f58f1c1df99078cd69ec411e 365364 debug optional librefs18-dbgsym_2026.10.23-1_hurd-amd64.deb
+ 560b9ab21cb60582ea0e287b3ef896b5 92932 libs optional librefs18_2026.10.23-1_hurd-amd64.deb
+ 9f581418c2a023b38de218f6cc0ae5ee 121500 otherosfs optional refs-dkms_2026.10.23-1_all.deb
+ e567a6b6df8b995a766b2a7c39dc4ab3 23768 debug optional refs-fuse-dbgsym_2026.10.23-1_hurd-amd64.deb
+ e5f234857411adf6c43529df81fd77fa 2676 otherosfs optional refs-fuse-default_2026.10.23-1_hurd-amd64.deb
+ 0794bbe1bcfc5f16b31d166d06fc7c1a 13272 otherosfs optional refs-fuse_2026.10.23-1_hurd-amd64.deb
+ e0ad329b2f82e75c39c839a37cefa1e8 121512 debug optional refsprogs-dbgsym_2026.10.23-1_hurd-amd64.deb
+ 4a66bb4a056793c176bad436bcc20c16 96796 debian-installer optional refsprogs-udeb_2026.10.23-1_hurd-amd64.udeb
+ 755e56f4011214e405e53344d19b1eb2 7978 otherosfs optional refsprogs_2026.10.23-1_hurd-amd64.buildinfo
+ e6eca2f4cda98a11006850463908b218 34648 otherosfs optional refsprogs_2026.10.23-1_hurd-amd64.deb

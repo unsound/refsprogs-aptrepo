@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Fri, 23 Oct 2026 05:59:52 +0300
+Source: refsprogs
+Binary: librefs-dev librefs18 librefs18-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: mips all
+Version: 2026.10.23-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs18  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.10.23-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 65c3c78a121b1da2896058bae1d5713bc0dbde98 106380 librefs-dev_2026.10.23-1_mips.deb
+ 38dfe2e7aee93b26b692365ad52eb54a6f0c6013 323824 librefs18-dbgsym_2026.10.23-1_mips.deb
+ 81b3c1b726ecf5a1dafd67ad28b666284f76641d 76560 librefs18_2026.10.23-1_mips.deb
+ 383d0a778ea47d83daefcecc42e97ccce500f5e4 121588 refs-dkms_2026.10.23-1_all.deb
+ 0119e9b94afc477625963df10637d38932ec4004 40744 refs-fuse-dbgsym_2026.10.23-1_mips.deb
+ 1e5b9af06ce74a1e0fd1b27988b8ca739b188dd3 2680 refs-fuse-default_2026.10.23-1_mips.deb
+ 651a2e6d6a4d5570a8daa008b1f8736918ed5697 15060 refs-fuse_2026.10.23-1_mips.deb
+ 932d926b6766ff0dae0bb1d15ac21c516948fe2b 119380 refsprogs-dbgsym_2026.10.23-1_mips.deb
+ 250c88e9c31c38536a3151c606a7d8de6d1a5b6e 81860 refsprogs-udeb_2026.10.23-1_mips.udeb
+ 72f30300b13a907220be5f4408b16d6f5ee845f1 7349 refsprogs_2026.10.23-1_mips.buildinfo
+ fe84a92cc4ecc87b84c5cb9a7d2d341c76e05ff1 34440 refsprogs_2026.10.23-1_mips.deb
+Checksums-Sha256:
+ e12c2e8da87ccdc692b854896591a201237f0f6996a1f0d8c9d0f1ed17d7a0b6 106380 librefs-dev_2026.10.23-1_mips.deb
+ 45cec6b4754f5688e603456498e93abd4a28bd9888026bf1ac898bb55cb262c4 323824 librefs18-dbgsym_2026.10.23-1_mips.deb
+ b881bb63b4c91a733b9e99ea691bed24ca2559d3f3a721888ac02ea6b17a176a 76560 librefs18_2026.10.23-1_mips.deb
+ a24279cee0adda5531c29676a97d89b18f9e4bff78ce42ee65d1c69ca2e91b0d 121588 refs-dkms_2026.10.23-1_all.deb
+ 321988efe96e37fa3da585b3b83bbcdcb4dc0ee5cf8c64c926fdd9ad7211d3b4 40744 refs-fuse-dbgsym_2026.10.23-1_mips.deb
+ 4518eedaa18093e66f561728694f0cbd2aeb7e6a0f260a04c1e22f69ddf4ab7f 2680 refs-fuse-default_2026.10.23-1_mips.deb
+ 824012976640acb1177abea73b6e91019b56afee90351ada4f2454e8a4d03bb3 15060 refs-fuse_2026.10.23-1_mips.deb
+ 36cec912a89adca119efa22f461a680493bb0dbba75ab25376a1903462fd13f2 119380 refsprogs-dbgsym_2026.10.23-1_mips.deb
+ 1a1c60c99c2ec622ee20dab2f7d660579638dbfd33dca81e871869552ffa1d51 81860 refsprogs-udeb_2026.10.23-1_mips.udeb
+ 7d827a16f6320dfeb6438da8cdaf7a93292210813ef510f44bb1c6d5dc83be14 7349 refsprogs_2026.10.23-1_mips.buildinfo
+ d6da84ddaa0ed1f78d73ccb0185174fa557dc06569a52ec77dd4722b3a3a2850 34440 refsprogs_2026.10.23-1_mips.deb
+Files:
+ 256f1334fdadb1ec79ea6c8eb9dcd438 106380 libdevel optional librefs-dev_2026.10.23-1_mips.deb
+ fb52e2765f65e6c22a52a738b7c1992a 323824 debug optional librefs18-dbgsym_2026.10.23-1_mips.deb
+ cc5b6a786193610c060f900d4b8074f7 76560 libs optional librefs18_2026.10.23-1_mips.deb
+ 8101b023616eaaad8c8f3a52b3202d47 121588 otherosfs optional refs-dkms_2026.10.23-1_all.deb
+ c63cfb4231acc11d07341fd120a065a2 40744 debug optional refs-fuse-dbgsym_2026.10.23-1_mips.deb
+ 89a49d378ed3199911d91e99fc1fb7ca 2680 otherosfs optional refs-fuse-default_2026.10.23-1_mips.deb
+ 7804d0374f440a98da422c012e590f64 15060 otherosfs optional refs-fuse_2026.10.23-1_mips.deb
+ 8c3f2b2f039a72a78136b558411ceea6 119380 debug optional refsprogs-dbgsym_2026.10.23-1_mips.deb
+ 40061cb3288c2bc9675b5483777a8099 81860 debian-installer optional refsprogs-udeb_2026.10.23-1_mips.udeb
+ 5953dd6b218efcf6a6fbaa19117d052b 7349 otherosfs optional refsprogs_2026.10.23-1_mips.buildinfo
+ 5b050049cb258d1cdfbd2b1f083f6038 34440 otherosfs optional refsprogs_2026.10.23-1_mips.deb

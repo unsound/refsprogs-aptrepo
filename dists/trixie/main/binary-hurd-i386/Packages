@@ -1,18 +1,18 @@
 Package: librefs-dev
 Architecture: hurd-i386
-Version: 2026.9.2-1
+Version: 2026.10.23-1
 Priority: optional
 Section: libdevel
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 455
-Depends: librefs17 (= 2026.9.2-1)
-Filename: pool-trixie/librefs-dev_2026.9.2-1_hurd-i386.deb
-Size: 125400
-MD5sum: 586d5b989ca279bf3c756e3b5085725a
-SHA1: 1727b242250e4bba14cedc734b6f7958fc9ca4aa
-SHA256: 6e8f2a8430d1fd66a2d0e3f070ab7a8f5401d35870c13105291be4fd581e2e52
-SHA512: 3507753e17883ae364f5ea772c5147f08d84bba856157667dc787930790070849939fee1ee0aff0d45e948c39f980317ce0433f5e817b5c35180b975143e8c25
+Installed-Size: 468
+Depends: librefs18 (= 2026.10.23-1)
+Filename: pool-trixie/librefs-dev_2026.10.23-1_hurd-i386.deb
+Size: 130028
+MD5sum: 403a43ad69c71b72339f26c778713a9e
+SHA1: 004266b6b9e6e2bf21b1da231b96809b8dc6225c
+SHA256: 2d893b3df253a7aa622d2e81f1cf591ce3380e38b00f8170ec46d1b29f61e896
+SHA512: 7f9314cfd22d8d653de58353849c762224f7914ecb162cda743552adb576f15f9e41f5eb4047474d8dd014aa8acb0c43058123bd52e6a7e2831b6006fe931596
 Homepage: https://github.com/unsound/refsprogs
 Description: read-only ReFS library (development)
  librefs provides a read-only interface for interacting with the ReFS filesystem
@@ -20,42 +20,42 @@ Description: read-only ReFS library (development)
  .
  This package contains the development files.
 
-Package: librefs17-dbgsym
+Package: librefs18-dbgsym
 Architecture: hurd-i386
-Version: 2026.9.2-1
+Version: 2026.10.23-1
 Auto-Built-Package: debug-symbols
 Multi-Arch: same
 Priority: optional
 Section: debug
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 374
-Depends: librefs17 (= 2026.9.2-1)
-Filename: pool-trixie/librefs17-dbgsym_2026.9.2-1_hurd-i386.deb
-Size: 360480
-MD5sum: eaf72ab831e7663149aba12fb3b81338
-SHA1: b013a92442bd153406b8a5f40765d091c411a055
-SHA256: adbcc0e818c3f5c12a7449d868226d9b4caf68195f27ae559dda14815e262921
-SHA512: 3e04e017f1824d3ebbe57861166819061f335acd2b00f7113c6bd25f00e3c7582d2dfac58b50c32ed998ffb7617245db7dfbcb650c488921f892a1fad669606a
-Description: debug symbols for librefs17
-Build-Ids: 3d67d56298e8e5082d34c24dd6e4eb819912db7b
+Installed-Size: 387
+Depends: librefs18 (= 2026.10.23-1)
+Filename: pool-trixie/librefs18-dbgsym_2026.10.23-1_hurd-i386.deb
+Size: 372732
+MD5sum: 6de1ac5a7b78db5b3d5ca042742a6b79
+SHA1: bdfa2862e7b66e68c12b21104c7e2eb4290f2293
+SHA256: d13004c177697959943477b5a6f4d985e1d318256f5bf77fe08e038c8a3ce941
+SHA512: 4444ec731ec63fb9a00c09267ae60dc4308ae5dad381b883fc4d87146943329016576c2f3d900aca4e32e312c572ec9dcc3b58cdd5f2664205913598ecb0c79a
+Description: debug symbols for librefs18
+Build-Ids: 3154e1194699ab3d2875ff1f42d5d81d67b84afd
 
-Package: librefs17
+Package: librefs18
 Architecture: hurd-i386
-Version: 2026.9.2-1
+Version: 2026.10.23-1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 305
-Depends: libc0.3 (>= 2.29-8~)
-Filename: pool-trixie/librefs17_2026.9.2-1_hurd-i386.deb
-Size: 105184
-MD5sum: 5308e0fb1505699ab2bbc527fbfc31e4
-SHA1: 9f1420088a79459e9c7af9c9adfec47ebfd658b6
-SHA256: 3b5dc882811711f87eb0d649f07c433aafa41a284bf983d10ad1bbe4cdcb9cf9
-SHA512: b4aaeac376023a47e81ee93a7e21b354dfac1ac146372b1ad7cbac7eb66af065550d92772b8fd2512647692770c00ef4c9c926561d3b1d0ad32c5a2e300b63de
+Installed-Size: 313
+Depends: hurd-libs0.3 (>= 1:0.9.git20260527), libc0.3 (>= 2.29-8~)
+Filename: pool-trixie/librefs18_2026.10.23-1_hurd-i386.deb
+Size: 108780
+MD5sum: 815e8c5a91183e28b4d0f83f2e0926cc
+SHA1: 94894ed5d7815919392c4ecfe491cee15b41716e
+SHA256: 102e5580b2627d36809d52f6b906a8aab16bf71d3c4a811a567e8969015e47c2
+SHA512: 4f89b13e381c27d8f2c62737378cef126e1fca49328d66bbd0b6e25953cd84bd1d7b15604d0a858e4de17c23c0402ff17bbe718646ba7f74f73701221aa48013
 Homepage: https://github.com/unsound/refsprogs
 Description: read-only ReFS library
  librefs provides a read-only interface for interacting with the ReFS filesystem
@@ -65,21 +65,21 @@ Description: read-only ReFS library
 
 Package: refs-dkms
 Architecture: all
-Version: 2026.9.2-1
+Version: 2026.10.23-1
 Priority: optional
 Section: otherosfs
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 964
+Installed-Size: 995
 Provides: refs-modules
 Depends: dkms (>> 2.1.1.2-5), file, libc6-dev | libc-dev
-Recommends: refsprogs (>= 2026.9.2-1)
-Filename: pool-trixie/refs-dkms_2026.9.2-1_all.deb
-Size: 117196
-MD5sum: cc12627faaeacb1c96c78ee5f9a015d7
-SHA1: 3ae802ecae7414a6588e1b5d2d649367d0ce6544
-SHA256: 78202a3d645580e356985c4d9ca0fd2e68bdf0ed96210b214e33d2a9aa608784
-SHA512: 7a2e5a3d593d573940d517e8bc35f9f879d65ac7cbc76f59180894a9ce1766b3acec21e855571e8cb2f95ed8af247b6eee4f044229b970734d543c0cd44a7815
+Recommends: refsprogs (>= 2026.10.23-1)
+Filename: pool-trixie/refs-dkms_2026.10.23-1_all.deb
+Size: 121500
+MD5sum: aa79717d7ff084ee35ca6e8b4a7160cc
+SHA1: 4b97cd9522170ecdb6be32bdb97874dc3d8ea42b
+SHA256: 44647fbdd35ce5c422ef10243d644cb99be1e0eda4f1d4b4ede08fb4f98e9aa2
+SHA512: 3dfddbeebb6c08425fb0c263ceda837e778ca545ac68a36e54e60e55b4a5d38f919d280d2d98d6d13c97dff0f6ee1ae15b178d1250e2783249e92eae2af9f93e
 Homepage: https://github.com/unsound/refsprogs
 Description: ReFS filesystem kernel modules for Linux
  refs-dkms uses DKMS to dynamically build a Linux kernel module to provide
@@ -88,38 +88,38 @@ Description: ReFS filesystem kernel modules for Linux
 
 Package: refs-fuse-dbgsym
 Architecture: hurd-i386
-Version: 2026.9.2-1
+Version: 2026.10.23-1
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 37
-Depends: refs-fuse (= 2026.9.2-1)
-Filename: pool-trixie/refs-fuse-dbgsym_2026.9.2-1_hurd-i386.deb
-Size: 15428
-MD5sum: 0b8b4002d498debc3e4489ac5146f748
-SHA1: 4e31c95767e978986f1a49ac4f8873eff0080f25
-SHA256: c1d16476fff316ee16d00a283859733b9eef5be2ee82dd0eb04ac5232791a69b
-SHA512: a8780d4f452fa8468ba564264468db2ed0d1d53e0db6854a9954f22f738511049d6d697e0910bb85fb220707b86f3e8e61a979a2818419c09d6e2e3da365ffc6
+Installed-Size: 47
+Depends: refs-fuse (= 2026.10.23-1)
+Filename: pool-trixie/refs-fuse-dbgsym_2026.10.23-1_hurd-i386.deb
+Size: 21244
+MD5sum: 805b13817806a2f50871931caf5ad09b
+SHA1: 5716e827308f55ab74658ca1593bac056dce699d
+SHA256: 2f79371576a8b04528f1ad44642b1578272081ea7c3fe91eff8139787cf6f1d3
+SHA512: e5809bdd7c3e2cd5445976c800db02591e791b9686338e64641db6c08e94b4bb2616aee558560f8dacfe49bef147134d8bb44b25018218d677cfd6cc07ad3a71
 Description: debug symbols for refs-fuse
-Build-Ids: 4d020552ffe789032f35886fad2c92ec39b542dc
+Build-Ids: e8813246219fe1e8a3c08f89dd84349058adf667
 
 Package: refs-fuse-default
 Architecture: hurd-i386
-Version: 2026.9.2-1
+Version: 2026.10.23-1
 Priority: optional
 Section: otherosfs
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
 Installed-Size: 15
-Depends: refs-fuse (= 2026.9.2-1)
-Filename: pool-trixie/refs-fuse-default_2026.9.2-1_hurd-i386.deb
-Size: 2652
-MD5sum: a36c01f980536e5ebe8d99c56716eb3a
-SHA1: 64387692eeefa9a41858b6909c8649b687f9e4f6
-SHA256: 075f54fde371d4b0c894c472d9bb8edaf390d03d74ec33e9ca4d1f92328abfb2
-SHA512: 57867272483db5c9dd01f0b3cd6582161eb217752ea0ed2cd943a1e369266853841da06145f6c0e3c880143f166549e527f770c8b141dfa6bda2a5eb538d08a2
+Depends: refs-fuse (= 2026.10.23-1)
+Filename: pool-trixie/refs-fuse-default_2026.10.23-1_hurd-i386.deb
+Size: 2680
+MD5sum: 4c83414d0aa657920ec4713d1f0c8194
+SHA1: 72b181a1852acae60bd09ddcbf693b96633a94df
+SHA256: 872efb6b9e970e1e49f754aaa8013c7c47e0eb94c095091f8532e93928ed8e5e
+SHA512: a3e00bcc86be0f4bf4914f4e11e884aeb932520656bfa6545762eb1d4de00251d3d91ce21cc987466e72b5f163c55cb969075e0e3edb6e5c4520ee9001d617b8
 Homepage: https://github.com/unsound/refsprogs
 Description: Read-only ReFS FUSE driver (default handler for refs volumes),
  This package installs symlinks to make refs-fuse the default handler for refs
@@ -127,19 +127,19 @@ Description: Read-only ReFS FUSE driver (default handler for refs volumes),
 
 Package: refs-fuse
 Architecture: hurd-i386
-Version: 2026.9.2-1
+Version: 2026.10.23-1
 Priority: optional
 Section: otherosfs
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 43
-Depends: libc0.3 (>= 2.34), libfuse-hurd1 (>= 0.0.20140820), librefs17 (= 2026.9.2-1)
-Filename: pool-trixie/refs-fuse_2026.9.2-1_hurd-i386.deb
-Size: 10112
-MD5sum: 6e2b786d260e3255df9c086816c9bac1
-SHA1: 20e8e92f8572943bc7ab81a16b85c3099f8688af
-SHA256: f8acfb62b2f8830fbb88e77dfa9365193a10b94e342a5957cabacd2d4f544940
-SHA512: 68b032f228fdc00395601afc0b0bba871991f6bc0330c2b276055531b44e515481aeee35ca4dac862a930a5ba508d061ec831f9bfc8caea050910d8f7d5ed4a3
+Installed-Size: 49
+Depends: libc0.3 (>= 2.34), libfuse-hurd1 (>= 0.0.20140820), librefs18 (= 2026.10.23-1)
+Filename: pool-trixie/refs-fuse_2026.10.23-1_hurd-i386.deb
+Size: 13348
+MD5sum: ee64fa7cc2581d7728b1580cc9e66b50
+SHA1: 8a1b5ff144dc182d6364bbbec8fbe1eeb6dbb11e
+SHA256: 3aebae8fb2fbd1623774b895ecf8dcbf5937230363e70bb51e390d0d73052009
+SHA512: c5e42a70115840f144b543ceeda9c28765c63ee05ca5c5b6a1bd4fcc28db85643e45c15e3835b1bc6161fe73960346e9e650ca565bf8aa285d13dc9160a5affc
 Homepage: https://github.com/unsound/refsprogs
 Description: Read-only ReFS FUSE driver,
  refs-fuse uses FUSE (Filesystem in Userspace) to provide support for the ReFS
@@ -147,37 +147,37 @@ Description: Read-only ReFS FUSE driver,
 
 Package: refsprogs-dbgsym
 Architecture: hurd-i386
-Version: 2026.9.2-1
+Version: 2026.10.23-1
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: refsprogs
 Maintainer: Erik Larsson <catacombae@gmail.com>
-Installed-Size: 213
-Depends: refsprogs (= 2026.9.2-1)
-Filename: pool-trixie/refsprogs-dbgsym_2026.9.2-1_hurd-i386.deb
-Size: 108548
-MD5sum: aa26ab13153a26ca7022f15f2d6dd455
-SHA1: 117a61a2656da5d33e6d163e2333aa59beebf6f1
-SHA256: 97f02e13dc365f13aa06da4db52d3a37a5dedce83d4f0beb52995a7f63fd3ba0
-SHA512: a9415fc829d57506fb6a36646f2abe6dd83af8cd5f4b131d88ab6ef123c9e5281c173e3f4cab69999049f5932a770661f1863303afae8c403a04d2922f532cbf
+Installed-Size: 224
+Depends: refsprogs (= 2026.10.23-1)
+Filename: pool-trixie/refsprogs-dbgsym_2026.10.23-1_hurd-i386.deb
+Size: 117020
+MD5sum: 0d679be7e2130907cf27b9410ea2d7e5
+SHA1: a6de83f782ab393fdfbf2b45652504618c468e1f
+SHA256: 9b2977c63565cd80e9a039f5749269989ead072cd71e330ba60daeca7e4a4c2c
+SHA512: 208ad182236fa838e84630c68fdd9de928c5448ceb4f65afbf2f39e5666faf0872e9ac1da66361ecfae4097299a167f74109a3b39f839d7f3914a5e5f5aaa589
 Description: debug symbols for refsprogs
-Build-Ids: 6fa255ad9d56bf1cd0a0c093a5f34fce4fa0d0ba 926857dfbf8656511bcc70e64cd78a3389791dcf b360af7a5e37311859a97566874e23e980c7604c ba4fed8750d3eb6e9179a582ce7017146fe692a4 d0a268e5cbf1331bf0234f2e337d7198f2acfbbb dd00cb19669013d83ecc151180f21ca0e3ddbbe8
+Build-Ids: 1e8aa241b29c5ab9030a754ffda0757bc0065155 26607fc7c9313d5de64014941f5e6068179e8685 3ab5e369947f3345ff11dfd12e5360cf71855884 8424dd26a41f1c36d79030f46a63fcb258e636c7 8502adfd9fc47f4f623a308d087bf5ac6658f875 8fe8afc96935747f250ed3a5f10351947c1ced5e
 
 Package: refsprogs
 Architecture: hurd-i386
-Version: 2026.9.2-1
+Version: 2026.10.23-1
 Priority: optional
 Section: otherosfs
 Maintainer: Erik Larsson <catacombae@gmail.com>
 Installed-Size: 119
-Depends: libc0.3 (>= 2.38), librefs17 (= 2026.9.2-1)
-Filename: pool-trixie/refsprogs_2026.9.2-1_hurd-i386.deb
-Size: 35280
-MD5sum: 58c4bda35d8262797b2577ff6f4a6195
-SHA1: c35b4428631f36cc6f40987ffc53ef7a8f34716a
-SHA256: eaf64f6976b735758435c802942269fd5117d18efff7605ac4b26cf83f0dc8cf
-SHA512: 89bc28af1a1893b678ffa3c4c55e4e13d87e875c8f47e17465e8aeacb87537ce6d777ce7876e8bc9ce295384e199ea1ac9f38ef31389138517b4c3f0e721607b
+Depends: hurd-libs0.3 (>= 1:0.9.git20260527), libc0.3 (>= 2.38), librefs18 (= 2026.10.23-1)
+Filename: pool-trixie/refsprogs_2026.10.23-1_hurd-i386.deb
+Size: 36124
+MD5sum: 73247f95102426dc2f0c1d2c52005707
+SHA1: 2cae9d2ff39dafeddd0ec2c8a8f6244859ef1f5d
+SHA256: 42077718fa4f42f00d22bce36d8a75d000286a6cdbc2f5f83d7577005dab28cf
+SHA512: a2cc0beab2f6381f53e8865adf88bd4113fbaba6c550525b35ba4c36b6011f8e95c8fc9024182b1d8b5cb47e7a2e7852b4d2ee9c31d2d0b2692f26be6e373d13
 Homepage: https://github.com/unsound/refsprogs
 Description: Read-only ReFS progs,
  refsprogs includes 'refls', 'refcat', useful for listing and retrieving data

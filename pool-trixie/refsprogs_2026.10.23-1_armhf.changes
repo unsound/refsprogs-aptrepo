@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Fri, 23 Oct 2026 05:59:52 +0300
+Source: refsprogs
+Binary: librefs-dev librefs18 librefs18-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: armhf all
+Version: 2026.10.23-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs18  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.10.23-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ c74378e345721a621c6895abcb5464bf90499ae0 101256 librefs-dev_2026.10.23-1_armhf.deb
+ 6bc27d2003017e880a4bed8acac85ea6b6da2962 339836 librefs18-dbgsym_2026.10.23-1_armhf.deb
+ 56a70bc2523bdcb10e6fd7b35bbc9f4c9149daae 78180 librefs18_2026.10.23-1_armhf.deb
+ 4b97cd9522170ecdb6be32bdb97874dc3d8ea42b 121500 refs-dkms_2026.10.23-1_all.deb
+ 567ec7109380aa927f84bac00170a48aa54c2a94 39908 refs-fuse-dbgsym_2026.10.23-1_armhf.deb
+ 68ab07460ab7308f673a91c178ea5f6cb4037b1d 2680 refs-fuse-default_2026.10.23-1_armhf.deb
+ fca9cc42e0ee497a0c84851e569c01767018f490 14288 refs-fuse_2026.10.23-1_armhf.deb
+ ab56f0fdb596db3784cf8912822451748c246601 114628 refsprogs-dbgsym_2026.10.23-1_armhf.deb
+ 9aaa432d255d60e22359ff9b0f3ca700616830ef 83120 refsprogs-udeb_2026.10.23-1_armhf.udeb
+ 7dfb6057b6ecdb0cecb8190cecc2b62000e7f13b 7585 refsprogs_2026.10.23-1_armhf.buildinfo
+ 66f796b46f82fe8eff27955b5b152c5f25ed007d 33004 refsprogs_2026.10.23-1_armhf.deb
+Checksums-Sha256:
+ afb24b91d49d4d5b47d217ca96e11c274da79b13430113465b46f991058b0976 101256 librefs-dev_2026.10.23-1_armhf.deb
+ 2e93e138fa6d7ded82fae956a14a04f2eba580a2a9f513e572a131be2dc6bfd2 339836 librefs18-dbgsym_2026.10.23-1_armhf.deb
+ 21535d3b9ddca6cd47c3738b3df93d9e35c35f91ea922b132f75857bdc366da2 78180 librefs18_2026.10.23-1_armhf.deb
+ 44647fbdd35ce5c422ef10243d644cb99be1e0eda4f1d4b4ede08fb4f98e9aa2 121500 refs-dkms_2026.10.23-1_all.deb
+ e7f788ba56d44041308e0581cbb744e85c0fadeb622cc4b3ad59bdc7dadc15a3 39908 refs-fuse-dbgsym_2026.10.23-1_armhf.deb
+ 3e7223296da6bf38299ea427b63a6c09717c9f77e5a3962e22540d0953f0bf96 2680 refs-fuse-default_2026.10.23-1_armhf.deb
+ f95eaf52b3969e9d359dc9f675157a037bfc520fad0fb7a4805a7cbdf7861e30 14288 refs-fuse_2026.10.23-1_armhf.deb
+ 015f1fdaba578a3fca0a98a85216c29a854399c8d8a202edba177acc588c8023 114628 refsprogs-dbgsym_2026.10.23-1_armhf.deb
+ 8297bbc4d22e11af5262a598ae78bcf22bc6849c8c8c4f84f6d77caac1e92c79 83120 refsprogs-udeb_2026.10.23-1_armhf.udeb
+ 5d84998e0f619e711e38906118375217600d0908bce05d0681258d4e98d7c0e2 7585 refsprogs_2026.10.23-1_armhf.buildinfo
+ df70d47dc9ef93b4696cc3e752a77574e5f33bdbdbc821b95dfa18c76bbf1761 33004 refsprogs_2026.10.23-1_armhf.deb
+Files:
+ d599e75b1a6af9f48793e5283ccfdffe 101256 libdevel optional librefs-dev_2026.10.23-1_armhf.deb
+ 172ff1a4c7041813de0515fbf8aa49c4 339836 debug optional librefs18-dbgsym_2026.10.23-1_armhf.deb
+ 1cd50e0c7d287c7684fb89011594f153 78180 libs optional librefs18_2026.10.23-1_armhf.deb
+ aa79717d7ff084ee35ca6e8b4a7160cc 121500 otherosfs optional refs-dkms_2026.10.23-1_all.deb
+ a08c14caa84c86cc807ef9592a7e581f 39908 debug optional refs-fuse-dbgsym_2026.10.23-1_armhf.deb
+ ce42c80e0f4f6aad14476f450e50d75d 2680 otherosfs optional refs-fuse-default_2026.10.23-1_armhf.deb
+ ca34bbc38ee9ac22724ebfd272545dbb 14288 otherosfs optional refs-fuse_2026.10.23-1_armhf.deb
+ a353646f1b66450f009b00ae1d11c8ce 114628 debug optional refsprogs-dbgsym_2026.10.23-1_armhf.deb
+ 5bf0735e4eea0456ff98a0767592e804 83120 debian-installer optional refsprogs-udeb_2026.10.23-1_armhf.udeb
+ 3074b9f780fe04767c3760531fa9f8c8 7585 otherosfs optional refsprogs_2026.10.23-1_armhf.buildinfo
+ 80778a21677529ba7a75ed99208d5955 33004 otherosfs optional refsprogs_2026.10.23-1_armhf.deb

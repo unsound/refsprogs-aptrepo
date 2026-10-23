@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Fri, 23 Oct 2026 05:59:52 +0300
+Source: refsprogs
+Binary: librefs-dev librefs18 librefs18-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: powerpc all
+Version: 2026.10.23-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs18  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.10.23-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ f20bfc6d18b61e5d8976952e9fd4bd0794ec22c3 110608 librefs-dev_2026.10.23-1_powerpc.deb
+ 3b21fd03d71e1746409a12997a190d2856a7c871 348828 librefs18-dbgsym_2026.10.23-1_powerpc.deb
+ 02ad1c29e680453f308182764655c22c7c72d75b 92596 librefs18_2026.10.23-1_powerpc.deb
+ 7675dff4588f5ac1814880709d0d408e3bbf1a27 121528 refs-dkms_2026.10.23-1_all.deb
+ 97011f3607e0a88e2624329a32aba8ee313766e5 39756 refs-fuse-dbgsym_2026.10.23-1_powerpc.deb
+ fa1e113fc7f59ef057d59cdaabca283d3efad5a2 2684 refs-fuse-default_2026.10.23-1_powerpc.deb
+ f558f43dbb8ffa0e78aba9c2e5c4e691c922dc0b 15972 refs-fuse_2026.10.23-1_powerpc.deb
+ 0a5d2844d6b4da63ee0a2f78c21b1d4eea6f5175 115852 refsprogs-dbgsym_2026.10.23-1_powerpc.deb
+ 360fb13202674b530132ac31b68ceb96129f1acd 98912 refsprogs-udeb_2026.10.23-1_powerpc.udeb
+ 88008270a770b8b407125d644838431dc81743c6 7589 refsprogs_2026.10.23-1_powerpc.buildinfo
+ 70ff125bdd661d45ced8c14e585e474c08e1575c 37300 refsprogs_2026.10.23-1_powerpc.deb
+Checksums-Sha256:
+ ad67b0da4780956576ebe339d6c6095b1dad52e7582c49524daccda644677fa4 110608 librefs-dev_2026.10.23-1_powerpc.deb
+ 53db572577309d36fc914ce8fac2a1c7cfbda998c3ccc30f730311da510e3bcc 348828 librefs18-dbgsym_2026.10.23-1_powerpc.deb
+ 7ede71cd75566d9d815b5a3fc69df3f034d3a53184c5a28aa37b6bb9dfdc9762 92596 librefs18_2026.10.23-1_powerpc.deb
+ c4ec738ea6ca93fa6e8d3c33d9263872942c1c4bccd2557ee5253f99bb71b78d 121528 refs-dkms_2026.10.23-1_all.deb
+ cdd538fe267c01df07495f7e4fdef9d383f29b5379373290308219f283135a04 39756 refs-fuse-dbgsym_2026.10.23-1_powerpc.deb
+ b5df84cdd087fd89e158c8475f0b6fccdc5e925903d95de1c238a5a73cbebfb7 2684 refs-fuse-default_2026.10.23-1_powerpc.deb
+ 82079183fd4b76fcb3e3c13509967978e053a33e086e656cafb1791c36bf87cc 15972 refs-fuse_2026.10.23-1_powerpc.deb
+ bf640e09665b612e4c40d02521147f2c6f9de6e123bd0b37073c8797b93ae04a 115852 refsprogs-dbgsym_2026.10.23-1_powerpc.deb
+ 66667b176b02cb5f5815630c02dfc76b7684dcbc2e61c7cce7e1756a101000bf 98912 refsprogs-udeb_2026.10.23-1_powerpc.udeb
+ b6e47a882a2f5be67e162d893df30112086def430d2f3d4a582aaa78a5afac0b 7589 refsprogs_2026.10.23-1_powerpc.buildinfo
+ 95851a8c65700a19a5ade9b2209b6cdcf991e171155215793eb4d3f28202f57d 37300 refsprogs_2026.10.23-1_powerpc.deb
+Files:
+ 4f7011d36a5192e75940b2fce5ede070 110608 libdevel optional librefs-dev_2026.10.23-1_powerpc.deb
+ 75cd923d5f9c1302df9a78f2c7d89c12 348828 debug optional librefs18-dbgsym_2026.10.23-1_powerpc.deb
+ 8b1ceb6e67c561b09564781d577fb5c4 92596 libs optional librefs18_2026.10.23-1_powerpc.deb
+ e278190c21b6bd4f585e9cc14fc3a58f 121528 otherosfs optional refs-dkms_2026.10.23-1_all.deb
+ 8715d70d762c1c8115c25573b3809714 39756 debug optional refs-fuse-dbgsym_2026.10.23-1_powerpc.deb
+ 0d68488508074366bc26b7fba209fdd9 2684 otherosfs optional refs-fuse-default_2026.10.23-1_powerpc.deb
+ 285eb1d484b1a58126e87e149bb0aa89 15972 otherosfs optional refs-fuse_2026.10.23-1_powerpc.deb
+ 9f5080eb2e3ae0fb7c3c8e4557378a2b 115852 debug optional refsprogs-dbgsym_2026.10.23-1_powerpc.deb
+ 0d01775d9d2dfbc0faaf96cb561ec04b 98912 debian-installer optional refsprogs-udeb_2026.10.23-1_powerpc.udeb
+ 998444aeb17db815567363933051c667 7589 otherosfs optional refsprogs_2026.10.23-1_powerpc.buildinfo
+ 21f252b3d9422674828ea0748286ddc1 37300 otherosfs optional refsprogs_2026.10.23-1_powerpc.deb

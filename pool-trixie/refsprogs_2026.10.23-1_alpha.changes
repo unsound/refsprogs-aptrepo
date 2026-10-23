@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Fri, 23 Oct 2026 05:59:52 +0300
+Source: refsprogs
+Binary: librefs-dev librefs18 librefs18-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: alpha all
+Version: 2026.10.23-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs18  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.10.23-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 01a5d141b133e9966190e9edfe3b16c3bc65bb31 117500 librefs-dev_2026.10.23-1_alpha.deb
+ 548ddfe07546beaffb63f10fe68efda0204a968b 348892 librefs18-dbgsym_2026.10.23-1_alpha.deb
+ 1201724387088daeae175f0f3b5c8c404310d4b0 86744 librefs18_2026.10.23-1_alpha.deb
+ 4e9738972f51cb906c73ac51f574fcc9127af8bb 121496 refs-dkms_2026.10.23-1_all.deb
+ 94b600b9059d0d04c500ec0a759c9c6e21a0b562 39368 refs-fuse-dbgsym_2026.10.23-1_alpha.deb
+ 4106f7324e26c72413acd6c2611220f3f96cf35a 2680 refs-fuse-default_2026.10.23-1_alpha.deb
+ 573064dc03cbe57b153668267a6143c75c889cff 14744 refs-fuse_2026.10.23-1_alpha.deb
+ 476e623eb68e54ac52ee4b2bfdd37cabab9a0e20 112880 refsprogs-dbgsym_2026.10.23-1_alpha.deb
+ 1758a65ce64150faa82970a75b6c5cc8c4439b68 91952 refsprogs-udeb_2026.10.23-1_alpha.udeb
+ 2a906cb2020d2e2dfaf43fc7f9c03f30166f34d4 7171 refsprogs_2026.10.23-1_alpha.buildinfo
+ fa700ad37a6c4c7bb8a8f8a17bc29974967c0dd8 33436 refsprogs_2026.10.23-1_alpha.deb
+Checksums-Sha256:
+ 7b8dcd4dca40cb9b972f459fdf1c6561ee6c39a46f5c298bcad113d1f9f3588e 117500 librefs-dev_2026.10.23-1_alpha.deb
+ b5fb1c72763502a09deb389dd1d82be95c30078f6ed6ed9426267b8d606dae50 348892 librefs18-dbgsym_2026.10.23-1_alpha.deb
+ 946901c849162ea9e86ce65cac99a845de1b74db0f5ad54bb09360c237bd9c54 86744 librefs18_2026.10.23-1_alpha.deb
+ d5aaf015698f03d4e65fa3127a5429d97c8c638dc5d956802bb49d812626edb2 121496 refs-dkms_2026.10.23-1_all.deb
+ 422c52a50ca677d2bd38dbb22d442e49296fd2f1358d9fcd1b9b1297a7c82476 39368 refs-fuse-dbgsym_2026.10.23-1_alpha.deb
+ bee647e18f8815956488dfba5910fb18252e3e37e44076745c2ac217f51cf7a6 2680 refs-fuse-default_2026.10.23-1_alpha.deb
+ 9e023bc02eeb62887b2ae6f028ff9fe9e67624c0b07d776ce2204291de803c38 14744 refs-fuse_2026.10.23-1_alpha.deb
+ 94a4242343965affc01a7cd4292d7697cb1b179504ea4ebc5495c4a8d074160a 112880 refsprogs-dbgsym_2026.10.23-1_alpha.deb
+ bf8b0db38006f4eafba1ecd642a96569ca3c7d516712ed025569b3e3924dd535 91952 refsprogs-udeb_2026.10.23-1_alpha.udeb
+ ec2ac57e7598463496125baefb71e754047f194c5a409f908481d96ba09bda2e 7171 refsprogs_2026.10.23-1_alpha.buildinfo
+ 99e7d4fc4b77a6096a9082e4a5e6d3273866adee24535c2ffeecba6a3a5e7f37 33436 refsprogs_2026.10.23-1_alpha.deb
+Files:
+ f69a56355130d63af733164ac3e1bed2 117500 libdevel optional librefs-dev_2026.10.23-1_alpha.deb
+ acbb6b7946dc68148d2173a93dc29de8 348892 debug optional librefs18-dbgsym_2026.10.23-1_alpha.deb
+ bec939fc33034b4d98719cd9e461f509 86744 libs optional librefs18_2026.10.23-1_alpha.deb
+ 30fccbb33ae66f0c74a87eb89dc3024e 121496 otherosfs optional refs-dkms_2026.10.23-1_all.deb
+ 91c8ff8bae5c12d9f0bab9154c3d0ac7 39368 debug optional refs-fuse-dbgsym_2026.10.23-1_alpha.deb
+ 59e3ae8677766e3771ca2d65548256e4 2680 otherosfs optional refs-fuse-default_2026.10.23-1_alpha.deb
+ 60660e112283d9a72cb2d48baeaa25b7 14744 otherosfs optional refs-fuse_2026.10.23-1_alpha.deb
+ 10eb0eb6df5445af5b77d087417fadb8 112880 debug optional refsprogs-dbgsym_2026.10.23-1_alpha.deb
+ 5ab2a16b5efc00bf7786d44a78e8acdd 91952 debian-installer optional refsprogs-udeb_2026.10.23-1_alpha.udeb
+ 89795f37cc1f5d7196a719275dfefb1c 7171 otherosfs optional refsprogs_2026.10.23-1_alpha.buildinfo
+ d63326ad1737f94cfa588ea9f46f3e8c 33436 otherosfs optional refsprogs_2026.10.23-1_alpha.deb

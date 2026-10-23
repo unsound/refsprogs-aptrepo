@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Fri, 23 Oct 2026 05:59:52 +0300
+Source: refsprogs
+Binary: librefs-dev librefs18 librefs18-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: mipsel all
+Version: 2026.10.23-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs18  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.10.23-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ ba50a468dacc028be3c8ea3cfd687cda7fef448a 106188 librefs-dev_2026.10.23-1_mipsel.deb
+ 094314af590d0772781bf69803f275de31ea3637 323660 librefs18-dbgsym_2026.10.23-1_mipsel.deb
+ edae4f78c2d5aa3f96df26aef7dd8333564eba71 76176 librefs18_2026.10.23-1_mipsel.deb
+ 383d0a778ea47d83daefcecc42e97ccce500f5e4 121588 refs-dkms_2026.10.23-1_all.deb
+ b818fb578cfa7d4c78aa482a50c25829690548ba 40324 refs-fuse-dbgsym_2026.10.23-1_mipsel.deb
+ 9cfdaeca08ac90d1d4f7a6512dd1d785aa049a4e 2684 refs-fuse-default_2026.10.23-1_mipsel.deb
+ aa2005aebd987e4bf32ea48a8e5b3d315ef1700f 15176 refs-fuse_2026.10.23-1_mipsel.deb
+ b1e283ba7cfba91098221164ac25d4b4a5e63346 117772 refsprogs-dbgsym_2026.10.23-1_mipsel.deb
+ 951401ef850ec37887880d72ef5f1cff17932805 81540 refsprogs-udeb_2026.10.23-1_mipsel.udeb
+ e91c4e77d3ad1f3ab8a29f76be10a26b07c0d770 7405 refsprogs_2026.10.23-1_mipsel.buildinfo
+ aa492f82f8265da19ebd66b23c35c4b5e41c22cc 34740 refsprogs_2026.10.23-1_mipsel.deb
+Checksums-Sha256:
+ cf26f61f884e64a770ac762caa6153d69e12bc7ed183ecded810e617cbe3e343 106188 librefs-dev_2026.10.23-1_mipsel.deb
+ a0fca9cefbbb8f012bcdc92c7afb9901ea9bc283cef40e03bc1dcf6ac03aec56 323660 librefs18-dbgsym_2026.10.23-1_mipsel.deb
+ fc06112ba05c96c9d9b455bd0e263e04ecc226233df576b3c7539200e29f7515 76176 librefs18_2026.10.23-1_mipsel.deb
+ a24279cee0adda5531c29676a97d89b18f9e4bff78ce42ee65d1c69ca2e91b0d 121588 refs-dkms_2026.10.23-1_all.deb
+ ff65b24a90f86244b947cd1d585f0476fa0dccdd40f2ebc26fdf5a85bda15b41 40324 refs-fuse-dbgsym_2026.10.23-1_mipsel.deb
+ 41e0384044b4cbbb887a6e6b31e25033c32d4f48132af1a89322ff2ab4b2ef72 2684 refs-fuse-default_2026.10.23-1_mipsel.deb
+ 93e24da689c93a228c1827dbb1ff0c42c72d899c0030e45b66ada1e92972b5df 15176 refs-fuse_2026.10.23-1_mipsel.deb
+ 917e3ace2dba8b5355a34170eda2195f8ba21a813de09e2af082975d85880d83 117772 refsprogs-dbgsym_2026.10.23-1_mipsel.deb
+ 6bdf208e0ecf4da6b3e1bd5d70fe06b9773aa7fe514ed8c00905c5495920fcfd 81540 refsprogs-udeb_2026.10.23-1_mipsel.udeb
+ f096d814b38f44519d49e6630956957372c6a5143dbf0f7867840219387bbd7c 7405 refsprogs_2026.10.23-1_mipsel.buildinfo
+ 81ec6d30428fcc8168cd2b0042c7cfb5d155734ceebfb3d145ff8816726b61a3 34740 refsprogs_2026.10.23-1_mipsel.deb
+Files:
+ ef6d43a54be3263d28e0edc73cee85d8 106188 libdevel optional librefs-dev_2026.10.23-1_mipsel.deb
+ 8610da807cec9b38056ef1f61cfce6d0 323660 debug optional librefs18-dbgsym_2026.10.23-1_mipsel.deb
+ 5354394ca0917f017f5410efbdad8502 76176 libs optional librefs18_2026.10.23-1_mipsel.deb
+ 8101b023616eaaad8c8f3a52b3202d47 121588 otherosfs optional refs-dkms_2026.10.23-1_all.deb
+ 4684ae446686feb92d30e2f391028769 40324 debug optional refs-fuse-dbgsym_2026.10.23-1_mipsel.deb
+ 867f8084a5b74b5c121fa5b7ce2d6360 2684 otherosfs optional refs-fuse-default_2026.10.23-1_mipsel.deb
+ 94ba6691cf2ae64c2982285354e8e688 15176 otherosfs optional refs-fuse_2026.10.23-1_mipsel.deb
+ 51d633f9b4bf50b5d7c07e5aadd8acd1 117772 debug optional refsprogs-dbgsym_2026.10.23-1_mipsel.deb
+ 7a92cea11dda65329598c557ab24e173 81540 debian-installer optional refsprogs-udeb_2026.10.23-1_mipsel.udeb
+ c8457521ef06742d873c53d8b327b5a3 7405 otherosfs optional refsprogs_2026.10.23-1_mipsel.buildinfo
+ d13126d62250fef30625beb7c62aea92 34740 otherosfs optional refsprogs_2026.10.23-1_mipsel.deb

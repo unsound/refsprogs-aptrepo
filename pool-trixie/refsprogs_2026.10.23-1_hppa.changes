@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Fri, 23 Oct 2026 05:59:52 +0300
+Source: refsprogs
+Binary: librefs-dev librefs18 librefs18-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: hppa all
+Version: 2026.10.23-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs18  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.10.23-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 8697a843a61ea8574d93f5075007c24791a73710 124248 librefs-dev_2026.10.23-1_hppa.deb
+ 18647e2906d66543688540a21699a5df91fa17e2 321952 librefs18-dbgsym_2026.10.23-1_hppa.deb
+ 81c21190dbe3399dc75bfb299eb749cd7c06587c 104888 librefs18_2026.10.23-1_hppa.deb
+ 7675dff4588f5ac1814880709d0d408e3bbf1a27 121528 refs-dkms_2026.10.23-1_all.deb
+ 378d74e1fd48cf23cbb8312c40f85a34988ff7a8 38000 refs-fuse-dbgsym_2026.10.23-1_hppa.deb
+ 398321e3603d8d70b73241c2f62169aad730582a 2680 refs-fuse-default_2026.10.23-1_hppa.deb
+ 05f05079a8bf3b0a1ee99694dc48eee53b79c916 14840 refs-fuse_2026.10.23-1_hppa.deb
+ 17a60d16ce885eb963f0bfde3c8d1fde7a88b5e7 108908 refsprogs-dbgsym_2026.10.23-1_hppa.deb
+ 336740df78b19e90bdeb1387a58a5f40d41bf0f9 109968 refsprogs-udeb_2026.10.23-1_hppa.udeb
+ fe88dc479d9d785fb079b778cb791f2fb0cab441 7511 refsprogs_2026.10.23-1_hppa.buildinfo
+ 97ec3872b8d55153f5c56360a177f9997f1b4fbc 37452 refsprogs_2026.10.23-1_hppa.deb
+Checksums-Sha256:
+ 37bea2b76e61bacc88272b592e81eb6977a5dfa330e9f3398e6bd6b142786c35 124248 librefs-dev_2026.10.23-1_hppa.deb
+ 24253f6ad2778b60b4600e77b226ccf6e1d92ea55ad1833e6411845cee2f3923 321952 librefs18-dbgsym_2026.10.23-1_hppa.deb
+ ba5ac40a8053506a157e1040a649dc720ca2001900f27570d47591d388c267eb 104888 librefs18_2026.10.23-1_hppa.deb
+ c4ec738ea6ca93fa6e8d3c33d9263872942c1c4bccd2557ee5253f99bb71b78d 121528 refs-dkms_2026.10.23-1_all.deb
+ e8986e1f6a87094b30625ddfdafac1469fe0aad87f2d5dac620ee89102d91ce3 38000 refs-fuse-dbgsym_2026.10.23-1_hppa.deb
+ b9776194bd95d90054558c1fa1d7ff737b8a11f58e53bb94774090a7c59736af 2680 refs-fuse-default_2026.10.23-1_hppa.deb
+ 9989c21d5aa78cda7ff3c5b14ea919ab20b5f911d0814f18abbf9f0086e3c637 14840 refs-fuse_2026.10.23-1_hppa.deb
+ db77ea8d34d44131a292917fb0be5e3deb1ecd5177f6b8975f79bfbac04d912c 108908 refsprogs-dbgsym_2026.10.23-1_hppa.deb
+ bba754b9c74d32637f51793b8ed586892a7874beb85698c2611db38f7f32f58c 109968 refsprogs-udeb_2026.10.23-1_hppa.udeb
+ e848926abedc9edfd42797f8b6ba20eca6221ace95e29932339d0a339180a4a4 7511 refsprogs_2026.10.23-1_hppa.buildinfo
+ cda93e08af4786b0f3ab4dc5474960fa9c88d37b5ad1a08265bd69fe2bd7732c 37452 refsprogs_2026.10.23-1_hppa.deb
+Files:
+ 197ad35df8aa90790aa92ce6787a54fd 124248 libdevel optional librefs-dev_2026.10.23-1_hppa.deb
+ 3d1cac90001dae10cc595a37c1ef73a3 321952 debug optional librefs18-dbgsym_2026.10.23-1_hppa.deb
+ 83cdc7003309a8b0308378d47045abaf 104888 libs optional librefs18_2026.10.23-1_hppa.deb
+ e278190c21b6bd4f585e9cc14fc3a58f 121528 otherosfs optional refs-dkms_2026.10.23-1_all.deb
+ 5c59e5a5b83c3e3ea568d999545ce7fc 38000 debug optional refs-fuse-dbgsym_2026.10.23-1_hppa.deb
+ dbc4585702cd3c68ddb626f035a1c226 2680 otherosfs optional refs-fuse-default_2026.10.23-1_hppa.deb
+ aff78359c9f816ce452e571d2f9de0e0 14840 otherosfs optional refs-fuse_2026.10.23-1_hppa.deb
+ 4d11002140bf2d8c3bddf4c93b8a8abc 108908 debug optional refsprogs-dbgsym_2026.10.23-1_hppa.deb
+ ab2516f02db5a244b9eaded3368b4fc0 109968 debian-installer optional refsprogs-udeb_2026.10.23-1_hppa.udeb
+ 4946bb60d34164d1f1d29de5436d4b77 7511 otherosfs optional refsprogs_2026.10.23-1_hppa.buildinfo
+ 9d1a346cfdf17c517caf3ee12424bad2 37452 otherosfs optional refsprogs_2026.10.23-1_hppa.deb

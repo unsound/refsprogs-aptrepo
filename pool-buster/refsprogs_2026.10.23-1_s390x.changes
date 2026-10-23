@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Fri, 23 Oct 2026 05:59:52 +0300
+Source: refsprogs
+Binary: librefs-dev librefs18 librefs18-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: s390x all
+Version: 2026.10.23-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs18  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.10.23-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 894d6fdc09144098c399168847311bb89b91bab3 89280 librefs-dev_2026.10.23-1_s390x.deb
+ 0d1f4f9c5e28cb0cf0884f1290911f493d72d02b 317524 librefs18-dbgsym_2026.10.23-1_s390x.deb
+ 19714d2222189bfc06856872172a69dc41b74de2 68292 librefs18_2026.10.23-1_s390x.deb
+ 383d0a778ea47d83daefcecc42e97ccce500f5e4 121588 refs-dkms_2026.10.23-1_all.deb
+ 91eb0cdb418e43bd777523acaf5a540a13633533 40856 refs-fuse-dbgsym_2026.10.23-1_s390x.deb
+ 5d003f36922e417098c33e5350af9db27c108797 2684 refs-fuse-default_2026.10.23-1_s390x.deb
+ 4b3e2ef2b330d0bb901a7bc22fabb6bac27cef5f 14804 refs-fuse_2026.10.23-1_s390x.deb
+ d89ebba7488c1ec97ad03efb0fcbb208455e8928 116912 refsprogs-dbgsym_2026.10.23-1_s390x.deb
+ d1eff8304e70559459c094382efa5f4591d5ee54 73512 refsprogs-udeb_2026.10.23-1_s390x.udeb
+ 7ea402196b6d93fd1776fa2ab59394eb1ce8b046 7374 refsprogs_2026.10.23-1_s390x.buildinfo
+ 82bce6a135760e4a1cb8386def5233e66d8b9987 31132 refsprogs_2026.10.23-1_s390x.deb
+Checksums-Sha256:
+ 73a662ce434b56b4afc8f7a749b31540f14119487258880416fc89d9cb0f46fb 89280 librefs-dev_2026.10.23-1_s390x.deb
+ 2818b4cbe451192d722b2db6d840c34377f7cf1021e339d92522d8048aa6c7b4 317524 librefs18-dbgsym_2026.10.23-1_s390x.deb
+ d4295341426243e651fc8d228bcfd9d8436a19306bdf4b83d896ba78a7959094 68292 librefs18_2026.10.23-1_s390x.deb
+ a24279cee0adda5531c29676a97d89b18f9e4bff78ce42ee65d1c69ca2e91b0d 121588 refs-dkms_2026.10.23-1_all.deb
+ df468feda556ab7c3d0b2b583d71cdc241b8111e1bdbf5193a93212f33b1202d 40856 refs-fuse-dbgsym_2026.10.23-1_s390x.deb
+ 0799aaaae59ef1a8e9f73ae4ee59d06cd35e67fb2a836347bdd1da6eb55d7bac 2684 refs-fuse-default_2026.10.23-1_s390x.deb
+ 063ae40c37725d34d87906ff47b7aed47a56d9e05bd8fe7d4b83a6b093c85b2a 14804 refs-fuse_2026.10.23-1_s390x.deb
+ 1ff687843915b51090a371febb04ec25e0ae178f97f98476ad5c922448abb0ad 116912 refsprogs-dbgsym_2026.10.23-1_s390x.deb
+ 146c26334e5be2cdc31bdcb3e01a56ff6a13e661b0dc634757b0fab85e2be523 73512 refsprogs-udeb_2026.10.23-1_s390x.udeb
+ 7c0c96d9a4eb59f46037876db21e95e384bbb3e1072c44c026a509231a62f75f 7374 refsprogs_2026.10.23-1_s390x.buildinfo
+ ed0f4a1aac5298a9237236036581056d3c6e6587a1557ee6b2b2ef3266fa8493 31132 refsprogs_2026.10.23-1_s390x.deb
+Files:
+ f0d7e5a15d8d7f7945f0d1b7a1446101 89280 libdevel optional librefs-dev_2026.10.23-1_s390x.deb
+ fd72a774fa22e97e6bb7f34d46ff6c98 317524 debug optional librefs18-dbgsym_2026.10.23-1_s390x.deb
+ 4c8e6f10942e2be3d78eac5803ee7c58 68292 libs optional librefs18_2026.10.23-1_s390x.deb
+ 8101b023616eaaad8c8f3a52b3202d47 121588 otherosfs optional refs-dkms_2026.10.23-1_all.deb
+ 6e77af69fbd6d5647b1662f7daa51e0b 40856 debug optional refs-fuse-dbgsym_2026.10.23-1_s390x.deb
+ cff60e9e85ba96b36e9112d0bd9731a4 2684 otherosfs optional refs-fuse-default_2026.10.23-1_s390x.deb
+ 1fdd68c0f34e652cbb0b3ae0723c1e02 14804 otherosfs optional refs-fuse_2026.10.23-1_s390x.deb
+ 6bdd60583645891ad240b660a8fe0eee 116912 debug optional refsprogs-dbgsym_2026.10.23-1_s390x.deb
+ e919dd77c6319ac1db60f0201053a432 73512 debian-installer optional refsprogs-udeb_2026.10.23-1_s390x.udeb
+ 81d3cdf2389dd9503faa71d19c7fe565 7374 otherosfs optional refsprogs_2026.10.23-1_s390x.buildinfo
+ eb9e854c6dc406e63fcdc2e07ef8c38d 31132 otherosfs optional refsprogs_2026.10.23-1_s390x.deb

@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Fri, 23 Oct 2026 05:59:52 +0300
+Source: refsprogs
+Binary: librefs-dev librefs18 librefs18-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: armel all
+Version: 2026.10.23-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs18  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.10.23-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 2dedead3ab0f70cdf0e746cd29fff3ddd1de79d6 104708 librefs-dev_2026.10.23-1_armel.deb
+ 86ba56930b30619bf0e76a4fc58d557b05d2a590 342064 librefs18-dbgsym_2026.10.23-1_armel.deb
+ a5ea2788dbd12d85e0d68e394f15218c0b3df584 81424 librefs18_2026.10.23-1_armel.deb
+ 4b97cd9522170ecdb6be32bdb97874dc3d8ea42b 121500 refs-dkms_2026.10.23-1_all.deb
+ fb3da7496d93cae346cd0d59a31443851ebccd3f 39612 refs-fuse-dbgsym_2026.10.23-1_armel.deb
+ c2deb0bdac6a3aa89fdc40ba33ac354eb090cd18 2680 refs-fuse-default_2026.10.23-1_armel.deb
+ b1302b5fa0663bf48c36f2d007f27bcfccc9d91b 14416 refs-fuse_2026.10.23-1_armel.deb
+ e8b1a79bc1f20c9170495e70bf96f708cf11cac6 113608 refsprogs-dbgsym_2026.10.23-1_armel.deb
+ 012cc0104baada3fbde99eedd2f2d035bdb8506e 86300 refsprogs-udeb_2026.10.23-1_armel.udeb
+ bb64d65d57344845923239fcca45220dd278f181 7585 refsprogs_2026.10.23-1_armel.buildinfo
+ 2788435607a6d4460d87aeeda45f6de761ac90fe 32952 refsprogs_2026.10.23-1_armel.deb
+Checksums-Sha256:
+ 986cd80632eb6be55f56457f2cf7ebe1de0507537ee38b1c77d75029949b1e1d 104708 librefs-dev_2026.10.23-1_armel.deb
+ 23e547894ad2b87fc7cac6b33178e58ab2c9f4ad2e94ee93a54f52dd38f2ccec 342064 librefs18-dbgsym_2026.10.23-1_armel.deb
+ 7083ccea9d204c49643ae10c40fa46f3b05fae286e1fc623770f51010f0713ff 81424 librefs18_2026.10.23-1_armel.deb
+ 44647fbdd35ce5c422ef10243d644cb99be1e0eda4f1d4b4ede08fb4f98e9aa2 121500 refs-dkms_2026.10.23-1_all.deb
+ 265e746bfba9c67ebd28a4182e5ea3817ca819e3fdce921b607bd8b439aff433 39612 refs-fuse-dbgsym_2026.10.23-1_armel.deb
+ 9611fced17c20e7f31b9fbb55c3ef52a2033020db61b1ec2a71bcd879379fb9f 2680 refs-fuse-default_2026.10.23-1_armel.deb
+ 61decb57d0a27c76eebf19474696526e394e8e87cf5a5f615d9cf95ed85a8652 14416 refs-fuse_2026.10.23-1_armel.deb
+ b4aea05c5073f4e4c341f874e3d366c354d356ff888c2ffaa13c374432357251 113608 refsprogs-dbgsym_2026.10.23-1_armel.deb
+ 7c0bfc35d5ea203a05204fc67b9e75076d8d6b684134d88c6c113623c22e3366 86300 refsprogs-udeb_2026.10.23-1_armel.udeb
+ 9b9fc19592410da3d5c4f2f7f3ac5b70e7f7308e46d06c67a47983943376e14a 7585 refsprogs_2026.10.23-1_armel.buildinfo
+ f968f6b7190a2a947c1234979c2c53981856945bbfa1949ec2b0feeaac02f153 32952 refsprogs_2026.10.23-1_armel.deb
+Files:
+ 4309d453fbc377fab19e424ab100b20d 104708 libdevel optional librefs-dev_2026.10.23-1_armel.deb
+ c2aa931d426b1ad6219e060e4ee491f4 342064 debug optional librefs18-dbgsym_2026.10.23-1_armel.deb
+ e945abebfd3d0c930c6e27ab67d3305c 81424 libs optional librefs18_2026.10.23-1_armel.deb
+ aa79717d7ff084ee35ca6e8b4a7160cc 121500 otherosfs optional refs-dkms_2026.10.23-1_all.deb
+ d79245d20844c85246410bb189657f70 39612 debug optional refs-fuse-dbgsym_2026.10.23-1_armel.deb
+ eac1a1ff38d1707fd444bdbd13b9efa7 2680 otherosfs optional refs-fuse-default_2026.10.23-1_armel.deb
+ bc916ba11fde764031874a69f0e16129 14416 otherosfs optional refs-fuse_2026.10.23-1_armel.deb
+ 6284e2ed692b08cb68bff54ecddd126b 113608 debug optional refsprogs-dbgsym_2026.10.23-1_armel.deb
+ c7bf05fa95731c1199990862eb1767d0 86300 debian-installer optional refsprogs-udeb_2026.10.23-1_armel.udeb
+ 6f4d795d5b57428eff50709a42d7aa08 7585 otherosfs optional refsprogs_2026.10.23-1_armel.buildinfo
+ da9854f8b36ce921f79a3aaff35f541d 32952 otherosfs optional refsprogs_2026.10.23-1_armel.deb

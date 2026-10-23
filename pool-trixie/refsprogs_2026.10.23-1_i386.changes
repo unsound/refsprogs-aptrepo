@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Fri, 23 Oct 2026 05:59:52 +0300
+Source: refsprogs
+Binary: librefs-dev librefs18 librefs18-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: i386 all
+Version: 2026.10.23-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs18  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.10.23-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 29ed13506019cbb19e678a044420f571f3ff98bc 131936 librefs-dev_2026.10.23-1_i386.deb
+ a44c60b9dea87d95adb65a833b43055516b43034 348236 librefs18-dbgsym_2026.10.23-1_i386.deb
+ ffee69ce6a2ab7d52e9e43fe7120eb2cf545b74b 110404 librefs18_2026.10.23-1_i386.deb
+ 4b97cd9522170ecdb6be32bdb97874dc3d8ea42b 121500 refs-dkms_2026.10.23-1_all.deb
+ 3fe274b4e6c57bbab0368726b46c64232f9a0401 36952 refs-fuse-dbgsym_2026.10.23-1_i386.deb
+ 90aabcadbc2751b8aec63223be7bc596e7eb8272 2684 refs-fuse-default_2026.10.23-1_i386.deb
+ 4dd699beb806680f908e6bdd4221a19e05e84ec1 16412 refs-fuse_2026.10.23-1_i386.deb
+ 189f04703064e452ca087586431a888184a8fc11 107500 refsprogs-dbgsym_2026.10.23-1_i386.deb
+ 846a6be241ff0d780c6b602e5551c9f65a7fde0c 116856 refsprogs-udeb_2026.10.23-1_i386.udeb
+ ae52d66ec0ef13c1bb179036b797298deb0f0fa9 7563 refsprogs_2026.10.23-1_i386.buildinfo
+ 0d8ada0a259f065402c7199232cf2dcc8ed066c7 35272 refsprogs_2026.10.23-1_i386.deb
+Checksums-Sha256:
+ 2c26b327230f5a2c25280fb6fa18ee51382d09bd19059603680c3f91bb280a2e 131936 librefs-dev_2026.10.23-1_i386.deb
+ c9e76cbe755fc9694fd5d85d4346f49c44719f26477c1c907b11f60470b11546 348236 librefs18-dbgsym_2026.10.23-1_i386.deb
+ 808a64f318444b4dc2b6d3f9c748d2a8c05c2c1dda79e3dc58059416f97a5009 110404 librefs18_2026.10.23-1_i386.deb
+ 44647fbdd35ce5c422ef10243d644cb99be1e0eda4f1d4b4ede08fb4f98e9aa2 121500 refs-dkms_2026.10.23-1_all.deb
+ 1ae38d24d26157191e4ac2a6922e4fa78954594e3fe210eca81b8dbc92026ac5 36952 refs-fuse-dbgsym_2026.10.23-1_i386.deb
+ 9a8cfb49d0b2e11b3b9639d30f28d15683cbbda3d6ef1c13e39295c5a1d6fc81 2684 refs-fuse-default_2026.10.23-1_i386.deb
+ 52b6800415797cb95c62a21a3e52ac85e101e6c77aad27e38448d63a7c083c19 16412 refs-fuse_2026.10.23-1_i386.deb
+ cbd7f07e074f49cc6284fec14db7b667d962514d3f786b377079afc6fb49d786 107500 refsprogs-dbgsym_2026.10.23-1_i386.deb
+ 89a56d769d18a43366f13e1327c20bf4b535360517e6c55f194caba0d5a91470 116856 refsprogs-udeb_2026.10.23-1_i386.udeb
+ afd98977b69601853d9db5637a299a1630fabbb15971115f14b0c772298920d1 7563 refsprogs_2026.10.23-1_i386.buildinfo
+ 10d3dfa15d12be6f042039d297516e058dc8360332172aefc82d633a2edede2a 35272 refsprogs_2026.10.23-1_i386.deb
+Files:
+ f36ecb39392a34e64a3c75a9564f9363 131936 libdevel optional librefs-dev_2026.10.23-1_i386.deb
+ 4bbd44f6866fca619776a1da4a4ac071 348236 debug optional librefs18-dbgsym_2026.10.23-1_i386.deb
+ 341ebbc6d8ac36f462f4cb4b8a074a90 110404 libs optional librefs18_2026.10.23-1_i386.deb
+ aa79717d7ff084ee35ca6e8b4a7160cc 121500 otherosfs optional refs-dkms_2026.10.23-1_all.deb
+ 8ccf4e3d694eee16ef5b80241ff5afb5 36952 debug optional refs-fuse-dbgsym_2026.10.23-1_i386.deb
+ da84644a2135939cca231acb62bcc55b 2684 otherosfs optional refs-fuse-default_2026.10.23-1_i386.deb
+ defc2187d874e1d781d94587b4482ff0 16412 otherosfs optional refs-fuse_2026.10.23-1_i386.deb
+ 90a8f3e3afe0049924193ff1f8962d0d 107500 debug optional refsprogs-dbgsym_2026.10.23-1_i386.deb
+ 42f5a6e1c6a94f4fed343c0797ba9475 116856 debian-installer optional refsprogs-udeb_2026.10.23-1_i386.udeb
+ 460ca63f40c9869cda10d820ea9a350f 7563 otherosfs optional refsprogs_2026.10.23-1_i386.buildinfo
+ 3edc056114db4776608365a8124977e3 35272 otherosfs optional refsprogs_2026.10.23-1_i386.deb

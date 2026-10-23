@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Fri, 23 Oct 2026 05:59:52 +0300
+Source: refsprogs
+Binary: librefs-dev librefs18 librefs18-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: m68k all
+Version: 2026.10.23-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs18  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.10.23-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ bc4b52559761d4da333bb41ac5cb80cf0e322f27 101044 librefs-dev_2026.10.23-1_m68k.deb
+ 5d1f56c4e57bb80d83d4d4a7b423317446647f03 309484 librefs18-dbgsym_2026.10.23-1_m68k.deb
+ 5c42595412d1d16fd548e3f7684330293febd6f8 81096 librefs18_2026.10.23-1_m68k.deb
+ 7675dff4588f5ac1814880709d0d408e3bbf1a27 121528 refs-dkms_2026.10.23-1_all.deb
+ 41d0be26d9a69f8243410281913a8e6b27fa3b95 37044 refs-fuse-dbgsym_2026.10.23-1_m68k.deb
+ b7659bef5d5253e2735396015359fe9d98200770 2684 refs-fuse-default_2026.10.23-1_m68k.deb
+ 85a594cc36ce8d02f17793a38798b681a559d45a 14176 refs-fuse_2026.10.23-1_m68k.deb
+ 748186c9a32f4a5ea11dad4e4c0767b5aba214da 110140 refsprogs-dbgsym_2026.10.23-1_m68k.deb
+ 5a2d782cfec626ba7ade455d07cf4773ad3e5c3a 85964 refsprogs-udeb_2026.10.23-1_m68k.udeb
+ 96ecb732dd00909d2c3607a226106b5b5ec0043f 7505 refsprogs_2026.10.23-1_m68k.buildinfo
+ dab4766583fd6f4df2e9f5c485977fa1ebb4a99e 32364 refsprogs_2026.10.23-1_m68k.deb
+Checksums-Sha256:
+ d488a8f73b4bfe5e2d0d3662030ffd9abbc455cb19d0db8607b5273ffe3d3f90 101044 librefs-dev_2026.10.23-1_m68k.deb
+ af29c7404475a26e84624cc1fa57362926739ef4b7d5ba0adcfabeadc11c1b75 309484 librefs18-dbgsym_2026.10.23-1_m68k.deb
+ dd61dfaa5f77b9417b913931b293bbcaa2647a9228f606329e8f158d0d50040f 81096 librefs18_2026.10.23-1_m68k.deb
+ c4ec738ea6ca93fa6e8d3c33d9263872942c1c4bccd2557ee5253f99bb71b78d 121528 refs-dkms_2026.10.23-1_all.deb
+ eb2312478c258aa9950badefbe39a025d7b1a0b90f7ed07f8cf228dd37698562 37044 refs-fuse-dbgsym_2026.10.23-1_m68k.deb
+ 71f4cf4b9277a65ee0b77ecc1b82f57b41d1c93c6434df4e1d4ba9d1a3556952 2684 refs-fuse-default_2026.10.23-1_m68k.deb
+ a67430bb174c21bb546200b9e4ac4e403e77a0862d3d3d9633d8f44780cbfbfb 14176 refs-fuse_2026.10.23-1_m68k.deb
+ 1ddafc8da362db0f80783722e54751270a9dc0514ef806cc0ea002d47b1e7590 110140 refsprogs-dbgsym_2026.10.23-1_m68k.deb
+ 9c9808dacdc68d7ad83efca47fb4ed42f461a1ba165e43786529379c7499ee07 85964 refsprogs-udeb_2026.10.23-1_m68k.udeb
+ 0fff898c47c81faff884d7ade4497af102f279d7dce049f0d0eef377e72eef96 7505 refsprogs_2026.10.23-1_m68k.buildinfo
+ 0021fd96d9c006d468596ab82f3e6cf2eefc27cb46ee7499dc2385ceb82e1c49 32364 refsprogs_2026.10.23-1_m68k.deb
+Files:
+ 3b5e36ac402f1ebe04e57619d7da9470 101044 libdevel optional librefs-dev_2026.10.23-1_m68k.deb
+ 67640f7bff64da9be974519fbe71b2f8 309484 debug optional librefs18-dbgsym_2026.10.23-1_m68k.deb
+ 417897414a788eccdb6c37e802b8035c 81096 libs optional librefs18_2026.10.23-1_m68k.deb
+ e278190c21b6bd4f585e9cc14fc3a58f 121528 otherosfs optional refs-dkms_2026.10.23-1_all.deb
+ 32561118c3dfb529a110b9cce585d2e3 37044 debug optional refs-fuse-dbgsym_2026.10.23-1_m68k.deb
+ 326e07e106d04ecad5e2f87de5c20898 2684 otherosfs optional refs-fuse-default_2026.10.23-1_m68k.deb
+ 355536ddbd230e836fa479eb0ddea433 14176 otherosfs optional refs-fuse_2026.10.23-1_m68k.deb
+ e7b91b1730dece0bdcf30c53b48476be 110140 debug optional refsprogs-dbgsym_2026.10.23-1_m68k.deb
+ a498304dd528f8e1dbec628dba6ffbbc 85964 debian-installer optional refsprogs-udeb_2026.10.23-1_m68k.udeb
+ 15af6312bbc2fec9fae5b38a5f7f0499 7505 otherosfs optional refsprogs_2026.10.23-1_m68k.buildinfo
+ d68e6814bb74f5b6760d85a4c2edf94b 32364 otherosfs optional refsprogs_2026.10.23-1_m68k.deb

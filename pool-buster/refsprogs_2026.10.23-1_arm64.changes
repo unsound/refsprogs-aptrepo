@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Fri, 23 Oct 2026 05:59:52 +0300
+Source: refsprogs
+Binary: librefs-dev librefs18 librefs18-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: arm64 all
+Version: 2026.10.23-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs18  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.10.23-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 19e9b67d256c51978b642fafda4027c16e0533fa 92396 librefs-dev_2026.10.23-1_arm64.deb
+ 2a8777512ac8b66988f40f0d7ae23698767c319d 312592 librefs18-dbgsym_2026.10.23-1_arm64.deb
+ 1ce2b91e61eedf5e51c35218baa0f99dda4ead4f 68604 librefs18_2026.10.23-1_arm64.deb
+ 383d0a778ea47d83daefcecc42e97ccce500f5e4 121588 refs-dkms_2026.10.23-1_all.deb
+ 67c410b0264ee52cf4de7eae1e1fccb4ef06133c 40600 refs-fuse-dbgsym_2026.10.23-1_arm64.deb
+ 7c7c5ec36dc9f3803e95337fb7e8dc074b43689d 2680 refs-fuse-default_2026.10.23-1_arm64.deb
+ 10197bb93fbc3332cbefbf230cf94a72931009d6 15108 refs-fuse_2026.10.23-1_arm64.deb
+ 13f4e0f0f4c1b4cf804ae771d923a2c869760cb2 115220 refsprogs-dbgsym_2026.10.23-1_arm64.deb
+ 58e6a99ef23c88d8f2c4c69c1b1dd43223f04549 74108 refsprogs-udeb_2026.10.23-1_arm64.udeb
+ f25331e682b69a7f8ea29306cdc9c4b74d05c0b1 7374 refsprogs_2026.10.23-1_arm64.buildinfo
+ e834849c51263fd6b2823161e0d32bc68a242886 31952 refsprogs_2026.10.23-1_arm64.deb
+Checksums-Sha256:
+ 10cd2737c351905417689c3d4a40fd4ffa6ed7285e69e7153f8eecc2fef49283 92396 librefs-dev_2026.10.23-1_arm64.deb
+ 74f9873c072cb47c5f68eb224f5769c99c8097cc2342ab6349454a076a2f198f 312592 librefs18-dbgsym_2026.10.23-1_arm64.deb
+ 6dd6bd3e52d431bc8ca331afff776727999bf9845e964a896e111040aab5f3fe 68604 librefs18_2026.10.23-1_arm64.deb
+ a24279cee0adda5531c29676a97d89b18f9e4bff78ce42ee65d1c69ca2e91b0d 121588 refs-dkms_2026.10.23-1_all.deb
+ 9f123cf80693aa8dc3fb92f90c51eace9f66457527ca367636cdccd6b624f063 40600 refs-fuse-dbgsym_2026.10.23-1_arm64.deb
+ d9a0f7369113199e061cdf5576e8d504ba44c337735b6229a30a2ad0e8607fb1 2680 refs-fuse-default_2026.10.23-1_arm64.deb
+ a57c1829b5af44860f3aabba34ee5ad96a2761329a63b5be7f0f5d8e8caae04e 15108 refs-fuse_2026.10.23-1_arm64.deb
+ fc494a75c198edaf3dc6391cfe9c7ebb1ca92ec86a44a6ffafbea8f8c3cbe0d1 115220 refsprogs-dbgsym_2026.10.23-1_arm64.deb
+ 3e47491faf2d0d1cc699eb7ab5c897c54ca19979279f8f3cbe94efb472fa4fbf 74108 refsprogs-udeb_2026.10.23-1_arm64.udeb
+ 3e44148f74b84dc4d93ae551f4c63afdad515cfd7aebd9d037eef8d94eb5190d 7374 refsprogs_2026.10.23-1_arm64.buildinfo
+ 1b4d00794032de43883fe58b3d8e663a5231f028e7d389af7cde112c351a68b5 31952 refsprogs_2026.10.23-1_arm64.deb
+Files:
+ fbf46f133178f14964b69fbb7d1d2e89 92396 libdevel optional librefs-dev_2026.10.23-1_arm64.deb
+ ca1d5e4b6b68449349306324d712415d 312592 debug optional librefs18-dbgsym_2026.10.23-1_arm64.deb
+ cb8770cfa8d4e9041d571e3f791ce977 68604 libs optional librefs18_2026.10.23-1_arm64.deb
+ 8101b023616eaaad8c8f3a52b3202d47 121588 otherosfs optional refs-dkms_2026.10.23-1_all.deb
+ ee4eecb26499157967f10ee13d9d2b68 40600 debug optional refs-fuse-dbgsym_2026.10.23-1_arm64.deb
+ 8380d61c6b49b215a3afc5993ae832a9 2680 otherosfs optional refs-fuse-default_2026.10.23-1_arm64.deb
+ 9ef59d90ead0cc29e4a4fd061de21ce3 15108 otherosfs optional refs-fuse_2026.10.23-1_arm64.deb
+ 89082f993dc052fcf84b9967ae319302 115220 debug optional refsprogs-dbgsym_2026.10.23-1_arm64.deb
+ 2675ad1c74efe8740d66404d83aca4d7 74108 debian-installer optional refsprogs-udeb_2026.10.23-1_arm64.udeb
+ 427a7df52c8c3f64c8a00641b8e1879e 7374 otherosfs optional refsprogs_2026.10.23-1_arm64.buildinfo
+ f1804656f5f2131ee12e19c3e2be5c15 31952 otherosfs optional refsprogs_2026.10.23-1_arm64.deb

@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Fri, 23 Oct 2026 05:59:52 +0300
+Source: refsprogs
+Binary: librefs-dev librefs18 librefs18-dbgsym refs-dkms refs-fuse refs-fuse-dbgsym refs-fuse-default refsprogs refsprogs-dbgsym refsprogs-udeb
+Architecture: x32 all
+Version: 2026.10.23-1
+Distribution: main
+Urgency: medium
+Maintainer: Erik Larsson <catacombae@gmail.com>
+Changed-By: Erik Larsson <catacombae@gmail.com>
+Description:
+ librefs-dev - read-only ReFS library (development)
+ librefs18  - read-only ReFS library
+ refs-dkms  - ReFS filesystem kernel modules for Linux
+ refs-fuse  - Read-only ReFS FUSE driver,
+ refs-fuse-default - Read-only ReFS FUSE driver (default handler for refs volumes),
+ refsprogs  - Read-only ReFS progs,
+ refsprogs-udeb - Read-only ReFS FUSE driver and progs, (udeb)
+Changes:
+ refsprogs (2026.10.23-1) main; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 29cb2ab13b494c180024480f1f5f740d70a2c73b 123236 librefs-dev_2026.10.23-1_x32.deb
+ c21e0f5001228367f1cb655f715c5cf4dde7d7f5 379372 librefs18-dbgsym_2026.10.23-1_x32.deb
+ 41aa599df8a536ef43369166c2923528561d3c3b 103160 librefs18_2026.10.23-1_x32.deb
+ 7675dff4588f5ac1814880709d0d408e3bbf1a27 121528 refs-dkms_2026.10.23-1_all.deb
+ 93eeeac8a40b6637dff49f654fa7ece3fefd4e98 39300 refs-fuse-dbgsym_2026.10.23-1_x32.deb
+ c0f983923cbc14af3b1c29c83141f4911daa7f94 2684 refs-fuse-default_2026.10.23-1_x32.deb
+ 861e2aaaebc853b98fa9186fd392013e88997e53 15616 refs-fuse_2026.10.23-1_x32.deb
+ 459fabbf70624372c261af6981e534451d1a38d8 111292 refsprogs-dbgsym_2026.10.23-1_x32.deb
+ 63e1e35e65a55c05e9830e8f35e296f007f9a703 109196 refsprogs-udeb_2026.10.23-1_x32.udeb
+ 4b598adbf6c8c9088df3647819378974e30b452c 7431 refsprogs_2026.10.23-1_x32.buildinfo
+ cf517278f320a7ba7a551e3910b5b2275fedc919 34476 refsprogs_2026.10.23-1_x32.deb
+Checksums-Sha256:
+ 222799ddc441ba8a89a41770e4e47f3757293a62596d740ff5b13df0c3ddfbbb 123236 librefs-dev_2026.10.23-1_x32.deb
+ 75bee899e61f536cf77b564e5222eae97977c897a73a21fd63ffca1da795a548 379372 librefs18-dbgsym_2026.10.23-1_x32.deb
+ 412f1ce8a5d50ed004dd15b40b50b00c981c45ab189a6275c8f9575991224778 103160 librefs18_2026.10.23-1_x32.deb
+ c4ec738ea6ca93fa6e8d3c33d9263872942c1c4bccd2557ee5253f99bb71b78d 121528 refs-dkms_2026.10.23-1_all.deb
+ a22f8276e283d9cc27c01cc0faa24e5ba76cfe14c13f73189544da3014052441 39300 refs-fuse-dbgsym_2026.10.23-1_x32.deb
+ 7a2ad6475309b3b8c7952e760ee6278a54584ecdab9717d80f5ce3c0b3bd5824 2684 refs-fuse-default_2026.10.23-1_x32.deb
+ 139bcb4e4cfcbe4ef8ca706d37ed7f156bf2c7d6cf86faa681e4c27909eced29 15616 refs-fuse_2026.10.23-1_x32.deb
+ fbbd9434ee7a31d5346f498ab036ad5c0b04e85a48fee6f51aa4db5ae931b953 111292 refsprogs-dbgsym_2026.10.23-1_x32.deb
+ cd73dfdf462286f1b5ea80e5c34d9b9fb0e303cfd4266be30c1f9ac821d6fa15 109196 refsprogs-udeb_2026.10.23-1_x32.udeb
+ 7d5fedd18b8c3395b8e241c20031a0f4e0fc379eb1d6fef956d33ea582cd8098 7431 refsprogs_2026.10.23-1_x32.buildinfo
+ 30ff79b2263bcd82ad87f1035690996241dea05000750a510004e6f8d25fa468 34476 refsprogs_2026.10.23-1_x32.deb
+Files:
+ 2ad984a6152333289839b3fbd5d5284e 123236 libdevel optional librefs-dev_2026.10.23-1_x32.deb
+ 8e040b961dc88477c23d7fe36248c2cc 379372 debug optional librefs18-dbgsym_2026.10.23-1_x32.deb
+ 25e981d9b83542565e7193e58ea23f75 103160 libs optional librefs18_2026.10.23-1_x32.deb
+ e278190c21b6bd4f585e9cc14fc3a58f 121528 otherosfs optional refs-dkms_2026.10.23-1_all.deb
+ 1c9b62d6d12b37b2174a068d1d2f0b4b 39300 debug optional refs-fuse-dbgsym_2026.10.23-1_x32.deb
+ 4babef55731bfce3af005a72cad7b00a 2684 otherosfs optional refs-fuse-default_2026.10.23-1_x32.deb
+ 6b35825cba9e85bf4c885a19736521f6 15616 otherosfs optional refs-fuse_2026.10.23-1_x32.deb
+ 9b5151113816d4d080452533b0607252 111292 debug optional refsprogs-dbgsym_2026.10.23-1_x32.deb
+ f044cb8caa41d7dd6621b0f109eacf13 109196 debian-installer optional refsprogs-udeb_2026.10.23-1_x32.udeb
+ ebe0ff504ae44abc7c6d9730be49caa7 7431 otherosfs optional refsprogs_2026.10.23-1_x32.buildinfo
+ 6751b2819892859d4f28434fd6fb2352 34476 otherosfs optional refsprogs_2026.10.23-1_x32.deb
